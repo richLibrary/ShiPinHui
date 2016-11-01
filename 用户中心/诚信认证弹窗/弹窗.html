@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+	<meta charset="utf-8" />
+	<title>指数首页</title>
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="Keywords" content="指数首页"/>
+	<meta name="Description" content="指数首页"/>
+
+	<link rel="stylesheet" href="css/common.css" type="text/css" />
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/artDialog.js"></script>
+</head>
+
+<body>
+
+<input class="clickBtn" type="button" value="点击我，弹出弹窗" />
+<!---- 诚信认证弹窗 ---->
+<div class="sincerityDialog" id="sincerityDialog">
+	<h2>您尚未通过诚信认证，无法进行产品销售！通过诚信认证后您可：</h2>
+	<a class="closeBtn" href="javascript:void(0)" i="close" title="关闭" target="_self"></a>
+	<ul>
+		<li class="sincerityIcon01">开设店铺，按自己的意愿装修、设置店铺</li>
+		<li class="sincerityIcon02">进驻产品库、企业库、多渠道展示企业形象和产品</li>
+		<li class="sincerityIcon03">多种会员权益随您选提升买家回头率</li>		
+	</ul>
+	<p class="sincerityBtn">
+		<a href="#" data-id="ok" title="立即诚信认证" target="_self">立即诚信认证</a>
+	</p>
+</div>
+
+<style>
+/*---- 诚信认证弹窗 ----*/
+.sincerityDialog{width:710px;height:310px;background-color:#fff;position:relative;border:#ddd solid 1px;display:none;}
+.sincerityDialog a.closeBtn{position:absolute;top:0px;right:0px;width:30px;height:30px;background:url(images/sincerityClose.png) no-repeat center center scroll;}
+.sincerityDialog h2{font:18px/135px "\5FAE\8F6F\96C5\9ED1";color:#666;text-align:center;}
+.sincerityDialog ul{padding:0px 40px;height:auto;overflow:hidden;margin:0px auto;}
+.sincerityDialog ul li{width:115px;float:left;padding:0px 15px 0px 80px;font:12px/20px "\5FAE\8F6F\96C5\9ED1";color:#666;height:80px;background:url(images/sincerityIcon.png) no-repeat 0px 0px scroll;}
+.sincerityDialog ul li.sincerityIcon02{background-position:0px -103px;}
+.sincerityDialog ul li.sincerityIcon02{background-position:0px -206px;}
+.sincerityBtn{height:auto;overflow:hidden;text-align:center;padding-top:30px;}
+.sincerityBtn a{width:150px;height:35px;background-color:#ff7300;color:#fff;font:14px/35px "\5FAE\8F6F\96C5\9ED1";border-radius:5px;display:inline-block;}
+.sincerityBtn a:hover{background-color:#f60;text-decoration:none;}
+</style>
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+	//弹窗
+	$(".clickBtn").click(function(){
+		 dialog({
+		     content:document.getElementById("sincerityDialog"),
+		     ok: function () {
+		         this.close();
+		         return false;
+		         }
+		 }).showModal();
+		 //让隐藏的样式显示
+		 $("#sincerityDialog").css("display","block");
+	});
+	
+})
+</script>
+
+</body>
+</html>

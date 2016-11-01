@@ -1,0 +1,95 @@
+@charset "utf-8";
+/*----
+模块名称：购物车第一个步骤
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2015.12.21
+----*/
+/*---- 购物车为空----*/
+.cartNull{width:660px;height:auto;overflow:hidden;padding:140px 0px 140px 540px;margin:20px auto 0px auto;background:url("../images/cartNull.png") no-repeat 295px 120px scroll;}
+.cartNull p{font:14px/30px "\5FAE\8F6F\96C5\9ED1";color:#666;margin-bottom:20px;}
+.cartNull p a{width:150px;height:38px;display:inline-block;background-color:#ff7300;color:#fff;text-align:center;font:16px/38px "微软雅黑";border-radius:5px;}
+.cartNull p a:hover{text-decoration:none;}	
+/*---- 购物车头部第二个步骤 ----*/
+.allProduct{width:1200px;height:30px;margin:45px auto 0px auto;position:relative;border-bottom:#ebebeb solid 2px;}
+.allProduct h2{border-bottom:#f60 solid 2px;position:absolute;left:0px;top:0px;padding-bottom:12px;display:inline-block;color:#f60;font:18px/18px "\5FAE\8F6F\96C5\9ED1";padding:0px 4px 12px 4px;;}
+.cartlistTit{width:1200px;height:auto;overflow:hidden;margin:25px auto 20px auto;position:relative;}
+.cartlistTit span{width:168px;float:left;color:#333;text-align:center;box-sizing:border-box;}
+.cartlistTit span.tit{width:138px;text-align:left}
+.cartlistTit span.tit input{width:15px;height:15px;margin-right:5px}
+.cartlistTit span.tit02{width:390px;text-align:left}	
+.cartMain{width:1200px;height:auto;overflow:hidden;margin:0px auto;}
+.cartList{width:1200px;height:auto;overflow:hidden;margin:0px auto 20px auto;}
+.selectShop{padding:10px 0px;font-size:14px;}
+.selectShop input{width:15px;height:15px;margin-right:5px}
+.cartList ul{height:auto;overflow:hidden;border:#e4e4e4 solid 1px;border-bottom:none;}
+.cartList ul li{height:auto;border-bottom:#e4e4e4 solid 1px;position:relative;padding:0px 0px 0px 138px;}
+.cartList ul li	span{}
+.chooseProduct{width:38px;text-align:center;display:inline-block;position:absolute;left:0px;top:15px;}
+.proImgs{width:100px;text-align:left;display:inline-block;position:absolute;left:38px;top:15px;}
+.proImgs img{width:80px;height:80px;border:#e4e4e4 solid 1px;}
+.cartList ul li dl{height:auto;overflow:hidden}	
+.cartList ul li dl dd{float:left;padding-top:40px;border-bottom:#e4e4e4 dashed 1px;min-height:100px;}
+.cartList ul li dl dd.proPrice{border-bottom:none;}
+.cartList ul li dl:last-child dd{border-bottom:none;}
+.proName{width:250px;height:80px;text-align:left}
+.proName a{font-size:14px;color:#333;display:inline-block;line-height:22px;max-height:22px;overflow:hidden;}
+.proName a:hover{color:#f60}
+.proName span{display:block;color:#999}
+.proSpec{width:140px;text-align:left;text-align:left;overflow:hidden}
+.proSpec p{line-height:26px;margin-bottom:16px;padding-left:10px;height:26px;overflow:hidden}
+.proSpec p input{width:15px;height:15px;margin-right:8px;color:#666;}
+.proCounts{width: 168px;text-align:center}	
+.proCounts p{margin-bottom:16px;}
+.proCounts input[type="button"]{border:#ddd solid 1px;background-color:#f5f5f5;width:20px;height:24px;border:#ddd solid 1px;cursor:pointer}
+.proNum{width:48px;height:22px;box-sizing:content-box;text-align:center;font-size:12px;font-weight:bold;color:#333;border:#ddd solid 1px;margin:0px 4px;}
+.proPrice{width:168px;text-align:center}
+.proPrice p{text-align:left;line-height:20px;color:#999;}
+.proPrice p.proPrice02{text-align:center;line-height:24px;color:#999;margin-bottom:16px;color:#333}
+.proPrice p.on{color:#333;}
+.proPrice p.on b{color:#333}
+.proPrice span{width:100px;text-align:left;padding-left:15px;display:inline-block;color:#999}
+.proPrice p.on span{color:#333}
+.proPrice b{font-weight:normal}
+
+.proTotal p{line-height:26px;margin-bottom:16px;color:#f60;}
+.proTotal{width:168px;text-align:center; color:#f60;font-size:16px;}
+.operationBtn{width:165px;font-size:12px;text-align:left;position:absolute;right:0px;top:40px;}
+.operationBtn a{color:#999;margin:0px 0px 10px 48px;}
+.operationBtn a:hover{color:#f60;text-decoration:none;}
+.goodsName{position:absolute;left:137px;top:15px;width:270px;height:15px;overflow:hidden;color:#666;font:14px/16px "微软雅黑";color:#666;}
+.goodsName:hover{color:#ff7300}
+/*---- 购物车头部第二个步骤 ----*/
+.proTotal p{line-height:26px;margin-bottom:16px;color:#f60;}
+.proTotal{color:#f60;font-size:16px;}
+.clTxt tr td.operation{font-size:12px;text-align:left;}
+.clTxt tr td.operation a{color:#999;margin:0px 0px 10px 48px;}
+.clTxt tr td.operation a:hover{color:#f60;text-decoration:none;}
+.proCounts input[type="button"]{border:#ddd solid 1px;background-color:#f5f5f5;width:20px;height:24px;border:#ddd solid 1px;cursor:pointer}
+.totalBar{width:1175px;height:50px;background-color:#e9e9e9 solid 1px;margin:0px auto;overflow:hidden;background-color:#e9e9e9;padding:0px 0px 0px 25px;font:12px/50px "\5FAE\8F6F\96C5\9ED1";color:#333;}
+.totalBar input[type="checkbox"]{width:15px;height:15px;margin-right:8px;color:#666;}
+.totalBar span{float:right;margin-left:60px;padding-right:20px;}
+.totalBar span strong{font:bold 17px/50px "\5FAE\8F6F\96C5\9ED1";color:#ff7300;}
+.totalBar a{color:#333;margin-left:30px;}
+.totalBar a:hover{text-decoration:none;color:#f60;}
+.totalBar input.goPayBtn{float:right;height:50px;border:none;cursor:pointer;background-color:#ff7300;padding:0px 23px;margin-left:0px;font-size:16px;color:#fff;margin-left:30px;}
+.totalBar input.goPayBtn:hover{text-decoration:none;color:#fff}
+.totalBar input.goPayBtn:disabled{background-color:#999}
+/*----
+模块名称：产品推荐
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2015.12.21
+----*/
+.proRecommond{width:1200px;height:auto;overflow:hidden;margin:40px auto 0px auto;}
+.prTit{position:relative;height:30px;font-size:15px;color:#666;border-bottom:#ddd solid 2px;width:100%;}
+.prTit span{position:absolute;top:0px;left:0px;height:15px;padding:0px 20px 15px 20px;border-bottom:#ddd solid 2px;display:block;}
+.prTit span.tit{left:100px;}
+.prTit span.on{color:#f60;border-bottom:#f60 solid 2px;}
+.prTxt{padding-top:23px;width:1240px;height:auto;overflow:hidden;}
+.prTxt li{width:220px;height:auto;overflow:hidden;float:left;margin-right:25px;}
+.prTxt li img{width:220px;height:220px;display:block;margin-bottom:7px;}
+.prTxt li p{height:20px;overflow:hidden;padding:0px 10px;}
+.prTxt li p a{font:12px/20px "\5FAE\8F6F\96C5\9ED1";color:#333;}
+.prTxt li a:hover{color:#ff7300;text-decoration:none;}
+.prTxt li font{font:bold 16px/20px "\5FAE\8F6F\96C5\9ED1";color:#ff7300;}

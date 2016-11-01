@@ -1,0 +1,64 @@
+/*公司信息基本信息*/
+.purchaLeft{width:259px;height:auto;overflow:hidden;float:left}
+.CompanyInfo{height:auto;overflow:hidden;background-color:#fff;border:#e4e4e4 1px solid;padding:15px 20px}
+.CompanyInfo h2{font:16px/16px "微软雅黑";color:#333;border-left:#037E01 5px solid;padding-left:15px}
+.CompanyInfo img{margin:20px}
+.CompanyCon p{font:14px/30px "微软雅黑";color:#333;text-align:center}
+.CompanyCon span{font:12px/28px "微软雅黑";color:#999;display:block}
+.CompanyCon span i{font:12px/28px "微软雅黑";color:#666}
+.CompanyCon a{width:80px;height:30px;font:14px/30px "微软雅黑";color:#666;display:block;background-color:#fbfbfb;border:#e4e4e4 1px solid;float:left;margin-right:25px;text-align:center}
+.CompanyCon a:hover{background-color:#037E01;color:#fff}
+.purInfor{height:auto;overflow:hidden;background-color:#fff;border:#e4e4e4 1px solid;padding:15px 20px;margin-top:20px}
+.purInfor h2{font:16px/16px "微软雅黑";color:#333;border-left:#037E01 5px solid;padding-left:15px}
+.purInfor ul{height:auto;overflow:hidden}
+.purInfor ul li{border-bottom:#e4e4e4 1px dashed}
+.purInfor p{width:58px;height:64px;font:14px/68px "微软雅黑";color:#333;float:left}
+.purInfor span{font:14px/32px "微软雅黑";color:#333;display:block}
+.nowpos{width:1200px;height:auto;overflow:hidden;margin:0 auto}
+.nowpos h2{font:14px/40px "微软雅黑";color:#333;margin-bottom:10px}
+.nowpos h2 a{font:14px/40px "微软雅黑";color:#333}
+.nowpos h2 a.shagnjia{color:#ff7300}
+/*内容*/
+.purchaseWap{width:1200px;height:auto;margin:0 auto;overflow:hidden}
+.purchase{width:888px;height:auto;overflow:hidden;background-color:#fff;margin:0 auto;float:right;border:#e4e4e4 1px solid;padding:20px 0 20px 20px}
+.purchTop{height:auto;overflow:hidden}
+.purchTop p{font:16px/30px "\5FAE\8F6F\96C5\9ED1";color:#333;padding-left:20px;display:inline-block}
+.purchTop span{font:14px/28px "\5FAE\8F6F\96C5\9ED1";color:#666;display:block}
+.purchBg{background:url(../images/detailedBg.png) no-repeat 0 0 scroll;width:370px;height:120px;display:block;float:right;margin-top:20px}
+.purchBg input{width:100px;height:36px;background-color:#fff;font:14px/36px "微软雅黑";color:#333;border-radius:4px;border:none;margin:15px 15px 0 50px;float:left;cursor:pointer}
+.purchBg span{font:14px/36px "微软雅黑";color:#fff;margin-top:15px}
+.purchBg p.Recequot{margin-top:25px}
+/*采购信息*/
+.purchaInfor{height:auto;overflow:hidden;margin-right:20px; margin-top:40px;}
+.purchaInfor h2{font:16px/16px "\5FAE\8F6F\96C5\9ED1";color:#666;border-left:#43a400 5px solid;display:block;padding-left:15px;margin:10px 0}
+.purchaInfor ul{height:auto;overflow:hidden}
+.purchaInfor ul li{ height: auto; overflow: hidden;}
+.purchaInfor span{width:102px;font:14px/30px "\5FAE\8F6F\96C5\9ED1";color:#666;display:block;float:left; text-align: right; margin-right: 10px;}
+.purchaInfor p{font:14px/30px "\5FAE\8F6F\96C5\9ED1";color:#666;display:inline-block}
+/*报价信息*/
+.offer{width:485px;height:auto;overflow:hidden;background-color:#fff;padding:20px; border: #bbb 7px solid;}
+.offer h3{font:14px/30px "微软雅黑";color:#333}
+.offer h3 i{font:14px/30px "微软雅黑";color:#ff7300}
+.offer span.wrong{ width:10px; height:10px;background: url(../images/wrongImg.jpg) no-repeat 0px 0px scroll; color: #f00; float: right;}
+.offer ul{height:auto;overflow:hidden}
+.offer ul li{margin-top:20px}
+.offer span{width:83px;display:block;float:left;font:14px/30px "微软雅黑";color:#666; text-align: right; margin-right: 20px;}
+.offer span font{color:#fe4145}
+.offer ul li input{width:158px;height:30px;border:#e4e4e4 1px solid;padding-left:10px}
+.offer input.business{width:358px}
+.offer ul li p{ margin: 10px 0px 0px 100px;}
+.offer ul li p i{ font: 14px/30px "微软雅黑"; color: #ff0513; margin-right: 6px;}
+.offer textarea{ padding: 10px 0px 0px 15px;}
+.offer input.sendoffer{width:110px;height:38px;font:14px/38px "微软雅黑";color:#fff;text-align:center;background-color:#ff7300;border-radius:4px;border:none; margin: 10px 0px 10px 100px; cursor:pointer;}
+.offer input.OfferBusine{ width:315px;}
+/*对供应商要求*/
+.supplier{height:auto;overflow:hidden;margin-top:40px;}
+.supplier h2{font:16px/16px "\5FAE\8F6F\96C5\9ED1";color:#666;border-left:#43a400 5px solid;display:block;padding-left:15px;margin:10px 0}
+.supplier ul{height:auto;overflow:hidden}
+.supplier ul li{ height: auto; overflow: hidden;}
+.supplier span{width:102px;font:14px/30px "\5FAE\8F6F\96C5\9ED1";color:#666;display:block;float:left;text-align: right; margin-right: 10px;}
+.supplier p{font:14px/30px "\5FAE\8F6F\96C5\9ED1";color:#666;display:inline-block}
+/*补充说明*/
+.Proaddition{height:auto;overflow:hidden;margin-top:40px;}
+.Proaddition h2{font:16px/16px "\5FAE\8F6F\96C5\9ED1";color:#666;border-left:#43a400 5px solid;display:block;padding-left:15px;margin:10px 0}
+.Proaddition li{font:14px/30px "\5FAE\8F6F\96C5\9ED1";color:#666}

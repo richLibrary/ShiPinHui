@@ -1,0 +1,19 @@
+@charset "utf-8";.uctit span.afterSale{border-left:#2b54aa 5px solid;padding-left:10px}
+.ucRight .uctit{font:18px/40px "微软雅黑";color:#333;border-bottom:none}
+.uctit a.uctitInfo{color:#333}
+/*修改登录密码*/
+.verify{width:981px;height:auto;overflow:hidden;margin-top:60px}
+.verify i.verifyId{width:493px;height:33px;background:url(../images/account.png) no-repeat 0 -37px scroll;display:inline-block;margin-left:225px}
+.verifyMain{height:auto;overflow:hidden;margin-top:10px}
+.verifyMain li{float:left;margin-left:175px;font:14px/14px "\5FAE\8F6F\96C5\9ED1";color:#666}
+.verifyMain li.step01{margin-left:198px}
+.verifyMain li.step02{margin-left:150px}
+.phoVerify{height:auto;overflow:hidden;margin-top:50px}
+.phoVerify li i{width:272px;font:14px/60px "\5FAE\8F6F\96C5\9ED1";color:#666;display:inline-block;text-align:right;margin-right:35px}
+.phoVerify li input{width:190px;height:35px;border:#dfdfdf 1px solid;padding-left:10px}
+.phoVerify li img{margin:-10px 10px 0 27px}
+.phoVerify span.seeCode{font:12px/12px "\5FAE\8F6F\96C5\9ED1"}
+.verCodeIn{font:12px/12px "\5FAE\8F6F\96C5\9ED1";color:#ff7300}
+.ucbtnCode{margin:40px 0 60px 314px}
+.ucbtn{width:120px;height:36px;background:#ff6600;-moz-border-radius:2px; webkit-border-radius:2px;border-radius:2px;color:#fff; font-size:16px;border:none;list-style:none;cursor:pointer;}
+.phoVerify li span.resetError{padding:0px 0px 0px 15px;color:#ff7300}

@@ -1,0 +1,29 @@
+@charset "utf-8";
+/*----
+模块名称：购物车第四个步骤
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2015.12.21
+----*/
+/*---- 订单提交成功提示  ----*/
+.sucessTip{width:1135px;height:60px;overflow:hidden;margin:60px auto 0px auto;position:relative;padding-left:65px;}
+.sucessTip i{font:48px/48px "微软雅黑";color:#fd812d;position:absolute;top:3px;left:0px;}
+.sucessTip h2{font:bold 26px/26px "微软雅黑";color:#fd812d;}
+.sucessTip p{font:12px/12px "微软雅黑";color:#666;padding-top:17px;}
+/*---- 订单列表  ----*/
+.orderList{width:1198px;height:auto;overflow:hidden;margin:20px auto 0px auto;border:#ddd solid 1px;border-bottom:none;background-color:#fff;}
+.orderList ul{height:auto;overflow:hidden;}
+.orderList ul li{padding:20px 40px;height:auto;overflow:hidden;border-bottom:#ddd solid 1px;}
+.orderList ul li img{width:60px;height:60px;float:left;}
+
+.orderList ul li p{font:14px/60px "微软雅黑";color:#333;padding:0px 0px 0px 20px;float:left;display:inline-block;}
+.orderList ul li p span{font-family:arial;}
+.orderList ul li p font{color:#ff7300;margin-left:5px;}
+.orderDets{margin-left:25px;padding:6px 13px;background-color:#eaeaea;color:#333;font-size:14px;border-radius:15px;float:left;margin-top:13px;}
+.orderDets:hover{text-decoration:none;}
+
+.nextOp{width:1118px;height:auto;overflow:hidden;margin:0px auto 0px auto;padding:35px 40px;border:#ddd solid 1px;
+font:14px/14px "微软雅黑";color:#404040;
+border-top:none;background-color:#fff;}
+.nextOp a{width:120px;height:45px;background-color:#43a400;color:#fff;font-size:16px;text-align:center;display:inline-block;cursor:pointer;border:none;border-radius:4px;line-height:45px;}
+.nextOp a:hover{text-decoration:none;}

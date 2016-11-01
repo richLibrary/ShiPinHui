@@ -1,0 +1,20 @@
+@charset "utf-8";
+/*--公用样式开始---*/
+body,html,div,span,a,td,th,tr,table,form,p,dd,dt,li,dl,ol,ul,h6,h5,h4,h3,h2,h1,input{margin:0;padding:0;}
+ul,ul li{list-style:none;}
+img{border:none;margin:0;padding:0;-ms-interpolation-mode:bicubic;}
+body{ width:100%; background:url(../images/bg.jpg) no-repeat scroll center top #0a6695; margin:0; padding:0; }
+/*---- 后台登录 ----*/
+.adminbg{ width:1200px; margin:0 auto; position:relative; background:url(../images/bg.jpg) no-repeat center #0a6695;}
+.adminLogin{width:330px;height:308px; background:#fff; border:1px solid #dcdcdc;overflow:hidden;position: absolute; top:260px; left:670px;}
+.errorWarn{height:16px;color:#e77919;font:12px/16px "\5FAE\8F6F\96C5\9ED1";position:absolute;top:155px;left:50px;}
+.errorWarn i{color:#fb8f00;margin:0px 8px 0px 0px;font-size:14px}
+.userName,.userPsd{ width:230px;margin:0px 50px 30px 50px;border:#dcdcdc solid 1px;border-radius:4px;height:34px;overflow:hidden;}
+.userName i,.userPsd i{ width:20px;color:#bdbdbd;padding:0px 8px 0px 10px;font:18px/34px "\5FAE\8F6F\96C5\9ED1";float:left;}
+.userName input,.userPsd input{width:180px;height:34px; line-height:34px;border:none;padding-left:4px;font-size:14px; float:left;}
+.loginBtn{display:block;padding:0px 50px 60px 50px;}
+.loginBtn input{ width:230px; height:34px;background-color:#f91;border:none;cursor:pointer;border-radius:4px;color:#fff;font-size:16px;letter-spacing:5px;}
+.loginBtn input:hover{background-color:#ff8212;}
+.adminLogo{padding:20px 30px;text-align:center;}
+.loginFooter{ width:1200px;position:absolute; top:600px; text-align:center; }
+.loginFooter p{text-align:center;color:#fff;font:14px/28px "\5FAE\8F6F\96C5\9ED1";}

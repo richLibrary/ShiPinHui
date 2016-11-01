@@ -1,0 +1,104 @@
+@charset "utf-8";
+a:link {color:#666;text-decoration:none;}
+a:visited {color:#666;text-decoration:none;}
+a:hover {color:#FF6600;text-decoration:underline;}
+a:active {color:#FF6600;text-decoration:underline;}
+
+.orange{color:#FF6600;}
+.gray1{color:#999;}
+.center{text-align:center;}
+.bold{font-weight:bold;}
+.mt20{margin-top:20px;}
+.mr5{margin-right:5px;} 
+
+/*--按钮--*/
+ button{border:none;list-style:none;cursor:pointer;}
+.ucbtn{width:80px;height:40px;background:#ff6600;-moz-border-radius:3px;webkit-border-radius:3px;border-radius:3px;color:#fff;font-size:16px;}
+.ucbtn:hover{background:#ff7300;}
+.sbtn{width:50px;height:26px;border:1px solid #e4e4e4;background:#fff;-moz-border-radius:3px;webkit-border-radius:3px;border-radius:3px;color:#333;font-size:12px;}
+.sbtn:hover{border:1px solid #ff7010;color:#ff7010;}
+.wbtn{width:88px;height:26px;border:1px solid #ff7010; background:url(../images/write.jpg) 8px 5px no-repeat #fff;-moz-border-radius:3px;webkit-border-radius:3px;border-radius:3px;color:#ff7010;font-size:12px;text-align:left;padding-left:25px;}
+
+
+/*--出售中的商品--*/
+.ucinput{border:1px solid #e4e4e4;background:#fff;height:26px;line-height:26px;padding:2px 5px;}
+.ucinput:hover{border:1px solid #2c54ab;}
+.ucRight .search{ width: 946px;border:1px solid #eee;background:#f7f7f7;padding:15px 20px;}
+.ucRight .search a{ float: left; margin-top: 10px; line-height: 40px; font-size: 14px; text-decoration: underline; color: #0066CC;}
+.ucRight .search td{font-size:14px;}
+.ucRight .stit{ border-top:1px solid #eee; background:#f7f7f7;height:38px;line-height:38px;}
+.ucRight .stable1 td{border-bottom:1px solid #eaeaea;font-size:13px;}
+ 
+/*客户管理*/
+.khgSearch{ border: #e4e4e4 1px solid; border-top: none;}
+.khglTabSearch{ border: 0; margin-top: 20px;}
+.khglTabSearch .t1{ text-align: right;}
+.khglTabSearch .text1{ border: 1px solid #E4E4E4; background: #fff; width: 110px; height: 34px;}
+.khglTabSearch .text2{ border: 1px solid #E4E4E4; background: #fff; width: 80px; height: 34px;}
+.khglTabSearch .select1{ border: 1px solid #E4E4E4; background: #fff; width: 110px; height: 34px;}
+.khglTabSearchBbtn{ width: 60px; position: absolute; top: 172px; margin-top: 15px; right: 250px; height: 36px; font-size: 16px; background: #f60; color: #fff; cursor: pointer; border: 0; border-radius: 5px;}
+.xjbtn{ width: 60px; position: absolute; top: 0; margin-top: 17px; right: 18px; height: 36px; font-size: 16px; background: #f60; color: #fff; cursor: pointer; border: 0; border-radius: 5px;}
+.khglList{ width: 920px; margin: 20px auto; border: 1px solid #EAEAEA; border-bottom: 0; text-align: center; }
+.khglList ul li{ width: 100%; border-bottom: 1px solid #EAEAEA; line-height: 40px; }
+.khglList ul li font{ display: block; float: left;}
+.khglList ul li .quanx{ float:left; margin-top:13px; margin-left:66px; }
+.khglList ul li .f60{ color: #f60;}
+.khglList ul li .o6c{ color: #0066CC;}
+.TabSerch{ width: 60px; height:34px; display: inline-block; background-color: #ff7300; border: none; font: 14px/34px "\5FAE\8F6F\96C5\9ED1"; color: #fff; cursor: pointer; border-radius: 4px;}
+.cjyell{ color: #ff7300;}
+/*询价管理*/
+.xjglTabSearch .t1{ text-align: right;}
+.xjglTabSearch .text1{ border: 1px solid #E4E4E4; background: #fff; width: 110px; height: 34px;}
+.xjglTabSearch .text2{ border: 1px solid #E4E4E4; background: #fff; width: 80px; height: 34px;}
+.xjbtn{ width: 60px; position: absolute; top: 172px; margin-top: 17px; right: 123px; height: 36px; font-size: 16px; background: #f60; color: #fff; cursor: pointer; border: 0; border-radius: 5px;}
+.xjglList{ width: 986px; margin: 20px auto; border: 1px solid #EAEAEA; border-bottom: 0; text-align: center; }
+.xjglList ul li{ width: 100%; border-bottom: 1px solid #EAEAEA; line-height: 40px; }
+.xjglList ul li font{ display: block; float: left;}
+.xjglList ul li .quanx{ float:left; margin-top:13px; margin-left:66px; }
+.xjglList ul li .f60{ color: #f60;}
+.xjglList ul li .o6c{ color: #0066CC;}
+.xjglList ul li .c9{ color: #999;}
+.xjglList ul li .mr10{ margin-right:10px;}
+
+/*优惠券管理*/
+.yhqSearch{ width: 90%;}
+.yhqSearch .t1{ text-align: right;}
+.yhqSearch .text1{ border: 1px solid #E4E4E4; background: #fff; width: 150px; height: 34px;}
+.yhqSearch .text2{ border: 1px solid #E4E4E4; background: #fff; width: 80px; height: 34px;}
+.yhqSearch .select1{ border: 1px solid #E4E4E4; background: #fff; width: 110px; height: 34px;}
+.yhqSearch1{ width: 70%; float: left; margin-top: 10px;}
+.yhqSearch1 .t1{ text-align: right;}
+.yhqSearch1 .text1{ border: 1px solid #E4E4E4; background: #fff; width: 150px; height: 34px;}
+.yhqSearch1 .text2{ border: 1px solid #E4E4E4; background: #fff; width: 80px; height: 34px;}
+.yhqSearch1 .select1{ border: 1px solid #E4E4E4; background: #fff; width: 110px; height: 34px;}
+.yhqSearchBtn{ width: 80px; height: 36px; font-size: 16px; background:#f60; color: #fff; cursor: pointer; border: 0; border-radius: 5px;}
+.station{ width: 100%; line-height: 28px; margin: 20px auto;}
+.station .checkbox { width: 100px; float: left;}
+.station .checkbox input{ float: left; margin-top: 8px; margin-right: 5px;}
+.station .btn{ width: 80px; float: left; height: 28px; cursor: pointer; border: 1px solid #E4E4E4; background: #fff; border-radius: 5px;}
+.station a{ display: block; margin-left: 30px; width: 130px; height: 28px; float: left; border: 1px solid #f60; background: #fff; color: #f60; border-radius: 5px; text-decoration: none; line-height: 28px; text-align: center; cursor: pointer;}
+.station a i{ font:12px/28px "\5FAE\8F6F\96C5\9ED1";color:#f60;margin-right:5px; }
+
+.yhqList{ width: 986px; margin: 20px auto; border: 1px solid #EAEAEA; border-bottom: 0; text-align: center; }
+.yhqList ul li{ width: 100%; border-bottom: 1px solid #EAEAEA; line-height: 40px; }
+.yhqList ul li:hover{ background: #FFFAE0;}
+.yhqList ul li font{ display: block; float: left;}
+.yhqList ul li .quanx{ float:left; margin-top:13px; margin-left:66px; }
+.yhqList ul li .f60{ color: #f60;}
+.yhqList ul li .o6c{ color: #0066CC;}
+.yhqList ul li .c9{ color: #999;}
+
+.ml10{ margin-left: 10px;}
+
+.tjyhq{ margin:10px auto; line-height: 50px;}
+.tjyhq td{ font-size: 14px;}
+.tjyhq td p input{ margin-left: 15px;}
+.tjyhq .tc{ text-align: right;}
+.tjyhq .red{ color: #FF0000;}
+.tips{ width: 90%; margin:20px auto 0px; line-height: 30px; color: #ff0000;}
+.tjyhq .text1{ width: 320px; height: 38px; border: 1px solid #E4E4E4; background: #fff;}
+.tjyhq .text2{ width: 100px; height: 34px; border: 1px solid #E4E4E4; background: #fff; }
+.tjyhq i{ color: #999;}
+.savebtn{ width: 80px; height: 35px; margin-right: 30px; border:1px solid #f60; border-radius: 3px; background: #f60; color: #fff; font-size: 16px;}
+
+.proyello{ color: #ff7300;}

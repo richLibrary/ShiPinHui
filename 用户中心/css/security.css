@@ -1,0 +1,17 @@
+@charset "utf-8";.uctit span.afterSale{border-left:#2b54aa 5px solid;padding-left:10px}
+.ucRight .uctit{font:18px/40px "微软雅黑";color:#333;border-bottom:none}
+.uctit a.uctitInfo{color:#333}
+/*建议*/
+.advise{width:948px;height:35px;overflow:hidden;background-color:#fff9e9;font:14px/14px "\5FAE\8F6F\96C5\9ED1";color:#ff7300;padding:25px 0 0 33px;margin-top:25px}
+/*安全中心*/
+.adviseMain{width:981px;height:auto;overflow:hidden;margin:10px 0px 173px 0px}
+.adviseMain ul{height:auto;overflow:hidden}
+.adviseMain ul li{height:75px;border-bottom:#e7e7e7 1px solid}
+.adviseMain i{width:90px;height:75px;display:block;float:left}
+.adviseMain i.checkNumber{ background:url(../images/codeImg.png) no-repeat 38px 13px scroll}
+.adviseMain i.mark{background:url(../images/codeImg.png) no-repeat 38px -58px scroll}
+.adviseMain span{height:75px;overflow:hidden}
+.adviseMain span.logPword{width:127px;display:inline-block;font:700 18px/75px "\5FAE\8F6F\96C5\9ED1";color:#333;padding-left:10px}
+.adviseMain span.logpwMain{width:465px;font:12px/75px "\5FAE\8F6F\96C5\9ED1";color:#666;display:inline-block}
+.adviseMain ul li a.revamp{font:14px/75px "\5FAE\8F6F\96C5\9ED1";color:#008cff;display:inline-block;float:right;margin-right:80px}
+.adviseMain a.diatelVer{width:90px;height:30px; font:14px/30px "\5FAE\8F6F\96C5\9ED1"; color:#ff7300;background-color:#fff;float:right;margin:30px 43px 0 0;text-align:center;cursor:pointer;border-radius:4px;border:#ff7300 1px solid}

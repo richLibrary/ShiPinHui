@@ -1,0 +1,11 @@
+@charset "utf-8";.uctit span.afterSale{border-left:#2b54aa 5px solid;padding-left:10px}
+.ucRight .uctit{font:18px/40px "微软雅黑";color:#333;border-bottom:none}
+.uctit a.uctitInfo{color:#333}
+/*修改密码完成*/
+.verify{width:981px;height:auto;overflow:hidden;margin:60px 0px 173px 0px}
+.verify i.verifyId{width:493px;height:33px;background:url(../images/account.png) no-repeat 0 -76px scroll;display:inline-block;margin-left:225px}
+.verifyMain{height:auto;overflow:hidden;margin-top:10px}
+.verifyMain li{float:left;margin-left:175px;font:14px/14px "\5FAE\8F6F\96C5\9ED1";color:#666}
+.verifyMain li.step01{margin-left:198px}
+.verifyMain li.step02{margin-left:150px}
+.verify p{height:77px;font:18px/77px "\5FAE\8F6F\96C5\9ED1";color:#333;margin-top:115px;background:url(../images/finshCode.jpg) no-repeat 330px 0 scroll;padding-left:428px}

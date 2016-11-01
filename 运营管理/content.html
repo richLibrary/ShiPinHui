@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="utf-8" />
+	<title>食品荟总管理系统</title>
+	<link rel="stylesheet" href="css/common.css" type="text/css" />
+	<link rel="stylesheet" href="css/iconfont/iconfont.css" type="text/css" />
+	<link rel="stylesheet" href="css/admin.css" type="text/css" /> 
+</head>
+<body>
+<!----网站管理后台---->
+<!---- 网站管理后台头部 ---->
+<div class="adminTop">
+	<h1>管理后台</h1>
+	<div class="topMenu">
+		<a href="index.html" title="首页" target="_self">首页</a>
+		<a href="product.html" title="商品管理" target="_self">商品管理</a>
+		<a href="seller.html" title="商家管理" target="_self">商家管理</a>
+		<a href="finance.html" title="金融管理" target="_self">金融管理</a>
+		<a href="market.html" title="营销管理" target="_self">营销管理</a>
+		<a href="advert.html" title="广告管理" target="_self">广告管理</a>         
+		<a href="message.html" title="信息管理" target="_self">信息管理</a>         
+		<a href="content.html" title="内容管理" target="_self">内容管理</a>         
+		<a href="report.html" title="报表管理" target="_self">报表管理</a>         
+		<a href="power.html" title="权限管理" target="_self">权限管理</a>
+	</div>
+	<div class="loginStatus">
+		欢迎您，<a href="#" title="会员名称" target="_self">会员名称adminadmin</a>
+		<a class="set" href="#" title="设置" target="_self"><i class="iconfont">&#xe60c;</i>设置</a>|
+		<a class="quit" href="#" title="退出" target="_self"><i class="iconfont">&#xe609;</i>退出</a>
+	</div>
+</div>
+
+<!---- 网站管理后台左侧导航 ---->
+<div class="adminNav">
+	<ul>
+		<li class="cur">
+			<h3>资讯管理</h3>
+            <a href="#" title="新闻添加" target="_self">新闻添加</a>
+			<a href="#" title="新闻列表" target="_self">新闻列表</a>  
+            <a href="#" title="新闻栏目" target="_self">新闻栏目</a>  
+		</li> 
+        <li class="cur">
+			<h3>指数行情管理</h3>
+            <a href="#" title="指数添加" target="_self">指数添加</a>
+			<a href="#" title="指数列表" target="_self">指数列表</a>  
+            <a href="#" title="行情添加" target="_self">行情添加</a>
+			<a href="#" title="行情列表" target="_self">行情列表</a>  
+		</li> 
+        <li class="cur">
+			<h3>百科管理</h3>
+            <a href="#" title="百科分类" target="_self">百科分类</a>
+			<a href="#" title="词条列表" target="_self">词条列表</a>   
+            <a href="#" title="词条审核" target="_self">词条审核</a>   
+		</li> 
+	</ul >
+</div>
+<!---- 管理后台右侧标题 ---->
+<div class="arTit"><i class="iconfont"></i>我是标题</div>
+<!---- 表单信息提交一 ---->
+<div class="arBorderTop">
+	<!--- input通用 --->
+	<div class="adminForm">
+		<i>服务内容：</i><input type="text" placeholder="表单">
+	</div>
+	<!--- select通用 --->
+	<div class="adminForm">
+		<i>服务分类：</i>
+		<select>
+			<option>001</option>
+			<option>001</option>
+			<option>001</option>
+			<option>001</option>
+			<option>001</option>
+		</select>
+		<select>
+			<option>001</option>
+			<option>001</option>
+			<option>001</option>
+			<option>001</option>
+			<option>001</option>
+		</select>
+	</div>
+	
+	<div class="adminForm">
+		<i>价格：</i>
+		<input type="text" placeholder="表单">
+	</div>
+	<!--- 表单通用 --->
+	<div class="adminForm">
+		<i>所得积分：</i>
+		<input type="text" placeholder="表单">
+	</div>
+	<!--- 图片上传 --->
+	<div class="upImg">
+		<i>图片上传：</i>
+		<ul>
+			<li>
+				<input type="file" value="上传图片">
+				<img src="images/addImg.png" alt="" width="100" height="100" title="">
+				<a class="iconfont" href="#" title="删除"></a>
+			</li>
+			<li>
+				<input type="file" value="上传图片">
+				<img src="images/addImg.png" alt="" width="100" height="100" title="">
+			</li>
+			<li>
+				<input type="file" value="上传图片">
+				<img src="images/addImg.png" alt="" width="100" height="100" title="">
+			</li>
+			<li>
+				<input type="file" value="上传图片">
+				<img src="images/addImg.png" alt="" width="100" height="100" title="">
+			</li>
+			<li>
+				<input type="file" value="上传图片">
+				<img src="images/addImg.png" alt="" width="100" height="100" title="">
+			</li>
+			<li>
+				<input type="file" value="上传图片">
+				<img src="images/addImg.png" alt="" width="100" height="100" title="">
+			</li>
+			<li>
+				<input type="file" value="上传图片">
+				<img src="images/addImg.png" alt="" width="100" height="100" title="">
+			</li>
+			<li>
+				<input type="file" value="上传图片">
+				<img src="images/addImg.png" alt="" width="100" height="100" title="">
+			</li>
+			<li>
+				<input type="file" value="上传图片">
+				<img src="images/addImg.png" alt="" width="100" height="100" title="">
+			</li>
+		</ul>
+	</div>
+	<!--- 地址填写 --->
+	<div class="addressTxt">
+		<i>地址：</i>
+		<div class="addSelect">
+			<select>
+				<option>河南省</option>
+				<option>001</option>
+				<option>001</option>
+				<option>001</option>
+				<option>001</option>
+			</select>
+			<select>
+				<option>郑州市</option>
+				<option>001</option>
+				<option>001</option>
+				<option>001</option>
+				<option>001</option>
+			</select>
+			<select>
+				<option>金水区</option>
+				<option>001</option>
+				<option>001</option>
+				<option>001</option>
+				<option>001</option>
+			</select>
+		</div>
+		<div class="addDets"><textarea placeholder="填写详细地址"></textarea></div>
+	</div>
+	<!--- 单选按钮 --->
+	<div class="radioTxt">
+		<i>性别：</i>
+		<input checked="checked" type="radio" name="radio" value="男">男<input type="radio" name="radio" value="女">女
+
+	</div>
+	<!--- 时间拾取 --->
+	<div class="datePicker">
+		<i>时间选择：</i>
+		<input type="text" placeholder="">
+		<input type="text" placeholder="">
+	</div>
+	<!--- 提交 --->
+	<div class="submitBtn">
+		<input class="saveBtn" type="button" value="保存">
+		<input class="cancelBtn" type="button" value="取消">
+	</div>
+	<!--- 编辑内容 --->
+	<div class="editContent">
+		<i>内容：</i>
+		<textarea placeholder="输入内容"></textarea>
+	</div>
+	<!--- 权限管理 --->
+	<div class="allowManage">
+		<i>权限管理：</i>
+		<table class="" border="0" cellpadding="0" cellspacing="0">
+			<tbody><tr>
+				<td class="tit"><input type="checkbox">订单管理</td>
+				<td><input type="checkbox">订单管理</td>
+				<td><input type="checkbox">订单管理</td>
+				<td><input type="checkbox">订单管理</td>
+				<td><input type="checkbox">订单管理</td>
+			</tr>
+			<tr>
+				<td class="tit"><input type="checkbox">订单管理</td>
+				<td><input type="checkbox">订单管理</td>
+				<td><input type="checkbox">订单管理</td>
+				<td><input type="checkbox">订单管理</td>
+				<td><input type="checkbox">订单管理</td>
+			</tr>
+			<tr>
+				<td class="tit"><input type="checkbox">订单管理</td>
+				<td><input type="checkbox">订单管理</td>
+				<td><input type="checkbox">订单管理</td>
+				<td><input type="checkbox">订单管理</td>
+				<td><input type="checkbox">订单管理</td>
+			</tr>
+			<tr>
+				<td class="tit"><input type="checkbox">订单管理</td>
+				<td><input type="checkbox">订单管理</td>
+				<td><input type="checkbox">订单管理</td>
+				<td><input type="checkbox">订单管理</td>
+				<td><input type="checkbox">订单管理</td>
+			</tr>
+			<tr>
+				<td class="tit"><input type="checkbox">订单管理</td>
+				<td><input type="checkbox">订单管理</td>
+				<td><input type="checkbox">订单管理</td>
+				<td><input type="checkbox">订单管理</td>
+				<td><input type="checkbox">订单管理</td>
+			</tr>
+		</tbody></table>
+	</div>
+</div>
+
+</body>
+</html>

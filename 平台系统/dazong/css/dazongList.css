@@ -1,0 +1,56 @@
+@charset "utf-8";
+/*----
+模块名称：面包屑导航
+修改内容：暂无
+模块作者：裴富成
+修改时间：2016.1.6
+----*/
+/*---- 面包屑内容 ----*/
+.breadcrumb{padding:5px 10px;width:1180px;margin:15px auto 0;background-color:#fff;}
+.breadcrumb li{padding:5px 0 0;position:relative;height:auto;}
+.breadcrumb dl{zoom:1;line-height:24px;padding:0 74px;overflow:hidden;height:auto;border-bottom:#eee 1px solid;}
+.breadcrumb dl:after{content:" ";display:block;clear:both;height:0;overflow:hidden}
+.breadcrumb dl dt{color:#333;position:absolute;left:0;top:3px;margin-top:5px;width:70px;text-align:right;font:bold 12px/26px "\5FAE\8F6F\96C5\9ED1";}
+.breadcrumb dl dt.condition{width:74px;}
+.breadcrumb dl dt.keyword{width:74px;}
+.breadcrumb dd{float:left;display:inline;margin:0 0 0 5px;height:30px;font:12px/30px "\5FAE\8F6F\96C5\9ED1";}
+.breadcrumb a{display:inline-block;white-space:nowrap;height:18px;font: 12px/16px "\5FAE\8F6F\96C5\9ED1";padding:0 12px;text-decoration:none;color:#666;border-radius:24px;cursor:pointer;}
+.breadcrumb a:hover{color:#FFFFFF;background-color:#FF7300; cursor:pointer;}
+.breadcrumb .selected a{color:#fff;background-color:#FF7300}
+.breadcrumb li .selResult{height:40px;}
+.breadcrumb li .searchResult{height:40px;}
+.selectNo{color:#999}
+.breadcrumb .selResult a{padding-right:20px;background:#FF7300 url(../images/close.gif) right 6px no-repeat}
+.breadcrumb .selResult a:hover{background-position:right -18px}
+.searchText{width:148px;height:22px;border:1px solid #E4E4E4;font:12px/22px "\5FAE\8F6F\96C5\9ED1";color:#666;padding-left:10px;background-color:#EEE;}
+.selSearch{width:50px;height:24px;font:12px/24px "\5FAE\8F6F\96C5\9ED1";color:#fff;text-align:center;border:none;margin-left:10px;background-color:#FF7300;border-radius:5px;cursor:pointer;}
+/*---- 默认排序 ----*/
+.shopTitle{width:1200px;height:38px;line-height:38px;margin:18px auto;background-color:#fff;position:relative}
+.shopTitle-left{width:165px;height:auto;overflow:hidden;float:left;}
+.shopTitle-left li{width:48px;height:38px;line-height:38px;float:left;border-right:1px solid #E4E4E4;color:#666;text-align:center;padding-left:5px;cursor:pointer;}
+.shopTitle-left li.on{background-color:#FF7300;color:#fff;}
+.shopTitle-left li i{vertical-align:-2px;}
+.opertaion{width:410px;height:38px;line-height:38px;padding-left:20px;position:relative;float:left;}
+.priceLow,.priceNum{margin-right:15px;display:block;width:170px;height:38px;float:left;font: 12px/35px "\5FAE\8F6F\96C5\9ED1"}
+.totalBtn,.hideBtn{width:69px;height:22px;font: 14px/22px "\5FAE\8F6F\96C5\9ED1";color:#666;padding-left:5px;text-align:center;border:1px solid #E4E4E4;}
+.totalBtn{margin:0 10px;}
+.Activity{height:38px;position:absolute;top:0;right:150px;}
+.Activity label{display:inline-block;line-height:35px;height:35px;}
+.Activity label input[type="checkbox"],.Activity-sel label input[type="radio"]{vertical-align:-3px;margin:0 5px;}
+.Switch{height:38px;position:absolute;top:0;right:15px;}
+.Switch span{font-size:18px;margin-left:5px;cursor:pointer;}
+.Switch span.on{color:#FF7300;}
+/*----
+模块名称：列表内容
+修改内容：暂无
+模块作者：裴富成
+修改时间：2016.1.6
+----*/
+.dazongList{width:1200px;height:auto;overflow:hidden;margin:0 auto;position:relative;}
+.dazongList li{float:left;position:relative;margin:0 10px 15px;height:300px;width:220px;background-color:#FFF;}
+.dazongList li h3{width:190px;padding:10px 15px 5px;}
+.dazongList li h3 a{font: 14px/30px "\5FAE\8F6F\96C5\9ED1";display:block;color:#333;height:30px;overflow:hidden;}
+.dazongList li strong{font-size:18px;color:#FC7A00;margin-left:15px;}
+.dazongList li del{margin-left:15px;color:#999;}}
+.sectionImg img{width:220px;height:220px;display:block;}
+.dazongNumber{display:inline-block;padding-left:15px;color:#999;}

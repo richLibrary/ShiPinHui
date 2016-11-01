@@ -1,0 +1,31 @@
+@charset "utf-8";
+/*----
+模块名称：购物车第二个步骤
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2015.12.21
+----*/
+/*---- 订单提交成功提示  ----*/
+.sucessTip{width:1135px;height:60px;overflow:hidden;margin:60px auto 0px auto;position:relative;padding-left:65px;}
+.sucessTip i{font:48px/48px "\5FAE\8F6F\96C5\9ED1";color:#fd812d;position:absolute;top:3px;left:0px;}
+.sucessTip h2{font:bold 26px/26px "\5FAE\8F6F\96C5\9ED1";color:#fd812d;}
+.sucessTip p{font:12px/12px "\5FAE\8F6F\96C5\9ED1";color:#666;padding-top:17px;}
+.sucessTip span{font:14px/20px "\5FAE\8F6F\96C5\9ED1";position:absolute;top:25px;right:0px;}
+.sucessTip span font{font:20px/20px "\5FAE\8F6F\96C5\9ED1";color:#fd812d;}
+/*---- 购物车订单列表 ----*/
+.orderList{width:1198px;height:auto;overflow:hidden;margin:20px auto 0px auto;border:#ddd solid 1px;border-bottom:none;background-color:#fff;}
+.orderList ul{height:auto;overflow:hidden;}
+.orderList ul li{padding:20px 40px;height:auto;overflow:hidden;border-bottom:#ddd solid 1px;font-size:14px;}
+.orderList ul li b{color:#ff7300;}
+.orderList ul li span{margin-right:20px;}
+.orderList ul li a.coName{color:#333;margin-right:30px;}
+.orderList ul li a.orderName{color:#333}
+.orderList ul li a:hover{color:#ff7300}
+/*---- 购物车订单列表 ----*/
+.choosePay{width:1068px;height:auto;overflow:hidden;margin:0px auto 0px auto;padding:35px 65px;border:#ddd solid 1px;border-top:none;background-color:#fff;}
+.choosePay h2{font:16px/16px "\5FAE\8F6F\96C5\9ED1";color:#404040;padding-bottom:20px;}
+.choosePay span{border:#ddd solid 1px;height:50px;width:140px;text-align:center;display:inline-block;line-height:45px;float:left;margin:0px 72px 0px 15px;}
+.choosePay span i{color:#00aaee;font-size:32px}
+.choosePay input[type="radio"]{float:left;width:15px;height:15px;margin-top:17px;}
+.payBtn{width:120px;height:50px;background-color:#fd812d;color:#fff;font-size:16px;border-radius:4px;cursor:pointer;border:none;margin-left:30px;display:inline-block;text-align:center;line-height:50px;}
+.payBtn:hover{text-decoration:none;}

@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+	<meta charset="utf-8" />
+	<title>指数列表</title>
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="Keywords" content="指数列表"/>
+	<meta name="Description" content="指数列表"/>
+
+	<link rel="stylesheet" href="css/common.css" type="text/css" />
+	<link rel="stylesheet" href="css/zhishu02.css" type="text/css" />
+	<link rel="stylesheet" href="css/iconfont/iconfont.css" type="text/css" />
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
+	<script type="text/javascript" src="js/echarts.js"></script>
+	<script type="text/javascript" src="js/priceCharts.js"></script>
+</head>
+
+<body ng-app="myApp" ng-controller="userCtrl" style="background-color:#fff;">
+<div ng-include="'header.html'"></div>
+
+<!----
+模块名称：搜索结果页面包屑导航
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2016.01.11
+---->
+<div class="breadsNav">
+您的位置：<a href="#" title="首页" target="_self">首页</a><code>&gt;</code>
+<a href="#" title="首页" target="_self">首页</a><code>&gt;</code><font>河南</font>
+</div>
+<!----
+模块名称：指数详情
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2016.01.11
+---->
+<div class="quoMain">
+  <div class="quoCon">
+	<div class="quoSort">
+		<h2>按条件筛选</h2>
+		<ul>
+			<li>
+				<b>产品分类：</b>
+				<a href="" title="全部" target="_self">全部</a>
+				<a href="" title="食品成品" target="_self">食品成品</a>
+				<a href="" title="食品原料" target="_self">食品原料</a>
+				<a href="" title="食品机械" target="_self">食品机械</a>
+				<a href="" title="食品包装" target="_self">食品包装</a>
+			</li>
+			<li>
+				<b>日期：</b>
+				<a href="" title="全部" target="_self">全部</a>
+				<a href="" title="今天" target="_self">今天</a>
+				<a href="" title="近一周" target="_self">近一周</a>
+				<a href="" title="近一月" target="_self">近一月</a>
+				<a href="" title="近一年" target="_self">近一年</a>
+			</li>
+			<li>
+				<b>地区：</b>
+				<a href="" title="河南省" target="_self">河南省</a>
+				<a href="" title="河南省" target="_self">河南省</a>
+				<a href="" title="河南省" target="_self">河南省</a>
+				<a href="" title="河南省" target="_self">河南省</a>
+				<a href="" title="河南省" target="_self">河南省</a>
+				<a href="" title="河南省" target="_self">河南省</a>
+				<a href="" title="河南省" target="_self">河南省</a>
+				<a href="" title="河南省" target="_self">河南省</a>
+				<a href="" title="河南省" target="_self">河南省</a>
+				<a href="" title="河南省" target="_self">河南省</a>
+				<a href="" title="河南省" target="_self">河南省</a>
+				<a href="" title="河南省" target="_self">河南省</a>
+				<a href="" title="河南省" target="_self">河南省</a>
+				<a href="" title="河南省" target="_self">河南省</a>
+				<a href="" title="河南省" target="_self">河南省</a>
+				<a href="" title="河南省" target="_self">河南省</a>
+				<a href="" title="河南省" target="_self">河南省</a>
+				<a href="" title="河南省" target="_self">河南省</a>
+				<a href="" title="河南省" target="_self">河南省</a>
+				<a href="" title="河南省" target="_self">河南省</a>
+			</li>
+			<li class="last">
+				<b>按名称查询：</b>
+				<input type="text" placeholder="输入想要查找的产品名称" />
+				<input type="submit" value="搜索"/>
+			</li>
+		</ul>
+	</div>
+	<!---- 价格指数列表 ---->
+	<table class="quoList" border="0" cellpadding="0" cellspacing="0">
+		<tr class="tit">
+			<td width="161">名称</td>
+			<td width="139">价格</td>
+			<td width="110">单位</td>
+			<td width="125">涨跌</td>
+			<td width="165">报价时间</td>
+			<td width="220">本月报价趋势</td>
+		</tr>
+		<tr class="txt">
+			<td>花生油</td>
+			<td>37.52</td>
+			<td class="unit">美元/桶</td>
+			<td><span>0.75</span></td>
+			<td class="date">2015-12-09</td>
+			<td><a href="#" title="查看详情" target="_blank">查看详情&gt;&gt;</a></td>
+		</tr>
+		<tr class="txt">
+			<td>花生油</td>
+			<td>37.52</td>
+			<td>美元/桶</td>
+			<td><span>0.75</span></td>
+			<td>2015-12-09</td>
+			<td><a href="#" title="查看详情" target="_blank">查看详情&gt;&gt;</a></td>
+		</tr>
+		<tr class="txt">
+			<td>花生油</td>
+			<td>37.52</td>
+			<td>美元/桶</td>
+			<td><span>0.75</span></td>
+			<td>2015-12-09</td>
+			<td><a href="#" title="查看详情" target="_blank">查看详情&gt;&gt;</a></td>
+		</tr>
+		<tr class="txt">
+			<td>花生油</td>
+			<td>37.52</td>
+			<td>美元/桶</td>
+			<td><span>0.75</span></td>
+			<td>2015-12-09</td>
+			<td><a href="#" title="查看详情" target="_blank">查看详情&gt;&gt;</a></td>
+		</tr>
+	</table>
+</div>
+	<!---- 热门价格指数 ---->
+	<div class="hotQuo">
+		<h2>热门价格指数</h2>
+		<h3><i class="iconfont">&#xe609;</i>食品成品</h3>
+		<ul>
+			<li>
+				<span>方便面</span>
+				<span>37.16</span>
+				<span>美元/桶</span>
+				<span class="up">0.93%</span>
+			</li>
+			<li>
+				<span>方便面</span>
+				<span>37.16</span>
+				<span>美元/桶</span>
+				<span class="down">-0.93%</span>
+			</li>
+			<li>
+				<span>方便面</span>
+				<span>37.16</span>
+				<span>美元/桶</span>
+				<span class="up">0.93%</span>
+			</li>
+			<li>
+				<span>方便面</span>
+				<span>37.16</span>
+				<span>美元/桶</span>
+				<span class="down">-0.93%</span>
+			</li>
+			<li>
+				<span>方便面</span>
+				<span>37.16</span>
+				<span>美元/桶</span>
+				<span class="up">0.93%</span>
+			</li>
+		</ul>
+		<h3><i class="iconfont">&#xe605;</i>食品原料</h3>
+		<ul>
+			<li>
+				<span>方便面</span>
+				<span>37.16</span>
+				<span>美元/桶</span>
+				<span class="up">0.93%</span>
+			</li>
+			<li>
+				<span>方便面</span>
+				<span>37.16</span>
+				<span>美元/桶</span>
+				<span class="down">-0.93%</span>
+			</li>
+			<li>
+				<span>方便面</span>
+				<span>37.16</span>
+				<span>美元/桶</span>
+				<span class="up">0.93%</span>
+			</li>
+			<li>
+				<span>方便面</span>
+				<span>37.16</span>
+				<span>美元/桶</span>
+				<span class="down">-0.93%</span>
+			</li>
+			<li>
+				<span>方便面</span>
+				<span>37.16</span>
+				<span>美元/桶</span>
+				<span class="up">0.93%</span>
+			</li>
+		</ul>
+		<h3><i class="iconfont">&#xe602;</i>食品设备</h3>
+		<ul>
+			<li>
+				<span>方便面</span>
+				<span>37.16</span>
+				<span>美元/桶</span>
+				<span class="up">0.93%</span>
+			</li>
+			<li>
+				<span>方便面</span>
+				<span>37.16</span>
+				<span>美元/桶</span>
+				<span class="down">-0.93%</span>
+			</li>
+			<li>
+				<span>方便面</span>
+				<span>37.16</span>
+				<span>美元/桶</span>
+				<span class="up">0.93%</span>
+			</li>
+			<li>
+				<span>方便面</span>
+				<span>37.16</span>
+				<span>美元/桶</span>
+				<span class="down">-0.93%</span>
+			</li>
+			<li>
+				<span>方便面</span>
+				<span>37.16</span>
+				<span>美元/桶</span>
+				<span class="up">0.93%</span>
+			</li>
+		</ul>
+		<h3><i class="iconfont">&#xe604;</i>食品包装</h3>
+		<ul>
+			<li>
+				<span>方便面</span>
+				<span>37.16</span>
+				<span>美元/桶</span>
+				<span class="up">0.93%</span>
+			</li>
+			<li>
+				<span>方便面</span>
+				<span>37.16</span>
+				<span>美元/桶</span>
+				<span class="down">-0.93%</span>
+			</li>
+			<li>
+				<span>方便面</span>
+				<span>37.16</span>
+				<span>美元/桶</span>
+				<span class="up">0.93%</span>
+			</li>
+			<li>
+				<span>方便面</span>
+				<span>37.16</span>
+				<span>美元/桶</span>
+				<span class="down">-0.93%</span>
+			</li>
+			<li>
+				<span>方便面</span>
+				<span>37.16</span>
+				<span>美元/桶</span>
+				<span class="up">0.93%</span>
+			</li>
+		</ul>
+		<h3><i class="iconfont">&#xe626;</i>其它分类</h3>
+		<ul>
+			<li>
+				<span>方便面</span>
+				<span>37.16</span>
+				<span>美元/桶</span>
+				<span class="up">0.93%</span>
+			</li>
+			<li>
+				<span>方便面</span>
+				<span>37.16</span>
+				<span>美元/桶</span>
+				<span class="down">-0.93%</span>
+			</li>
+			<li>
+				<span>方便面</span>
+				<span>37.16</span>
+				<span>美元/桶</span>
+				<span class="up">0.93%</span>
+			</li>
+			<li>
+				<span>方便面</span>
+				<span>37.16</span>
+				<span>美元/桶</span>
+				<span class="down">-0.93%</span>
+			</li>
+			<li>
+				<span>方便面</span>
+				<span>37.16</span>
+				<span>美元/桶</span>
+				<span class="up">0.93%</span>
+			</li>
+		</ul>
+	</div>
+<script>
+$(document).ready(function(){ 
+	$(".quoList tr.txt:odd").addClass("gray")
+});   
+</script>
+	
+</div>
+<!---- angularJs构建模板 ---->
+<div ng-include="'footer.html'"></div>
+<script type="text/javascript">
+	angular.module('myApp', []).controller('userCtrl', function($scope) {})
+</script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+@charset "utf-8";
+/*---- 标题和面包屑导航 ----*/    
+.ucorderTit{height:40px;overflow:hidden;position:relative;}
+.ucorderTit h2{display:inline-block;float:left;font:18px/40px "微软雅黑";color:#333;background:url("../images/titBg01.png") no-repeat 0px center scroll;padding-left:15px}
+.ucBreads{padding-right:0px;float:right;line-height:40px;}
+.ucBreads a{color:#666;}
+.ucBreads a:hover{color:#ff7300}
+/*---- 订单列表筛选 ----*/     
+.pageView{height:auto;overflow:hidden;}
+.dateSort{height:67px;background-color:#f7f7f7;padding:0px 0px 0px 30px;font:14px/67px "微软雅黑";color:#333}
+.dateSort input[type="text"]{width:93px;height:34px;border:#e4e4e4 solid 1px;background:#fff url("../images/dateBg.png") no-repeat 98px center scroll;padding:0px 30px 0px 10px;}
+.dateSort input[type="button"]{width:75px;height:36px;border:none;border-radius:4px;background-color:#f60;color:#fff;font-size:14px;cursor:pointer;margin-left:20px;}	
+.orderTotal{height:auto;overflow:hidden;border:#e4e4e4 solid 1px;}
+.orderTotalTit{height:42px;font:14px/42px "微软雅黑";color:#666;border-bottom:#e4e4e4 solid 1px;padding-left:30px;}
+.orderTotalTit font{color:#ff7300;margin-right:20px;}
+.orderTotal ul{width:240px;height:200px;border-right:#e4e4e4 solid 1px;padding-top:20px;float:left}
+.orderTotal ul li{height:auto;overflow:hidden;font:12px/44px "微软雅黑";}
+.orderTotal ul li i{width:150px;float:left;text-align:right}
+.orderTotal ul li font{color:#ff7300}
+.orderCharts{width:560px;height:220px;float:left}
+.tradeDetail{height:auto;overflow:hidden;margin:10px auto 0px auto;}
+.showDets{display:block;width:85px;padding-left:15px;height:32px;font:14px/32px "微软雅黑";color:#06c;border:#06c solid 1px;border-radius:4px;margin-top:5px;cursor:pointer;background:url("../images/showBg01.png") no-repeat 80px center scroll;}
+.showDets.on{background:url(images/showBg02.png) no-repeat 80px center scroll;}	
+.orderList{width:100%;border-top:#e4e4e4 solid 1px;border-left:#e4e4e4 solid 1px;margin-top:15px;display:none;}
+.orderList tr.tit td{background-color:#f7f7f7;}
+.orderList tr td{width:25%;height:44px;border-right:#e4e4e4 solid 1px;border-bottom:#e4e4e4 solid 1px;text-align:center;font-size:14px;}
+.orderList tr td.date{color:#999;}
+.orderList tr td.company a{color:#36c;}
+.orderList tr td.price{color:#ff7300;}
+.paginator {clear:both;padding-bottom:12px;margin:0 auto;font:14px Arial,Helvetica,sans-serif;color:#666;padding-top:12px;float:right;} 
+.paginator A,.paginator A:link,.paginator A:visited{padding:0 12px;display:block;background:#fff; border:1px solid #ededed; float:left;color:#333;margin-right:4px;text-decoration:none;height:34px;line-height:34px;}
+.paginator A:hover,.paginator A:active{padding:0 12px;background:#ff4400; border:1px solid #ededed; color:#fff;text-decoration:none;height:34px;line-height:34px;}
+.paginator .this-page{padding:0 12px;display:block;background:#ff4400;float:left;height:34px;line-height:34px;margin-right:2px;text-decoration:none;color:#fff;font-weight:bold;}

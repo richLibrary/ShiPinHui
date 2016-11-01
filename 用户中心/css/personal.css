@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+.ucRight h1{ font:18px/18px "\5FAE\8F6F\96C5\9ED1"; color:#333; margin-top:20px}
+.ucRight h3{ width:513px; height:36px; display:block; font:16px/36px "\5FAE\8F6F\96C5\9ED1"; color:#333;margin:30px 0px 0px 46px}
+.ucRight h3 i{ font:12px/36px "\5FAE\8F6F\96C5\9ED1";color:#ff7300}
+.personInfo{ height:auto; overflow:hidden}
+.personInfo li{ height:auto; overflow:hidden;position:relative}
+.personInfo li span{ width:170px; height:60px;display:inline-block; margin-right:15px; text-align:right;font:14px/60px "\5FAE\8F6F\96C5\9ED1"; color:#666;}
+.personInfo li span font{ color:#ff0000; margin-right:12px}
+.personInfo span.expire{ width:112px}
+.endTime select.town{ width:54px;}
+.personInfo li i.checkTime{ width:226px; display:block; margin:0px 0px 20px 190px; color:#999}
+.personInfo li input{ width:290px; height:31px; padding-left:10px; border:#dedede 1px solid}
+.personInfo li select.vouchType{ width:150px; height:35px; margin-right:0px}
+.personInfo li select{ width:88px; height:35px; border:#dedede 1px solid;font:16px/35px "\5FAE\8F6F\96C5\9ED1"; color:#666; margin-right:15px}
+.personInfo li span.idside{ width:84px}
+.personInfo li input.longTime{ width:15px; height:15px; border-left:#e4e4e4 1px solid; margin-left:10px}
+.personInfo li span.ments{font:12px/12px "\5FAE\8F6F\96C5\9ED1"; color:#333; display:block; margin:12px 72px 0px 0px}
+.personInfo li span.idRight{ width:84px}
+.personInfo li span.frontMain{ width:450px; font:12px/12px "\5FAE\8F6F\96C5\9ED1"; color:#999}
+.personInfo li span.frontin{ width:505px; margin-left:18px}
+.personInfo li a.browse{width:80px; height:30px; border:#e4e4e4 1px solid; display:inline-block; font:12px/30px "\5FAE\8F6F\96C5\9ED1"; color:#333; text-align:center; background-color:#f5f5f5}
+.personInfo li input.refer{ width:110px; height:40px; background-color:#ff6600; border:none; border-radius:4px; font:14px/40px "\5FAE\8F6F\96C5\9ED1"; color:#fff; margin:50px 0px 50px 183px}

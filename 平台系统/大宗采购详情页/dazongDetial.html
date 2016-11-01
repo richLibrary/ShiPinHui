@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+	<meta charset="utf-8" />
+	<title>大宗采购列表页</title>
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="Keywords" content="关键词"/>
+	<meta name="Description" content="我是网页的描述sss"/>
+	<link rel="stylesheet" href="css/iconfont/iconfont.css" type="text/css" />
+	<link rel="stylesheet" href="css/common.css" type="text/css" />
+	<link rel="stylesheet" href="css/dazongDetial.css" type="text/css" />
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/breadnav.js"></script>
+	<script type="text/javascript" src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
+</head>
+<body ng-app="myApp" ng-controller="userCtrl" style="background-color:#f2f2f2;">
+<div ng-include="'header.html'"></div>	
+<div class="nowpos">
+	<h2>您所在的位置：<a href="#"  title="" target="_blank">首页</a>><a href="#"  title="" target="_blank">大宗采购</a>><a href="#"  title="" target="_blank" class="shagnjia">商家采购页</a></h2>
+</div>
+<div class="purchaseWap">	
+<div class="purchaLeft">
+	<!--公司信息基本信息-->
+	<div class="CompanyInfo">
+		<h2>公司信息基本信息</h2>
+		<img src="images/flavor.jpg" width="176" height="125" title="" alt=""/>
+		<div class="CompanyCon">
+			<p>郑州晨风食品有限公司</p>
+			<span>主营行业：<i>食品成品</i></span>
+			<span>所在地区：<i>河南省 郑州市</i></span>
+			<span>联 系 人：<i>张三</i></span>
+			<a href="#" title="" target="_blank" class="onlink">在线咨询</a>
+			<a href="#" title="" target="_blank" class="gzshop">关注店铺</a>
+		</div>
+	</div>
+	<!--采购信息-->
+	<div class="purInfor">
+		<h2>采购信息</h2>
+		<ul>
+			<li>
+				<p>12-24</p>
+				<span>采购食用红薯粉芡</span>
+				<span>采购量：32吨</span>
+			</li>
+			<li>
+				<p>12-24</p>
+				<span>采购食用红薯粉芡</span>
+				<span>采购量：32吨</span>
+			</li>
+			<li>
+				<p>12-24</p>
+				<span>采购食用红薯粉芡</span>
+				<span>采购量：32吨</span>
+			</li>
+		</ul>
+	</div>
+</div>
+<!--内容-->
+<div class="purchase">
+	<div class="purchTop">
+		<p>采购果蔬切割机、切丁、切片、切丝
+		<span>询价时间：2015年12月25日 13:00</span>
+		<span>报价截止：2015年12月28日 13:00</span>
+		</p>
+		<div class="purchBg">
+			<input type="button" value="立即报价" />
+			<span>距离报价结束还剩2天10小时</span>
+			<p class="Recequot">收到报价（5）</p>
+		</div>
+	</div>
+	<!--报价信息-->
+<div class="offer" style=" display: none;">
+	<h3>以下是你对：<i>采购果蔬切割机、切丁、切片、切丝</i> 的报价信息</h3>
+	<ul>
+		<li>
+			<span><font>* </font>报价商家：</span>
+			<input type="text" class="business"/>
+		</li>
+		<li>
+			<span><font>* </font>报价金额：</span>
+			<input type="text" />元
+		</li>
+		<li>
+			<span><font>* </font>联系人：</span>
+			<input type="text" />
+		</li>
+		<li>
+			<span><font>* </font>联系方式：</span>
+			<input type="text" />
+		</li>
+		<li>
+			<span><font>* </font>报价信息：</span>
+			<textarea rows="4" cols="70"></textarea>
+		</li>
+	</ul>
+	<input type="button" value="发送报价"  class="sendoffer"/>
+</div>
+<!--采购信息-->
+<div class="purchaInfor">
+	<h2>采购信息</h2>
+	<ul>
+		<li>
+			<span class="proName">产品名称</span>
+			<span class="proName">采购量</span>
+			<span class="proName">产品描述</span>
+		</li>
+		<li>
+			<span>蔬菜切片机</span>
+			<span>100台</span>
+			<span>可以切淮山，莲藕，木薯，萝卜，苦瓜和土豆等！可以切丁、切片、切丝</span>
+		</li>
+		<li>
+			<span>蔬菜切片机</span>
+			<span>100台</span>
+			<span>可以切淮山，莲藕，木薯，萝卜，苦瓜和土豆等！可以切丁、切片、切丝</span>
+		</li>
+		<li>
+			<span>蔬菜切片机</span>
+			<span>100台</span>
+			<span>可以切淮山，莲藕，木薯，萝卜，苦瓜和土豆等！可以切丁、切片、切丝</span>
+		</li>
+	</ul>
+</div>
+<!--对供应商要求-->
+<div class="supplier">
+	<h2>对供应商要求</h2>
+		<ul>
+			<li>
+				<span>发货地：</span>
+				<p>河南省   郑州市</p>
+			</li>
+			<li>
+				<span>发票需求：</span>
+				<p>普通发票</p>
+			</li>
+			<li>
+				<span>交易方式：</span>
+				<p>支付宝担保交易</p>
+			</li>
+			<li>
+				<span>所在地区：</span>
+				<p>海南，青海，安徽，内蒙古，湖南，重庆，浙江，福建，山西，河南，北京，陕西，</br>
+四川，江苏，云南，天津，西藏，甘肃，新疆，贵州，广东，上海，湖北，河北，山东，江西，广西，宁夏</p>
+			</li>
+			<li>
+				<span>报价要求：</span>
+				<p>需要报含税价</p>
+			</li>
+		</ul>
+</div>
+<!--补充说明-->
+<div class="Proaddition">
+	<h2>补充说明</h2>
+	<ul>
+		<li>A.产品必需符合行业标准，不达标准将退货处理，所有损失由卖方承担。</li>
+		<li>B.货物要求送达项目部施工范围内的指定地点，运费由卖家承担。</li>
+		<li>C.要求报价厂商能提供国家正规发票，发票必须与货物齐到，或先于货物到场，方能结算，否则退货处理，退货运费由卖家承担。</li>
+		<li>D.货到现场后在使用过程若发现质量问题直接做退货处理并由商家自行承担相关费用。</li>
+		<li>E.所供货物按国家规定承保时间承保。</li>
+	</ul>
+</div>
+</div>
+</div>
+<div ng-include="'footer.html'"></div>
+<script type="text/javascript">
+	angular.module('myApp', []).controller('userCtrl', function($scope) {})
+</script>
+<script type="text/javascript">
+$(document).ready(function(){
+	TouchSlide({slideCell:"#qhFocus",titCell:".hd ul",mainCell:".bd ul",autoPage:true,pnLoop:"false"});
+})
+</script>
+</body>
+</html>

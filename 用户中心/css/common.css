@@ -1,0 +1,133 @@
+@charset "utf-8";
+/*--公用样式开始---*/
+*{word-wrap:break-word}
+a,body,button,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,html,img,input,li,ol,p,select,td,textarea,th,tr,ul{margin:0;padding:0}
+dl,li,ol,ul{list-style-type:none}
+html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
+address,caption,cite,code,dfn,em,i,th,var{font-style:normal;font-weight:400;font-style:normal}
+button,input,optgroup,option,select,textarea{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit}
+button,input{overflow:visible;vertical-align:middle;outline:0}
+body,button,input,select,td,textarea,th{font-family:"\5FAE\8F6F\96C5\9ED1",tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;font-size:12px;color:#333;-webkit-font-smoothing:antialiased;-moz-font-smoothing:antialiased}
+body{line-height:1.6;-webkit-font-smoothing:antialiased;}
+h1,h2,h3,h4,h5,h6{font-size:100%}
+img{border:0;vertical-align:middle}
+a,area{outline:0;blr:expression(this.onFocus=this.blur())}
+a{text-decoration:none;cursor:pointer}
+a:hover{text-decoration:underline;outline:0}
+a.ie6:hover{zoom:1}
+a:focus{outline:0}
+a:active,a:hover{outline:0}
+:focus{outline:0}
+sub,sup{vertical-align:baseline}
+textarea{resize:none;overflow:hidden;resize:none}
+img{border:0;vertical-align:middle}
+a img,img{-ms-interpolation-mode:bicubic}
+.img-responsive{max-width:100%;height:auto}
+html{overflow:-moz-scrollbars-vertical;zoom:expression(function(ele){ele.style.zoom = "1";document.execCommand("BackgroundImageCache",false,true)}
+(this))}
+.clear{diplay:block!important;float:none!important;clear:both;overflow:hidden;width:auto!important;height:0!important;margin:0 auto!important;padding:0!important;font-size:0;line-height:0}
+
+/*--
+模块名称：logo和搜索部分
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2015.12.21
+--*/
+.topBar{width:100%;height:30px;border-top:#aaa solid 1px;border-bottom:#e7e7e7 solid 1px;background-color:#f7f7f7;margin:0px auto;}
+.topMain{width:1200px;height:30px;font:12px/30px "\5FAE\8F6F\96C5\9ED1";color:#666;margin:0px auto;}
+.topMain a:hover{color:#ff7300;text-decoration:none;}
+.topLogin,.topRegist,.quitLogin,.msgRemind{color:#666;margin-right:5px;}
+.loginEd{color:#ff7300;}
+.msgRemind i{padding:1px 2px;background-color:#ff7300;color:#fff;margin-left:5px;}
+.topMain a.quitLogin:hover,.topMain a.loginEd:hover{text-decoration:underline;}
+.topRight{float:right;_width:100px;display:inline-block;position:relative;padding:0px 0px 0px 10px;border:#f7f7f7 solid 1px;border-bottom:none;color:#dbdbdb;}
+.helpCenterLink{float:right;;height:30px;display:inline-block;padding:0px 0px 0px 10px;font:12px/32px "\5FAE\8F6F\96C5\9ED1";overflow:hidden;}
+.helpCenterLink a{color:#666;}
+.topRight a{color:#666;}
+.topRight a:hover,.helpCenterLink a:hover{color:#ff7300;text-decoration:none;}
+.topRight a:hover i{color:#ff7300;}
+.topRight i{font:12px/26px "\5FAE\8F6F\96C5\9ED1";color:#999;margin-right:5px;}
+.topRight ul{position:absolute;top:30px;left:-1px;z-index:999;display:none;border:#dcdcdc solid 1px;border-top:none;background-color:#fff}
+.topRight.on{background-color:#fff;border:#dcdcdc solid 1px;border-bottom:none;}
+.topRight.on code{color:#fff}
+.topRight code{float:right}
+.topRight ul.mySph{width:300px;height:132px;}
+.mySph li{width:90px;float:left;padding-left:10px}
+.mySph li b{display:block;color:#666;}
+.mySph li a{display:block;font:12px/23px "\5FAE\8F6F\96C5\9ED1";color:#666;}
+.goodsOrder{width:350px;padding:0px 10px 60px 10px;}
+.goodsOrder b{color:#666}
+.goodsOrder a{display:inline-block;}
+.goodsOrder li{position:relative;height:42px;padding:10px 0px;border-bottom:#dcdcdc dotted 1px;}
+.goodsOrder li a.orderImg{float:left;position:relative;}
+.goodsOrder li a.orderName{float:left;width:150px;height:15px;overflow:hidden;font:12px/15px "\5FAE\8F6F\96C5\9ED1";margin-left:10px;color:#333}
+.goodsOrder li p{width:150px;color:#999;position:absolute;top:20px;left:50px;}
+.goodsOrder li span{width:100px;float:left;color:#ff7300;padding-left:10px;font:12px/15px "\5FAE\8F6F\96C5\9ED1";}
+.goodsOrder li a.delBtn{float:left;color:#ff7300;}
+.goodsOrder p.orderListBtn{width:370px;;height:42px;background-color:#efefef;text-align:right;position:absolute;bottom:0px;left:0px;}
+.orderListBtn a{width:100px;height:28px;text-align:center;display:inline-block;margin-right:15px;background-color:#ff7300;color:#fff;font:12px/28px "\5FAE\8F6F\96C5\9ED1";margin-top:6px;border-radius:4px;}
+.orderListBtn a:hover{background-color:#fa7f1a;color:#fff;text-decoration:none;}
+.topRight ul.customService{width:70px;padding-left:10px;}
+.topRight ul.myFavorite{width:95px;padding-left:10px;}
+.topRight ul.siteNav{width:440px;padding:10px;left:-387px;}
+.siteNav li{padding-left:75px;position:relative;}
+.siteNav li b{position:absolute;left:0px;top:0px;color:#333}
+.siteNav li a{display:inline-block;color:#999;margin-right:10px;}
+/*----
+模块名称：用户中心导航
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2015.01.19
+----*/
+.ucNav{width:100%;height:70px;margin:0px auto;background-color:#36c;}
+.ucNavMain{width:1200px;height:auto;margin:0px auto;}
+.ucNavMain h1{width:169px;height:70px;background:url("../images/ucLogo.png") no-repeat 0px 0px scroll;padding-left:198px;font:22px/70px "微软雅黑";color:#fff;position:relative;display:inline-block;float:left;}
+.ucNavMain h1 a{width:169px;height:70px;position:absolute;left:0px;top:0px;line-height:999px;display:block;overflow:hidden;}
+.ucNavMain ul{float:left;height:70px;display:inline-block;}
+.ucNavMain ul li{height:70px;text-align:center;font:16px/70px "微软雅黑";float:left;}
+.ucNavMain ul li a{display:block;color:#fff;padding:0px 18px;}
+.ucNavMain ul li a:hover{text-decoration:none;background-color:#2b54aa;}
+/*---- 服务下拉样式 ----*/
+.serviceTit{position:relative;height:70px;display:inline-block;float:left;cursor:pointer;}
+.serviceTit h2{font:16px/70px "微软雅黑";padding:0px 20px;color:#fff}
+.serviceTit.on h2{background-color:#fff;color:#36c}
+.serviceTit h2 i{margin-left:5px;}
+.serviceTit.on .serviceTxt{display:block;}
+.serviceTxt{width:300px;height:90px;position:absolute;top:70px;left:-1px;border:#d7d7d7 solid 1px;border-top:none;background-color:#fff;padding-top:10px;display:none;}
+.serviceTxt a{display:inline-block;float:left;color:#333;float:left;font:16px/40px "微软雅黑";margin:0px 15px}
+.serviceTxt a:hover{color:#36c;}
+/*----
+模块名称：用户中心
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2015.01.19
+----*/
+.ucMain{width:1200px;height:auto;overflow:hidden;margin:25px auto 0px auto;}
+.leftMenu{width:188px;height:auto;overflow:hidden;float:left;background-color:#fff;border:#efefef solid 1px;border-top:none;}
+.leftMenu h2{font:16px/39px "微软雅黑";color:#333;background-color:#f5f5f5;border-top:#efefef solid 1px;padding-left:20px;}
+.leftMenu h2 i{font:18px/39px "微软雅黑";color:#09f;margin-right:5px;}
+.leftMenu ul{height:auto;overflow:hidden;border-top:#efefef solid 1px;padding:10px 0px;}
+.leftMenu ul li{font:14px/34px "微软雅黑";padding-left:40px;}
+.leftMenu ul li a{color:#666}
+.leftMenu ul li a:hover{color:#36c}
+/*---- 用户中心右侧 ----*/
+.fr{float:right;}
+.f12{ font-size:12px;}
+.gray{color:#d2d2d2;}
+.gray a,.gray a:link,.gray a:visited,.gray a:hover{color:#d2d2d2;}
+.ucRight{width:988px;float:right;}
+.ucRight .uctit{font:18px/40px "微软雅黑";color:#333; font-weight: bold; border-bottom: 1px solid #E4E4E4;  padding:0 10px;}
+/*----
+模块名称：公共底部
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2015.01.19
+----*/
+.ucFooter{width:100%;height:100px;margin:35px auto 0px auto;overflow:hidden;background-color:#282828;}
+.ucFooterMain{width:870px;height:70px;margin:0px auto;color:#666;background:url("../images/footerLogo.png") no-repeat 175px center scroll;padding:30px 0px 0px 330px}
+.ucFooterMain a{font:12px/12px "\5FAE\8F6F\96C5\9ED1";color:#666;margin:0px 10px;}
+.ucFooterMain a:hover{color:#fff;text-decoration:none;}
+.ucFooterMain p{padding:5px 0px 0px 10px;}
+
+
+.ucorderTit h2{font:bold 18px/40px "微软雅黑"; color:#333;}

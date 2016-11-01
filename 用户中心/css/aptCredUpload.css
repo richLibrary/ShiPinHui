@@ -1,0 +1,36 @@
+@charset "utf-8";
+/*资质证书上传*/
+.uctit a.uctitInfo{color:#333}
+.ucRight .uctit{border-bottom:none}
+/*温馨提示*/
+.statWarm{width:946px;height:79px;border:#e4e4e4 1px dashed;font:14px/22px "\5FAE\8F6F\96C5\9ED1";color:#ff7300;padding:15px 20px;margin-top:15px;background-color:#fff9e9}
+.statWarm p{font:12px/24px "\5FAE\8F6F\96C5\9ED1";color:#666}
+/*资质证书上传内容*/
+.personInfo{height:auto;overflow:hidden}
+.personInfo li{height:auto;position:relative}
+.personInfo li font{margin-right:12px;color:red}
+.personInfo li span{width:163px;height:60px;font:14px/60px "\5FAE\8F6F\96C5\9ED1";color:#666;display:inline-block;text-align:right;margin-right:10px}
+.personInfo li input{width:293px;height:35px;padding-left:10px;font:14px/35px "\5FAE\8F6F\96C5\9ED1";color:#666;border:#e4e4e4 1px solid}
+.personInfo li select{height:35px;border:#e4e4e4 1px solid;font:14px/35px "\5FAE\8F6F\96C5\9ED1";color:#666;padding-left:10px}
+.personInfo li select.compyType{width:305px}
+.personInfo li select.town{width:92px;margin-right:10px}
+.personInfo input.date{width:15px;height:15px;margin-left:16px;margin-right:10px}
+.personInfo i.longTime{font:14px/14px "\5FAE\8F6F\96C5\9ED1";color:#666}
+.detaAddr{margin-top:13px;margin-left:176px;display:block}
+.sex i{margin-right:10px}
+.personInfo li input.sex{width:17px;height:17px;margin-right:4px}
+.load{width:88px;height:35px;border:#bcbcbc 1px solid;display:inline-block;text-align:center;font:12px/35px "\5FAE\8F6F\96C5\9ED1";color:#333}
+.personInfo li span.forat{width:473px;font:12px/12px "\5FAE\8F6F\96C5\9ED1";color:#999}
+.personInfo li span.format{width:281px;font:14px/35px "\5FAE\8F6F\96C5\9ED1";color:#666;text-align:left;display:inline}
+.personInfo li span.such{position:absolute;top:50px;right:188px}
+.personInfo li p{width:97px;height:12px;font:12px/12px "\5FAE\8F6F\96C5\9ED1";color:#999;margin-left:63px}
+.personInfo li i.ididensuch,.personInfo li i.unsuch{position:absolute;top:80px;left:320px}
+.ididenImg,.loadImg{margin-left:178px}
+.permitImg{margin-right:88px}
+.ididensuch{position:absolute;top:125px;left:180px}
+.backImg,.license,.licenseImg{margin-left:80px}
+.personInfo li.backSide{width:752px}
+.personInfo li span.fora{width:473px;font:12px/12px "\5FAE\8F6F\96C5\9ED1";color:#999}
+.personInfo input.ensure{width:110px;height:40px;font:16px/40px "\5FAE\8F6F\96C5\9ED1";color:#fffefe;border:none;display:block;background-color:#ff7300;margin:18px 0 0 177px;cursor:pointer}
+.personInfo input.cancel{width:110px;height:40px;font:16px/40px "\5FAE\8F6F\96C5\9ED1";color:#fffefe;border:none;background-color:#999;margin:-60px 0 0 360px;cursor:pointer}
+.personInfo input.uploadFile{border:none;background-color:#f5f5f5}

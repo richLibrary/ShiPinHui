@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+	<meta charset="utf-8" />
+	<title>食品荟首页</title>
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="Keywords" content="关键词"/>
+	<meta name="Description" content="我是网页的描述sss"/>
+
+	<link rel="stylesheet" href="css/common.css" type="text/css" />
+	<link rel="stylesheet" href="css/cart02.css" type="text/css" />
+	<link rel="stylesheet" href="css/iconfont/iconfont.css" type="text/css" />
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
+	<script type="text/javascript" src="js/artDialog.js"></script>
+
+</head>
+
+<body ng-app="myApp" ng-controller="userCtrl">
+<div ng-include="'header.html'"></div>	
+<!----
+模块名称：购物车头部
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2016.01.05
+---->
+<div class="cartTop">
+	<div class="cartTopMain">
+		<h1><a href="#" title="食品荟购物车" target="_blank"></a><b>结算页</b></h1>
+		<div class="cartSteps">
+			<p><i style="width:270px;"></i></p>
+			<span class="step01 on">我的进货单</span><span class="step02">填写核对订单信息</span><span class="step03">成功提交订单</span>
+		</div>
+	</div>
+</div>
+<!----
+模块名称：购物车头部
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2016.01.05
+---->
+<div class="cartTit02">
+	<h2>填写并核对订单信息</h2>
+</div>
+<!----
+模块名称：购物车地址列表
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2016.01.05
+---->
+<div class="addressList">
+	<h2>收货人信息</h2>
+	<a class="addAddress" href="#" title="新增收获地址"><i class="iconfont">&#xe643;</i>新增收获地址</a>
+	<ul class="">
+		<li class="selected">
+			<b>默认地址</b>
+			<span class="addInfos">沐剑屏　河南省　郑州市　高新区　长春路冬青街交叉口河南电子商务产业园企汇网　135****081</span>
+			<span class="addOp">
+				<a class="setDefault" href="javascript:void(0)" title="设为默认">设为默认</a>
+				<a class="editAddBtn" href="javascript:void(0)" title="编辑">编辑</a>
+				<a class="delAdd" href="javascript:void(0)" title="删除">删除</a>
+			</span>
+		</li>
+		<li class="">
+			<b>默认地址</b>
+			<span class="addInfos">沐剑屏　河南省　郑州市　高新区　长春路冬青街交叉口河南电子商务产业园企汇网　135****081</span>
+			<span class="addOp">
+				<a class="setDefault" href="javascript:void(0)" title="设为默认">设为默认</a>
+				<a href="javascript:void(0)" title="编辑">编辑</a>
+				<a class="delAdd" href="javascript:void(0)" title="删除">删除</a>
+			</span>
+		</li>
+		<li class="">
+			<b>默认地址</b>
+			<span class="addInfos">沐剑屏　河南省　郑州市　高新区　长春路冬青街交叉口河南电子商务产业园企汇网　135****081</span>
+			<span class="addOp">
+				<a class="setDefault" href="javascript:void(0)" title="设为默认">设为默认</a>
+				<a class="editAddBtn" href="javascript:void(0)" title="编辑">编辑</a>
+				<a class="delAdd" href="javascript:void(0)" title="删除">删除</a>
+			</span>
+		</li>
+		<li class="">
+			<b>默认地址</b>
+			<span class="addInfos">沐剑屏　河南省　郑州市　高新区　长春路冬青街交叉口河南电子商务产业园企汇网　135****081</span>
+			<span class="addOp">
+				<a class="setDefault" href="javascript:void(0)" title="设为默认">设为默认</a>
+				<a class="editAddBtn" href="javascript:void(0)" title="编辑">编辑</a>
+				<a class="delAdd" href="javascript:void(0)" title="删除">删除</a>
+			</span>
+		</li>
+		<li class="">
+			<b>默认地址</b>
+			<span class="addInfos">沐剑屏　河南省　郑州市　高新区　长春路冬青街交叉口河南电子商务产业园企汇网　135****081</span>
+			<span class="addOp">
+				<a class="setDefault" href="javascript:void(0)" title="设为默认">设为默认</a>
+				<a class="editAddBtn" href="javascript:void(0)" title="编辑">编辑</a>
+				<a class="delAdd" href="javascript:void(0)" title="删除">删除</a>
+			</span>
+		</li>
+		
+		
+	</ul>
+	<a class="showAddList" href="javascript:void(0)">更多收货地址</a>
+</div>
+<!----
+模块名称：选择支付方式
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2016.01.05
+---->
+<div class="payWay">
+	<h2>支付方式</h2>
+	<ul>
+		<li class="selected">在线支付</li>
+	</ul>
+</div>
+<!----
+模块名称：确认订单列表
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2016.01.05
+---->
+<div class="orderList">
+	<h2>确认订单</h2>
+	<div class="cartlistTit">
+		<span class="tit">商品信息</span>
+		<span>数量</span>
+		<span>单价(元)</span>
+		<span>小计</span>
+		<span>运费</span>
+	</div>
+	<!---- 进货单列表 ---->
+	<table class="clTxt" border="0" cellpadding="0" cellspacing="0">
+		<caption>郑州思念食品有限公司</caption>
+		<tr>
+			<td class="proImgs">
+				<a href="#" title="商品名称" target="_blank">
+					<img src="#" width="80" height="80" alt="商品名称" title="商品名称"/>
+				</a>
+			</td>
+			<td class="proName">
+				<a href="#" title="商品名称" target="_blank">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</a>
+				<span>规格：20kg/袋、40kg/袋</span>
+			</td>
+			<td class="proCounts">18</td>
+			<td class="proPrice">15.00</td>
+			<td class="proTotal">900.00</td>
+			<td class="yunfei">263.00</td>
+		</tr>
+		<tr>
+			<td class="proImgs">
+				<a href="#" title="商品名称" target="_blank">
+					<img src="#" width="80" height="80" alt="商品名称" title="商品名称"/>
+				</a>
+			</td>
+			<td class="proName">
+				<a href="#" title="商品名称" target="_blank">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</a>
+				<span>规格：20kg/袋、40kg/袋</span>
+			</td>
+			<td class="proCounts">18</td>
+			<td class="proPrice">15.00</td>
+			<td class="proTotal">900.00</td>
+			<td class="yunfei">263.00</td>
+		</tr>
+	</table>
+	<div class="orderTotal">
+		<h4>给卖家留言：</h4><textarea placeholder="留言啊留言"></textarea>
+		<div class="shopTotal">
+			<p>运费共计：263.00元</p>
+			<p>货品金额：263.00元</p>
+			<p>
+				<font>使用优惠券：</font>
+				<select>
+					<option>不使用优惠券</option>
+					<option>使用10元优惠券</option>
+					<option>使用50元优惠券</option>
+				</select>
+			</p>
+			<p><b>店铺小计</b>：<font>&yen;2963.00</font>&nbsp;&nbsp;&nbsp;<span>共210件商品</span></p>
+		</div>
+	</div>
+	
+	<!---- 进货单列表 ---->
+	<table class="clTxt" border="0" cellpadding="0" cellspacing="0">
+		<caption>郑州思念食品有限公司</caption>
+		<tr>
+			<td class="proImgs">
+				<a href="#" title="商品名称" target="_blank">
+					<img src="#" width="80" height="80" alt="商品名称" title="商品名称"/>
+				</a>
+			</td>
+			<td class="proName">
+				<a href="#" title="商品名称" target="_blank">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</a>
+				<span>规格：20kg/袋、40kg/袋</span>
+			</td>
+			<td class="proCounts">18</td>
+			<td class="proPrice">15.00</td>
+			<td class="proTotal">900.00</td>
+			<td class="yunfei">263.00</td>
+		</tr>
+		<tr>
+			<td class="proImgs">
+				<a href="#" title="商品名称" target="_blank">
+					<img src="#" width="80" height="80" alt="商品名称" title="商品名称"/>
+				</a>
+			</td>
+			<td class="proName">
+				<a href="#" title="商品名称" target="_blank">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</a>
+				<span>规格：20kg/袋、40kg/袋</span>
+			</td>
+			<td class="proCounts">18</td>
+			<td class="proPrice">15.00</td>
+			<td class="proTotal">900.00</td>
+			<td class="yunfei">263.00</td>
+		</tr>
+	</table>
+	
+	
+	<div class="orderTotal">
+		<h4>给卖家留言：</h4><textarea placeholder="留言啊留言"></textarea>
+		<div class="shopTotal">
+			<p>运费共计：263.00元</p>
+			<p>货品金额：263.00元</p>
+			<p>
+				<font>使用优惠券：</font>
+				<select>
+					<option>不使用优惠券</option>
+					<option>使用10元优惠券</option>
+					<option>使用50元优惠券</option>
+				</select>
+			</p>
+			<p><b>店铺小计</b>：<font>&yen;2963.00</font>&nbsp;&nbsp;&nbsp;<span>共210件商品</span></p>
+		</div>
+	</div>
+</div>
+<!----
+模块名称：订单价格统计
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2016.01.05
+---->
+<div class="totalPrice">
+	<h4>货品种类：4种数量总计：4件</h4>
+	<div class="totalNumer">
+		<p>货品总金额：&yen;198888.88</p>
+		<p>运费总计：&yen;198888.88</p>
+		<p>促销优惠：-&yen;198.00</p>
+		<p style="margin-top:35px;"><b>应付总额(含运费)：</b><font>&yen;6825.00</font></p>
+		<p style="margin-top:20px;">
+			<a href="cart01.html" title="" target="_blank">返回进货单</a>
+            <input type="submit" value="提交订单" />
+		</p>
+	</div>
+</div>
+<!----
+模块名称：编辑地址弹窗(和添加地址公用)
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2016.01.05
+---->
+<div class="editAddress" id="editAddress">
+	<h3>新增/编辑收货人信息</h3>
+	<a class="closeBtn iconfont" i="close" href="javascript:void(0)" title="关闭">&#xe60a;</a>
+	<ul>
+		<li>
+			<i><font>*</font>收货人：</i>
+			<input type="text" placeholder="收货人" />
+			<span>错误提示</span>
+		</li>
+		<li>
+			<i><font>*</font>所在地区：</i>
+			<select>
+				<option>001</option>
+				<option>002</option>
+				<option>003</option>
+				<option>004</option>
+			</select>
+			<select>
+				<option>001</option>
+				<option>002</option>
+				<option>003</option>
+				<option>004</option>
+			</select>
+			<select>
+				<option>001</option>
+				<option>002</option>
+				<option>003</option>
+				<option>004</option>
+			</select>
+			<span>错误提示</span>
+		</li>
+		<li class="addressDets">
+			<i><font>*</font>详细地址：</i>
+			<textarea placeholder="建议您如实填写详细收货地址，例如街道名称，门牌号码，楼层和房间号等信息"></textarea>
+			<span>错误提示</span>
+		</li>
+		<li>
+			<i><font>*</font>手机号码：</i>
+			<input type="text" placeholder="手机号码" />
+			<span>错误提示</span>
+		</li>
+		<li>
+			<i>固定电话：</i>
+			<input type="text" placeholder="固定电话" />
+		</li>
+		<li>
+			<input type="button" data-id="ok" value="保存收货人信息"/>
+			<input class="cancelBtn" data-id="cancel" type="button" value="取消" />
+		</li>
+	</ul>
+</div>
+
+
+<script src="js/cart02.js" type="text/javascript"></script>
+
+<div ng-include="'footer.html'"></div>
+<script type="text/javascript">
+	angular.module('myApp', []).controller('userCtrl', function($scope) {})
+</script>
+
+</body>
+</html>

@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+/*----------logo部分------------*/
+.contactLogo{
+	width:100%;
+	height: auto;
+	background-color:#fff;
+}
+.LogoMains{width:1200px;height:auto;overflow:hidden;margin:0px auto;padding:30px 0px;position:relative;}
+.LogoMains h1{width:275px;height:100px;float:left}
+.LogoMains h1 a{width:260px;height:100px;display:block;font-size:0px;background:url("../images/testing/contactLogo.jpg") no-repeat center center scroll;float: left;}
+.LogoMains h2{
+	font-size:24px;
+	color:#666666;
+	line-height:100px;
+	font-weight:normal;
+}
+/*----
+模块名称：导航
+----*/
+.logisticsGroupNav{width:100%;height:42px;margin:0px auto;border-bottom:#43a400 solid 3px;background-color:#fff;}
+.logisticsGroupNav ul{width:1200px;height:42px;margin:0px auto;}
+.logisticsGroupNav ul li{width:128px;height:42px;font:16px/42px "微软雅黑";float:left;text-align:center;}
+.logisticsGroupNav ul li a{color:#333;display:block;text-decoration:none;}
+.logisticsGroupNav ul li a:hover{color:#43a400;}
+.logisticsGroupNav ul li.on{background-color:#43a400;color:#fff;}
+.logisticsGroupNav ul li.on a{color:#fff}
+
+
+/*----------联系我们部分----------*/
+
+.contactMain{
+	width:1200px;
+	height:auto;
+	margin:30px auto 0px auto;
+}
+.mainText{
+	width:1200px;
+	height:auto;
+}
+.mainText h2{
+	font-size:20px;
+	font-weight:normal;
+	color:#333;
+	line-height:44px;
+	border-bottom:2px solid #43a400;
+}
+.mainText h2 i{
+	width:23px;
+	height:23px;
+	display:block;
+	float:left;
+	margin-top:11px;
+	margin-right:5px;
+	background:url(../images/contactPic.png) no-repeat center;
+}
+.mainText .textOne{
+	border:1px solid #e4e4e4;
+	border-top:none;
+	padding:20px 40px;
+}
+.mainText .textOne h3{
+	color:#666;
+	font-size:14px;
+	line-height:36px;
+}
+.mainText .textOne p{
+	color:#666;
+	font-size:14px;
+	line-height:45px;
+}
+.mainText .textOne p a.anwser{
+	display:inline-block;
+	width:300px;
+	height:36px;
+	color:#ff7300;
+	padding-left:25px;
+	background:url(../images/qq.png) no-repeat 5px center;
+}
+.mainText .textOne p a.webAddress{
+	display:inline-block;
+	width:300px;
+	height:45px;
+	color:#ff7300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

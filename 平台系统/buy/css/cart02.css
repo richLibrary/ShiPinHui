@@ -1,0 +1,99 @@
+﻿@charset "utf-8";
+/*----
+模块名称：购物车第二个步骤
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2015.12.21
+----*/
+/*---- 购物车头部第二个步骤 ----*/
+.cartTit02{width:1200px;height:26px;margin:48px auto 0px auto;position:relative;border-bottom:#ebebeb solid 2px;}
+.cartTit02 h2{display:inline-block;position:absolute;left:0px;top:0px;padding-bottom:10px;border-bottom:#ff7300 solid 2px;font:16px/16px "微软雅黑";color:#ff7300;}
+/*---- 收货地址列表 ----*/
+.addressList{width:1200px;height:auto;overflow:hidden;margin:0px auto;background-color:#fff;padding-bottom:13px;position:relative;border-bottom:#f0f0f0 solid 1px;}
+.addressList h2{font:16px/16px "\5FAE\8F6F\96C5\9ED1";color:#333;padding:30px 0px 18px 25px;}
+.addAddress{position:absolute;top:31px;right:60px;color:#666;font:14px/14px "\5FAE\8F6F\96C5\9ED1"}
+.addAddress:hover,.addAddress:hover i{text-decoration:none;color:#f60}
+.addAddress i{margin-right:8px;color:#666;}
+.addressList ul{height:54px;overflow:hidden;padding:0px 40px 0px 60px;}
+.addressList ul.up{height:auto;}
+.addressList ul li{height:auto;overflow:hidden;margin-bottom:18px;color:#666;}
+.addressList ul li b{width:118px;height:32px;border:#676767 solid 1px;display:inline-block;margin-right:20px;float:left;color:#666;text-align:center;font:14px/32px "\5FAE\8F6F\96C5\9ED1";}
+.addressList ul li.selected  b{border:#f60 solid 1px;background:url("../images/addSelected.png") no-repeat right bottom scroll;color:#f60}
+.addressList ul li.selected .addOp .setDefault{display:none;}
+.addInfos{width:685px;height:36px;overflow:hidden;font:14px/36px "\5FAE\8F6F\96C5\9ED1";display:inline-block;float:left;padding-left:15px;cursor:pointer;}
+.addOp{width:215px;height:36px;overflow:hidden;font:14px/36px "\5FAE\8F6F\96C5\9ED1";display:inline-block;float:left;text-align:right;padding-right:15px;display:none;}
+.addOp.hover{display:block;} 
+.addOp a{margin-left:15px;color:#666;}
+.addOp a:hover{color:#f60;text-decoration:none;}
+.addInfos.hover,.addOp.hover{background-color:#f0f0f0;}
+.showAddList{margin:0px 40px 0px 60px;font:14px/14px "\5FAE\8F6F\96C5\9ED1";background:url("../images/showMore.png") no-repeat right -18px scroll;padding-right:20px;color:#666}
+.showAddList.up{background-position:right 7px;}
+.showAddList:hover{color:#f60;text-decoration:none;}	
+/*---- 收货地址列表 ----*/
+.payWay{width:1200px;height:auto;overflow:hidden;margin:0px auto;background-color:#fff;padding-bottom:20px;position:relative;border-bottom:#f0f0f0 solid 1px;}
+.payWay h2{font:16px/16px "\5FAE\8F6F\96C5\9ED1";color:#333;padding:30px 0px 18px 25px;}	
+.payWay ul{height:auto;overflow:hidden;padding-left:25px;}	
+.payWay ul li{width:118px;height:32px;border:#676767 solid 1px;display:inline-block;margin-right:20px;float:left;color:#666;cursor:pointer;text-align:center;font:14px/32px "\5FAE\8F6F\96C5\9ED1";}
+.payWay ul li.selected{border:#f60 solid 1px;background:url("../images/addSelected.png") no-repeat right bottom scroll;color:#f60}
+/*---- 订单列表 ----*/
+.orderList{width:1200px;height:auto;overflow:hidden;margin:20px auto 0px auto;}
+.orderList h2{font:16px/16px "\5FAE\8F6F\96C5\9ED1";color:#333;padding:30px 0px 18px 25px;}	
+.selectShop{padding:10px 0px;font-size:14px;}
+.selectShop input{width:15px;height:15px;margin-right:5px}
+.clTxt{border-bottom:none;width:100%;margin-top:20px;}
+.clTxt caption{height:32px;line-height:32px;padding-left:10px;color:#333;background-color:#faf6f1;border-bottom:#ddd solid 1px;text-align:left;font-size:14px;}
+.clTxt tr td{width:168px;text-align:center;border-bottom:#ddd solid 1px;padding:20px 0px;box-sizing:border-box;}
+.clTxt tr td.proImgs{width:80px;height:80px;text-align:left;padding:20px 20px 20px 20px;vertical-align:top;}
+.clTxt tr td.proName{width:396px;height:80px;text-align:left;overflow:hidden;vertical-align:top;}
+.clTxt tr td.proName a{font-size:14px;color:#333;display:inline-block;line-height:22px;max-height:23px;overflow:hidden;}
+.clTxt tr td.proName a:hover{color:#f60}
+.clTxt tr td.proName span{display:block;color:#999}
+.clTxt tr td.spec{width:100px;text-align:left}
+.clTxt tr td.spec p{line-height:26px;margin-bottom:16px;padding-left:30px;}
+.clTxt tr td.spec p input{width:15px;height:15px;margin-right:8px;color:#666;}
+.proCounts{font-size:14px;color:#666;}
+.proNum{width:48px;height:22px;box-sizing:content-box;text-align:center;font-size:12px;font-weight:bold;color:#333}
+.proPrice{font-size:14px;color:#666;}
+.proTotal{color:#f60;font-size:18px;}
+.clTxt tr td.yunfei{font-size:14px;}
+.proCounts input[type="button"]{border:#ddd solid 1px;background-color:#f5f5f5;width:20px;height:24px;border:#ddd solid 1px;box-sizing:content-box;cursor:pointer}
+.cartlistTit{width:1200px;height:32px;overflow:hidden;margin:25px auto 0px auto;position:relative;background-color:#43a400;}
+.cartlistTit span{width:170px;float:left;text-align:center;box-sizing:border-box;font-size:14px;line-height:32px;color:#fff;}
+.cartlistTit span.tit{width:520px;text-align:left;padding-left:15px;}
+/*---- 订单价格数量统计 ----*/
+.orderTotal{height:auto;overflow:hidden;}
+.orderTotal h4{display:inline-block;float:left;padding-left:30px;font:14px/38px "\5FAE\8F6F\96C5\9ED1";color:#666;margin-top:20px;}
+.orderTotal textarea{width:310px;height:26px;resize:none;border:#dbdbdb solid 2px;margin-top:20px;float:left;margin-left:10px;padding:4px 15px}
+.shopTotal{width:290px;float:right;font-size:14px;padding-top:40px;}
+.shopTotal p{padding-bottom:8px;}
+.shopTotal p font{color:#f60;font-weight:bold;}
+.shopTotal p span{color:#999}
+.totalPrice{width:1160px;height:auto;overflow:hidden;margin:20px auto 0px auto;border-top:#ebebeb solid 1px;padding:20px;}
+.totalPrice h4{display:inline-block;float:left;font:14px/14px "\5FAE\8F6F\96C5\9ED1";color:#333}
+.totalNumer{width:;padding:20px 25px 30px 20px;display:inline-block;float:right;border:#f60 solid 2px;}
+.totalNumer p{font:14px/14px "\5FAE\8F6F\96C5\9ED1";color:#666;margin-bottom:14px;height:auto;overflow:hidden;}
+.totalNumer p b{color:#333;}
+.totalNumer p font{color:#f60;font:18px/18px "\5FAE\8F6F\96C5\9ED1";}
+.totalNumer p a{color:#999;margin-right:15px;font:12px/44px "\5FAE\8F6F\96C5\9ED1";}
+.totalNumer p input[type="submit"]{width:117px;height:44px;background-color:#f60;color:#fff;font-size:16px;display:inline-block;text-align:center;line-height:44px;border:none;cursor:pointer;}
+.totalNumer p input[type="submit"]:hover{color:#fff;text-decoration:none;}
+.totalNumer p a:hover{color:#f60;}
+/*---- 编辑收获地址弹窗 ----*/
+.editAddress{width:530px;height:470px;background-color:#fff;position:relative;display:none;}
+.editAddress h3{font:14px/40px "\5FAE\8F6F\96C5\9ED1";color:#666;background-color:#f3f3f3;padding-left:20px;}
+.closeBtn{position:absolute;top:3px;right:10px;color:#666;}
+.closeBtn.iconfont{font:30px/30px "微软雅黑";}
+.closeBtn:hover{text-decoration:none;color:#f60}
+.editAddress ul{height:auto;overflow:hidden;padding-top:35px;}
+.editAddress ul li{padding-bottom:30px;height:auto;overflow:hidden;position:relative;}
+.editAddress ul li i{width:110px;float:left;text-align:right;font:12px/30px "\5FAE\8F6F\96C5\9ED1";color:#666}
+.editAddress ul li i font{margin-right:4px;color:#f60;}
+.editAddress ul li input[type="text"]{width:298px;height:14px;float:left;font-size:12px;vertical-align:center;font:12px/14px "\5FAE\8F6F\96C5\9ED1 \9";color:#333;border:#dcdcdc solid 1px;padding:7px 0px 7px 10px;border-radius:1px;box-sizing:content-box;}
+.editAddress ul li span{padding-left:15px;color:#ea3e3e;font:12px/30px "\5FAE\8F6F\96C5\9ED1";position:absolute;top:28px;left:110px;}
+.editAddress ul li select{height:30px;float:left;margin-right:15px;border-radius:1px;border:#dcdcdc solid 1px;}
+.editAddress ul li textarea{width:305px;height:50px;border:#dcdcdc solid 1px;border-radius:1px;float:left;padding:3px 0px 0px 5px;}
+.editAddress ul li p{display:block;width:570px;float:left;padding:10px 0px 0px 180px;color:#999}
+.editAddress ul li  input[type="button"]{height:36px;font-size:14px;border:none;border-radius:4px;background-color:#f90;color:#fff;margin:0px 0px 0px 110px;cursor:pointer;padding:0px 15px}
+.editAddress ul li  input[type="button"].cancelBtn{margin:0px 0px 0px 20px;padding:0px 30px;background-color:#999;}
+.editAddress ul li.addressDets i{font:14px/20px "\5FAE\8F6F\96C5\9ED1";}
+.editAddress ul li.addressDets span{top:54px;}

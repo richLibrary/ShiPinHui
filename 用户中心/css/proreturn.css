@@ -1,0 +1,32 @@
+@charset "utf-8";
+/*退货/退款管理*/
+.ucRight .uctit{ border-bottom:none; padding:0px; margin-bottom:15px}
+.uctit span.afterSale{ font:16px/25px "\5FAE\8F6F\96C5\9ED1"; color:#333;border-left:#2b54aa 5px solid;padding-left:10px}
+.uctit a{font:12px/25px "\5FAE\8F6F\96C5\9ED1";}
+.uctit a.aplyFlow{ font:12px/25px "\5FAE\8F6F\96C5\9ED1";color:#333}
+.uctit a:hover{color:#ff7300;text-decoration:none}
+.manage{border:1px solid #eee;background:#f7f7f7;padding:15px 20px}
+.manage td{font-size:14px}
+.afterState{width:101px;height:32px}
+.afterState option{width:101px;height:32px;overflow:hidden}
+.ucinput{border:1px solid #e4e4e4;background:#fff;height:26px;line-height:26px;padding:2px 5px}
+.ucinput:hover{border:1px solid #2c54ab}
+.ucRight .search{border:1px solid #eee;background:#f7f7f7;padding:15px 20px}
+.ucRight .search td{font-size:14px}
+.ucbtn{ width:80px; height:40px; background:#ff6600;-moz-border-radius:3px; webkit-border-radius:3px;border-radius:3px; color:#fff; font-size:16px; border:none}
+.ucbtn:hover{background:#ff7300;}
+/*退换货编号*/
+.strea{width:988px;height:40px;background-color:#f5f5f5;margin-top:30px}
+.strea td{font-size:14px;line-height:40px;text-align:center}
+/*退货/退款内容*/
+.streaMain{width:988px;height:auto;overflow:hidden;margin-bottom:20px}
+.streaMain table{width:988px;height:99px;border:#eaeaea 1px solid;border-bottom:none}
+.streaMain td span{color:#ff7300}
+.streaMain td{font-size:12px;color:#666;text-align:center;border-bottom:#eaeaea 1px solid}
+.streaMain td a{width:110px;height:auto;overflow:hidden;display:inline-block;color:#ff7300}
+.streaMain td a:hover{color:#ff7300;text-decoration:none}
+.streaMain a.part,.streaMain a.store{color:#5fbfff}
+.paginator{clear:both;padding-bottom:12px;margin:0 auto;font:14px Arial,Helvetica,sans-serif;color:#666;padding-top:12px;float:right}
+.paginator A,.paginator A:link,.paginator A:visited{padding:0 12px;display:block;background:#fff;border:1px solid #ededed;float:left;color:#333;margin-right:4px;text-decoration:none;height:34px;line-height:34px}
+.paginator A:active,.paginator A:hover{padding:0 12px;background:#f40;border:1px solid #ededed;color:#fff;text-decoration:none;height:34px;line-height:34px}
+.paginator .this-page{padding:0 12px;display:block;background:#f40;float:left;height:34px;line-height:34px;margin-right:2px;text-decoration:none;color:#fff;font-weight:700}

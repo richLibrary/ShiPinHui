@@ -1,0 +1,97 @@
+@charset "utf-8";
+.wrapBanner{width:100%;height:auto;background:url(../images/testimg/banbg.jpg) no-repeat 100% 100% scroll;margin-top:20px;}
+.wrapContent{width:1200px;height:auto;overflow:hidden;margin:0 auto;}
+.slideBox{width:848px;height:334px;overflow:hidden;position:relative;float:left;}
+.slideBox .hd{overflow:hidden;zoom:1;height:14px;position:absolute;right:15px;bottom:10px;z-index:999}
+.slideBox .hd li{float:left;margin-right:5px;width:14px;height:14px;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;-ms-border-radius:10px;-o-border-radius:10px;line-height:13px;text-align:center;background:#fff;cursor:pointer}
+.slideBox .hd li.on{background:#f4825b;color:#fff}
+.slideBox .bd{position:relative;height:100%;z-index:0}
+.slideBox .bd li{zoom:1;vertical-align:middle}
+.slideBox .bd img{width:848px;height:334px;display:block}
+.slideBox .next,.slideBox .prev{display:none;position:absolute;left:0;top:44%;margin-top:-25px;width:40px;height:50px;background:url(../images/iconBg.png) -60px 0 no-repeat;filter:alpha(opacity=50);opacity:.5}
+.slideBox .next{left:auto;right:0;background-position:-108px 0}
+.slideBox:hover .next,.slideBox:hover .prev{display:block;}
+.slideBox .next:hover,.slideBox .prev:hover{filter:alpha(opacity=100);opacity:1}
+.slideBg{position:absolute;bottom:0;z-index:1;height:36px;width:100%;background:#000;filter:alpha(opacity=40);opacity:0.4;overflow:hidden; }
+.slideTxt{position:absolute;bottom:0;z-index:2;height:36px;width:100%;overflow:hidden;}
+.slideTxt li{ height:36px;line-height:36px;position:absolute;right:430px;bottom:0;width:100%;}
+.slideTxt li a{display:block;color:white;font: bold 12px/36px "\5FAE\8F6F\96C5\9ED1";text-decoration:none;text-align:left;width:100%;height:36px;padding-left:15px;z-index:2;}
+/*---- 食品百科 ----*/
+.wrapStatis{width:224px;height:auto;overflow:hidden;float:left;margin:35px 0 0 65px;}
+.wrapStatis h2{font:700 26px/46px "\5FAE\8F6F\96C5\9ED1";color:#479068;text-align:center;}
+.staticText{font: 16px/36px "\5FAE\8F6F\96C5\9ED1";color:#666;width:224px;height:36px;overflow:hidden;text-align:center;display:block;}
+.statisList{height:104px;overflow:hidden;text-align:center;margin-bottom:20px;}
+.statisList li{height:34px;line-height:34px;border-bottom:1px dashed #E4E4E4;color:#666;font-size:14px;}
+.statisList li i{font-size:20px;}
+.statisList li b{width:80px;text-align:right;font-size:16px;color:#479068;margin:0 8px;display:inline-block;}
+.createEntry{width:222px;height:39px;font:16px/39px "\5FAE\8F6F\96C5\9ED1";border-radius:5px;color:#fff;background-color:#23a55d;text-align:center;border:1px solid #1b9151;display:block;}
+.staticProblem{font:14px/40px "\5FAE\8F6F\96C5\9ED1";color:#5e7a6b;height:40px;width:224px;overflow:hidden;}
+/*---- 精选词条 ----*/
+.entryShow{width:1200px;height:auto;overflow:hidden;margin:20px auto}
+.selectEntry{width:888px;height:auto;float:left}
+.selectEntry h2{font:18px/36px "\5FAE\8F6F\96C5\9ED1";color:#333;}
+.entryContent{width:888px;height:207px;overflow:hidden;margin-top:20px;}
+.entryContent li{float:left;margin-right:20px;border:1px solid #E4E4E4;height:205px;}
+.entryImg{width:274px;height:163px;display:block;}
+.entryTitle{width:254px;height:40px;font:14px/40px "\5FAE\8F6F\96C5\9ED1";color:#666;overflow:hidden;padding:0 10px;text-align:center;display:block;}
+/*---- 热搜词条 ----*/
+.hotEntry{width:312px;height:auto;overflow:hidden;float:left;}
+.hotEntry h2{font:18px/36px "\5FAE\8F6F\96C5\9ED1";color:#333;padding-left:5px;}
+.hotContent{height:auto;overflow:hidden;margin-top:20px;}
+.hotContent a{display:inline-block;width:86px;height:32px;font:12px/32px "\5FAE\8F6F\96C5\9ED1";text-align:center;color:#666;margin:10px 0 10px 8px;border:1px solid #E4E4E4;overflow:hidden;padding:0 2px;}
+.hotContent a:hover{background-color:#fff8f2;color:#ff7300;border: 1px solid #FF7300;}
+/*---- 热门推荐 ----*/
+.hotRecommed{width:100%;height:auto;background-color:#f5f5f5;padding-bottom:20px;}
+.recConment{width:1200px;height:auto;overflow:hidden;margin:15px auto;}
+.recLeft{width:852px;height:auto;overflow:hidden;float:left}
+.recLeft h2{font:18px/40px "\5FAE\8F6F\96C5\9ED1";color:#666;}
+.leftList{border:1px solid #E4E4E4;padding:20px;background-color:#fff;height:122px;margin-bottom:10px;}
+.leftList dt{float:right;width:188px;height:122px;}
+.leftImg{width:188px;height:122px;display:block;}
+.leftList dd{float:left;width:570px;padding:6px 0;}
+.leftTitle{display:block;font:700 16px/36px "\5FAE\8F6F\96C5\9ED1";color:#333;}
+.leftText{font:12px/20px "\5FAE\8F6F\96C5\9ED1";color:#666;height:42px;overflow:hidden;}
+.foodSafe{display:inline-block;color:#666;line-height:20px;}
+.dateTime{display:inline-block;color:#666;line-height:20px;}
+#Editor{color:#77cb9d;margin:0 5px;}
+/*---- 百科焦点 ----*/
+.rightSidebar{width:300px;height:auto;overflow:hidden;float:left;margin-left:30px;}
+.wikiFocus{height:auto;overflow:hidden;}
+.wikiFocus h2{font:18px/40px "\5FAE\8F6F\96C5\9ED1";color:#333;}
+.focusImg{display:block;width:300px;height:94px;}
+.focusText{display:block;font:14px/32px "\5FAE\8F6F\96C5\9ED1";color:#666;padding:0 10px;width:280px;height:32px;overflow:hidden;}
+.wikiList{height:auto;overflow:hidden;margin-top:8px;}
+.wikiList li{height:32px;line-height:32px;}
+.wikiList li a{font: 14px/32px "\5FAE\8F6F\96C5\9ED1";color:#666;height:32px;width:290px;overflow:hidden;display:inline-block;}
+.wikiList li a:before{content:"■";color:#c5c5c5;padding:10px;font-size:12px;}
+.wikiList li a:hover{text-decoration:none;color:#333;}
+.wikiList li span{float:right;display:block;color:#999;}
+/*---- 百科学霸榜 ----*/
+.wikiGrads{height:auto;overflow:hidden;border-top:1px solid #E4E4E4;}
+.wikiGrads h2{font:18px/54px "\5FAE\8F6F\96C5\9ED1";color:#333;}
+.gradsConment{height:auto;overflow:hidden;}
+.gradsConment li{font:14px/26px "\5FAE\8F6F\96C5\9ED1";position:relative;max-height:52px;width:242px;padding-left:10px;margin:0 10px;border-left:2px solid #E4E4E4}
+.dot{position:absolute;z-index:1;top:0;left:-11px;width:8px;height:8px;border:6px solid #f5f5f5;border-radius:10px;background:#ddd;}
+.gradsText{overflow:hidden;padding-bottom:5px;}
+.gradsText a:hover{text-decoration:underline;}
+.gradsUser{color:#449d6c;margin:0 5px;}
+.gradsSitua{color:#666;margin:0 5px;}
+/*---- 百科学霸榜 ----*/
+.channelNav{height:auto;overflow:hidden;border-top:1px solid #E4E4E4;margin-top:15px;}
+.channelNav h2{font:18px/45px "\5FAE\8F6F\96C5\9ED1";color:#333;padding-left:5px;}
+.chaContent{height:auto;overflow:hidden;}
+.chaContent a{display:inline-block;font:14px/32px "\5FAE\8F6F\96C5\9ED1";color:#333;margin:0 5px;width:87px;height:32px;overflow:hidden;}
+.chaContent a i{margin-right:5px;color:#77C89f;font-size:18px;}
+/*---- 5A词条 ----*/
+.entryScroll{width:100%;height:auto;overflow:hidden;background-color:#fff;margin-bottom:50px;}
+.scrollTitle{width:1300px;height:auto;overflow:hidden;margin:0 auto;}
+.scrollTitle h2{font:18px/40px "\5FAE\8F6F\96C5\9ED1";color:#333;padding:15px 0 15px 40px;}
+.scrollContent{position:relative;height:172px;width:1200px;margin:0 50px}
+.scrollContent ul{overflow:hidden;zoom:1;width:1280px;height:172px}
+.scrollContent ul li{float:left;margin-right:20px;width:285px;overflow:hidden}
+.scrollContent ul li a{display:block;width:280px;height:165px;overflow: hidden;}
+.scrollContent ul li img{width:280px;height:165px}
+.scrollContent .next,.scrollContent .prev{position:absolute;left:-65px;top:58px;display:block;width:38px;height:52px;overflow:hidden;background:url(../images/icons.png) no-repeat -25px 15px scroll;cursor:pointer}
+.scrollContent .next{left:auto;right:-60px;background-position:-112px 15px}
+.scrollContent .prevStop{background-position:15px 15px}
+.scrollContent .nextStop{background-position:-72px 15px}

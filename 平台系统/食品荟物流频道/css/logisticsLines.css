@@ -1,0 +1,460 @@
+@charset "utf-8";
+
+/*----------logo部分------------*/
+.contactLogo{
+	width:100%;
+	height: auto;
+	background-color:#fff;
+}
+.LogoMains{width:1200px;height:auto;overflow:hidden;margin:0px auto;padding:30px 0px;position:relative;}
+.LogoMains h1{width:275px;height:100px;float:left}
+.LogoMains h1 a{width:260px;height:100px;display:block;font-size:0px;background:url("../images/testing/contactLogo.jpg") no-repeat center center scroll;float: left;}
+.LogoMains h2{
+	font-size:24px;
+	color:#666666;
+	line-height:100px;
+	font-weight:normal;
+}
+/*----
+模块名称：导航
+----*/
+.logisticsGroupNav{width:100%;height:42px;margin:0px auto;border-bottom:#43a400 solid 3px;background-color:#fff;}
+.logisticsGroupNav ul{width:1200px;height:42px;margin:0px auto;}
+.logisticsGroupNav ul li{width:128px;height:42px;font:16px/42px "微软雅黑";float:left;text-align:center;}
+.logisticsGroupNav ul li a{color:#333;display:block;text-decoration:none;}
+.logisticsGroupNav ul li a:hover{color:#43a400;}
+.logisticsGroupNav ul li.on{background-color:#43a400;color:#fff;}
+.logisticsGroupNav ul li.on a{color:#fff}
+
+/*--------主体部分---------*/
+
+.priceQueryMain{
+	width:1200px;
+	height:auto;
+	margin:0px auto;
+}
+
+/*--------地址查询部分--------*/
+.MainSearch{
+	width:1200px;
+	height:60px;
+	background:#f7f7f7;
+	margin:30px 0px;
+	position:relative;
+}
+.MainSearch label{
+	width:332px;
+	height:37px;
+	display:block;
+	float: left;
+	font-size:14px;
+	color:#666666;
+	line-height:37px;
+	margin-left:60px;
+	margin-top:11px;
+}
+.MainSearch label input{
+	width:215px;
+	width:200px\9;
+	height:37px;
+	padding:0px 5px;
+	border:1px solid #e4e4e4;
+	background:#fff;
+	line-height:37px;
+	margin-left:10px;
+	float:right;
+}
+.MainSearch label i.pullDown{
+	width:26px;
+	height:39px;
+	height:39px\9;
+	display:block;
+	background:#e4e4e4 url(../images/icons.png) no-repeat -9px -68px;
+	float:right;
+	margin-right:10px;
+}
+
+
+/*---------省部分---------*/
+.addressMain{
+	width:348px;
+	height:auto;
+	border:1px solid #e4e4e4;
+	background:#fff;
+	position:absolute;
+	top:49px;
+	left:126px;
+	z-index:3;
+	text-align:left;
+}
+.addressMain ul.addressTitle{
+	width:348px;
+	height:45px;
+	line-height:45px;
+	text-align:center;
+	border-bottom:1px solid #e4e4e4;
+}
+.addressMain ul.addressTitle li{
+	width:116px;
+	height:45px;
+	float:left;
+	font-size:14px;
+	color:#333;
+}
+.addressMain ul.addressTitle li.fouc{
+	color:#ff7300;
+}
+.addressMain ul.addressTitle i{
+	width:12px;
+	height:12px;
+	display:block;
+	background:url(../images/icons.png) no-repeat -14px -49px;
+	position:absolute;
+	right:9px;
+	top:9px;
+	cursor:pointer;
+}
+.addressMain dl.addressText{
+	width:328px;
+	height:auto;
+	padding:10px;
+}
+.addressMain dl.addressText dt{
+	line-height:36px;
+	color:#333;
+	font-size:14px;
+}
+.addressMain dl.addressText dd{
+	font-size:12px;
+	line-height:32px;
+}
+.addressMain dl.addressText dd i{
+	padding:8px;
+	cursor:pointer;
+}
+
+/*-------市部分--------*/
+.addressMainTwo{
+	width:348px;
+	height:auto;
+	border:1px solid #e4e4e4;
+	background:#fff;
+	position:absolute;
+	top:49px;
+	left:530px;
+	z-index:3;
+	text-align:left;
+}
+.addressMainTwo ul.addressTitle{
+	width:348px;
+	height:45px;
+	line-height:45px;
+	text-align:center;
+	border-bottom:1px solid #e4e4e4;
+}
+.addressMainTwo ul.addressTitle li{
+	width:116px;
+	height:45px;
+	float:left;
+	font-size:14px;
+	color:#333;
+}
+.addressMainTwo ul.addressTitle li.fouc{
+	color:#ff7300;
+}
+.addressMainTwo ul.addressTitle i{
+	width:12px;
+	height:12px;
+	display:block;
+	background:url(../images/icons.png) no-repeat -14px -49px;
+	position:absolute;
+	right:9px;
+	top:9px;
+	cursor:pointer;
+}
+.addressMainTwo dl.addressText{
+	width:328px;
+	height:auto;
+	padding:10px;
+}
+.addressMainTwo dl.addressText dt{
+	line-height:36px;
+	color:#333;
+	font-size:14px;
+}
+.addressMainTwo dl.addressText dd{
+	font-size:12px;
+	line-height:32px;
+}
+.addressMainTwo dl.addressText dd i{
+	padding:8px;
+	cursor:pointer;
+}
+
+
+/*------------区县部分------------*/
+
+.addressMainThree{
+	width:348px;
+	height:auto;
+	border:1px solid #e4e4e4;
+	background:#fff;
+	position:absolute;
+	top:49px;
+	left:935px;
+	z-index:3;
+	text-align:left;
+}
+
+.addressMainThree ul.addressTitle{
+	width:348px;
+	height:45px;
+	line-height:45px;
+	text-align:center;
+	border-bottom:1px solid #e4e4e4;
+}
+.addressMainThree ul.addressTitle li{
+	width:116px;
+	height:45px;
+	float:left;
+	font-size:14px;
+	color:#333;
+}
+.addressMainThree ul.addressTitle li.fouc{
+	color:#ff7300;
+}
+.addressMainThree ul.addressTitle i{
+	width:12px;
+	height:12px;
+	display:block;
+	background:url(../images/icons.png) no-repeat -14px -49px;
+	position:absolute;
+	right:9px;
+	top:9px;
+	cursor:pointer;
+}
+.addressMainThree dl.addressText{
+	width:328px;
+	height:auto;
+	padding:10px;
+}
+.addressMainThree dl.addressText dt{
+	line-height:36px;
+	color:#333;
+	font-size:14px;
+}
+.addressMainThree dl.addressText dd{
+	font-size:12px;
+	line-height:32px;
+}
+.addressMainThree dl.addressText dd i{
+	padding:8px;
+	cursor:pointer;
+}
+
+/*---------查询提交按钮---------*/
+.MainSearch input.priceQueryBtn{
+	width:126px;
+	height:38px;
+	line-height:32px;
+	text-align:center;
+	background:#ff822b;
+	color:#fff;
+	float:right;
+	margin-right:50px;
+	margin-top:11px;
+	font-size:14px;
+	border:1px solid #ff822b;
+	border-radius:2px;
+	cursor:pointer;
+}
+
+/*-------------查询物流快递结果列表部分-------------*/
+.expressListMain{
+	width:1200px;
+	height:auto;
+	margin:0px auto 30px auto;
+
+}
+
+/*----------查询内容列表------------*/
+.expressList{
+	width:1200px;
+	height:auto;
+}
+.expressList table{
+	width:1200px;
+	height:auto;
+	 border-collapse:collapse;
+}
+.expressList table tr{
+	width:1198px;
+	height:128px;
+	display:block;
+	border:1px solid #e4e4e4;
+	margin-bottom:30px;
+}
+.expressList table tr td.logoPic{
+	width:159px;
+	height:128px;
+	text-align:center;
+}
+.expressList table tr td.logoPic img{
+	display:block;
+	margin:15px auto 0px auto;
+	border:1px solid #e4e4e4;
+}
+.expressList table tr td.logoPic a{
+	font-size:14px;
+	color:#ff7300;
+	width:134px;
+	height:45px;
+	display:block;
+	line-height:45px;
+	padding-left:25px;
+	background:url(../images/qq.png) no-repeat 40px center;
+}
+.expressList table tr td.sgAddress{
+	width:274px;
+	height:128px;
+	padding-left:24px;
+}
+.expressList table tr td p{
+	font-size:14px;
+	color:#666;
+	line-height:30px;
+}
+.expressList table tr td.sendTime{
+	width:132px;
+	height:128px;
+	padding-left:32px;
+}
+.expressList table tr td.sendTime p i{
+	width:38px;
+	height:35px;
+	line-height:23px;
+	display:inline-block;
+	font-size:12px;
+	color:#fff;
+	text-align:center;
+	margin-right:5px;
+}
+.expressList table tr td.sendTime p i.kd {
+	background:url(../images/kuaidi.jpg) no-repeat center 2px;
+}
+.expressList table tr td.sendTime p i.wl {
+	background:url(../images/wuliu.jpg) no-repeat center 2px;
+}
+.expressList table tr td.productWeight{
+	width:210px;
+	height:128px;
+	text-align:left;
+	padding-left:30px;
+}
+.expressList table tr td.productWeight p{
+	color:#999;
+}
+.expressList table tr td.sendPrice{
+	width:174px;
+	height:128px;
+}
+.expressList table tr td.sendPrice p{
+	color:#999;
+}
+.expressList table tr td.sendPrice p b,.expressList table tr td.productWeight p b{
+	color:#666;
+}
+.expressList table tr td.btn{
+	width:88px;
+	height:128px;
+	padding-left:75px;
+}
+.expressList table tr td.btn a{
+	font-size:14px;
+	line-height:36px;
+	display:block;
+}
+.expressList table tr td.btn a.yel{
+	color:#ff7300;
+}
+.expressList table tr td.btn a.gre{
+	color:#43a400;
+}
+
+/*---------内容为空的显示部分----------*/
+.expressListNone{
+	width:783px;
+	height:auto;
+	padding:50px 0px 0px  417px;
+	text-align:center;
+}
+.expressListNone i.iPic{
+	width:59px;
+	height:59px;
+	display:block;
+	float:left;
+	margin-top:24px;
+	background:url(../images/tishi.png) no-repeat center;
+}
+.expressListNone p{
+	width:500px;
+	height:auto;
+	display:block;
+	float:left;
+	font-size:14px;
+	color:#666;
+	line-height:36px;
+	text-align:left;
+	margin-left:30px;
+}
+.expressListNone p b{
+	color:#509dd5;
+}
+.expressListNone p a{
+	color:#ff7300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

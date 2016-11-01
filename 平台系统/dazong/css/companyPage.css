@@ -1,0 +1,53 @@
+@charset "utf-8";
+/*----
+模块名称：大宗采购爆品
+修改内容：暂无
+模块作者：裴富成
+修改时间：2016.1.6
+----*/
+.dazongSection{width:1200px;height:auto;overflow:hidden;margin:0 auto;position:relative;}
+.remain{width:240px;height:40px;text-align:center;font:12px/40px "\5FAE\8F6F\96C5\9ED1";color:#FF7300;border:1px solid #FF7300;border-radius:4px;background-color:#fff;position:absolute;bottom:30px;left:488px;}
+.remain:hover{background-color:#FF7300;color:#FFF;cursor:pointer;}
+.dazongSection h2{font: 20px/50px "\5FAE\8F6F\96C5\9ED1";color:#525252;border-bottom:2px solid #43A400;}
+.dazongMore{display:block;position:absolute;top:15px;right:15px;color:#666}
+.dazongContent{height:auto;overflow:hidden;border:1px solid #E4E4E4;border-top:none;padding-bottom:100px;}
+.dazongContent li{float:left;position:relative;margin:33px 0 0 33px;}
+.dazongContent li h3{font: 14px/22px "\5FAE\8F6F\96C5\9ED1";width:200px;height:40px;overflow:hidden;margin:15px 0;}
+.dazongContent li h3 a{font: 14px/22px "\5FAE\8F6F\96C5\9ED1";display:block;color:#333;}
+.dazongContent li p{font: 12px/18px "\5FAE\8F6F\96C5\9ED1";color:#999;height:34px;overflow:hidden;width:200px;margin-bottom:10px;}
+.dazongContent li strong{font-size:18px;color:#FC7A00;}
+.dazongContent li del{margin-left:15px;color:#999;}
+.sectionImg{width:198px;height:198px;display:block;text-align:center;position:relative;border:1px solid #E4E4E4;}
+.sectionImg img{position:absolute;left:12px;top:12px;transition:all .5s ease 0s;}
+.sectionImg:hover img{position:absolute;left:22px;top:12px;}
+.sectionOrder{width:69px;height:30px;font: 14px/30px "\5FAE\8F6F\96C5\9ED1";border-radius:5px;background-color:#FC7A00;text-align:center;display:block;position:absolute;right:0;bottom:0;color:#fff;}
+/*----
+模块名称：最新采购动态
+修改内容：暂无
+模块作者：裴富成
+修改时间：2016.1.5
+----*/
+.latestdynamic{width:1200px;height:auto;overflow:hidden;margin:26px auto 0;position:relative;}
+.latestdynamic h2{font: 20px/50px "\5FAE\8F6F\96C5\9ED1";color:#525252;border-bottom:2px solid #43A400;}
+.latestContent{height:auto;padding-bottom:80px;border:1px solid #E4E4E4;}
+.latestTitle{padding:0 20px;height:auto;overflow:hidden;}
+.latestTitle span{height:44px;font:bold 12px/44px "\5FAE\8F6F\96C5\9ED1";color:#333;display:inline-block;overflow:hidden;text-align:left;}
+.releaseTime{width:174px;}
+.latestCompany{width:264px;}
+.latestbusiness{width:273px;height:50px;font: 12px/50px "\5FAE\8F6F\96C5\9ED1";color:#333;display:inline-block;overflow:hidden;text-align:left;}
+.buyShopping{width:302px;}
+.buyGoods{width:302px;height:50px;font: 12px/50px "\5FAE\8F6F\96C5\9ED1";color:#FF7300;display:inline-block;overflow:hidden;text-align:left;}
+.buyNumber{width:170px;}
+.buyNumber b{color:#FF7300;margin:0 5px;font-weight:normal;}
+.endTitle{width:148px;}
+.endTitle b{color:#FF7300;margin:0 5px;font-weight:normal;}
+.myOffter{width:74px;}
+.offterImmed{border:1px solid #FF7300;color:#FF7300;border-radius:5px;width:77px;height:26px;line-height:26px;text-align:center;display:inline-block;position:absolute;top:12px;right:10px;}
+.latestdynamic ul{padding:0 20px;height:auto;overflow:hidden;}
+.latestdynamic ul li{height:50px;line-height:50px;position:relative;}
+.latestdynamic ul li:hover{background-color:#fff9dd;}
+.latestdynamic ul li:hover a{text-decoration:none;}
+.latestdynamic ul li:hover .offterImmed{background-color:#FF7300;color:#FFF}
+.latestdynamic ul li span{height:50px;font: 12px/50px "\5FAE\8F6F\96C5\9ED1";color:#333;display:inline-block;overflow:hidden;text-align:left;}
+.openAll{width:240px;height:40px;text-align:center;font:12px/40px "\5FAE\8F6F\96C5\9ED1";color:#9f9f9f;border:1px solid #e4e4e4;border-radius:4px;background-color:#fff;position:absolute;bottom:20px;left:488px;}
+.openAll:hover{background-color:#FF7300;color:#FFF;cursor:pointer;}

@@ -1,0 +1,37 @@
+@charset "utf-8";
+/*----
+模块作者：裴富成
+修改时间：2016.1.7
+----*/
+/*---- 招标公告左侧内容 ----*/
+.tenderAocounment{width:1200px;height:auto;overflow:hidden;margin:15px auto 0;}
+.aocounmentLeft{width:844px;height:auto;overflow:hidden;border:1px solid #E4E4E4;float:left;padding:22px 38px;}
+.aocounmentLeft h2{font: 18px/40px "\5FAE\8F6F\96C5\9ED1";text-align:center;}
+.aocounmentLeft span{font: 12px/30px "\5FAE\8F6F\96C5\9ED1";color:#666;text-align:center;display:block;}
+.aocounmentLeft ul{width:810px;height:auto;overflow:hidden;border:1px solid #fcdcc3;padding:15px 0 15px 35px;background-color:#fffaf6;}
+.aocounmentLeft ul li{font:12px/24px "\5FAE\8F6F\96C5\9ED1";color:#999;float:left;width:264px;height:24px;overflow:hidden;}
+.aocounmentText{width:850px;height:auto;overflow:hidden;color:#333;font: 14px/26px "\5FAE\8F6F\96C5\9ED1";}
+.aocounmentText dt{margin-top:20px;}
+.aocounmentText dd{text-indent:24px;}
+.aocounmentDown{width:810px;height:88px;overflow:hidden;border:1px solid #fcdcc3;padding:6px 0 0 30px;background-color:#fffaf6;margin-top:25px;}
+.aocounmentDown dt{font: 14px/26px "\5FAE\8F6F\96C5\9ED1";}
+.aocounmentDown dd{float:left;width:275px;}
+.aocounmentDown dd a{color:#666;font: 12px/36px "\5FAE\8F6F\96C5\9ED1";}
+.aocounmentDown dd i{margin:0 5px;}
+/*---- 招标公告右侧内容 ----*/
+.aocounmentSidebar{width:258px;height:auto;overflow:hidden;float:left;margin-left:20px;}
+.aocounmentHot{height:auto;border:1px solid #E4E4E4}
+.aocounmentSuc{height:auto;border:1px solid #E4E4E4;margin-top:20px;}
+.aocounmentHot h2,.aocounmentSuc h2{font: 18px/40px "\5FAE\8F6F\96C5\9ED1";padding-left:30px;border-bottom:2px solid #46A400;}
+.aocounmentMenu{height:auto;overflow:hidden;padding:12px 10px;}
+.aocounmentMenu li{height:32px;line-height:32px;}
+.aocounmentMenu li a{font: 12px/32px "\5FAE\8F6F\96C5\9ED1";color:#333;height:32px;width:236px;overflow:hidden;display:block;}
+.aocounmentMenu li a:hover{text-decoration:none;color:#FF7300;}
+.aocounmentMenu li a i{color:#46a400;vertical-align:-3px;margin-right:2px;}
+.aocounmentMenu li a:hover i{color:#FF7300;}
+.sidebarImg{margin-top:20px;display:block;}
+.friendRemin{font: 14px/26px "\5FAE\8F6F\96C5\9ED1"; margin-top: 20px;}
+.state{width:780px;overflow:hidden;border:1px solid #fcdcc3;padding:10px 30px 0 30px;background-color:#fffaf6;margin-top:25px;}
+.state p{ line-height: 30px;}
+.state b{ font-weight:bold;}
+.state .orange{color:#ff6600;font-size:14px;}

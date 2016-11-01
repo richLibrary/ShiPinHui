@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+body{background-color:#f2f2f2;}
+.headerMain h1 a{height:98px;display:block;font-size:24px;color:#2D7C3A;float:left;}
+.mainNav{width:100%;height:41px;background-color:#3e9c00;margin:0px auto;overflow:hidden}
+.mainNav ul li a:hover{background:#348401;}
+.mainNav ul li a.on{background-color:#348401;}
+.companyInfo ul li h3{color:#ba8258;}
+.companyInfo ul li a:hover{background-color:#2B7C37;}
+.companyInfor h2{font:14px/35px "\5FAE\8F6F\96C5\9ED1";color:#fff;padding-left:15px;background-color:#2b7c37}
+.cemaTop h2{font:14px/35px "\5FAE\8F6F\96C5\9ED1";color:#fff;padding-left:15px;background-color:#2b7c37}
+.companyInfo h2{height:35px;font:14px/35px "\5FAE\8F6F\96C5\9ED1";color:#fff;background-color:#2b7c37;padding-left:17px;}
+.cdiType h2{height:35px;font:14px/35px "\5FAE\8F6F\96C5\9ED1";color:#fff;background-color:#2b7c37;padding-left:17px;}
+.companyInfo h2{height:35px;font:14px/35px "\5FAE\8F6F\96C5\9ED1";color:#fff;background-color:#2b7c37;padding-left:17px}
+.saleList h2{height:35px;font:14px/35px "\5FAE\8F6F\96C5\9ED1";color:#fff;background-color:#2b7c37;padding-left:17px;}
+.newsLeftCenter h2{height:35px;font:14px/35px "\5FAE\8F6F\96C5\9ED1";color:#fff;background-color:#2b7c37;padding-left:17px;}
+.contactUs h2{height:35px;font:14px/35px "\5FAE\8F6F\96C5\9ED1";color:#fff;background-color:#2b7c37;padding-left:17px;}
+.rightbar h2{height:35px;font:14px/35px "\5FAE\8F6F\96C5\9ED1";color:#fff;background-color:#2b7c37;padding-left:15px}
+.coupon h2{background-color:#2b7c37;}
+/*----公司简介 ----*/
+.companyInfor h2{background-color:#2b7c37;}
+.goodsClass h2{background-color:#2b7c37;}
+.companyContent{background-color:#2b7c37}
+/*----联系我们 ----*/
+.contact h2{background-color:#2b7c37;}
+/*----在线咨询 ----*/
+.feedBack h2{background-color:#2b7c37;}
+/*----新闻详情 ----*/
+.news h2{background-color:#2b7c37;}
+/*----新闻列表 ----*/
+.newsClass h2{background-color:#2b7c37;}
+/*----相册列表 ----*/
+.myPhotos h2{background-color:#2b7c37;}
+/*----产品详情 ----*/
+.newList h2{background-color:#2b7c37;}
+.productHot h2{background-color:#2b7c37;}
+.aAddCart{background-color:#2b7c37;}

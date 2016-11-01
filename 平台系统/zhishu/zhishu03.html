@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+	<meta charset="utf-8" />
+	<title>指数列表</title>
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="Keywords" content="指数列表"/>
+	<meta name="Description" content="指数列表"/>
+
+	<link rel="stylesheet" href="css/common.css" type="text/css" />
+	<link rel="stylesheet" href="css/zhishu03.css" type="text/css" />
+	<link rel="stylesheet" href="css/iconfont/iconfont.css" type="text/css" />
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
+	<script type="text/javascript" src="js/echarts.js"></script>
+	
+</head>
+
+<body ng-app="myApp" ng-controller="userCtrl" style="background-color:#fff;">
+<div ng-include="'header.html'"></div>
+<!----
+模块名称：搜索结果页面包屑导航
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2016.01.11
+---->
+<div class="breadsNav">
+您的位置：<a href="#" title="首页" target="_self">首页</a><code>&gt;</code>
+<a href="#" title="首页" target="_self">首页</a><code>&gt;</code><font>河南</font>
+</div>
+<!----
+模块名称：购物车头部
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2016.01.11
+---->
+<div class="quoMain">
+	<!---- 指数详情曲线 ---->
+	<div class="quoDets">
+		<h1>12月9日花生油产品价格为5737.5元/吨</h1>
+		<div class="quoTit">
+			<span>来源：食品荟</span>
+			<span>日期：2015-12-04</span>
+			<span>浏览次数：1555次</span>
+
+			<span style="">
+				<div class="bdsharebuttonbox">
+				<a href="#" class="bds_more" data-cmd="more"></a>
+				<a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
+				<a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+				<a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a>
+				<a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a>
+				<a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+				</div>
+				<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+			</span>
+		</div>	
+		<div class="quoCharts" id="quoDetCharts"></div>
+	</div>
+	<!---- 指数列表 ---->
+	<table class="quoList" border="0" cellpadding="0" cellspacing="0">
+		<tr class="tit">
+			<td width="161">名称</td>
+			<td width="139">价格</td>
+			<td width="110">单位</td>
+			<td width="125">涨跌</td>
+			<td width="165">报价时间</td>
+			<td width="220">本月报价趋势</td>
+		</tr>
+		<tr class="txt">
+			<td>花生油</td>
+			<td>37.52</td>
+			<td class="unit">美元/桶</td>
+			<td><span>0.75</span></td>
+			<td class="date">2015-12-09</td>
+			<td><a href="#" title="查看详情" target="_blank">查看详情&gt;&gt;</a></td>
+		</tr>
+		<tr class="txt">
+			<td>花生油</td>
+			<td>37.52</td>
+			<td class="unit">美元/桶</td>
+			<td><span>0.75</span></td>
+			<td class="date">2015-12-09</td>
+			<td><a href="#" title="查看详情" target="_blank">查看详情&gt;&gt;</a></td>
+		</tr>
+		<tr class="txt">
+			<td>花生油</td>
+			<td>37.52</td>
+			<td class="unit">美元/桶</td>
+			<td><span>0.75</span></td>
+			<td class="date">2015-12-09</td>
+			<td><a href="#" title="查看详情" target="_blank">查看详情&gt;&gt;</a></td>
+		</tr>
+		<tr class="txt">
+			<td>花生油</td>
+			<td>37.52</td>
+			<td class="unit">美元/桶</td>
+			<td><span>0.75</span></td>
+			<td class="date">2015-12-09</td>
+			<td><a href="#" title="查看详情" target="_blank">查看详情&gt;&gt;</a></td>
+		</tr>
+		<tr class="txt">
+			<td>花生油</td>
+			<td>37.52</td>
+			<td class="unit">美元/桶</td>
+			<td><span>0.75</span></td>
+			<td class="date">2015-12-09</td>
+			<td><a href="#" title="查看详情" target="_blank">查看详情&gt;&gt;</a></td>
+		</tr>
+		<tr class="txt">
+			<td>花生油</td>
+			<td>37.52</td>
+			<td class="unit">美元/桶</td>
+			<td><span>0.75</span></td>
+			<td class="date">2015-12-09</td>
+			<td><a href="#" title="查看详情" target="_blank">查看详情&gt;&gt;</a></td>
+		</tr>
+		<tr class="txt">
+			<td>花生油</td>
+			<td>37.52</td>
+			<td class="unit">美元/桶</td>
+			<td><span>0.75</span></td>
+			<td class="date">2015-12-09</td>
+			<td><a href="#" title="查看详情" target="_blank">查看详情&gt;&gt;</a></td>
+		</tr>
+	</table>
+	<!---- 热门价格指数 ---->
+	<div class="hotQuo">
+		<h2>热门价格指数</h2>
+		<h3><i class="iconfont"></i>食品成品</h3>
+		<ul>
+			<li>
+				<span>方便面</span>
+				<span>37.16</span>
+				<span>美元/桶</span>
+				<span class="up">0.93%</span>
+			</li>
+			<li>
+				<span>方便面</span>
+				<span>37.16</span>
+				<span>美元/桶</span>
+				<span class="down">-0.93%</span>
+			</li>
+			<li>
+				<span>方便面</span>
+				<span>37.16</span>
+				<span>美元/桶</span>
+				<span class="up">0.93%</span>
+			</li>
+			<li>
+				<span>方便面</span>
+				<span>37.16</span>
+				<span>美元/桶</span>
+				<span class="down">-0.93%</span>
+			</li>
+			<li>
+				<span>方便面</span>
+				<span>37.16</span>
+				<span>美元/桶</span>
+				<span class="up">0.93%</span>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<span>方便面</span>
+				<span>37.16</span>
+				<span>美元/桶</span>
+				<span class="up">0.93%</span>
+			</li>
+			<li>
+				<span>方便面</span>
+				<span>37.16</span>
+				<span>美元/桶</span>
+				<span class="down">-0.93%</span>
+			</li>
+			<li>
+				<span>方便面</span>
+				<span>37.16</span>
+				<span>美元/桶</span>
+				<span class="up">0.93%</span>
+			</li>
+			<li>
+				<span>方便面</span>
+				<span>37.16</span>
+				<span>美元/桶</span>
+				<span class="down">-0.93%</span>
+			</li>
+			<li>
+				<span>方便面</span>
+				<span>37.16</span>
+				<span>美元/桶</span>
+				<span class="up">0.93%</span>
+			</li>
+		</ul>
+	</div>
+	
+</div>
+<script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('quoDetCharts'));
+
+        // 指定图表的配置项和数据
+        var option = {
+    tooltip : {
+        trigger: 'axis',
+		backgroundColor:'#fff',
+		borderColor:'#ddd',
+		borderWidth:1,
+		textStyle:{
+			color:'#333'
+		}
+    },
+   
+    grid: {
+        left: '3%',
+        right: '4%',
+        bottom: '0%',
+        containLabel: true,
+		borderColor:'#f00000',
+		borderWidth:8,
+    },
+    xAxis : [
+        {
+            type : 'category',
+            boundaryGap : false,
+            data : ['11.14','11.15','11.16','11.17','11.18','11.19','11.20',"11.21","11.22","11.23","11.24"],
+			axisLine:{
+				show:false
+			},
+			splitLine:{
+				show:false
+			}
+        },
+
+		
+    ],
+	
+    yAxis : [
+        {
+            type : 'value',
+			axisLine:{
+				show:false
+			},
+			splitLine:{
+				lineStyle:{
+					color:'#e4e4e4'
+				}
+			}
+        }
+    ],
+
+	
+
+	
+	
+    series : [
+        {
+            name:'邮件营销',
+            type:'line',
+            stack: '总量',
+            data:[120, 132, 101, 134, 90, 230, 210,260,210,800,120]
+        },
+        
+    ],
+	backgroundColor: '#fff',
+	borderColor:'#fff',
+	width:820,
+	height:260,
+	
+	 toolbox: {
+        feature: {
+            saveAsImage: {
+			show:false
+			}
+        },
+		
+    },
+
+};
+
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+    </script>
+
+
+<!---- angularJs构建模板 ---->
+<div ng-include="'footer.html'"></div>
+<script type="text/javascript">
+	angular.module('myApp', []).controller('userCtrl', function($scope) {})
+</script>
+</body>
+</html>

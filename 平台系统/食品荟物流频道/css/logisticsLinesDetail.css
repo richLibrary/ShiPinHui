@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+
+
+/*-----logo部分------*/
+.contactLogo{
+	width:100%;
+	height: auto;
+	background-color:#fff;
+}
+.LogoMains{width:1200px;height:auto;overflow:hidden;margin:0px auto;padding:30px 0px;position:relative;}
+.LogoMains h1{width:275px;height:100px;float:left}
+.LogoMains h1 a{width:260px;height:100px;display:block;font-size:0px;background:url("../images/testing/contactLogo.jpg") no-repeat center center scroll;float: left;}
+.LogoMains h2{
+	font-size:24px;
+	color:#666666;
+	line-height:100px;
+	font-weight:normal;
+}
+/*----
+模块名称：导航
+----*/
+.logisticsGroupNav{width:100%;height:42px;margin:0px auto;border-bottom:#43a400 solid 3px;background-color:#fff;}
+.logisticsGroupNav ul{width:1200px;height:42px;margin:0px auto;}
+.logisticsGroupNav ul li{width:128px;height:42px;font:16px/42px "微软雅黑";float:left;text-align:center;}
+.logisticsGroupNav ul li a{color:#333;display:block;text-decoration:none;}
+.logisticsGroupNav ul li a:hover{color:#43a400;}
+.logisticsGroupNav ul li.on{background-color:#43a400;color:#fff;}
+.logisticsGroupNav ul li.on a{color:#fff}
+
+/*--------主体部分------*/
+.contactMain{
+	width:1200px;
+	height:auto;
+	margin:30px auto 0px auto;
+}
+/*-------路线详情部分------*/
+.routeDetails{
+	width:1200px;
+	height:auto;
+	margin-top:30px;
+}
+.routeDetails h2{
+	font-size:20px;
+	font-weight:normal;
+	color:#333;
+	line-height:44px;
+	border-bottom:2px solid #43a400;
+}
+.routeDetails h2 i{
+	width:21px;
+	height:21px;
+	display:block;
+	float:left;
+	margin-top:11px;
+	margin-right:5px;
+	background:url(../images/book.png) no-repeat center;
+}
+.routeDetailsMain{
+	border:1px solid #e4e4e4;
+	border-top:none;
+	padding:20px 40px;
+}
+.routeDetailsMain h3{
+	width:240px;
+	height:36px;
+	font-size:18px;
+	color:#333;
+	font-weight:normal;
+	line-height:36px;
+	overflow:hidden;
+}
+.routeDetailsMain h3 i{
+	width:36px;
+	height:10px;
+	display:inline-block;
+	margin:0px 8px;
+	background:url(../images/icons.png) no-repeat -2px -341px;
+}
+.routeDetailsMain p{
+	font-size:14px;
+	color:#666;
+	margin-top:30px;
+}
+.routeDetailsMain p em{
+	color:#999;
+}
+.routeDetailsMain .price{
+	width:532px;
+	height:150px;
+	font-size:14px;
+	color:#666;
+	margin-top:30px;
+	margin-bottom:50px;
+}
+.routeDetailsMain .price span{
+	display:block;
+	width:82px;
+	line-height:26px;
+	height:150px;
+	float:left;
+	text-align:center;
+}
+.routeDetailsMain .price table{
+	width:449px;
+	height:149px;
+	float:left;
+	border-top:1px solid #e4e4e4; 
+	border-left:1px solid #e4e4e4;
+	text-align:center;
+	line-height:50px; 
+}
+.routeDetailsMain .price table tr{
+	width:449px;
+	height:50px;
+	display:block;
+	border-bottom:1px solid #e4e4e4;
+}
+.routeDetailsMain .price table tr th{
+	width:149px;
+	height:50px;
+	border-right:1px solid #e4e4e4;
+	font-size:14px;
+	color:#666;
+}
+.routeDetailsMain .price table tr td{
+	width:149px;
+	height:50px;
+	border-right:1px solid #e4e4e4;
+	font-size:14px;
+	color:#666;
+}
+.routeDetailsMain .price table tr td b{
+	color:#ff7300;
+}
+.routeDetailsMain p.zx{
+	color:#666;
+	font-size:14px;
+	line-height:45px;
+}
+.routeDetailsMain p.zx span{
+	width:82px;
+	height:50px;
+	float:left;
+	display:inline-block;
+}
+.routeDetailsMain p.zx b{
+	float:left;
+}
+.routeDetailsMain p.zx a.anwser{
+	display:inline-block;
+	width:300px;
+	height:36px;
+	color:#ff7300;
+	float:right;
+	padding-left:25px;
+	background:url(../images/qq.png) no-repeat 5px center;
+}
+

@@ -1,0 +1,15 @@
+@charset "utf-8";.uctit a.uctitInfo{color:#333}
+/*资质证书*/
+.ucRight .uctit{border-bottom:none}
+.uctit span.gray{font:14px/14px "\5FAE\8F6F\96C5\9ED1";color:#999}
+/*证书内容*/
+.credential{border:#e4e4e4 1px solid; margin-bottom: 273px;}
+.credeName{background-color:#f5f5f5}
+.credeName td{border-bottom:#e4e4e4 1px solid}
+.credential td{font:14px/40px "\5FAE\8F6F\96C5\9ED1";color:#333;text-align:center}
+.foodLicence{height:60px;font:14px/60px "\5FAE\8F6F\96C5\9ED1";color:#666}
+.foodLicence:hover{background-color:#f5f5f5}
+.credential a{width:114px;height:60px;display:block;float:left;font:14px/60px "\5FAE\8F6F\96C5\9ED1"}
+.credential a:hover{text-decoration:none}
+.compile{background:url(../../%E7%94%A8%E6%88%B7%E4%B8%AD%E5%BF%83-%E6%9D%8E%E6%B4%8B/images/edit.jpg) no-repeat 58px center scroll;text-align:right;color:#36c}
+.deleteCon{background:url(../../%E7%94%A8%E6%88%B7%E4%B8%AD%E5%BF%83-%E6%9D%8E%E6%B4%8B/images/delete.jpg) no-repeat 30px center scroll;color:#ff7300;padding-left:10px}

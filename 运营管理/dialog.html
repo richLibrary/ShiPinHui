@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="utf-8" />
+	<title>食品荟总管理系统</title>
+	<link rel="stylesheet" href="css/common.css" type="text/css" />
+	<link rel="stylesheet" href="css/iconfont/iconfont.css" type="text/css" />
+	<link rel="stylesheet" href="css/admin.css" type="text/css" />
+</head>
+
+<body>
+<!---- 网站管理后台头部 ---->
+<div class="adminTop">
+	<h1>管理后台</h1>
+	<div class="topMenu">
+		<a href="#" title="首页" target="_self">首页</a>
+		<a href="#" title="商品管理" target="_self">商品管理</a>
+		<a href="#" title="商家管理" target="_self">商家管理</a>
+		<a href="#" title="金融管理" target="_self">金融管理</a>
+		<a href="#" title="营销管理" target="_self">营销管理</a>
+		<a href="#" title="广告管理" target="_self">广告管理</a>         
+		<a href="#" title="信息管理" target="_self">信息管理</a>         
+		<a href="#" title="内容管理" target="_self">内容管理</a>         
+		<a href="#" title="报表管理" target="_self">报表管理</a>         
+		<a href="#" title="权限管理" target="_self">权限管理</a>
+	</div>
+	<div class="loginStatus">
+		欢迎您，<a href="#" title="会员名称" target="_self">会员名称adminadmin</a>
+		<a class="set" href="#" title="设置" target="_self"><i class="iconfont">&#xe60c;</i>设置</a>|
+		<a class="quit" href="#" title="退出" target="_self"><i class="iconfont">&#xe609;</i>退出</a>
+	</div>
+</div>
+<!---- 网站管理后台左侧导航 ---->
+<div class="adminNav">
+	<ul>
+		<li class="cur">
+			<h3>商品管理</h3>
+			<a href="#" title="商品审核" target="_self">商品审核</a>
+			<a href="#" title="出售中的商品" target="_self">出售中的商品</a>
+            <a class="hover" href="#" title="已下架的商品" target="_self">已下架的商品</a>
+            <a href="#" title="类别管理" target="_self">类别管理</a>
+		</li> 
+	</ul >
+</div>
+<!---- 管理后台右侧标题 ---->
+<div class="arTit"><i class="iconfont">&#xe604;</i>我是标题</div>
+<style type="text/css">
+/*---- 订单总数统计 ----*/
+</style>
+<!---- tables各种表格 ---->
+<div class="dialog" style="">
+	<input class="delCar" type="button" value="弹窗01" /><br/><br/><br/>
+	<input class="dialog02" type="button" value="弹窗02" /><br/><br/><br/>
+	<input class="dialog03" type="button" value="弹窗03" /><br/><br/><br/>
+	<input class="dialog04" type="button" value="弹窗04" />
+</div>
+<!---- 第一种弹窗 ---->
+<div class="delDialog" style="">
+	<p><i class="iconfont" style="color:#fc8474;">&#xe610;</i>你确定要删除吗？</p>
+	<span>
+		<input class="okBtn" type="button" value="确定" />
+		<input class="cancelBtn" type="button" value="取消" />
+	</span>
+</div>
+<!---- 第二种弹窗 ---->
+<div class="stateDialog">
+	<p><i class="iconfont">&#xe612;</i>保存成功！</p>
+</div>
+<!---- 第三种弹窗 ---->
+<div class="stateDialog">
+	<p><i class="iconfont" style="color:#fb8675;">&#xe611;</i>保存失败！</p>
+</div>
+<!---- 第四种弹窗 ---->
+<div class="opDialog" id="dialog01">
+	<h3>添加备注</h3>
+	<div class="opContent">
+		<textarea placeholder="添加备注"></textarea>
+	</div>
+	<span>
+		<input class="okBtn" type="button" value="确定" />
+		<input class="cancelBtn" type="button" value="取消" />
+	</span>
+</div>
+<!---- 第四种弹窗 ---->
+<div class="opDialog">
+	<h3>订单分配</h3>
+	<div class="opContent">
+		<select>
+			<option>洗车工001</option>
+			<option>洗车工002</option>
+			<option>洗车工003</option>
+			<option>洗车工004</option>
+			<option>洗车工005</option>
+			
+		</select>
+	</div>
+	<span>
+		<input class="okBtn" type="button" value="确定" />
+		<input class="cancelBtn" type="button" value="取消" />
+	</span>
+</div>
+<!---- 第四种弹窗 ---->
+<div class="opDialog">
+	<h3>添加服务分类</h3>
+	<div class="opContent">
+		<input type="text" placeholder="填写服务分类的名称" />
+	</div>
+	<span>
+		<input class="okBtn" type="button" value="确定" />
+		<input class="cancelBtn" type="button" value="取消" />
+	</span>
+</div>
+
+</body>
+</html>

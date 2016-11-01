@@ -1,0 +1,35 @@
+@charset "utf-8";
+body{background-color:#f2f2f2;}
+.headerMain h1 a{height:98px;display:block;font-size:24px;color:#000;float:left;}
+.mainNav{width:100%;height:42px;background-color:#232323;margin:0px auto;overflow:hidden}
+.mainNav ul li a.on{background-color:#FDA71E}
+.mainNav ul li a:hover{background-color:#FDA71E}
+.cemaTop h2{font:14px/35px "\5FAE\8F6F\96C5\9ED1";color:#fff;padding-left:15px;background-color:#232323}
+.companyInfo h3{height:35px;font:14px/35px "\5FAE\8F6F\96C5\9ED1";color:#fff;background-color:#232323;padding-left:17px;}
+.companyInfo ul li h3{color:#666;background-color:#f0f0f0;font-size:12px;}
+.companyInfo ul li h3 i{color:#666;}
+.rightbar h2{height:35px;font:14px/35px "\5FAE\8F6F\96C5\9ED1";color:#fff;background-color:#232323;padding-left:15px}
+.cdiType h2{height:35px;font:14px/35px "\5FAE\8F6F\96C5\9ED1"; color:#fff;background-color:#232323; padding-left:17px;}
+.companyInfo h2{height:35px;font:14px/35px "\5FAE\8F6F\96C5\9ED1";color:#fff;background-color:#232323; padding-left:17px}
+.saleList h2{height:35px;font:14px/35px "\5FAE\8F6F\96C5\9ED1";color:#fff;background-color:#232323;padding-left:17px;}
+.newsLeftCenter h2{height:35px;font:14px/35px "\5FAE\8F6F\96C5\9ED1";color:#fff;background-color:#232323;padding-left:17px;}
+.contactUs h2{height:35px;font:14px/35px "\5FAE\8F6F\96C5\9ED1";color:#fff;background-color:#232323;padding-left:17px;}
+.coupon h2{background-color:#232323;}
+/*----公司简介 ----*/
+.companyInfor h2{background-color:#232323;}
+.goodsClass h2{background-color:#232323;}
+.companyContent{background-color:#232323}
+/*----联系我们 ----*/
+.contact h2{background-color:#232323;}
+/*----在线咨询 ----*/
+.feedBack h2{background-color:#232323;}
+/*----新闻详情 ----*/
+.news h2{background-color:#232323;}
+/*----新闻列表 ----*/
+.newsClass h2{background-color:#232323;}
+/*----相册列表 ----*/
+.myPhotos h2{background-color:#232323;}
+/*----产品详情 ----*/
+.newList h2{background-color:#232323;}
+.productHot h2{background-color:#232323;}
+.aAddCart{background-color:#232323;}

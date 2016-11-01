@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>创建词条</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="Keywords" content="关键词"/>
+	<meta name="Description" content="我是网页的描述sss"/>
+	<link rel="stylesheet" href="css/iconfont/iconfont.css" type="text/css" />
+	<link rel="stylesheet" href="css/common.css" type="text/css" />
+	<link rel="stylesheet" href="css/creatEntry.css" type="text/css" />
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/artDialog.js"></script>
+	<script type="text/javascript" src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
+</head>
+<body ng-app="myApp" ng-controller="userCtrl" style="background-color:#e9e9e9;">
+<!----
+模块名称：公共头部
+修改内容：暂无
+模块作者：裴富成
+修改时间：2016.1.28
+---->
+<div class="topBar">
+	<div class="topMain">
+		<ul class="mySph">
+			<li class="Popup">
+				<a href="#" title="用户名" target="_blank">qazsd<i class="iconfont">&#xe625;</i></a>
+				<div class="hideConment">
+					<span></span>
+					<ul class="hideList">
+						<li><a href="" target="_blank" title="我的词条">我的词条</a></li>
+						<li><a href="" target="_blank" title="我的账号">我的账号</a></li>
+						<li><a href="javascript:">退出</a></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<a href="#" title="消息" target="_blank"><i class="iconfont">&#xe642;</i>消息</a><code>|</code>
+			</li>
+			<li>
+				<a href="#" title="食品荟首页" target="_blank">食品荟首页</a>
+			</li>
+		</ul>
+	</div>
+</div>
+<!----
+模块名称：logo部分
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2016.1.28
+---->
+<div class="logo">
+	<div class="logoMain">
+		<h1><a href="#" title="" target="_blank">百科频道 行业权威 全面覆盖</a></h1>
+		<!---- 公共搜索 ---->
+		<div class="commonSearch">
+			<input class="searchInput" type="text" placeholder="请输入关键词"/>
+			<input class="searchBtn" type="button" value="搜索">
+		</div>
+	</div>
+</div>
+<!----
+模块名称：主导航
+修改内容：暂无
+模块作者：裴富成
+修改时间：2016.1.28
+---->
+<div class="mainNav">
+	<ul>
+		<li><a class="on" href="#" title="首页" target="_self">首页</a></li>
+		<li><a href="#" title="食品政策" target="_blank">食品政策</a></li>
+		<li><a href="#" title="食品报告" target="_blank">食品报告</a></li>
+		<li><a href="#" title="食品科普" target="_blank">食品科普</a></li>
+		<li><a href="#" title="食品安全" target="_blank">食品安全</a></li>
+		<li><a href="#" title="食品行业" target="_blank">食品行业</a></li>
+		<li><a href="#" title="食品金融" target="_blank">食品金融</a></li>
+		<li><a href="#" title="食品电商" target="_blank">食品电商</a></li>
+		<li><a href="#" title="法律法规" target="_blank">法律法规</a></li>
+		<li><a href="#" title="诚信认证" target="_blank">诚信认证</a></li>
+	</ul>
+</div>
+<div class="createEntry">
+	<div class="creatConment">
+		<label class="entryName">新建词条</label><input class="searchBox" type="text"/><a class="helps" href="" target="_blank" title="">如何创建词条？</a>
+		<div class="entryTips">
+			<p>词条使用一个主题客观陈述一件事物、一个人物等，类似词典里的词条。</p>
+			<p>词条名应该使用事物的全名、常用名、尽量使用中文名，字数控制在30字以内。</p>
+			<dl class="example">
+				<dt>例如：</dt>
+				<dd>
+					<p><i class="iconfont greenIcon">&#xe661;</i>炸酱面、北京航空航天大学、周星驰</p>
+					<p><i class="iconfont redIcon">&#xe60a;</i>去哪儿吃炸酱面、北航、星爷</p>
+				</dd>
+			</dl>
+			<p>如果一个词条拥有两个或多个的称呼（如“奥林匹克运动会”和“奥运会”），请不要创建一个内容相同的新词条（奥运会），而是报告同义词。</p>
+			<input class="entryBtn" type="submit" value="创建词条"/>
+		</div>
+	</div>
+</div>
+<!----创建词条弹窗---->
+<div class="entryContent" id="entryContent">
+	<h2>词条分类</h2>
+	<ul class="entryList">
+		<li><lable><input class="listConment" type="checkbox" checked="checked"/>食品政策</lable></li>
+		<li><lable><input class="listConment" type="checkbox"/>食品报告</lable></li>
+		<li><lable><input class="listConment" type="checkbox"/>食品科普</lable></li>
+		<li><lable><input class="listConment" type="checkbox"/>食品安全</lable></li>
+		<li><lable><input class="listConment" type="checkbox"/>食品行业</lable></li>
+		<li><lable><input class="listConment" type="checkbox"/>食品金融</lable></li>
+		<li><lable><input class="listConment" type="checkbox"/>食品电商</lable></li>
+		<li><lable><input class="listConment" type="checkbox"/>法律法规</lable></li>
+		<li><lable><input class="listConment" type="checkbox"/>诚信认证</lable></li>
+	</ul>	
+	<input class="Ok" type="button" data-id="ok" value="确定" />
+</div>
+<div ng-include="'footer.html'"></div>
+<script type="text/javascript">
+	angular.module('myApp', []).controller('userCtrl', function($scope) {})
+</script>
+<script type="text/javascript">
+$(function(){
+		//创建词条弹出窗口
+	$('.entryBtn').click(function(){
+	     dialog({
+	         content:document.getElementById('entryContent'),
+			 ok: function () {
+				 this.close();
+				 return false;
+				 },
+			 cancel: function () {
+				 this.close();
+				 return false;
+				 },
+			 width:370,
+			 height:230,
+			 fixed:false,
+	     }).showModal();
+		 //让隐藏的样式显示
+		 $('#entryContent').css('display','block');
+	});
+})
+</script>
+</body>
+</html>

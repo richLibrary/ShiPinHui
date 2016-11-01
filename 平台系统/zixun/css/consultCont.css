@@ -1,0 +1,55 @@
+@charset "utf-8";
+.wraContent{width:1200px;height:auto;margin:15px auto 0;overflow:hidden}
+/*指数列表内容*/
+.leftsider{width:924px;height:auto;overflow:hidden;float:left}
+.artContent{border:#e4e4e4 1px solid}
+.title{width: 921px;height: auto;overflow: hidden; border-bottom:#e4e4e4 dashed 1px;background-color: #fff;}
+.title h1{font: 18px/18px "微软雅黑";padding: 51px 0px 28px 0px;color: #333;text-align: center;}
+.bdsharebut{text-align: center;padding-bottom: 25px;}
+.bdsharebut span{display: inline-block;margin: 0px 18px;font: 12px/24px "微软雅黑";color: #666;position: relative;height: 24px;}
+.bdsharebuttonbox{display: inline-block;position: absolute;top: 4px;left: 0px;width: 190px;}
+.bdshare-button-style0-16{zoom: 1;}
+.bdshare-button-style0-16 .bds_more{color: #333;float: left;}
+.bdshare-button-style0-16 a, .bdshare-button-style0-16 .bds_more{font-size: 12px;padding-left: 17px;line-height: 16px;height: 16px;background-image: url(../img/share/icons_0_16.png?v=ba7acbd3.png); background-repeat: no-repeat;cursor: pointer;margin: 6px 6px 6px 0;}
+
+.infArt{padding:43px}
+.infArt p{width:844px;font:14px/26px "\5FAE\8F6F\96C5\9ED1";color:#333;text-indent:24px;overflow:hidden}
+.state{width:786px;height:71px;font:14px/14px "\5FAE\8F6F\96C5\9ED1";color:#333;border:#ffdabd 1px solid;padding:16px 22px;background-color:#fffaf6;margin:0 46px; float:left}
+.state p{font:12px/24px "\5FAE\8F6F\96C5\9ED1";color:#666;margin-top:12px;overflow:hidden}
+.paging{width:830px;height:68px;overflow:hidden;padding:52px 0 42px 47px}
+.paging ul li{padding-top:12px;display:block;float:left}
+.paging ul li.pagingTop{width:493px}
+.paging ul li.pagingTop a{width:426px}
+.paging ul li span{width:67px;height:38px;color:#333;font:14px/38px "\5FAE\8F6F\96C5\9ED1";text-align:center;display:inline-block;border-top:#ff7300 2px solid}
+.paging ul li a{width:270px;height:38px;font:14px/38px "\5FAE\8F6F\96C5\9ED1";color:#666;float:right;border-top:#e4e4e4 2px solid}
+.paging ul li a:hover{text-decoration:none;color:#ff7300}
+/*相关阅读*/
+.reading{ width:889px; height:71px;border:#e4e4e4 1px solid; margin-top:10px; overflow:hidden; padding:22px 0px 22px 33px}
+.reading h2{ font:14px/14px "\5FAE\8F6F\96C5\9ED1"; color:#333; display:inline-block; margin-bottom:12px}
+.reading ul{ height:115px; overflow:hidden;}
+.reading ul li{ width:444px; float:left; list-style:inside}
+.reading ul li a{ font:12px/24px "\5FAE\8F6F\96C5\9ED1"; color:#666;}
+.reading ul li a:hover{ color:#ff7300; text-decoration:none}
+.reading ul li span{ font:12px/24px "\5FAE\8F6F\96C5\9ED1"; color:#666; margin-right:50px; float:right}
+.rightSider{ width:260px; float:right}
+/*每日推荐*/
+.rightMenu{width:258px;height:auto;float:right;overflow:hidden;border:#e4e4e4 1px solid;margin-bottom:14px}
+.rightMenu h2{font:16px/38px "\5FAE\8F6F\96C5\9ED1";color:#333;background-color:#fdfdfd;border-bottom:#ff7300 2px solid;padding-left:20px}
+.rightMenu ul.proContent{height:auto;overflow:hidden;padding:16px 12px}
+.proContent li{ width:234px; height:26px; overflow:hidden;list-style:inside; color:#666}
+.proContent li span{width:14px;height:14px;color:#fff;background-color:#bbb;display:inline-block;text-align:center;line-height:14px;margin-right:10px}
+.proContent li span.probg{background-color:#ff7300}
+.proContent li a{font:12px/26px "\5FAE\8F6F\96C5\9ED1";color:#333;text-decoration:none}
+.proContent li a:hover{text-decoration:none;color:#ff7300}
+/*老国货--王老吉*/
+.photImg{ width:260px; height:auto; overflow:hidden;margin-bottom:10px}
+.photImg img{border:#e4e4e4 1px solid}
+/*资讯排行*/
+.rightMenu{width:258px;height:auto;float:right;overflow:hidden;border:#e4e4e4 1px solid;margin-bottom:14px}
+.rightMenu h2{font:16px/38px "\5FAE\8F6F\96C5\9ED1";color:#333;background-color:#fdfdfd;border-bottom:#ff7300 2px solid;padding-left:20px}
+.rightMenu ul.InforList{height:auto;overflow:hidden;padding:16px 10px}
+.InforList li{height:26px; overflow:hidden}
+.InforList li span{width:14px;height:14px;color:#fff;background-color:#bbb;display:inline-block;text-align:center;line-height:14px;margin-right:10px}
+.InforList li span.probg{background-color:#ff7300}
+.InforList li a{font:12px/26px "\5FAE\8F6F\96C5\9ED1";color:#333;text-decoration:none}
+.InforList li a:hover{text-decoration:none;color:#ff7300}

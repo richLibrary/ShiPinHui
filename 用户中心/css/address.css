@@ -1,0 +1,43 @@
+@charset "utf-8";.uctit span.afterSale{border-left:#2b54aa 5px solid;padding-left:10px}
+.ucRight .uctit{font:18px/40px "微软雅黑";color:#333;border-bottom:none}
+.uctit a.uctitInfo{color:#333}
+/*地址管理*/
+.uctInfo{width:981px;height:auto;overflow:hidden;margin-top:30px}
+/*地址管理*/
+.uctInfoMain{ width:981px; height:auto; overflow:hidden}
+.uctInfoTop{height:auto;overflow:hidden;border-bottom:#3d6dce 2px solid}
+.uctInfoTop li{width:132px;height:40px;float:left;margin-right:10px;font:14px/40px "\5FAE\8F6F\96C5\9ED1";display:block;text-align:center;border:#e4e4e4 1px solid;border-radius:4px;border-bottom:none;cursor:pointer}
+.uctInfoTop li.on{background-color:#3d6dce;color:#fff}
+/*地址管理内容*/
+.addrMangeCon{ width:981px; height:auto; overflow:hidden}
+/*地址管理说明*/
+.addrinstr{ height:112px; overflow:hidden; background-color:#fff9e9; margin-top:20px; padding:20px 0px 0px 33px}
+.addrinstr span{font:14px/14px "\5FAE\8F6F\96C5\9ED1"; color:#ff7300; display:block; margin-bottom:10px}
+.addrinstr P{ width:948px; height:22px; overflow:hidden;font:12px/22px "\5FAE\8F6F\96C5\9ED1"; color:#666;}
+/*发货地址管理*/
+.delivAdd{ height:auto; overflow:hidden}
+.addrCon{ border-left:#e4e4e4 1px solid; border-top:#e4e4e4 1px solid;border-right:#e4e4e4 1px solid;}
+.delivAdd h3{ font:16px/16px "\5FAE\8F6F\96C5\9ED1"; color:#333; margin:36px 0px}
+.delivAdd h3 span{ font:12px/12px "\5FAE\8F6F\96C5\9ED1"; color:#999;}
+.uctab4 td{ height:50px; border-bottom:none}
+.uctab3 td{ height:62px; font:14px/24px "\5FAE\8F6F\96C5\9ED1"; color:#666; text-align:center; border-bottom:#e4e4e4 1px solid;}
+.uctab3 td p{ margin-left:30px; width:133px; height:48px; overflow:hidden}
+/*添加发货地址*/
+.addShopAddr{ height:auto; overflow:hidden}
+.addShopAddr h3{ margin:50px 0px 10px 0px;font:16px/16px "\5FAE\8F6F\96C5\9ED1"; color:#333; display:block; float:left}
+.addShopAddr b.addLine{ width:870px; height:1px; border-top:#e4e4e4 1px solid; margin:-6px 0px 0px 110px; display:inline-block; float:left}
+.addShopCon{ height:auto; overflow:hidden; float:left}
+.addShopCon li{width:981px;height:auto}
+.addShopCon li font{ color:#ff0000}
+.addShopCon li span{width:155px;font:14px/60px "\5FAE\8F6F\96C5\9ED1";color:#666;display:inline-block;text-align:right;margin-right:30px}
+.addShopCon li input{ width:279px; height:35px; font:14px/35px "\5FAE\8F6F\96C5\9ED1"; color:#666;  padding-left:10px; border:#e4e4e4 1px solid}
+.addShopCon li select{ width:90px; height:35px; border:#e4e4e4 1px solid; margin-right:10px; padding-left:10px; font:14xp/14px "\5FAE\8F6F\96C5\9ED1"; color:#666;}
+.addShopCon span.streetArea{ display:block; float:left}
+.addShopCon textarea{ padding:10px 0px 0px 10px}
+.addShopCon span.explain{ width:210px; font:12px/12px "\5FAE\8F6F\96C5\9ED1"; color:#999;}
+.addShopCon input.areac{ width:60px; margin-right:10px}
+.addShopCon input.phone{ width:100px; margin-right:10px}
+.addShopCon input.scale{ width:110px}
+.ucbtsave{ width:120px; height:36px; background:#ff6600;-moz-border-radius:2px; webkit-border-radius:2px;border-radius:2px; color:#fff; font-size:16px; margin:50px 0px 0px 190px}
+.ucbtsave:hover{background:#ff7300;}
+.addShopCon i.saveAddr{ width:126px; font:12px/12px "\5FAE\8F6F\96C5\9ED1"; color:#999; display:block; float:right; margin:60px 530px 0px 0px}

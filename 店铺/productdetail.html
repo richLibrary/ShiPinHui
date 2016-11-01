@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+	<meta charset="utf-8" />
+	<title>店铺产品详情</title>
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="Keywords" content="关键词"/>
+	<meta name="Description" content="我是网页的描述sss"/>
+    <link rel="stylesheet" href="css/iconfont/iconfont.css" type="text/css" />
+	<link rel="stylesheet" href="css/common.css" type="text/css" />
+	<link rel="stylesheet" href="css/store.css" type="text/css" />
+    <link rel="stylesheet" href="css/black.css" type="text/css" />
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+    <script type="text/javascript" src="js/zoom.js"></script>
+    <script type="text/javascript" src="js/location.js"></script>
+	<script type="text/javascript" src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
+</head>
+<body ng-app="myApp" ng-controller="userCtrl">
+<div ng-include="'header.html'"></div>
+<!---- 轮播图 ---->
+<div class="wrapperFocus">
+	<div class="bd">
+		<ul>
+			<li>
+				<a href="#" title="活动名称" target="_blank">
+					<img src="images/banner.jpg" width="100%" height="500" title="活动名称" alt="活动名称"/>
+				</a>
+			</li>
+			<li>
+				<a href="#" title="活动名称" target="_blank">
+					<img src="images/banner.jpg" width="100%" height="500" title="活动名称" alt="活动名称"/>
+				</a>
+			</li>
+			<li>
+				<a href="#" title="活动名称" target="_blank">
+					<img src="images/banner.jpg" width="100%" height="500" title="活动名称" alt="活动名称"/>
+				</a>
+			</li>
+			<li>
+				<a href="#" title="活动名称" target="_blank">
+					<img src="images/banner.jpg" width="100%" height="500" title="活动名称" alt="活动名称"/>
+				</a>
+			</li>
+			<li>
+				<a href="#" title="活动名称" target="_blank">
+					<img src="images/banner.jpg" width="100%" height="500" title="活动名称" alt="活动名称"/>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div class="hd"><ul></ul></div>
+	<a class="prev iconfont" href="javascript:void(0)">&#xe615;</a>
+	<a class="next iconfont" href="javascript:void(0)">&#xe614;</a>
+</div>
+<!---- 产品属性 ---->
+<div class="proContent">
+	<h3><a href="" target="_blank" title="">进口果汁批发 塞浦路斯原装进口 SK天然7种热带水果饮料1L*12盒</a></h3>
+		<!---- 产品大图 ---->
+			<div id="proPhotos">
+				<div class="bigImg">
+					<img class="viewBigImg" src="images/testimg/1.jpg"/> 
+				</div>
+				<span class="prevBtn">&lt;</span>
+				<span class="nextBtn">&gt;</span>
+				<div class="proItems"> 
+					<ul>
+						<li class="on">
+							<img src="images/datesImg.jpg" width="60" height="60" title="产品名称" alt="产品名称"/>
+						</li>
+						<li>
+							<img src="http://www.baidu.com/img/bdlogo.png" width="60" height="60" title="产品名称" alt="产品名称"/>
+						</li>
+						<li>
+							<img src="images/testimg/3.jpg" width="60" height="60" title="产品名称" alt="产品名称"/>
+						</li>
+						<li>
+							<img src="images/testimg/4.jpg" width="60" height="60" title="产品名称" alt="产品名称"/>
+						</li>
+						<li>
+							<img src="images/testimg/5.jpg" width="60" height="60" title="产品名称" alt="产品名称"/>
+						</li>
+						<li>
+							<img src="images/testimg/6.jpg" width="60" height="60" title="产品名称" alt="产品名称"/>
+						</li>
+						<li>
+							<img src="images/testimg/7.jpg" width="60" height="60" title="产品名称" alt="产品名称"/>
+						</li>
+						<li>
+							<img src="http://www.jq22.com/demo/jquery-fdj20150813/userimg.jpg" width="60" height="60" title="产品名称" alt="产品名称"/>
+						</li>
+						<li>
+							<img src="http://www.jq22.com/demo/jquery-fdj20150813/userimg2.jpg" width="60" height="60" title="产品名称" alt="产品名称"/>
+						</li>
+					</ul>
+				</div>
+				<div class="detailShare">
+					<span class="shareTitle"><i class="iconfont">&#xe666;</i>分享到：</span>
+					<div class="bdsharebuttonbox" style="float:left;">
+						<a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+						<a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a>
+						<a href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a>
+						<a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a>
+						<a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
+						<a href="#" class="bds_kaixin001" data-cmd="kaixin001" title="分享到开心网"></a>
+						<a href="#" class="bds_douban" data-cmd="douban" title="分享到豆瓣网"></a>
+						<a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a></div>
+					<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+					<a class="favbtn" href="#" target="_self">
+						<span class="detailText"><i class="iconfont">&#xe619;</i>收藏商品</span>
+					</a>
+				</div>
+			</div>
+		<div class="productDetail">
+			<div class="proPrice">
+				<table border="0" cellspacing="0" cellpadding="0">
+					<tbody>
+						<tr>
+							<td class="priceTitle">价格：</td>
+							<td><span class="onePrice">&yen;100.00</span></td>
+							<td><span class="twoPrice">&yen;100.00</span></td>
+							<td><span class="threePrice">&yen;100.00</span></td>
+						</tr>
+						<tr>
+							<td class="priceTitle">起批量：</td>
+							<td><span class="oneNumber">20-40袋</span></td>
+							<td><span class="twoNumber">20-40袋</span></td>
+							<td><span class="threeNumber">20-40袋</span></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<!---- 物流 ---->
+			<div class="logistics">
+				<span class="logisticsTitle">物流：</span>
+				<div id="selectList">
+					<div id="summary-stock">
+						<span class="formCity">四川 成都 &nbsp;至</span>
+						<div class="Delivery">
+							<div id="store-selector">
+								<div class="toCity"><span>请选择配送地区</span><i class="iconfont">&#xe625;</i></div>                   
+								<div onclick="$('#store-selector').removeClass('hover')" class="close"><i class="iconfont">&#xe60a;</i></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<span class="logistText">物流：93</span>
+				<span class="logistText">快递：93</span>
+			</div>
+			<!-- 口味 -->
+			<div class="taste">
+				<span class="tasteTitle">口味：</span><span class="tasteOne on">共1000包</span><span class="tasteOne">共1000包</span><span class="tasteOne">共1000包</span>
+			</div>
+			<!---- 包装规格 ---->
+			<div class="specifications">
+				<span class="specifTitle">包装规格：</span>
+				<table border="0" cellspacing="0" cellpadding="0" class="tableList">
+					<tbody>
+						<tr>
+							<td><span class="specifOne">1000ml*2盒</span></td>
+							<td><span class="specifTwo">1000ml*2盒</span></td>
+							<td><span class="specifThr">1000ml*2盒</span></td>
+							<td>
+								<span class="orderAdd">		
+									<i class="iconfont cut">&#xe63a;</i>
+									<input id="buyCount" type="text" value="1">
+									<i class="iconfont add">&#xe63b;</i>
+								</span>
+							</td>
+						</tr>
+						<tr>
+							<td><span class="specifOne">1000ml*2盒</span></td>
+							<td><span class="specifTwo">1000ml*2盒</span></td>
+							<td><span class="specifThr">1000ml*2盒</span></td>
+							<td>
+								<span class="orderAdd">		
+									<i class="iconfont cut">&#xe63a;</i>
+									<input id="buyCount" type="text" value="1">
+									<i class="iconfont add">&#xe63b;</i>
+								</span>
+							</td>
+						</tr>
+						<tr>
+							<td><span class="specifOne">1000ml*2盒</span></td>
+							<td><span class="specifTwo">1000ml*2盒</span></td>
+							<td><span class="specifThr">1000ml*2盒</span></td>
+							<td>
+								<span class="orderAdd">		
+									<i class="iconfont cut">&#xe63a;</i>
+									<input id="buyCount" type="text" value="1">
+									<i class="iconfont add">&#xe63b;</i>
+								</span>
+							</td>
+						</tr>
+					</tbody>
+				</table>		
+			</div>
+			<div class="selectList">
+				<span class="selectNumber">5个</span>|<strong>21.4元</strong>
+				<span class="listText">已选清单</span>
+				<table border="0" cellspacing="0" cellpadding="0" class="scrollList">
+					<tbody>
+						<tr>
+							<td><span class="specifOne">1000ml*2盒</span></td>
+							<td><span class="specifTwo">1000ml*2盒</span></td>
+							<td><span class="specifThr">1000ml*2盒</span></td>
+						</tr>
+						<tr>
+							<td><span class="specifOne">1000ml*2盒</span></td>
+							<td><span class="specifTwo">1000ml*2盒</span></td>
+							<td><span class="specifThr">1000ml*2盒</span></td>
+						</tr>
+						<tr>
+							<td><span class="specifOne">1000ml*2盒</span></td>
+							<td><span class="specifTwo">1000ml*2盒</span></td>
+							<td><span class="specifThr">1000ml*2盒</span></td>
+						</tr>
+						<tr>
+							<td><span class="specifOne">1000ml*2盒</span></td>
+							<td><span class="specifTwo">1000ml*2盒</span></td>
+							<td><span class="specifThr">1000ml*2盒</span></td>
+						</tr>
+					</tbody>
+			</table>		
+			</div>
+			<div class="buyBtn">
+				<a class="addSale" href="" target="_self" title="">立即订购</a>
+				<a class="addToCart" href="" target="_self" title="">加入采购单</a>
+			</div>
+			<div class="Credibility">
+				<span class="buyers">买家保障</span>
+				<span class="seller">实力卖家</span>
+			</div>
+			<div class="detailPay">
+				<span class="payment">支付方式:</span>
+				<a href="javascript:void(0)" class="payType">银联支付</a>
+				<a href="javascript:void(0)" class="payType">货到付款</a>
+			</div>
+		</div>
+	<!---- 同类热销产品 ---->
+<div class="productHot">
+	<h2>同类热销产品</h2>
+	<ul class="productList">
+		<li>
+			<a href="" target="_blank" title=""><img src="images/berriesImg.jpg" width="140" height="140" alt=""></a>
+			<strong>&yen142</strong>
+		</li>
+		<li>
+			<a href="" target="_blank" title=""><img src="images/berriesImg.jpg" width="140" height="140" alt=""></a>
+			<strong>&yen142</strong>
+		</li>
+		<li>
+			<a href="" target="_blank" title=""><img src="images/berriesImg.jpg" width="140" height="140" alt=""></a>
+			<strong>&yen142</strong>
+		</li>
+	</ul>
+</div>
+</div>
+<!---- 拿样 ---->
+<div class="sample" style="display:none;">
+	<div class="sampleInfor">
+		<h4>免费拿样</h4>
+		<p>进货先拿样,进货有保障</p>
+	</div>
+	<span class="sampleText">样品随机发货，不挑色、挑码，且每个买家限购1件。</span>
+	<ul class="sampleParam">
+		<li>
+			<span class="samplePrice">那样价</span>
+			<span class="sampleValue"><em>129元</em>/斤</span>
+		</li>
+		<li>
+			<span class="sampleLable">样品数量</span>
+			<span class="sampleValue">10斤</span>
+		</li>
+		<li>
+			<span class="sampleLable">样品数量</span>
+			<span class="sampleValue">10斤</span>
+		</li>
+		<li>
+			<span class="sampleLable">样品数量</span>
+			<span class="sampleValue">10斤</span>
+		</li>
+	</ul>
+	<a class="sampleImmed" href="" target="_self" title="">立即拿样</a>
+</div>
+<!--
+模块名称：公共模板部分
+修改内容：暂无
+模块作者：李士洋
+修改时间：2015.12.30
+-->
+<div class="storeContent">
+	<div class="leftbar">
+    	<!--公司信息-->
+    	<!--公司信息-->
+    	<div class="companyInfor">
+        	<h2>公司信息</h2>
+	 	  	<dl class="storeInfor">
+		        <dt>
+		        	<a href="#" class="storeTitle" title="周口天诚贸易有限公司" target="_blank">周口天诚贸易有限公司</a>
+		        </dt>
+		        <dd>
+		            <a class="storeEmail" title="信" target="_blank"></a><span class="storeTime">3年</span>
+		            <div class="storeIcon"><a class="companyQua" href=""></a><a class="dataTime" href=""></a><a class="return" href=""></a></div>
+		        </dd>
+		    </dl>
+            <div class="inforContent">
+            	<span>联系卖家：<a class="qqconsult" href="#" title="在线咨询" target="_blank">在线咨询</a></span>
+                <span class="proMain">主营产品：<a href="#" title="休闲食品" target="_blank">休闲食品</a>&nbsp;
+                <a href="#" title="酒水饮料" target="_blank">酒水饮料</a>&nbsp;
+                <a href="#" title="粮油" target="_blank">粮油</a>
+                <a href="#" title="副食" target="_blank">副食</a>&nbsp;
+                <a href="#" title="果酱奶品" target="_blank">果酱奶品</a>
+                </span>
+            </div>
+		    <a href="#" class="enterStore" title="进入店铺" target="_blank">进入店铺</a>
+		    <a href="#" class="foucsStore" title="关注店铺" target="_blank">关注店铺</a>
+       </div>
+      <div class="cdiType">
+        	<h2>商品分类</h2>
+            <div class="diTypeCont">
+            	<span>产品名：<input class="diPro" type="text"/></span>
+                <span>价&nbsp;&nbsp;&nbsp;格：<input class="diPrice" type="text"/>到<input class="diTo" type="text"/></span>
+                <input  class="caSearch" type="submit" value="搜索"/>
+            </div>
+        </div>
+        <!--商品分类-->
+        <div class="goodsClass">
+        	<h2>商品分类</h2>
+            <ul class="commodity">
+		 		<li class="cur">
+					<h3><i class="iconfont">&#xe62c;</i>订单管理</h3>
+					<a href="#" title="001" target="_self">001</a>
+					<a href="#" title="002" target="_self">002</a>
+					<a href="#" title="03" target="_self">003</a>
+				</li>
+ 		 		<li>
+					<h3><i class="iconfont">&#xe62c;</i>订单管理</h3>
+					<a class="hover" href="#" title="管理后台" target="_self">001</a>
+					<a href="#" title="管理后台" target="_self">002</a>
+				</li>
+ 		 		<li>
+					<h3><i class="iconfont">&#xe62c;</i>订单管理</h3>
+					<a class="hover" href="#" title="管理后台" target="_self">001</a>
+					<a href="#" title="管理后台" target="_self">002</a>
+				</li>
+ 		 		<li>
+					<h3><i class="iconfont">&#xe62c;</i>订单管理</h3>
+					<a class="hover" href="#" title="管理后台" target="_self">001</a>
+					<a href="#" title="管理后台" target="_self">002</a>
+				</li>
+ 		 		<li>
+					<h3><i class="iconfont">&#xe62c;</i>订单管理</h3>
+					<a class="hover" href="#" title="管理后台" target="_self">001</a>
+					<a href="#" title="管理后台" target="_self">002</a>
+				</li>
+ 		 		<li>
+					<h3><i class="iconfont">&#xe62c;</i>订单管理</h3>
+					<a class="hover" href="#" title="管理后台" target="_self">001</a>
+					<a href="#" title="管理后台" target="_self">002</a>
+				</li>
+            </ul>
+        </div>
+        <!--热销排行-->
+        <div class="saleList">
+        	<h2>销量排行榜</h2>
+            <ul class="sales">
+            	<li>
+                	<a class="salesImg" href="#" title="产品图" target="_blank">
+                    	<img src="images/berriesImg.jpg" width="205" height="205" title="产品图" alt="产品图"/>
+                    </a>
+                    <a href="#" class="saName" title="进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L" target="_blank">进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L</a>
+                    <font>¥ 10.07</font>
+               		<del>¥12.5</del>
+               		<span>10件起批</span>
+                </li>
+                <li>
+                	<a class="salesImg" href="#" title="产品图" target="_blank">
+                    	<img src="images/biscuitImg.jpg" class="bisImg" width="205" height="205" title="产品图" alt="产品图"/>
+                    </a>
+                    <a href="#" class="saName" title="进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L" target="_blank">进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L</a>
+                    <font>¥ 10.07</font>
+               		<del>¥12.5</del>
+               		<span>10件起批</span>
+                </li>
+               <li>
+                	<a class="salesImg" href="#" title="产品图" target="_blank">
+                    	<img src="images/biscuitImg.jpg" class="bisImg" width="205" height="205" title="产品图" alt="产品图"/>
+                    </a>
+                    <a href="#" class="saName" title="进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L" target="_blank">进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L</a>
+                    <font>¥ 10.07</font>
+               		<del>¥12.5</del>
+               		<span>10件起批</span>
+                </li>
+            </ul>
+       </div>
+       <div class="newList">
+        	<h2>最新产品</h2>
+            <ul class="newProduct">
+            	<li>
+                	<a class="salesImg" href="#" title="产品图" target="_blank">
+                    	<img src="images/berriesImg.jpg" width="205" height="205" title="产品图" alt="产品图"/>
+                    </a>
+                    <a href="#" class="saName" title="进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L" target="_blank">进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L</a>
+                    <font>¥ 10.07</font>
+               		<del>¥12.5</del>
+               		<span>10件起批</span>
+                </li>
+                <li>
+                	<a class="salesImg" href="#" title="产品图" target="_blank">
+                    	<img src="images/biscuitImg.jpg" class="bisImg" width="205" height="205" title="产品图" alt="产品图"/>
+                    </a>
+                    <a href="#" class="saName" title="进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L" target="_blank">进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L</a>
+                    <font>¥ 10.07</font>
+               		<del>¥12.5</del>
+               		<span>10件起批</span>
+                </li>
+            	<li>
+                	<a class="salesImg" href="#" title="产品图" target="_blank">
+                    	<img src="images/berriesImg.jpg" width="205" height="205" title="产品图" alt="产品图"/>
+                    </a>
+                    <a href="#" class="saName" title="进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L" target="_blank">进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L</a>
+                    <font>¥ 10.07</font>
+               		<del>¥12.5</del>
+               		<span>10件起批</span>
+                </li>
+                <li>
+                	<a class="salesImg" href="#" title="产品图" target="_blank">
+                    	<img src="images/biscuitImg.jpg" class="bisImg" width="205" height="205" title="产品图" alt="产品图"/>
+                    </a>
+                    <a href="#" class="saName" title="进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L" target="_blank">进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L</a>
+                    <font>¥ 10.07</font>
+               		<del>¥12.5</del>
+               		<span>10件起批</span>
+                </li>
+            </ul>
+       </div>
+    </div>
+    <!---- 商品评价 ---->
+	<div class="goodsDetail">
+		<div class="goodsTitle">
+			<span class="on">商品详情</span>
+			<span>成交记录<b>(322)</b></span>
+			<span>评价<b>(32)</b></span>
+			<a href="javascript:void(0);" target="_self" class="aAddCart">加入购物车</a>
+		</div>
+		<div class="sideRightCon">
+			<div class="clinchPara">
+				<ul>
+					<li>商品品牌：difrax 迪福</li>
+					<li>品牌国：荷兰</li>
+					<li>容量：170ml</li>
+					<li>口径大小：宽口径</li>
+				</ul>
+			</div>
+			<!---- 商品交易---->
+			<div class="goodsRecord">
+				<h3>成交记录<b>(22)</b></h3>
+				<div class="ClinchNumber">
+					<dl>
+						<dt>商品成交数量</dt>
+						<dd><span class="clinchCount">213</span>箱</dd>
+					</dl>
+					<dl>
+						<dt>采购人数</dt>
+						<dd><span class="clinchCount">213</span>箱</dd>
+					</dl>
+					<dl>
+						<dt>人均采购数</dt>
+						<dd><span class="clinchCount">213</span>箱</dd>
+					</dl>
+				</div>
+				<ul class="ClinchTime">
+					<li>90天内：<em>98</em>笔</li>
+					<li>90天内：<em>98</em>笔</li>
+					<li>90天内：<em>98</em>笔</li>
+					<li>90天内：<em>98</em>笔</li>				
+				</ul>
+				<table class="purchaser" border="0" cellspacing="0" cellpadding="0">
+					<thead>
+						<tr class="purTitle">
+							<th>采购商</th>
+							<th class="purPrice"><span class="calue">成交价(元)</span><span class="specif">商品规格</span></th>
+							<th>数量</th>
+							<th>成交时间</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class="purContent">
+							<td>xxxxxx</td>
+							<td class="purMore">
+								<div class="purList">
+									<strong>&yen;128.00</strong>
+									<span class="purTaste">口味:五香牛肉</span>
+								</div>
+								<div class="purList">
+									<strong>&yen;128.00</strong>
+									<span class="purTaste">口味:五香牛肉</span>
+								</div>
+								<div class="purList">
+									<strong>&yen;128.00</strong>
+									<span class="purTaste">口味:五香牛肉</span>
+								</div>
+							</td>
+							<td class="purBox">20箱</td>
+							<td class="purTime">2016-1-18</td>
+						</tr>
+						<tr class="purContent">
+							<td>xxxxxx</td>
+							<td class="purMore">
+								<div class="purList">
+									<strong>&yen;128.00</strong>
+									<span class="purTaste">口味:五香牛肉</span>
+								</div>
+								<div class="purList">
+									<strong>&yen;128.00</strong>
+									<span class="purTaste">口味:五香牛肉</span>
+								</div>
+							</td>
+							<td class="purBox">20箱</td>
+							<td class="purTime">2016-1-18</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		<!---- 商品评价 ---->
+		<div class="evaluation">
+			<h3>成交记录<b>(22)</b></h3>
+			<div class="starFilter">
+				<label><input type="radio" name="star" checked="checked"/>全部</label>
+				<label><input type="radio" name="star"/>四星五星<span>(100)</span></label>
+				<label><input type="radio" name="star"/>三星<span>(100)</span></label>
+				<label><input type="radio" name="star"/>二星<span>(100)</span></label>
+				<label><input type="radio" name="star"/>一星<span>(100)</span></label>
+			</div>
+			<div class="evaContent">
+				<dl>
+					<dt>dfdfdfd</dt>
+					<dd>
+						<div class="evaAttr">
+							<span class="pentagram">星级：<i class="iconfont">&#xe647;</i><i class="iconfont">&#xe647;</i></span>
+							<span class="evaNumber">数量：24瓶</span>
+							<span class="evaTotal">累计采购：24瓶</span>
+							<span class="evaTime">2016-1-18</span>
+						</div>
+					</dd>
+					<dd>
+						<p class="evaText">口感很好，客户很是喜欢，好评！口感很好，客户很是喜欢，好评！口感很好，客户很是喜欢，好评！口感很好，客户很是喜欢，好评！口感很好，客户很是喜欢，好评！口感很好，客户很是喜欢，好评！口感很好，客户很是喜欢，好评！口感很好，客户很是喜欢，好评！口感很好，客户很是喜欢，好评！</p>
+					</dd>
+				</dl>
+				<dl>
+					<dt>dfdfdfd</dt>
+					<dd>
+						<div class="evaAttr">
+							<span class="pentagram">星级：<i class="iconfont">&#xe647;</i><i class="iconfont">&#xe647;</i></span>
+							<span class="evaNumber">数量：24瓶</span>
+							<span class="evaTotal">累计采购：24瓶</span>
+							<span class="evaTime">2016-1-18</span>
+						</div>
+					</dd>
+					<dd>
+						<p class="evaText">口感很好，客户很是喜欢，好评！口感很好，客户很是喜欢，好评！口感很好，客户很是喜欢，好评！口感很好，客户很是喜欢，好评！口感很好，客户很是喜欢，好评！口感很好，客户很是喜欢，好评！口感很好，客户很是喜欢，好评！口感很好，客户很是喜欢，好评！口感很好，客户很是喜欢，好评！</p>
+					</dd>
+				</dl>
+			</div>
+		</div>
+		</div>
+	</div>
+</div> 
+<div ng-include="'footer.html'"></div>
+<script type="text/javascript">
+	angular.module('myApp', []).controller('userCtrl', function($scope) {})
+</script>
+<script type="text/javascript" src="js/location.js"></script>
+<script type="text/javascript">
+	jQuery(".wrapperFocus").slide({ titCell:".hd ul", mainCell:".bd ul", effect:"fold",  autoPlay:true, autoPage:true, trigger:"click",interTime:5000});
+	$(document).ready(function(){
+		//左侧点击展开
+		$(".goodsClass ul li h3").click(function(){
+			$(this).parent().toggleClass("cur")
+			$(this).parent().siblings().removeClass("cur")
+		})
+	})
+//	商品评价tab切换
+	$(function(){
+		$(".goodsTitle span").each(function(index){
+			$(this).click(function(){
+				$(".goodsTitle span.on").removeClass("on");
+				$(this).addClass("on");
+				$(".sideRightCon>div:eq("+index+")").show().siblings().hide();
+			})
+		})
+	})
+	$(function(){
+		$(".listText").click(function(){
+			$(this).next().toggleClass("cur");
+		})
+	})
+//	商品评价tab切换浮动
+	$(window).scroll(function () {
+	    var topH = $(".goodsDetail").offset().top + 50,
+	        scrolltop = $(window).scrollTop();
+	    if (scrolltop >= topH) {
+	        $(".goodsTitle").addClass("top-nav-wrap-fixed");
+	        $(".goodsTitle").stop().animate({"top": "0"}, 200);
+	    }
+	    else {
+	        $(".goodsTitle").removeClass("top-nav-wrap-fixed");
+	        $(".goodsTitle").css({"top":""})
+	    }
+	});
+</script>
+</body>
+</html>

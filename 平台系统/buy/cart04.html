@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+	<meta charset="utf-8" />
+	<title>购物车第三个步骤</title>
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="Keywords" content="购物车第三个步骤"/>
+	<meta name="Description" content="购物车第三个步骤"/>
+
+	<link rel="stylesheet" href="css/common.css" type="text/css" />
+	<link rel="stylesheet" href="css/cart04.css" type="text/css" />
+	<link rel="stylesheet" href="css/iconfont/iconfont.css" type="text/css" />
+	
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
+
+</head>
+
+<body ng-app="myApp" ng-controller="userCtrl" style="background-color:#fafafa;">
+<div ng-include="'header.html'"></div>	
+<!----
+模块名称：购物车头部
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2016.01.05
+---->
+<div class="cartTop">
+	<div class="cartTopMain">
+		<h1><a href="#" title="食品荟购物车" target="_blank"></a><b>收银台</b></h1>
+		<div class="cartSteps">
+			<p><i style="width:360px;"></i></p>
+			<span class="step01 on">我的进货单</span><span class="step02 on">填写核对订单信息</span><span class="step03 on">成功提交订单</span>
+		</div>
+	</div>
+</div>
+<!----
+模块名称：支付成功提示
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2016.01.05
+---->
+<div class="sucessTip">
+	<i class="iconfont">&#xe636;</i>
+	<h2>食品荟恭喜您，支付成功！</h2>
+	<p>请您在提交订单后24小时内完成支付，否则订单会自动取消。</p>
+</div>
+<!----
+模块名称：订单列表
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2016.01.05
+---->
+<div class="orderList">
+	<ul>
+		<li>
+			<a href="#" title="产品名称" target="_blank">
+				<img src="" width="60" height="60" alt="产品名称" title="产品名称" />
+			</a>
+			<p>您的订单<span>123456789</span>已经付款成功，付款<font>50620000.00元</font></p>
+			<a class="orderDets" href="#" title="查看详情" target="_blank">查看详情</a>
+		</li>
+		<li>
+			<a href="#" title="产品名称" target="_blank">
+				<img src="" width="60" height="60" alt="产品名称" title="产品名称" />
+			</a>
+			<p>您的订单<span>123456789</span>已经付款成功，付款<font>50620000.00元</font></p>
+			<a class="orderDets" href="#" title="查看详情" target="_blank">查看详情</a>
+		</li>
+	</ul>
+</div>
+<!----
+模块名称：下一个步骤
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2016.01.05
+---->
+<div class="nextOp">
+	<a href="#" title="返回首页" target="_self">返回首页</a>
+</div>
+
+<div ng-include="'footer.html'"></div>
+<script type="text/javascript">
+	angular.module('myApp', []).controller('userCtrl', function($scope) {})
+</script>
+
+</body>
+</html>

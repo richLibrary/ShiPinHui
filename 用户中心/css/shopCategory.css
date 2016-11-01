@@ -1,0 +1,22 @@
+/*商品分类内容*/
+.catagory{ width:988px;height: auto; overflow: hidden;}
+.catagCon{ width: 988px; height: 40px; border-bottom: #e4e4e4 1px solid;}
+.catagCon span{ width:60px; text-align:center;color: #36c;display: inline-block; border-bottom: #36c 1px solid; font: 12px/40px "\5FAE\8F6F\96C5\9ED1";}
+.catagCon a{ width:70px; height:24px;float: right; background-color: #FF7300; display: block; color:#fff;font: 12px/24px "\5FAE\8F6F\96C5\9ED1"; margin-top: 10px; text-align: center; border-radius: 4px;}
+.catagCon a:hover{ text-decoration: none;}
+.catagName{ width: 988px; height: auto;}
+.catagName a{ color: #333;}
+.catagMain{ height:30px;background-color: #f5f5f5; border-top: #e4e4e4 1px solid;}
+.catagdete{ background-color: #fff; border: #e4e4e4 1px solid; width: 60px; height: 24px; display: block;}
+.catNameCon{ border-bottom: #e4e4e4 1px solid;}
+.catNameCon a.newlyIncd{ width: 60px; height: 22px; display:block; float: right; margin-right: 500px; background-color: #f5f5f5; font: 12px/22px "\5FAE\8F6F\96C5\9ED1"; text-align: center;}
+.catNameCon a.compile{background:url(../images/writegra.png) no-repeat 5px 10px scroll; height: 48px; line-height: 60px; display: inline-block;margin-right: 10px;}
+.catNameCon a.compileDel{background:url(../images/dealgra.png) no-repeat 5px 10px scroll;height: 48px; line-height: 60px;display: inline-block;}
+.catNameCon span{width: 64px; height: 22px;display: block; background-color: #f5f5f5; border: #e4e4e4 1px solid; font: 12px/22px "\5FAE\8F6F\96C5\9ED1"; background: url(../images/whitefica.png) no-repeat 3px center scroll; background-color: #f5f5f5;}
+.catNameCon span.wronggra{background: url(../images/wronggra.png) no-repeat 3px center scroll; background-color: #f5f5f5;}
+.catNameCon span i{ margin-left: 22px;}
+.selectCon{ width: 988px; height: 50px; overflow: hidden;}
+/*设置商品分类*/
+.setCdity{ width: 988px; height: auto; overflow: hidden; margin-top: 60px;}
+.setCdity sapn{font: 16px/82px "\5FAE\8F6F\96C5\9ED1"; color: #666; text-align: center; display: block; background: url(../images/codegra.jpg) no-repeat 300px 0px scroll; height: 77px;}
+.setCdity sapn a{ color: #36c;}

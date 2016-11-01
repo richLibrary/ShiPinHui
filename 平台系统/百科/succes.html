@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>发布成功</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="Keywords" content="关键词"/>
+	<meta name="Description" content="我是网页的描述sss"/>
+	<link rel="stylesheet" href="css/iconfont/iconfont.css" type="text/css" />
+	<link rel="stylesheet" href="css/common.css" type="text/css" />
+	<link rel="stylesheet" href="css/creatEntry.css" type="text/css" />
+	<script type="text/javascript" src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
+</head>
+<body ng-app="myApp" ng-controller="userCtrl">
+<div ng-include="'header.html'"></div>
+<div class="entrySubmit">
+	<div class="submitConment">
+		<h3><i class="iconfont">&#xe636;</i>您的词条已提交</h3>
+		<p>您的版本还不能直接呈现给其他网友，需要经过一段时间的审核。您可以到<a href="#" target="_blank" title="">我的词条</a>中查看已通过版本和待审核版本，或者<a href="#" target="_blank" title="">查看词条</a>。词条审核完成后，我们将通过站内信消息告知您结果。</p>
+		<img src="images/ct.png" width="561" height="65" alt="">
+		<p>若未通过审核，您可以到<a href="#" target="_blank" title="">我的词条</a>中查看未通过版本，进行修改。</p>
+	</div>
+	<a class="submitBtn" href="creatEntry.html" target="_blank" title="新建词条">新建词条</a>
+</div>
+<div ng-include="'footer.html'"></div>
+<script type="text/javascript">
+	angular.module('myApp', []).controller('userCtrl', function($scope) {})
+</script>
+</body>
+</html>

@@ -1,0 +1,178 @@
+@charset "utf-8";
+/*----
+模块作者：裴富成
+修改时间：2016.1.11
+----*/
+.informationContent{width:1200px;height:auto;overflow:hidden;margin:15px auto 0;}
+.slideBox{width:400px;height:300px;overflow:hidden;position:relative;float:left;}
+.slideBox .hd{overflow:hidden;zoom:1;height:14px;position:absolute;right:15px;bottom:10px;z-index:2}
+.slideBox .hd li{float:left;margin-right:5px;width:14px;height:14px;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;-ms-border-radius:10px;-o-border-radius:10px;line-height:13px;text-align:center;background:#fff;cursor:pointer}
+.slideBox .hd li.on{background:#f4825b;color:#fff}
+.slideBox .bd{position:relative;height:100%;z-index:0}
+.slideBox .bd li{zoom:1;vertical-align:middle}
+.slideBox .bd img{width:400px;height:300px;display:block}
+.slideBox .next,.slideBox .prev{display:none;position:absolute;left:0;top:50%;margin-top:-25px;width:40px;height:50px;background:url(../images/news/iconBg.png) -60px 0 no-repeat;filter:alpha(opacity=50);opacity:.5}
+.slideBox .next{left:auto;right:0;background-position:-108px 0}
+.slideBox:hover .next,.slideBox:hover .prev{display:block;}
+.slideBox .next:hover,.slideBox .prev:hover{filter:alpha(opacity=100);opacity:1}
+.slideBg{position:absolute;bottom:0;z-index:1;height:36px;width:100%;background:#000;filter:alpha(opacity=40);opacity:0.4;overflow:hidden; }
+.slideTxt{position:absolute;bottom:0;z-index:2;height:36px;width:100%;overflow:hidden;}
+.slideTxt li{height:36px;line-height:36px;position:absolute;right:430px;bottom:0;width:100%;}
+.slideTxt li a{display:block;color:white;font: bold 12px/36px "\5FAE\8F6F\96C5\9ED1";text-decoration:none;text-align:left;width:100%;height:36px;padding-left:15px;z-index:2;}
+/*---- 招标公司 ----*/
+.informationCompany{border-bottom:1px dashed #e4e4e4;height:auto;padding: 10px 0 14px;}
+.informationCompany h3 a{font:bold 16px/28px "\5FAE\8F6F\96C5\9ED1";color:#333;text-align:center;display:block;}
+.informationCompany h3 a:hover{color:#FF7300;}
+.informationList{height:300px;overflow:hidden;width:486px;margin:0 17px 0 22px;float:left;}
+.informationText{height:48px;width:486px;overflow:hidden;}
+.informationText li{height:24px;line-height:24px;width:218px;padding-left:22px;float:left;overflow:hidden;}
+.informationText li a{font: 12px/24px "\5FAE\8F6F\96C5\9ED1";color:#333;height:24px;width:218px;overflow:hidden;}
+.informationText li a:hover{text-decoration:none;color:#FF7300;}
+.informationRight{width:274px;height:326px;overflow:hidden;}
+.informationRight a{display:inline-block;width:110px;height:72px;color:#333;padding:6px;text-align:center;margin:0 0 20px 10px;border:1px solid #E4E4E4;}
+.informationRight a:hover{border: 1px solid #ffd089;text-decoration:none;}
+.informationTitle{display:block;font: 12px/22px "\5FAE\8F6F\96C5\9ED1";color:#333;width:110px;height:22px;overflow:hidden;}
+/*---- 宣传图 ----*/
+.Advertise{width:1200px;height:90px;overflow:hidden;margin:20px auto;}
+.Advertise img{width:1200px;height:90px;display:block;}
+/*---- 食品展会 ----*/
+.informationResult{width:1200px;height:auto;overflow:hidden;margin:0 auto;position: relative;}
+.foodShow{width:400px;height:247px;overflow:hidden;position:relative;float:left;margin:0 15px 0 0;position:relative;}
+.foodShow h2{font: 18px/34px "\5FAE\8F6F\96C5\9ED1";color:#333;border-bottom:1px solid #E4E4E4;}
+.foodShow h2 i{color:#46a400;margin-right:2px;font-size:20px;}
+.foodshowContent{height:204px;overflow:hidden;margin-top:8px;width:400px;}
+.foodshowContent li{height:34px;line-height:34px;}
+.foodshowContent li a{font:12px/34px "\5FAE\8F6F\96C5\9ED1";color:#333;height:34px;width:315px;overflow:hidden;display:inline-block;}
+.foodshowContent li a:hover{color:#ff6600;}
+.foodshowContent li span{float:right;display:block;color:#999;}
+.showMore{display:block;font: 14px/34px "\5FAE\8F6F\96C5\9ED1";color:#333;position: absolute;right:15px;top:0;}
+.showMore:hover{text-decoration:none;color:#FF7300;}
+/*---- 热门关注 ----*/
+.hotFoucs{width:490px;height:247px;overflow:hidden;position:relative;float:left;margin:0 15px;position:relative;}
+.hotFoucs h2{font: 18px/34px "\5FAE\8F6F\96C5\9ED1";color:#333;border-bottom:1px solid #E4E4E4;}
+.hotFoucs h2 i{color:#FF7300;margin-right:2px;font-size:20px;}
+.hotFirst{width:470px;padding:10px 10px 0;height:125px;overflow:hidden;position:relative;}
+.hotImg{padding:10px;display:block;float:left;}
+.hotTitle{font:bold 14px/32px "\5FAE\8F6F\96C5\9ED1";height:32px;width:298px;overflow:hidden;color:#333;margin-top:10px;display:block;float:left;}
+.hotTitle:hover{color:#ff6600;}
+.hotTime{position:absolute;left:19px;top:115px;font:12px/22px "\5FAE\8F6F\96C5\9ED1";color:#999;}
+.hotLook{position:absolute;left:200px;top:115px;font:12px/22px "\5FAE\8F6F\96C5\9ED1";color:#999;}
+.hotText{height:68px;overflow:hidden;margin-top:8px;width:490px;}
+.hotText li{height:34px;line-height:34px;float:left}
+.hotText li a{font:12px/34px "\5FAE\8F6F\96C5\9ED1";color:#333;height:34px;width:225px;overflow:hidden;display:inline-block;padding-left:18px;}
+.hotText li a:hover{color:#ff6600;}
+/*---- 市场行情 ----*/
+.Market{width:248px;height:247px;overflow:hidden;position:absolute;top:0;right:0;}
+.Market h2{font:18px/34px "\5FAE\8F6F\96C5\9ED1";color:#333;border-bottom:1px solid #E4E4E4;}
+.Market h2 i{color:#46A400;margin-right:2px;font-size:20px;}
+.marketText{height:204px;overflow:hidden;margin-top:8px;width:248px;}
+.marketText li{height:34px;line-height:34px;float:left}
+.marketText li a{font:12px/34px "\5FAE\8F6F\96C5\9ED1";color:#333;height:34px;width:225px;overflow:hidden;display:inline-block;}
+.marketText li a:hover{text-decoration:none;color:#FF7300;}
+.marketText li a i{color:#bebebe;margin:0 5px;}
+.marketText li a:hover i{color:#FF7300;}
+/*---- 食品安全 ----*/
+.foodCategory{width:1200px;height:auto;overflow:hidden;margin:0 auto;position:relative;}
+.foodSecurity{width:448px;height:389px;float:left;margin-right:22px;}
+.securityTitle{height:34px;border-bottom:1px solid #E4E4E4;position:relative;}
+.securityTitle h2{font:18px/34px "\5FAE\8F6F\96C5\9ED1";color:#333;padding:0 14px;border-bottom:2px solid #46A400;float:left;}
+.securityFirst{width:434px;padding:10px 0 0 5px;height:auto;overflow:hidden;position:relative;}
+.securityImg{padding:10px;display:block;float:left;}
+.securityText{font:bold 14px/32px "\5FAE\8F6F\96C5\9ED1";height:32px;width:264px;overflow:hidden;color:#333;margin-top:10px;display:block;float:left;}
+.securityText:hover{color:#FF7300;}
+.securityCompany{height:238px;width:418px;overflow:hidden;padding:0 15px 0 15px;}
+.securityCompany li{height:34px;line-height:34px;}
+.securityCompany li a{font:12px/34px "\5FAE\8F6F\96C5\9ED1";color:#333;height:34px;width:315px;overflow:hidden;display:inline-block;}
+.securityCompany li a:hover{color:#ff6600;}
+.securityCompany li span{float:right;display:block;color:#999;}
+/*---- 食品追溯 ----*/
+.foodRoots{width:448px;height:389px;float:left;margin-right:22px;}
+.rootsTitle{height:34px;border-bottom:1px solid #E4E4E4;position:relative;}
+.rootsTitle h2{font:18px/34px "\5FAE\8F6F\96C5\9ED1";color:#333;padding:0 14px;border-bottom:2px solid #46A400;float:left;}
+.rootsFirst{width:434px;padding:10px 0 0 5px;height:auto;overflow:hidden;position:relative;}
+.rootsCompany{height:238px;width:418px;overflow:hidden;padding:0 15px 0 15px;}
+.rootsCompany li{height:34px;line-height:34px;}
+.rootsCompany li a{font:12px/34px "\5FAE\8F6F\96C5\9ED1";color:#333;height:34px;width:315px;overflow:hidden;display:inline-block;}
+.rootsCompany li a:hover{color:#ff6600;}
+.rootsCompany li span{float:right;display:block;color:#999;}
+/*---- 食品机械 ----*/
+.foodMachinery{width:448px;height:389px;float:left;margin:30px 22px 0 0;}
+.machineryTitle{height:34px;border-bottom:1px solid #E4E4E4;position:relative;}
+.machineryTitle h2{font:18px/34px "\5FAE\8F6F\96C5\9ED1";color:#333;padding:0 14px;border-bottom:2px solid #46A400;float:left;}
+.machineryFirst{width:434px;padding:10px 0 0 5px;height:auto;overflow:hidden;position:relative;}
+.machineryCompany{height:238px;width:418px;overflow:hidden;padding:0 15px 0 15px;}
+.machineryCompany li{height:34px;line-height:34px;}
+.machineryCompany li a{font:12px/34px "\5FAE\8F6F\96C5\9ED1";color:#333;height:34px;width:315px;overflow:hidden;display:inline-block;}
+.machineryCompany li a:hover{color:#ff6600;}
+.machineryCompany li span{float:right;display:block;color:#999;}
+/*---- 企业服务 ----*/
+.enterPrise{width:448px;height:389px;float:left;margin:30px 22px 0 0;}
+.priseTitle{height:34px;border-bottom:1px solid #E4E4E4;position:relative;}
+.priseTitle h2{font:18px/34px "\5FAE\8F6F\96C5\9ED1";color:#333;padding:0 14px;border-bottom:2px solid #46A400;float:left;}
+.priseFirst{width:434px;padding:10px 0 0 5px;height:auto;overflow:hidden;position:relative;}
+.priseCompany{height:238px;width:418px;overflow:hidden;padding:0 15px 0 15px;}
+.priseCompany li{height:34px;line-height:34px;}
+.priseCompany li a{font:12px/34px "\5FAE\8F6F\96C5\9ED1";color:#333;height:34px;width:315px;overflow:hidden;display:inline-block;}
+.priseCompany li a:hover{color:#ff6600;}
+.priseCompany li span{float:right;display:block;color:#999;}
+.informationImg{display:block;width:260px;height:328px;position:absolute;right:0;top:0;}
+/*---- 财富精英 ----*/
+.wealElite{width:232px;height:450px;position:absolute;bottom:0;right:0;border:1px solid #E4E4E4;padding:12px 12px 0;}
+.wealElite h2{font:18px/34px "\5FAE\8F6F\96C5\9ED1";color:#333;}
+.wealElite h2 i{color:#46A400;margin-right:2px;font-size:20px;}
+.eliteFirst{width:236px;padding:10px 0 0 0;height:auto;overflow:hidden;position:relative;}
+.eliteImg{color:#ff6600;display:inline-block;width:113px;height:115px;overflow:hidden;margin-right:3px;}
+.eliteImg span{color:#666;display:block;width:113px;font: 12px/20px "\5FAE\8F6F\96C5\9ED1";height:40px;overflow:hidden;}
+.eliteImg span:hover{color:#ff6600;text-decoration:none;}
+.eliteCompany{height:272px;overflow:hidden;width:232px;}
+.eliteCompany li{height:34px;line-height:34px;}
+.eliteCompany li a{font:12px/34px "\5FAE\8F6F\96C5\9ED1";color:#333;height:34px;width:220px;overflow:hidden;display:inline-block;}
+.eliteCompany li a:hover{color:#ff6600;}
+.eliteMore{display:block;font: 14px/34px "\5FAE\8F6F\96C5\9ED1";color:#333;position: absolute;right:15px;top:15px;}
+.eliteMore:hover{text-decoration:none;color:#FF7300;}
+/*---- 养生保健 ----*/
+.careKnowledge{width:1200px;height:auto;margin:0 auto;overflow:hidden;}
+.keepHealth{width:379px;height:356px;border:1px solid #E4E4E4;padding:12px 12px 0 0;float:left;position:relative;overflow:hidden;}
+.keepHealth h2{font:18px/28px "\5FAE\8F6F\96C5\9ED1";color:#333;border-bottom: 2px solid #46A400;width:96px;text-align:center;margin-left:10px;}
+.healthTitle{margin-left: 10px;}
+.healthTitle p{width:361px;padding:0 10px;height:40px;font:12px/20px "\5FAE\8F6F\96C5\9ED1";overflow:hidden;}
+.healthText{font:bold 14px/28px "\5FAE\8F6F\96C5\9ED1";color:#333;display:block;width:371px;height:28px;overflow:hidden;padding:12px 0 0 10px;border-top:1px solid #E4E4E4 ;}
+.healthText:hover{color:#ff6600;}
+.healthProblem{height:146px;width:362px;overflow:hidden;padding:10px 10px 0 19px;}
+.healthProblem li{height:34px;line-height:34px;}
+.healthProblem li a{font:12px/34px "\5FAE\8F6F\96C5\9ED1";color:#333;height:34px;width:362px;overflow:hidden;display:inline-block;}
+.healthProblem li a:hover{color:#ff6600;}
+.HealthImg{float:left;padding-left:15px;}
+.showImg img{width:172px;height:85px;}
+.healthMore{display:block;font: 14px/34px "\5FAE\8F6F\96C5\9ED1";color:#333;position: absolute;right:15px;top:8px;}
+.healthMore:hover{text-decoration:none;color:#FF7300;}
+/*---- 健康指南 ----*/
+.healthGuide{width:379px;height:355px;border:1px solid #E4E4E4;padding:12px 12px 0 0;float:left;position:relative;margin-left:10px;overflow:hidden;}
+.healthGuide h2{font:18px/28px "\5FAE\8F6F\96C5\9ED1";color:#333;border-bottom: 2px solid #46A400;width:96px;text-align:center;margin-left:10px;}
+.guideTitle{margin-left:10px;}
+.guideTitle p{width:361px;padding:0 10px;height:40px;font:12px/20px "\5FAE\8F6F\96C5\9ED1";overflow:hidden;}
+.guideText{font:bold 14px/28px "\5FAE\8F6F\96C5\9ED1";color:#333;display:block;width:371px;height:28px;overflow:hidden;padding:12px 0 0 10px;border-top:1px solid #E4E4E4 ;}
+.guideText:hover{color:#ff6600;}
+.guideProblem{height:146px;width:362px;overflow:hidden;padding:10px 10px 0 19px;}
+.guideProblem li{height:34px;line-height:34px;}
+.guideProblem li a{font:12px/34px "\5FAE\8F6F\96C5\9ED1";color:#333;height:34px;width:362px;overflow:hidden;display:inline-block;}
+.guideProblem li a:hover{color:#ff6600;}
+.showImg{height:85px;overflow: hidden;width:391px;}
+/*---- 创业路上 ----*/
+.businessRoad{width:379px;height:354px;border:1px solid #E4E4E4;padding:12px 12px 0 0;float:left;position:relative;margin-left:10px;overflow:hidden;}
+.businessRoad h2{font:18px/28px "\5FAE\8F6F\96C5\9ED1";color:#333;border-bottom: 2px solid #46A400;width:96px;text-align:center;margin-left:10px;}
+.roadTitle{width:365px;margin:0 10px;height:auto;overflow:hidden;position:relative;border-top:1px solid #E4E4E4;}
+.roadImg{padding:10px 10px 10px 0;display:block;float:left;}
+.roadText{font:bold 14px/32px "\5FAE\8F6F\96C5\9ED1";height:32px;width:205px;overflow:hidden;color:#333;margin-top:10px;display:block;float:left;}
+.roadText:hover{color:#FF7300;}
+.roadCompany{height:204px;width:364px;overflow:hidden;padding:0 15px 0 10px;}
+.roadCompany li{height:34px;line-height:34px;}
+.roadCompany li a{font:12px/34px "\5FAE\8F6F\96C5\9ED1";color:#333;height:34px;width:260px;overflow:hidden;display:inline-block;}
+.roadCompany li a:hover{color:#ff6600;}
+.roadCompany li span{float:right;display:block;color:#999;}
+/*---- 友情链接 ----*/
+.firendLink{width:1200px;height:auto;overflow:hidden;margin:20px auto 0;}
+.firendLink h2{font:18px/28px "\5FAE\8F6F\96C5\9ED1";color:#333;margin-left:15px;}
+.linkContent{border-top:1px solid #E4E4E4;height:auto;overflow:hidden;padding-top:15px;}
+.linkContent a{padding:0 14px;display:inline-block;font:12px/30px "\5FAE\8F6F\96C5\9ED1";height:30px;color:#333;}
+.linkContent li a:hover{color:#ff6600;}

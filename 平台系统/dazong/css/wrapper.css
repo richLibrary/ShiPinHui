@@ -1,0 +1,142 @@
+﻿@charset "utf-8";
+/*----
+模块名称：wrapper
+修改内容：暂无
+模块作者：裴富成
+修改时间：2015.12.29
+----*/
+.wrapper{width:1200px;height:315px;overflow: hidden;margin: 15px auto 0;position: relative;}
+/*---- 大宗入驻状态 ----*/
+.wrapperIn{width:238px;height:142px;border-left:1px solid #e4e4e4;border-right:1px solid #e4e4e4;position:absolute;left:0;top:0;}
+.wrapperIn h3{font: 16px/28px "\5FAE\8F6F\96C5\9ED1";color:#666666;padding:10px 0 0 10px;border-top:1px solid #E4E4E4;}
+.wrapperIn h3 i{color:#43A400;font-size:16px;margin-right:10px;}
+.wrapperIn ul{height:auto;overflow:hidden;padding-bottom: 10px;}
+.wrapperIn ul li{height:31px;line-height:31px;overflow:hidden;width:218px;padding-left:10px}
+.wrapperIn ul li span{display:inline-block;}
+.wrapperIn ul li a{color: #666666;}
+.wrapperIn ul li span.wrapperTitle a{color:#FCAC6d;margin-right: 5px;}
+/*---- 大宗交易状态 ----*/
+.wrapperTrading{width:238px;height:176px;border-left:1px solid #e4e4e4;border-right:1px solid #e4e4e4;position:absolute;left:0;bottom:0;}
+.wrapperTrading h3{font: 16px/28px "\5FAE\8F6F\96C5\9ED1";color:#666666;padding:10px 0 0 10px;border-top:1px solid #E4E4E4;}
+.wrapperTrading h3 i{color:#43A400;font-size:22px;margin-right:5px;}
+.wrapperTrading ul{height:124px;overflow:hidden;padding-bottom: 10px;border-bottom: 1px solid #E4E4E4;}
+.wrapperTrading ul li{height:31px;line-height:31px;overflow:hidden;width:218px;padding-left:10px}
+.wrapperTrading ul li span{display:inline-block;}
+.wrapperTrading ul li a{color:#666;}
+.wrapperTrading ul li span.tradingTitle a{color:#FCAC6d;margin-right:5px;}
+.tradingSuccess{float:right;color:#999999;}
+/*---- 轮播图 ----*/
+.wrapperFocus{width:696px;height:315px;float:left;position:relative;overflow:hidden;margin-left:250px;}
+.wrapperFocus .bd li{width:696px;height:315px;overflow:hidden}
+.wrapperFocus .hd{width:696px;position:absolute;z-index:1;bottom:0;left:0;height:30px;line-height:30px;text-align:center}
+.wrapperFocus .hd ul{text-align:center}
+.wrapperFocus .hd ul li{cursor:pointer;display:inline-block;zoom:1;width:12px;height:12px;border-radius:50%;margin:0 5px;background-color:#fff;overflow:hidden;line-height:9999px}
+.wrapperFocus .hd ul .on{background-color:#ff7300}
+.wrapperFocus .prev,.wrapperFocus .next{width:40px;height:90px;background-color:rgba(0,0,0,0.3);position:absolute;top:112px;color:#fff;text-align:center;font:30px/90px "arial";display:none;}
+.wrapperFocus .prev:hover,.wrapperFocus .next:hover{text-decoration:none;}
+.wrapperFocus .prev{left:0px;}
+.wrapperFocus .next{right:0px;}
+.wrapperFocus:hover a{display:block;}
+/*---- 右侧大宗公告 ----*/
+.wrapperright{width:238px; height:313px;overflow:hidden;float:left;border:1px solid #E4E4E4;margin-left:10px;}
+.wrapperright .applyBtn{width:200px;height:54px;display:block;text-align:center;font: 20px/54px "\5FAE\8F6F\96C5\9ED1";background-color:#FE9900;color:#FFF;margin:14px 0 16px 19px;border-radius:5px;}
+.applyBtn:hover{text-decoration:none;background-color: #FC7A00;}
+.wrapperTips{padding:0 22px;height:138px;overflow:hidden;border-top:1px solid #E4E4E4;border-bottom:1px solid #E4E4E4;}
+.wrapperTips h3{font:16px/36px "\5FAE\8F6F\96C5\9ED1";color:#363636;}
+.wrapperTips ul li a{font: 12px/28px "\5FAE\8F6F\96C5\9ED1";height:28px;width:194px;overflow:hidden;color:#666;}
+.procurement{height:auto;overflow:hidden;width:218px;padding:16px 0 0 20px;}
+.procurement a{display:inline-block;width:62px;height:auto;text-align:center;}
+.procurement a b{width:47px;height:42px;display:block;margin-left:8px;}
+.proFirst{background:url(../images/iconBg.png) 4px 0 no-repeat;}
+.proTwo{background:url(../images/iconBg.png) 4px -58px no-repeat;}
+.proThr{background:url(../images/iconBg.png) 4px -116px no-repeat;}
+.iconText{font: 12px/32px "\5FAE\8F6F\96C5\9ED1";display:inline-block;color:#666666;}
+/*----
+模块名称：大宗采购爆品
+修改内容：暂无
+模块作者：裴富成
+修改时间：2015.12.30
+----*/
+/*---- 爆品采购 ----*/
+.hotDazong{width:1200px;height:auto;overflow:hidden;margin:26px auto 0;position: relative;}
+.hotDazong h2{font: 20px/50px "\5FAE\8F6F\96C5\9ED1";color:#525252;border-bottom: 2px solid #43A400;}
+.hotDazong h2 i{color:#43A400;font-size:22px;margin-right:5px;}
+.hotDazong h2 b{margin-left:10px;color:#999;font:normal 12px/20px "\5FAE\8F6F\96C5\9ED1";}
+.dazongNav{height:50px;overflow:hidden;position: absolute;right:0;top:1px;}
+.dazongNav li{float: left;padding:0 24px;height:50px;font: 14px/50px "\5FAE\8F6F\96C5\9ED1";text-align:center;color:#666;cursor: pointer;}
+.dazongNav li.on{background-color:#47a402;color: #FFFFFF;}
+.dazongContent{height:auto;overflow:hidden;border:1px solid #E4E4E4;}
+.dazongLeft{width:238px;height:523px;overflow:hidden;position: absolute;top:50px;left:0;}
+.dazongLeft ul{padding:12px;height:218px;overflow:hidden;border:1px solid #E4E4E4;border-bottom:none;}
+.dazongLeft ul li{float:left;}
+.dazongLeft ul li a{display:block;font: 12px/34px "\5FAE\8F6F\96C5\9ED1";color:#666;text-align:left;height:34px;overflow:hidden;width:88px;padding-left: 18px;}
+.dazongRight{width:922px;height:auto;overflow:hidden;float:right;margin-top:28px;}
+.dazongRight li{float:left;width:440px;height:auto;overflow:hidden;margin-bottom:36px;}
+.dazongRight li p{font: 12px/24px "\5FAE\8F6F\96C5\9ED1";color:#999;}
+.dazongRight li p i{font-size: 18px;margin-right: 8px;}
+.dazongRight li p b{color: #FA7F1A;margin:0 5px;}
+.dazongImg{float:left;width:208px;height:208px;border:1px solid #E4E4E4;margin-right:36px;display: block;position: relative;}
+.dazongImg img{position: absolute;left:5px;top:0;transition: all .5s ease 0s;}
+.dazongImg:hover img{position: absolute;left:10px;top:0;}
+.dazongFood{display:inline-block;font: 14px/22px "\5FAE\8F6F\96C5\9ED1";color:#333333;height:22px;width:160px;overflow:hidden;}
+.dazongCompany{display:inline-block;font: 12px/24px "\5FAE\8F6F\96C5\9ED1";color:#999;height:24px;width: 160px;overflow:hidden;margin-bottom: 15px;}
+.dazongBtn{display:inline-block;width:126px;height:38px;background-color:#FC7A00;margin-top:22px;text-align: center;line-height:38px;color:#FFFFFF;font-size:14px;border-radius:5px;}
+/*----
+模块名称：招投标采购
+修改内容：暂无
+模块作者：裴富成
+修改时间：2015.12.30
+----*/
+/*---- 招投标采购 ----*/
+.hotTender{width:1200px;height:auto;overflow:hidden;margin:26px auto 0;position: relative;}
+.hotTender h2{font: 20px/50px "\5FAE\8F6F\96C5\9ED1";color:#525252;border-bottom:2px solid #43A400;}
+.hotTender h2 i{color:#43A400;font-size:22px;margin-right:5px;}
+.hotTender h2 b{margin-left:10px;color:#666666;font:normal 12px/20px "\5FAE\8F6F\96C5\9ED1";}
+.tenderContent{height:auto;overflow:hidden;border:1px solid #E4E4E4;border-top:none;}
+.tenderLeft{position:absolute;left:0;top:50px;}
+<!--.tenderLeft img{width:239px;height:425px;}-->
+.tenderNav{height:50px;overflow:hidden;position: absolute;top:0;right:0;}
+.tenderNav li{float: left;padding:0 24px;height:50px;font: 14px/50px "\5FAE\8F6F\96C5\9ED1";text-align:center;color:#666;}
+.tenderNav li.on{background-color:#47a402;color: #FFFFFF;}
+.tenderRight{width:922px;height:auto;overflow:hidden;float:right;margin:19px 0;}
+.tenderRight li{float:left;width:178px;height:auto;overflow:hidden;margin:0 50px 16px 0;}
+.tenderRight li h3{font: 12px/32px "\5FAE\8F6F\96C5\9ED1";width:240px;height:32px;overflow:hidden;}
+.tenderRight li p{font: 12px/22px "\5FAE\8F6F\96C5\9ED1";color:#999;}
+.tenderRight li p i{font-size:18px;margin-right:8px;}
+.tenderRight li p em{color:#333;margin:0 5px;}
+.tenderImg{width:176px;height:100px;display:block;text-align:center;position: relative;}
+.tenderImg img{position: absolute;left:37px;top:0;transition:all .5s ease 0s;}
+.tenderImg:hover img{position: absolute;left:47px;top:0;}
+/*----
+模块名称：伙拼采购
+修改内容：暂无
+模块作者：裴富成
+修改时间：2015.12.30
+----*/
+/*---- 伙拼采购 ----*/
+.hotPaired{width:1200px;height:auto;overflow:hidden;margin:26px auto 0;position: relative;}
+.hotPaired h2{font: 20px/50px "\5FAE\8F6F\96C5\9ED1";color:#525252;border-bottom:2px solid #43A400;}
+.hotPaired h2 i{color:#43A400;font-size:22px;margin-right:5px;}
+.hotPaired h2 b{margin-left:10px;color:#666666;font:normal 12px/20px "\5FAE\8F6F\96C5\9ED1";}
+.pairedContent{height:auto;overflow:hidden;border:1px solid #E4E4E4;border-top:none;}
+.pairedLeft{position:absolute;left:0;top:50px;width: 239px;height:391px;height:393px\9;overflow:hidden;display: block;}
+.pairedLeft img{width:239px;height:393px;}
+.pairedNav{height:50px;overflow:hidden;position: absolute;right:0;top:1px;}
+.pairedNav li{float: left;padding:0 24px;height:50px;font: 14px/50px "\5FAE\8F6F\96C5\9ED1";text-align:center;color:#666;}
+.pairedNav li.on{background-color:#47a402;color: #FFFFFF;}
+.pairedRight{width:1200px;height:auto;overflow:hidden;float:right;}
+.pairedRight li{float:left;width:239px;height:388px;overflow:hidden;border:1px solid #E4E4E4;border-right:none;border-bottom:none;position:relative;}
+.pairedRight li.pairedPro{margin-left:240px;}
+.pairedRight li h3{font: 12px/32px "\5FAE\8F6F\96C5\9ED1";width:203px;height:32px;overflow:hidden;padding:0 18px;}
+.pairedRight li p{font: 12px/18px "\5FAE\8F6F\96C5\9ED1";color:#999;padding:0 18px 5px 18px;height:34px;overflow:hidden;}
+.pairedRight li strong{padding-left:18px;font-size:18px;color: #FC7A00;}
+.pairedRight li del{margin-left: 15px;color: #999;}
+.pairedNumber{margin-left:20px;color: #999;}
+.pairedRight li p i{font-size:18px;margin-right:8px;}
+.pairedRight li p em{color:#333;margin:0 5px;}
+.pairedImg{width:220px;height:220px;display:block;text-align:center;position:relative;margin-left:10px;padding-top:15px;}
+.pairedImg img{position: absolute;left: 0;top:15px;transition: all .5s ease 0s;}
+.pairedImg:hover img{position: absolute;left:10px;top:15px;}
+.pairedCity{position: absolute;left:16px;bottom:13px;}
+.pairedCity i{color:#FC7A00;margin-right:8px;}
+.pairedOrder{width:80px;height:36px;font: 14px/36px "\5FAE\8F6F\96C5\9ED1";border-radius:5px;background-color:#FC7A00;text-align:center;display:block;position:absolute;right:15px;bottom:8px;color: #fff;}

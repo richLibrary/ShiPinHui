@@ -1,0 +1,23 @@
+@charset "utf-8";
+/*----
+模块名称：购物车第二个步骤
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2015.12.21
+----*/
+/*---- 订单提交成功提示  ----*/
+.sucessTip{width:1200px;height:48px;overflow:hidden;margin:60px auto 0px auto;position:relative;}
+.sucessTip h2{font:bold 26px/48px "\5FAE\8F6F\96C5\9ED1";color:#fd812d;display:inline-block;padding-left:15px;}
+.sucessTip i{font:48px/48px "\5FAE\8F6F\96C5\9ED1";color:#fd812d;float:left;}
+/*---- 订单列表  ----*/
+.orderList{width:1198px;height:auto;overflow:hidden;margin:20px auto 0px auto;border:#ddd solid 1px;border-bottom:none;background-color:#fff;}
+.orderList ul{height:auto;overflow:hidden;}
+.orderList ul li{padding:20px 40px;height:auto;overflow:hidden;border-bottom:#ddd solid 1px;}
+.orderList ul li img{width:60px;height:60px;float:left;}
+.olTxt{float:left;padding-left:20px;font:12px/20px "\5FAE\8F6F\96C5\9ED1";color:#999;width:1038px;}
+.olTxt a{font:14px/20px "\5FAE\8F6F\96C5\9ED1";color:#404040;margin-right:30px;text-decoration:none;}
+.olTxt a:hover{color:#f60}
+.orderList ul li p{font:12px/12px "\5FAE\8F6F\96C5\9ED1";color:#999;padding:10px 0px 0px 20px;width:1038px;float:left;}
+/*---- 下一个步骤  ----*/
+.nextOp{width:1118px;height:auto;overflow:hidden;margin:0px auto 0px auto;padding:35px 40px;border:#ddd solid 1px;font:14px/14px "\5FAE\8F6F\96C5\9ED1";color:#404040;border-top:none;background-color:#fff;}
+.nextOp a{color:#fd812d;text-decoration:underline;margin-right:20px;}

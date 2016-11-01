@@ -1,0 +1,120 @@
+@charset "utf-8";
+/*----
+模块名称：焦点图等
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2015.12.21
+----*/
+.slideArea{width:960px;height:521px;overflow:hidden;margin:12px auto 0px auto;position:relative;padding-left:240px;border-bottom:#dcdcdc solid 1px;}
+.sphFocus{width:735px;height:365px;float:left;position:relative;overflow:hidden;}
+.sphFocus .bd li{width:735px;height:365px;overflow:hidden}
+.sphFocus .hd{width:735px;position:absolute;z-index:1;bottom:0;left:0;height:30px;line-height:30px;text-align:center}
+.sphFocus .hd ul{text-align:center}
+.sphFocus .hd ul li{cursor:pointer;display:inline-block;zoom:1;width:12px;height:12px;border-radius:50%;margin:0 5px;background-color:#fff;overflow:hidden;line-height:9999px}
+.sphFocus .hd ul .on{background-color:#ff7300}
+
+.sphFocus .prev,.sphFocus .next{width:40px;height:90px;background-color:rgba(255,255,255,0.3);position:absolute;top:135px;color:#fff;text-align:center;font:30px/90px "arial";display:none;}
+.sphFocus .prev:hover,.sphFocus .next:hover{text-decoration:none;}
+.sphFocus .prev{left:0px;}
+.sphFocus .next{right:0px;}
+
+/* 登录和注册入口 */
+.loginLink{width:210px;height:48px;position:absolute;top:0px;right:0px;overflow:hidden;border:#dcdcdc solid 1px;}
+.loginLink span{width:80px;float:left;height:48px;padding-left:24px;}
+.loginLink span.loginFirst{border-right:#dcdcdc solid 1px;}
+.loginLink span i{font:20px/48px "\5FAE\8F6F\96C5\9ED1";color:#ff7300;margin-right:3px}
+.loginLink span a{color:#333;font:14px/48px "\5FAE\8F6F\96C5\9ED1";}
+.loginLink span a:hover{color:#ff7300;text-decoration:none;}
+/*最新诚信会员*/
+.newMember{width:210px;height:221px;position:absolute;top:50px;right:0px;overflow:hidden;border:#dcdcdc solid 1px;border-top:none;}
+.newMember p{font:14px/39px "\9ED1\4F53";text-indent:15px;border-bottom:1px solid #dcdcdc;}
+.newMember ul{width:180px;margin:5px auto;}
+.newMember ul li{width:100%;line-height:28px;}
+.newMember ul li a{color:#333;}
+.newMember ul li a:hover{color:#ff7300;text-decoration:none;}
+
+/*---- 热门专场活动 ----*/
+.hotActivity{width:735px;float:left;padding:5px 0px;height:auto;overflow:hidden;}
+.hotActivity li{width:224px;float:left;padding:0px 0px 36px 20px;border-right:#dcdcdc solid 1px;position:relative;}
+.hotActivity li.hotLast{border-right:none;}
+.hotActivity li a{display:block;}
+.hotActivity li a:hover{text-decoration:none;}
+.hotActivity li b{display:block;font:bold 18px/18px "\5FAE\8F6F\96C5\9ED1";color:#333;margin-top:20px;}
+.hotActivity li span{display:block;font:12px/12px "\5FAE\8F6F\96C5\9ED1";color:#999;margin-top:15px;}
+.hotActivity li strong{display:block;font:bold 15px/15px "\5FAE\8F6F\96C5\9ED1";color:#d81b3a;margin-top:30px;}
+.hotActivity li img{width:110px;height:110px;position:absolute;top:18px;right:0px;}
+/*---- 今日厂商参考价 ----*/
+.priceTady{width:210px;height:250px;position:absolute;top:272px;right:0px;overflow:hidden;border:#dcdcdc solid 1px;border-top:none;border-bottom:none;}
+.priceTady h3{padding-left:15px;width:100%;font:14px/35px "\5FAE\8F6F\96C5\9ED1";color:#333;border-bottom:1px solid #dcdcdc;background-color:#F7F7F7;}
+.priceTady h3 i{font:22px/35px "arial";color:#ff7300;margin-right:5px}
+.priceTady img{margin:10px 19px 10px 12px;width:179px;}
+.priceTady ul{width:160px;margin:0 auto;height:auto;overflow:hidden;}
+.priceTady ul li{height:auto;overflow:hidden;}
+.priceTady ul li a{color:#666;font:12px/28px "\5FAE\8F6F\96C5\9ED1";}
+.priceTady ul li a:hover{color:#ff7300;text-decoration:none;}
+.priceTady ul li font{margin-left:30px;}
+.priceTady ul li i{font:14px/25px "arial";margin-left:5px}
+.Orange{color:#ff7300;}
+.Green{color:#3E9B00;}
+.Gray{color:#BEBEBE;}
+
+/*
+模块名称：食品荟推荐
+修改内容：暂无
+模块作者：董文静
+修改时间：2016.01.06 
+ */
+.sphtj{width:1200px;margin:20px auto;position:relative;}
+.sphtj h2{width:100%;font:20px/40px "\5FAE\8F6F\96C5\9ED1";color:#333;}
+.tjNav{width:100%;position:absolute;top:5px;height:30px;text-align:right;}
+.tjNav ul li{width:50px;margin-left:15px;display:inline;font:12px/25px "\5FAE\8F6F\96C5\9ED1";padding-bottom:5px;cursor:pointer;}
+.tjOn{color:#3E9B00;border-bottom:2px solid #3E9B00;}
+.tjList{width:100%; border-top:1px solid #E5E5E5;border-right:1px solid #E5E5E5;margin:10px auto;}
+.tjList ul li{width:100%;position:relative;}
+.imgList{width:847px;position:absolute;right:-1px;top:1px;margin-left:1px;}
+.imgList ul li{width:140px;height:83px;float:left;border-left:1px solid #E5E5E5;border-bottom:1px solid #E5E5E5;display:inline;}
+/*
+模块名称：楼层
+修改内容：暂无
+模块作者：董文静
+修改时间：2016.01.06 
+ */
+.floor{width:1200px;margin:20px auto;}
+.floor h2{width:100%;font:20px/45px "\5FAE\8F6F\96C5\9ED1";color:#333; border-bottom:2px solid #3E9B00;}
+.floorList{width:1198px;height:345px;position:relative;border:1px solid #EFEFEF; border-top:0;}
+.floorListLeft{width:195px;height:345px;border-right:1px solid #EFEFEF;position:absolute;left:0;top:0}
+.floorListLeft p{width:90%;margin:15px auto 5px;height:20px;overflow:hidden;text-align:center;font:14px/20px "\5FAE\8F6F\96C5\9ED1";font-weight:bold;color:#333;}
+.floorListLeft p a{color:#333;text-decoration:none;}
+.floorListLeft p a:hover{color:#f60;}
+.floorListLeft span{display:block;width:90%;margin:0 auto;text-align:left;font:12px/20px ;color:#999}
+.floorListLeft .shopzz{width:100%;margin:6px auto;text-align:center;}
+.floorListLeft ul{width:100%;border-top:1px solid #EFEFEF;margin-top:10px;}
+.floorListLeft ul li{width:97px;float:left;text-align:center;font-size:14px;line-height:50px;}
+.floorListLeft ul li i{margin-right:3px;font:16px/20px "\5FAE\8F6F\96C5\9ED1";}
+.floorListLeft ul li a{color:#333;text-decoration:none;}
+.floorRed{color:#FF3333;}
+.floorGray{color:#BEBEBE;}
+.floorListCenter{width:710px;height:345px;position:absolute;padding-left:30px;margin-left:195px;}
+.floorListCenter h3{width:100%;font:16px/45px "\5FAE\8F6F\96C5\9ED1";color:#333;}
+.floorListCenter h3 i{margin-right:3px;font:20px/45px "\5FAE\8F6F\96C5\9ED1";color:#FF6600}
+.floorListCenter >ul{width:710px;margin-top:10px;}
+.floorListCenter >ul >li{width:315px;float:left;margin:10px 40px 30px 0px;}
+.floorListCenter >ul >li >a >img{float:left;display:block;}
+.centerList{width:190px;float:left;margin-left:24px;}
+.centerList >p{width:100%;font:16px/25px "\5FAE\8F6F\96C5\9ED1";color:#333; }
+.centerList >p >a{color:#333;text-decoration:none;}
+.centerList >p >a:hover{color:#f60;}
+.centerList >span{width:100%;font:12px/20px "\5FAE\8F6F\96C5\9ED1";color:#666; }
+.centerList .zhibao{width:100%;margin:5px auto;line-height:20px;}
+.centerList .zhibao >span{color:#999;}
+.centerList .zhibao >span >font{color:#FF3333;font-weight:bold;}
+.floorListRight{width:264px;height:345px;border-left:1px solid #EFEFEF;position:absolute;right:0;top:0;}
+.floorListRight h3{background:#F6F6F6;text-indent:16px;font:16px/44px "\5FAE\8F6F\96C5\9ED1";color:#333;}
+.floorListRight h3 i{margin-right:3px;font:23px/44px "\5FAE\8F6F\96C5\9ED1";color:#FF6600}
+.floorListRight ul{width:205px;margin:10px auto;}
+.floorListRight ul li{width:100%;height:35px; font:12px/35px "\5FAE\8F6F\96C5\9ED1";color:#666;overflow:hidden;}
+.floorListRight ul li font{display:block;height:17px;width:17px;color:#fff;line-height:17px;text-align:center;margin-top:8px;border-radius:50%;float:left;margin-right:5px;}
+.floorListRight ul li a{color:#666;text-decoration:none;}
+.floorListRight ul li a:hover{color:#f60;}
+.bcred{background:#FF6600;}
+.bcblack{background:#333;}

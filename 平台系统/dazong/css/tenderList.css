@@ -1,0 +1,39 @@
+@charset "utf-8";
+/*----
+模块作者：裴富成
+修改时间：2016.1.7
+----*/
+/*---- 招标公告左侧内容 ----*/
+.tenderlistContent{width:1200px;height:auto;overflow:hidden;margin:0 auto;}
+.tenderlistLeft{width:920px;height:auto;overflow:hidden;border:1px solid #E4E4E4;float:left;}
+.tenderlistLeft h2{font: 18px/40px "\5FAE\8F6F\96C5\9ED1";padding-left:30px;border-bottom:1px solid #E4E4E4;}
+.tenderlistLeft h2 i{color:#46A400;font-size:20px;}
+.listContent{margin:0 30px 12px;height:auto;}
+.listContent li{border-bottom:1px dashed #E4E4E4;position:relative;margin-top:12px;}
+.listTitle{font: 14px/28px "\5FAE\8F6F\96C5\9ED1";color:#333;display:inline-block;}
+.listTitle:hover{color:#FF7300;}
+.dataTime{display:inline-block;position:absolute;top:5px;right:15px;color:#999;}
+.listContent li span{display:inline-block;font: 12px/22px "\5FAE\8F6F\96C5\9ED1";color:#666;margin-right:20px;}
+.listContent li p{margin:15px 0;}
+.listContent li p b{height:22px;font:12px/22px "\5FAE\8F6F\96C5\9ED1";padding:0 10px;border:1px solid #E4E4E4;border-radius:4px;color:#666;margin-right:15px;display:inline-block;}
+.downContent{width:100px;height:30px;font:14px/28px "\5FAE\8F6F\96C5\9ED1";background-color:#FF7300;color:#fff;text-align:center;border-radius:20px;display:block;position:absolute;bottom:15px;right:15px;}
+.downContent i{font-size:16px;margin-right:5px;}
+/*---- 招标公告右侧内容 ----*/
+.tenderSidebar{width:258px;height:auto;overflow:hidden;float:left;margin-left:15px;}
+.sidebarNav{height:auto;border:1px solid #E4E4E4;border-bottom:none;}
+.sidebarNav h2{font: 18px/40px "\5FAE\8F6F\96C5\9ED1";padding-left:30px;border-bottom:2px solid #46A400;}
+.tenderMenu{width:258px;height:auto;}
+.tenderMenu li{width:256px;}
+.menuList{cursor:pointer;padding:19px 25px 15px 25px;position:relative;z-index:1008;border-top:#fff solid 1px;border-bottom:#dcdcdc dashed 1px;}
+.menuList h3 i{font:20px/20px "\5FAE\8F6F\96C5\9ED1";margin-right:5px;color:#3e9b00;}
+.menuList a{font:12px/12px "\5FAE\8F6F\96C5\9ED1";color:#999;margin-top:15px;display:inline-block;margin-right:7px;}
+.menuList a.categoryTit{font:15px/20px "\5FAE\8F6F\96C5\9ED1";margin-top:0px;color:#333;}
+.menuList a:hover{color:#ff7300;text-decoration:none;}
+.menuTit{border:none;border-bottom:1px solid #E4E4E4;padding:19px 0 15px 30px;}
+.sidebarImg{margin-top:20px;display:block;}
+.sidebarCity{width:256px;height:312px;overflow:hidden;border:1px solid #E4E4E4;margin-top:20px;}
+.sidebarCity h2{font:18px/40px "\5FAE\8F6F\96C5\9ED1";color:#333;border-bottom:2px solid #46A400;padding-left:15px;}
+.sidebarCity dl{height:auto;overflow:hidden;margin:10px;}
+.sidebarCity dl dt{width:33px;height:23px;border:1px solid #FF7300;text-align:center;font: 12px/23px "\5FAE\8F6F\96C5\9ED1";float:left;color:#FF7300;}
+.sidebarCity dl dd{margin-left:5px;float:left;width:182px;height:22px;overflow:hidden;}
+.sidebarCity dl dd a{padding:0 3px;font: 12px/22px "\5FAE\8F6F\96C5\9ED1";display:inline-block;color:#666;}

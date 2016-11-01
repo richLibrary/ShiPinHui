@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+	<meta charset="utf-8" />
+	<title>搜索结果列表页</title>
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="Keywords" content="搜索结果列表页"/>
+	<meta name="Description" content="搜索结果列表页"/>
+	<link rel="stylesheet" href="css/common.css" type="text/css" />
+	<link rel="stylesheet" href="css/huopin03.css" type="text/css" />
+	
+	<link rel="stylesheet" href="css/iconfont/iconfont.css" type="text/css" />
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<!---- angularJs构建前端模板，程序使用时可以直接删除 ---->
+	<script type="text/javascript" src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
+</head>
+
+<body ng-app="myApp" ng-controller="userCtrl" style="background-color:#f3f3f3;">
+<div ng-include="'header.html'"></div>
+<body style="background-color:#f3f3f3;">
+<!----
+模块名称：搜索结果页面包屑导航
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2016.01.11
+---->
+<div class="breadsNav">
+您的位置：<a href="#" title="首页" target="_self">首页</a><code>&gt;</code>
+<a href="#" title="首页" target="_self">首页</a><code>&gt;</code><font>河南</font>
+<span>共找到<font>25632</font>条“河南”相关信息</span>
+</div>
+<!----
+模块名称：搜索结果
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2016.01.11
+---->
+<div class="searchResult">
+	<ul>
+		<li>
+			<b>伙拼分类：</b>
+			<a class="selected" href="#" title="全部" target="_self">全部</a>
+			<a href="#" title="食品" target="_self">食品</a>
+			<a href="#" title="原料" target="_self">原料</a>
+			<a href="#" title="配料" target="_self">配料</a>
+			<a href="#" title="包装" target="_self">包装</a>
+			<a href="#" title="畜牧" target="_self">畜牧</a>
+			<a href="#" title="农业" target="_self">农业</a>
+			<a href="#" title="水产" target="_self">水产</a>
+			<a href="#" title="全部" target="_self">全部</a>
+			<a href="#" title="食品" target="_self">食品</a>
+			<a href="#" title="原料" target="_self">原料</a>
+			<a href="#" title="配料" target="_self">配料</a>
+			<a href="#" title="包装" target="_self">包装</a>
+			<a href="#" title="畜牧" target="_self">畜牧</a>
+			<a href="#" title="农业" target="_self">农业</a>
+			<a href="#" title="水产" target="_self">水产</a>
+			<a href="#" title="全部" target="_self">全部</a>
+			<a href="#" title="食品" target="_self">食品</a>
+			<a href="#" title="原料" target="_self">原料</a>
+			<a href="#" title="配料" target="_self">配料</a>
+			<a href="#" title="包装" target="_self">包装</a>
+			<a href="#" title="畜牧" target="_self">畜牧</a>
+			<a href="#" title="农业" target="_self">农业</a>
+			<a href="#" title="水产" target="_self">水产</a>
+		</li>
+		<li>
+			<b>伙拼地区：</b>
+			<a class="selected" href="#" title="全部" target="_self">全部</a>
+			<a href="#" title="食品" target="_self">食品</a>
+			<a href="#" title="原料" target="_self">原料</a>
+			<a href="#" title="配料" target="_self">配料</a>
+			<a href="#" title="包装" target="_self">包装</a>
+			<a href="#" title="畜牧" target="_self">畜牧</a>
+			<a href="#" title="农业" target="_self">农业</a>
+			<a href="#" title="水产" target="_self">水产</a>
+			<a href="#" title="全部" target="_self">全部</a>
+			<a href="#" title="食品" target="_self">食品</a>
+			<a href="#" title="原料" target="_self">原料</a>
+			<a href="#" title="配料" target="_self">配料</a>
+			<a href="#" title="包装" target="_self">包装</a>
+			<a href="#" title="畜牧" target="_self">畜牧</a>
+			<a href="#" title="农业" target="_self">农业</a>
+			<a href="#" title="水产" target="_self">水产</a>
+			<a href="#" title="全部" target="_self">全部</a>
+			<a href="#" title="食品" target="_self">食品</a>
+			<a href="#" title="原料" target="_self">原料</a>
+			<a href="#" title="配料" target="_self">配料</a>
+			<a href="#" title="包装" target="_self">包装</a>
+			<a href="#" title="畜牧" target="_self">畜牧</a>
+			<a href="#" title="农业" target="_self">农业</a>
+			<a href="#" title="水产" target="_self">水产</a>
+		</li>
+		<li>
+			<b>关键词：</b>
+			<input type="text" placeholder="在结果中搜索" />
+			<input type="submit" value="搜索" />
+		</li>
+	</ul>
+</div>
+<!----
+模块名称：搜索结果列表
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2016.01.11
+---->
+<div class="groupList">
+	<ul>
+		<li>
+			<a href="#" title="" target="_blank">
+				<img src="images/testimg/huopin01.jpg" width="270" height="270" alt="产品名称" title="产品名称" />
+			</a>
+			<p class="groupName"><a href="#" title="" target="_blank">新郑高茜特级葵花籽</a><p>
+			<p class="groupTit01">经过仔细筛选饱满颗粒经过多道严格工序翻炒味道纯正。<p>
+			<p class="groupPrice">
+				<span class="price"><sub>&yen;</sub>30.<em>00</em></span>
+				<del>&yen;58</del>
+				<span class="proRules">10袋起批</span>
+			</p>
+			<p class="joinGroup">
+				<i class="iconfont">&#xe646;</i>
+				<span>郑州</span>	
+				<a href="#" title="" target="_blank">入伙拼单</a>
+			</p>
+		</li>
+		<li>
+			<a href="#" title="" target="_blank">
+				<img src="images/testimg/huopin01.jpg" width="270" height="270" alt="产品名称" title="产品名称" />
+			</a>
+			<p class="groupName"><a href="#" title="" target="_blank">新郑高茜特级葵花籽</a><p>
+			<p class="groupTit01">经过仔细筛选饱满颗粒经过多道严格工序翻炒味道纯正。<p>
+			<p class="groupPrice">
+				<span class="price"><sub>&yen;</sub>30.<em>00</em></span>
+				<del>&yen;58</del>
+				<span class="proRules">10袋起批</span>
+			</p>
+			<p class="joinGroup">
+				<i class="iconfont">&#xe646;</i>
+				<span>郑州</span>	
+				<a href="#" title="" target="_blank">入伙拼单</a>
+			</p>
+		</li>
+		<li>
+			<a href="#" title="" target="_blank">
+				<img src="images/testimg/huopin01.jpg" width="270" height="270" alt="产品名称" title="产品名称" />
+			</a>
+			<p class="groupName"><a href="#" title="" target="_blank">新郑高茜特级葵花籽</a><p>
+			<p class="groupTit01">经过仔细筛选饱满颗粒经过多道严格工序翻炒味道纯正。<p>
+			<p class="groupPrice">
+				<span class="price"><sub>&yen;</sub>30.<em>00</em></span>
+				<del>&yen;58</del>
+				<span class="proRules">10袋起批</span>
+			</p>
+			<p class="joinGroup">
+				<i class="iconfont">&#xe646;</i>
+				<span>郑州</span>	
+				<a href="#" title="" target="_blank">入伙拼单</a>
+			</p>
+		</li>
+		<li>
+			<a href="#" title="" target="_blank">
+				<img src="images/testimg/huopin01.jpg" width="270" height="270" alt="产品名称" title="产品名称" />
+			</a>
+			<p class="groupName"><a href="#" title="" target="_blank">新郑高茜特级葵花籽</a><p>
+			<p class="groupTit01">经过仔细筛选饱满颗粒经过多道严格工序翻炒味道纯正。<p>
+			<p class="groupPrice">
+				<span class="price"><sub>&yen;</sub>30.<em>00</em></span>
+				<del>&yen;58</del>
+				<span class="proRules">10袋起批</span>
+			</p>
+			<p class="joinGroup">
+				<i class="iconfont">&#xe646;</i>
+				<span>郑州</span>	
+				<a href="#" title="" target="_blank">入伙拼单</a>
+			</p>
+		</li>
+		<li>
+			<a href="#" title="" target="_blank">
+				<img src="images/testimg/huopin01.jpg" width="270" height="270" alt="产品名称" title="产品名称" />
+			</a>
+			<p class="groupName"><a href="#" title="" target="_blank">新郑高茜特级葵花籽</a><p>
+			<p class="groupTit01">经过仔细筛选饱满颗粒经过多道严格工序翻炒味道纯正。<p>
+			<p class="groupPrice">
+				<span class="price"><sub>&yen;</sub>30.<em>00</em></span>
+				<del>&yen;58</del>
+				<span class="proRules">10袋起批</span>
+			</p>
+			<p class="joinGroup">
+				<i class="iconfont">&#xe646;</i>
+				<span>郑州</span>	
+				<a href="#" title="" target="_blank">入伙拼单</a>
+			</p>
+		</li>
+		<li>
+			<a href="#" title="" target="_blank">
+				<img src="images/testimg/huopin01.jpg" width="270" height="270" alt="产品名称" title="产品名称" />
+			</a>
+			<p class="groupName"><a href="#" title="" target="_blank">新郑高茜特级葵花籽</a><p>
+			<p class="groupTit01">经过仔细筛选饱满颗粒经过多道严格工序翻炒味道纯正。<p>
+			<p class="groupPrice">
+				<span class="price"><sub>&yen;</sub>30.<em>00</em></span>
+				<del>&yen;58</del>
+				<span class="proRules">10袋起批</span>
+			</p>
+			<p class="joinGroup">
+				<i class="iconfont">&#xe646;</i>
+				<span>郑州</span>	
+				<a href="#" title="" target="_blank">入伙拼单</a>
+			</p>
+		</li>
+		<li>
+			<a href="#" title="" target="_blank">
+				<img src="images/testimg/huopin01.jpg" width="270" height="270" alt="产品名称" title="产品名称" />
+			</a>
+			<p class="groupName"><a href="#" title="" target="_blank">新郑高茜特级葵花籽</a><p>
+			<p class="groupTit01">经过仔细筛选饱满颗粒经过多道严格工序翻炒味道纯正。<p>
+			<p class="groupPrice">
+				<span class="price"><sub>&yen;</sub>30.<em>00</em></span>
+				<del>&yen;58</del>
+				<span class="proRules">10袋起批</span>
+			</p>
+			<p class="joinGroup">
+				<i class="iconfont">&#xe646;</i>
+				<span>郑州</span>	
+				<a href="#" title="" target="_blank">入伙拼单</a>
+			</p>
+		</li>
+		<li>
+			<a href="#" title="" target="_blank">
+				<img src="images/testimg/huopin01.jpg" width="270" height="270" alt="产品名称" title="产品名称" />
+			</a>
+			<p class="groupName"><a href="#" title="" target="_blank">新郑高茜特级葵花籽</a><p>
+			<p class="groupTit01">经过仔细筛选饱满颗粒经过多道严格工序翻炒味道纯正。<p>
+			<p class="groupPrice">
+				<span class="price"><sub>&yen;</sub>30.<em>00</em></span>
+				<del>&yen;58</del>
+				<span class="proRules">10袋起批</span>
+			</p>
+			<p class="joinGroup">
+				<i class="iconfont">&#xe646;</i>
+				<span>郑州</span>	
+				<a href="#" title="" target="_blank">入伙拼单</a>
+			</p>
+		</li>
+		<li>
+			<a href="#" title="" target="_blank">
+				<img src="images/testimg/huopin01.jpg" width="270" height="270" alt="产品名称" title="产品名称" />
+			</a>
+			<p class="groupName"><a href="#" title="" target="_blank">新郑高茜特级葵花籽</a><p>
+			<p class="groupTit01">经过仔细筛选饱满颗粒经过多道严格工序翻炒味道纯正。<p>
+			<p class="groupPrice">
+				<span class="price"><sub>&yen;</sub>30.<em>00</em></span>
+				<del>&yen;58</del>
+				<span class="proRules">10袋起批</span>
+			</p>
+			<p class="joinGroup">
+				<i class="iconfont">&#xe646;</i>
+				<span>郑州</span>	
+				<a href="#" title="" target="_blank">入伙拼单</a>
+			</p>
+		</li>
+		<li>
+			<a href="#" title="" target="_blank">
+				<img src="images/testimg/huopin01.jpg" width="270" height="270" alt="产品名称" title="产品名称" />
+			</a>
+			<p class="groupName"><a href="#" title="" target="_blank">新郑高茜特级葵花籽</a><p>
+			<p class="groupTit01">经过仔细筛选饱满颗粒经过多道严格工序翻炒味道纯正。<p>
+			<p class="groupPrice">
+				<span class="price"><sub>&yen;</sub>30.<em>00</em></span>
+				<del>&yen;58</del>
+				<span class="proRules">10袋起批</span>
+			</p>
+			<p class="joinGroup">
+				<i class="iconfont">&#xe646;</i>
+				<span>郑州</span>	
+				<a href="#" title="" target="_blank">入伙拼单</a>
+			</p>
+		</li>
+		<li>
+			<a href="#" title="" target="_blank">
+				<img src="images/testimg/huopin01.jpg" width="270" height="270" alt="产品名称" title="产品名称" />
+			</a>
+			<p class="groupName"><a href="#" title="" target="_blank">新郑高茜特级葵花籽</a><p>
+			<p class="groupTit01">经过仔细筛选饱满颗粒经过多道严格工序翻炒味道纯正。<p>
+			<p class="groupPrice">
+				<span class="price"><sub>&yen;</sub>30.<em>00</em></span>
+				<del>&yen;58</del>
+				<span class="proRules">10袋起批</span>
+			</p>
+			<p class="joinGroup">
+				<i class="iconfont">&#xe646;</i>
+				<span>郑州</span>	
+				<a href="#" title="" target="_blank">入伙拼单</a>
+			</p>
+		</li>
+		<li>
+			<a href="#" title="" target="_blank">
+				<img src="images/testimg/huopin01.jpg" width="270" height="270" alt="产品名称" title="产品名称" />
+			</a>
+			<p class="groupName"><a href="#" title="" target="_blank">新郑高茜特级葵花籽</a><p>
+			<p class="groupTit01">经过仔细筛选饱满颗粒经过多道严格工序翻炒味道纯正。<p>
+			<p class="groupPrice">
+				<span class="price"><sub>&yen;</sub>30.<em>00</em></span>
+				<del>&yen;58</del>
+				<span class="proRules">10袋起批</span>
+			</p>
+			<p class="joinGroup">
+				<i class="iconfont">&#xe646;</i>
+				<span>郑州</span>	
+				<a href="#" title="" target="_blank">入伙拼单</a>
+			</p>
+		</li>
+	</ul>
+</div>
+
+<div class="pages" style="text-align:center;">加分页</div>
+
+<!---- angularJs构建模板 ---->
+<div ng-include="'footer.html'"></div>
+<script type="text/javascript">
+	angular.module('myApp', []).controller('userCtrl', function($scope) {})
+</script>
+</body>
+</html>

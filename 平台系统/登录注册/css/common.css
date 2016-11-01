@@ -1,0 +1,110 @@
+@charset "utf-8";
+/*--公用样式开始---*/
+*{word-wrap:break-word}
+a,body,button,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,html,img,input,li,ol,p,select,td,textarea,th,tr,ul{margin:0;padding:0}
+dl,li,ol,ul{list-style-type:none}
+html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
+address,caption,cite,code,dfn,em,i,th,var{font-style:normal;font-weight:400;font-style:normal}
+button,input,optgroup,option,select,textarea{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit}
+button,input{overflow:visible;vertical-align:middle;outline:0}
+body,button,input,select,td,textarea,th{font-family:"\5FAE\8F6F\96C5\9ED1",tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;font-size:12px;color:#333;-webkit-font-smoothing:antialiased;-moz-font-smoothing:antialiased}
+body{line-height:1.6;-webkit-font-smoothing:antialiased; background:#fafafa;}
+h1,h2,h3,h4,h5,h6{font-size:100%}
+img{border:0;vertical-align:middle}
+a,area{outline:0;blr:expression(this.onFocus=this.blur())}
+a{text-decoration:none;cursor:pointer}
+a:hover{text-decoration:underline;outline:0}
+a.ie6:hover{zoom:1}
+a:focus{outline:0}
+a:active,a:hover{outline:0}
+:focus{outline:0}
+sub,sup{vertical-align:baseline}
+textarea{resize:none;overflow:hidden;resize:none}
+img{border:0;vertical-align:middle}
+a img,img{-ms-interpolation-mode:bicubic}
+.img-responsive{max-width:100%;height:auto}
+html{overflow:-moz-scrollbars-vertical;zoom:expression(function(ele){ele.style.zoom = "1";document.execCommand("BackgroundImageCache",false,true)}
+(this))}
+.clear{diplay:block!important;float:none!important;clear:both;overflow:hidden;width:auto!important;height:0!important;margin:0 auto!important;padding:0!important;font-size:0;line-height:0}
+
+/*----
+模块名称：公共top
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2015.12.21
+----*/
+.topBar{width:100%;height:30px;border-top:#aaa solid 1px;border-bottom:#e7e7e7 solid 1px;background-color:#f7f7f7;margin:0px auto;}
+.topMain{width:1200px;height:30px;font:12px/30px "\5FAE\8F6F\96C5\9ED1";color:#666;margin:0px auto;}
+.topMain a:hover{color:#ff7300;text-decoration:none;}
+.topLogin,.topRegist,.quitLogin,.msgRemind{color:#666;margin-right:5px;}
+.loginEd{color:#ff7300;}
+.msgRemind i{padding:1px 2px;background-color:#ff7300;color:#fff;margin-left:5px;}
+.topMain a.quitLogin:hover,.topMain a.loginEd:hover{text-decoration:underline;}
+.topRight{float:right;_width:100px;display:inline-block;position:relative;padding:0px 0px 0px 10px;border:#f7f7f7 solid 1px;border-bottom:none;color:#dbdbdb;}
+.helpCenterLink{float:right;;height:30px;display:inline-block;padding:0px 0px 0px 10px;font:12px/32px "\5FAE\8F6F\96C5\9ED1";overflow:hidden;}
+.helpCenterLink a{color:#666;}
+.topRight a{color:#666;}
+.topRight a:hover,.helpCenterLink a:hover{color:#ff7300;text-decoration:none;}
+.topRight a:hover i{color:#ff7300;}
+.topRight i{font:16px/26px "\5FAE\8F6F\96C5\9ED1";color:#999;}
+.topRight ul{position:absolute;top:30px;left:-1px;z-index:999;display:none;border:#dcdcdc solid 1px;border-top:none;background-color:#fff}
+.topRight.on{background-color:#fff;border:#dcdcdc solid 1px;border-bottom:none;}
+.topRight.on code{color:#fff}
+.topRight code{float:right}
+.topRight ul.mySph{width:300px;height:132px;}
+.mySph li{width:90px;float:left;padding-left:10px}
+.mySph li b{display:block;color:#666;}
+.mySph li a{display:block;font:12px/23px "\5FAE\8F6F\96C5\9ED1";color:#666;}
+.goodsOrder{width:350px;padding:0px 10px 60px 10px;}
+.goodsOrder b{color:#666}
+.goodsOrder a{display:inline-block;}
+.goodsOrder li{position:relative;height:42px;padding:10px 0px;border-bottom:#dcdcdc dotted 1px;}
+.goodsOrder li a.orderImg{float:left;position:relative;}
+.goodsOrder li a.orderName{float:left;width:150px;height:15px;overflow:hidden;font:12px/15px "\5FAE\8F6F\96C5\9ED1";margin-left:10px;color:#333}
+.goodsOrder li p{width:150px;color:#999;position:absolute;top:20px;left:50px;}
+.goodsOrder li span{width:100px;float:left;color:#ff7300;padding-left:10px;font:12px/15px "\5FAE\8F6F\96C5\9ED1";}
+.goodsOrder li a.delBtn{float:left;color:#ff7300;}
+.goodsOrder p.orderListBtn{width:370px;;height:42px;background-color:#efefef;text-align:right;position:absolute;bottom:0px;left:0px;}
+.orderListBtn a{width:100px;height:28px;text-align:center;display:inline-block;margin-right:15px;background-color:#ff7300;color:#fff;font:12px/28px "\5FAE\8F6F\96C5\9ED1";margin-top:6px;border-radius:4px;}
+.orderListBtn a:hover{background-color:#fa7f1a;color:#fff;text-decoration:none;}
+.topRight ul.customService{width:70px;padding-left:10px;}
+.topRight ul.myFavorite{width:95px;padding-left:10px;}
+.topRight ul.siteNav{width:440px;padding:10px;left:-387px;}
+.siteNav li{padding-left:75px;position:relative;}
+.siteNav li b{position:absolute;left:0px;top:0px;color:#333}
+.siteNav li a{display:inline-block;color:#999;margin-right:10px;}
+
+.toplogoBar{ width:100%; background:#fff; height:100px; padding:20px 0px; border-bottom:1px solid #e4e4e4;}
+.toplogo{ width:1000px; margin:0 auto;}
+.toplogo img{ float:left; display:block;}
+.toplogo .center{ width:199px; height:60px; font-size:30px; overflow:hidden; text-indent:10px; border-left:1px solid #e4e4e4; margin-left:40px; margin-top:32px; float:left; line-height:60px}
+.toplogo .center a{ color:#999;}
+.toplogo .right{ width:500px; height:80px; margin-top:20px; float:left; line-height:80px; float:left; text-align:right; color:#999;}
+.toplogo .right a{ color:#f60; text-decoration:none;}
+
+/*----
+模块名称：公共底部
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2015.12.21
+----*/
+.allFooter{width:100%;height:auto;overflow:hidden;margin:0 auto;background-color:#282828}
+/*---- 底部版权信息 ----*/
+.copyRight{width:1000px;margin:20px auto 0px auto;padding:20px 0px;text-align:center;color:#666;}
+.copyRight a{font:12px/30px "\5FAE\8F6F\96C5\9ED1";color:#666;margin:0px 10px;}
+.copyRight a:hover{color:#ff7300;text-decoration:none;}
+/*---- 底部认证信息 ----*/
+.footerCert{width:1000px;margin:0px auto 30px auto;text-align:center;}
+.footerCert a{width:100px;height:40px;display:inline-block;background:url("../images/footerCertBg.png") no-repeat 0px -48px scroll transparent;}
+.footerCert a.cert02{background-position:-106px -48px;}
+.footerCert a.cert03{background-position:-212px -48px;}
+.footerCert a.cert04{background-position:-318px -48px;}
+.footerCert a.cert05{background-position:-424px -48px;}
+.footerCert a.cert06{background-position:-530px -48px;}
+.footerCert a:hover{background-position:0px 0px;}
+.footerCert a.cert02:hover{background-position:-106px 0px;}
+.footerCert a.cert03:hover{background-position:-212px 0px;}
+.footerCert a.cert04:hover{background-position:-318px 0px;}
+.footerCert a.cert05:hover{background-position:-424px 0px;}
+.footerCert a.cert06:hover{background-position:-530px 0px;}
+

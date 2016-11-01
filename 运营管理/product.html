@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="utf-8" />
+	<title>食品荟总管理系统</title>
+	<link rel="stylesheet" href="css/common.css" type="text/css" />
+	<link rel="stylesheet" href="css/iconfont/iconfont.css" type="text/css" />
+	<link rel="stylesheet" href="css/admin.css" type="text/css" />
+</head>
+
+<body> 
+<!---- 网站管理后台头部 ---->
+<div class="adminTop">
+	<h1>管理后台</h1>
+	<div class="topMenu">
+		<a href="index.html" title="首页" target="_self">首页</a>
+		<a href="product.html" title="商品管理" target="_self">商品管理</a>
+		<a href="seller.html" title="商家管理" target="_self">商家管理</a>
+		<a href="finance.html" title="金融管理" target="_self">金融管理</a>
+		<a href="market.html" title="营销管理" target="_self">营销管理</a>
+		<a href="advert.html" title="广告管理" target="_self">广告管理</a>         
+		<a href="message.html" title="信息管理" target="_self">信息管理</a>         
+		<a href="content.html" title="内容管理" target="_self">内容管理</a>         
+		<a href="report.html" title="报表管理" target="_self">报表管理</a>         
+		<a href="power.html" title="权限管理" target="_self">权限管理</a>
+	</div>
+	<div class="loginStatus">
+		欢迎您，<a href="#" title="会员名称" target="_self">会员名称adminadmin</a>
+		<a class="set" href="#" title="设置" target="_self"><i class="iconfont">&#xe60c;</i>设置</a>|
+		<a class="quit" href="#" title="退出" target="_self"><i class="iconfont">&#xe609;</i>退出</a>
+	</div>
+</div>
+<!---- 网站管理后台左侧导航 ---->
+<div class="adminNav">
+	<ul>
+		<li class="cur">
+			<h3>商品管理</h3>
+			<a class="hover" href="#" title="商品审核" target="_self">商品审核</a>
+			<a href="#" title="出售中的商品" target="_self">出售中的商品</a>
+            <a href="#" title="已下架的商品" target="_self">已下架的商品</a>
+            <a href="#" title="类别管理" target="_self">类别管理</a>
+		</li> 
+	</ul >
+</div>
+<!---- 管理后台右侧标题 ---->
+<div class="arTit"><i class="iconfont">&#xe604;</i>商品列表</div> 
+ <div class="searchBlock" style="margin:14px 0px 0px 0px;">
+	商品名称：<input class="searchInput" type="text" value="" placeholder="" /> 所属商家：
+	<input class="searchInput" type="text" value="" placeholder="" /> 发布时间：
+    <input class="searchInput" type="text" value="" placeholder="" /> 
+    <input class="searchBtn" type="button" value="搜索" />
+</div> 
+<div class="stitTitle">
+  	<ul>
+    	<li class="on">全部</li>
+        <li>已审核</li>
+        <li>待审核</li>
+        <li>未通过</li>
+    </ul>
+  </div>
+ <div class="adminTables">
+	<table cellspacing="0" cellpadding="0" border="0">
+		<tbody><tr class="tit">
+			<td colspan="2">店铺名称</td>
+			<td width="18%">商品名称</td>
+			<td width="14%">商品分类</td>
+			<td width="9%">价格</td>
+			<td width="10%">库存</td>
+			<td width="11%">商品状态</td>
+		    <td width="12%">上架状态</td>
+		    <td width="10%">操作</td>
+		</tr>
+		<tr>
+			<td width="4%"><input type="checkbox" name="checkbox" id="checkbox"></td>
+			<td width="12%">广州方硕贸易有限公司</td>
+			<td>塞浦路斯原装进口普瑞玛百分百橙汁饮料1L*12盒</td>
+			<td>003果汁饮料</td>
+			<td>30</td>
+			<td>100</td>
+			<td><span class="red">待审核</span></td>
+		    <td>已上架</td>
+		    <td><p class="orange"><a href="#">去审核</a></p>
+	        <p class="green"><a href="#">查看预览</a></p></td>
+		</tr>
+        <tr>
+			<td width="4%"><input type="checkbox" name="checkbox" id="checkbox"></td>
+			<td width="12%">广州方硕贸易有限公司</td>
+			<td>塞浦路斯原装进口普瑞玛百分百橙汁饮料1L*12盒</td>
+			<td>003果汁饮料</td>
+			<td>30</td>
+			<td>100</td>
+			<td><span class="blue">已通过</span></td>
+		    <td>已上架</td>
+		    <td><p class="orange"><a href="#">违规下架</a></p>
+	        <p class="green"><a href="#">查看预览</a></p></td>
+		</tr>
+        <tr>
+			<td width="4%"><input type="checkbox" name="checkbox" id="checkbox"></td>
+			<td width="12%">广州方硕贸易有限公司</td>
+			<td>塞浦路斯原装进口普瑞玛百分百橙汁饮料1L*12盒</td>
+			<td>003果汁饮料</td>
+			<td>30</td>
+			<td>100</td>
+			<td><span class="red">未通过</span></td>
+		    <td>已上架</td>
+		    <td><p class="orange"><a href="#">去审核</a></p>
+	        <p class="green"><a href="#">查看预览</a></p></td>
+		</tr>
+        <tr>
+			<td width="4%"><input type="checkbox" name="checkbox" id="checkbox"></td>
+			<td width="12%">广州方硕贸易有限公司</td>
+			<td>塞浦路斯原装进口普瑞玛百分百橙汁饮料1L*12盒</td>
+			<td>003果汁饮料</td>
+			<td>30</td>
+			<td>100</td>
+			<td><span class="blue">已通过</span></td>
+		    <td>已上架</td>
+		    <td><p class="orange"><a href="#">违规下架</a></p>
+	        <p class="green"><a href="#">查看预览</a></p></td>
+		</tr>
+        <tr>
+			<td width="4%"><input type="checkbox" name="checkbox" id="checkbox"></td>
+			<td width="12%">广州方硕贸易有限公司</td>
+			<td>塞浦路斯原装进口普瑞玛百分百橙汁饮料1L*12盒</td>
+			<td>003果汁饮料</td>
+			<td>30</td>
+			<td>100</td>
+			<td><span class="red">待审核</span></td>
+		    <td>已上架</td>
+		    <td><p class="orange"><a href="#">去审核</a></p>
+	        <p class="green"><a href="#">查看预览</a></p></td>
+		</tr>
+        <tr>
+			<td width="4%"><input type="checkbox" name="checkbox" id="checkbox"></td>
+			<td width="12%">广州方硕贸易有限公司</td>
+			<td>塞浦路斯原装进口普瑞玛百分百橙汁饮料1L*12盒</td>
+			<td>003果汁饮料</td>
+			<td>30</td>
+			<td>100</td>
+			<td><span class="blue">已通过</span></td>
+		    <td>已上架</td>
+		    <td><p class="orange"><a href="#">违规下架</a></p>
+	        <p class="green"><a href="#">查看预览</a></p></td>
+		</tr>
+        <tr>
+			<td width="4%"><input type="checkbox" name="checkbox" id="checkbox"></td>
+			<td width="12%">广州方硕贸易有限公司</td>
+			<td>塞浦路斯原装进口普瑞玛百分百橙汁饮料1L*12盒</td>
+			<td>003果汁饮料</td>
+			<td>30</td>
+			<td>100</td>
+			<td><span class="red">未通过</span></td>
+		    <td>已上架</td>
+		    <td><p class="orange"><a href="#">去审核</a></p>
+	        <p class="green"><a href="#">查看预览</a></p></td>
+		</tr>
+        <tr>
+			<td width="4%"><input type="checkbox" name="checkbox" id="checkbox"></td>
+			<td width="12%">广州方硕贸易有限公司</td>
+			<td>塞浦路斯原装进口普瑞玛百分百橙汁饮料1L*12盒</td>
+			<td>003果汁饮料</td>
+			<td>30</td>
+			<td>100</td>
+			<td><span class="blue">已通过</span></td>
+		    <td>已上架</td>
+		    <td><p class="orange"><a href="#">违规下架</a></p>
+	        <p class="green"><a href="#">查看预览</a></p></td>
+		</tr>
+	</tbody></table>
+</div> 
+<div class="stit">
+      <table cellspacing="0" cellpadding="0" border="0" width="100%" class="f14">
+        <tbody><tr>
+          <td width="4%" align="center"><input type="checkbox" class="mr5" id="checkbox" name="checkbox">
+          </td>
+          <td width="6%"> 全选</td>
+          <td width="7%"><button class="sbtn">删除</button></td>
+          <td width="70%"></td>
+          <td width="13%"></td>
+        </tr>
+      </tbody></table>
+    </div>
+    <div class="page mt10">
+      <!-- AspNetPager 7.3.2 -->
+      <div class="paginator"> <a href="#">上一页</a><span class="this-page">1</span><a href="#">2</a><a href="#">3</a><a href="#">4</a><a href="#">下一页</a> 共100页  到第
+        <input type="text" name="textfield2" id="textfield2" class="ucinput" style="width:28px;">
+        页
+        <button class="sbtn">确定</button>
+      </div>
+      <!-- AspNetPager 7.3.2 -->
+    </div>
+</body>
+</html>

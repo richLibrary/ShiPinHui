@@ -1,0 +1,79 @@
+@charset "utf-8";
+.ucRight{width:978px;height:auto;float:right;overflow:hidden;}
+.storeHeader{border:#ddd solid 1px;height:146px;padding:10px 0;}
+.storeLogo{width:102px;height:25px;background-color:#777;line-height:25px;text-align:center;color:#fff;position:absolute;bottom:0;left:0;}
+.storeInfor{width:595px;height:auto;float:left;margin:22px 0;}
+.storeInfor dt{float:left;margin:0 30px;position:relative;}
+.storeInfor dd{float:left;line-height:32px;height:32px;width:430px;}
+.storeTitle{font:18px/32px "\5FAE\8F6F\96C5\9ED1";color:#333;margin-right:24px;float:left;}
+.storeTime{width:26px;height:26px;background:url(../images/icon9.png) no-repeat 0px 0px scroll;padding:0 0px 0 30px;font:12px/16px "\5FAE\8F6F\96C5\9ED1";color:#666;border-right:1px solid #999;display:block;float:left;margin:10px 0;}
+.storeSquli{width:100px;height:26px;float:left;}
+.storeSquli li{float:left;}
+.Safety{ display:inline-block;height:26px;width:26px;background: url(../images/icon6.png) no-repeat 0px 0px scroll;margin:10px 5px;}
+.Ensure{display:block;height:26px;width:26px;background: url(../images/icon7.png) no-repeat 0px 0px scroll;margin:10px 3px;}
+.Vip{display:block;height:28px;width:26px;background: url(../images/icon8.png) no-repeat 0px 0px  scroll;margin:10px 3px;}
+.storeSet{font:12px/12px "\5FAE\8F6F\96C5\9ED1";color:#999;border-right:1px solid #E4E4E4;padding-right:8px;display:inline-block;}
+.storeDecor{color:#999;padding-left:8px;display:inline-block;}
+.enterScore{color:#999;display:block;}
+/*---- 店铺评分 ----*/
+.storescore{padding-left:30px;height:auto;float:left;border-left:1px solid #E4E4E4;}
+.storescore h2{font:18px/42px "\5FAE\8F6F\96C5\9ED1";color:#333;}
+.scoreConment li{height:32px;line-height:32px;}
+.scoreTitle{font:14px/32px "\5FAE\8F6F\96C5\9ED1";color:#666;}
+.scoreConment li i{color:#ccc;margin-right:3px;}
+.scoreConment li i.on{color:#FF7300;}
+.score{color:#FF7300;}
+/*---- 店铺概况 ----*/
+.storeConment{height:auto;overflow:hidden;margin-top:24px;}
+.leftConment{height:auto;float:left;overflow:hidden;width:675px;}
+/*---- 商品管理 ----*/
+.storeSit{width:673px;height:415px;float:left;border:1px solid #E4E4E4;}
+.storeSit h2{font:700 16px/32px "\5FAE\8F6F\96C5\9ED1";color:#333;background-color:#f5f5f5;border-bottom:1px solid #E4E4E4;padding-left:20px;}
+.situaList{padding:15px 38px;}
+.situaList dl{height:auto;overflow:hidden;margin-bottom:30px;width:500px;}
+.situaList dl dt{font:700 14px/26px "\5FAE\8F6F\96C5\9ED1";color:#333;display:block;}
+.situaList dl dd{float:left;height:28px;line-height:28px;margin-right:15px;}
+.situaList dl dd a{font:14px/28px "\5FAE\8F6F\96C5\9ED1";color:#999;display:block;width:60px;overflow:hidden;float:left;color:#FF7300;} 
+.situaList dl dd span{display:block;float:left;font:14px/28px "\5FAE\8F6F\96C5\9ED1";color:#999;margin-right:5px;overflow:hidden;}
+/*---- 今日公告 ----*/
+.storeSidebar{width:278px;height:auto;overflow:hidden;float:right}
+.storeTips{height:auto;overflow:hidden;position:relative;border:1px solid #E4E4E4;border-bottom:none;}
+.storeTips h2{font:700 16px/32px "\5FAE\8F6F\96C5\9ED1";color:#333;background-color:#f5f5f5;border-bottom:1px solid #E4E4E4;padding-left:20px;}
+.tipsMore{position:absolute;right:10px;top:0;font:12px/36px "\5FAE\8F6F\96C5\9ED1";color:#999;}
+.tipsList{margin:10px 15px;height:auto;overflow:hidden;border-bottom:1px solid #E4E4E4;padding-bottom:12px;}
+.tipsList li{height:30px;line-height:30px;position:relative;margin-left:12px;}
+.tipsList li a{font:12px/30px "\5FAE\8F6F\96C5\9ED1";color:#999;display:block;padding-left:10px;}
+.tipsList li a:before{display:block;width:4px;height:4px;content:"";background-color:#999;border:1px solid #E4E4E4;float:left;position:absolute;left:0;top:10px;margin-top:2px;}
+/*---- 帮助中心 ----*/
+.helps{height:auto;overflow:hidden;position:relative;border:1px solid #E4E4E4;border-top:none;}
+.helps h2{font:700 16px/32px "\5FAE\8F6F\96C5\9ED1";color:#333;padding-left:20px;}
+.tipsMore{position:absolute;right:10px;top:0;font:12px/36px "\5FAE\8F6F\96C5\9ED1";color:#999;}
+.helpsList{margin:8px 15px;height:auto;overflow:hidden;}
+.helpsList li{height:30px;line-height:30px;position:relative;margin-left:12px;}
+.helpsList li a{font:12px/30px "\5FAE\8F6F\96C5\9ED1";color:#999;display:block;padding-left:10px;}
+.helpsList li a:before{display:block;width:4px;height:4px;content:"";background-color:#999;border-radius:5px;border:1px solid #E4E4E4;float:left;position:absolute;left:0;top:10px;margin-top:2px;}
+/*---- 物流快运 ----*/
+.Logis{height:auto;overflow:hidden;position:relative;margin-top:20px;border:1px solid #E4E4E4;}
+.Logis h2{font:700 16px/36px "\5FAE\8F6F\96C5\9ED1";color:#333;padding-left:20px;background-color:#f5f5f5;border-bottom:1px solid #E4E4E4}
+.logisList{padding:16px 21px; height:auto;overflow:hidden;}
+.logisList dl{padding:12px 0 12px 12px;height:auto;overflow:hidden;}
+.logisList dl dt{margin-right:12px;float:left;}
+.logisList dl dd{font:14px/20px "\5FAE\8F6F\96C5\9ED1";float:left;color:#666;}
+.logisList dl dd b{color:#333;}
+/*---- 店铺营销中心 ----*/
+.storeCenter{width:673px;height:auto;float:left;border:1px solid #E4E4E4;margin-top:24px;padding-bottom:20px;}
+.storeCenter h2{font:700 16px/32px "\5FAE\8F6F\96C5\9ED1";color:#333;background-color:#f5f5f5;border-bottom:1px solid #E4E4E4;padding-left:20px;}
+.centerList{height:auto;overflow:hidden;padding-top:20px;}
+.centerList li{float:left;margin:0 35px;}
+.circleBg{width:103px;height:100px;display:block;background:url(../images/circlebg.png) no-repeat scroll 0 0;margin:0 60px 0 80px;}
+.mortgBg{width:103px;height:100px;display:block;background:url(../images/circlebg.png) no-repeat scroll -179px 0;margin:0 60px 0 80px;}
+.centerList li h3{font:700 18px/32px "\5FAE\8F6F\96C5\9ED1";margin-top:8px;color:#333;text-align:center;}
+.centerText{font:12px/32px "\5FAE\8F6F\96C5\9ED1";color:#ccc;text-align:center;width:240px;padding:0 10px;height:32px;overflow:hidden;}
+.centerConment{width:206px;height:138px;margin:15px 28px;}
+.conmentTitle{font:700 16px/22px "\5FAE\8F6F\96C5\9ED1";color:#333;}
+.centerConment dl{border-right:1px solid #E4E4E4;padding-left:15px;float:left;margin-bottom:22px;width:82px;}
+.centerConment dd{margin-top:5px;}
+.centerConment dd em{font-size:16px;color:#FF7300;font-weight:500;}
+.apply{width:148px;height:30px;border:1px solid #9f9f9f;background-color:#fff;text-align:center;font:14px/30px "\5FAE\8F6F\96C5\9ED1";color:#333;margin:0 0 5px 50px; cursor: pointer;}
+.centerTips{font:12px/32px "\5FAE\8F6F\96C5\9ED1";color:#ccc;text-align:center;}
+.centerTips b{color:#FF7300;}

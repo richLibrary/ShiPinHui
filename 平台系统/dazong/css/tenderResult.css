@@ -1,0 +1,46 @@
+@charset "utf-8";
+/*----
+模块作者：裴富成
+修改时间：2016.1.7
+----*/
+/*---- 面包屑内容 ----*/
+.breadcrumb{padding:5px 10px;width:1180px;margin:15px auto 0;background-color:#fff;border:1px solid #E4E4E4;border-top:2px solid #46A400;}
+.breadcrumb li{padding:5px 0 0;position:relative;height:auto;}
+.breadcrumb dl{zoom:1;line-height:24px;padding:0 74px;overflow:hidden;height:auto;border-bottom:#eee 1px solid;}
+.breadcrumb dl:after{content:" ";display:block;clear:both;height:0;overflow:hidden}
+.breadcrumb dl dt{color:#333;position:absolute;left:0;top:3px;margin-top:5px;width:70px;text-align:right;font:bold 12px/26px "\5FAE\8F6F\96C5\9ED1";}
+.breadcrumb dl dt.condition{width:74px;}
+.breadcrumb dl dt.keyword{width:74px;}
+.breadcrumb dd{float:left;display:inline;margin:0 0 0 5px;height:30px;font:12px/30px "\5FAE\8F6F\96C5\9ED1";}
+.breadcrumb a{display:inline-block;white-space:nowrap;height:18px;font: 12px/16px "\5FAE\8F6F\96C5\9ED1";padding:0 12px;text-decoration:none;color:#666;border-radius:24px;cursor:pointer;}
+.breadcrumb a:hover{color:#FFFFFF;background-color:#FF7300; cursor:pointer;}
+.breadcrumb .selected a{color:#fff;background-color:#FF7300}
+.breadcrumb li .selResult{height:40px;}
+.breadcrumb li .searchResult{height:35px;border-bottom:none;}
+.selectNo{color:#999}
+.breadcrumb .selResult a{padding-right:20px;background:#FF7300 url(../images/close.gif) right 6px no-repeat}
+.breadcrumb .selResult a:hover{background-position:right -18px}
+.searchText{width:148px;height:22px;border:1px solid #E4E4E4;font:12px/22px "\5FAE\8F6F\96C5\9ED1";color:#666;padding-left:10px;background-color:#EEE;}
+.selSearch{width:50px;height:24px;font:12px/24px "\5FAE\8F6F\96C5\9ED1";color:#fff;text-align:center;border:none;margin-left:10px;background-color:#FF7300;border-radius:5px;cursor:pointer;}
+/*---- 招标公告左侧内容 ----*/
+.tenderResultContent{width:1200px;height:auto;overflow:hidden;margin:25px auto 0;}
+.tenderResultLeft{width:920px;height:auto;overflow:hidden;border:1px solid #E4E4E4;float:left;}
+.tenderResultLeft h2{font: 18px/40px "\5FAE\8F6F\96C5\9ED1";padding-left:30px;border-bottom:1px solid #E4E4E4;}
+.tenderResultLeft h2 i{color:#46A400;font-size:20px;}
+.resultContent{margin:0 30px 12px;height:auto;}
+.resultContent li{border-bottom:1px dashed #E4E4E4;position:relative;margin-top:12px;}
+.resultContent li a{font: 14px/28px "\5FAE\8F6F\96C5\9ED1";color:#333;display:inline-block;}
+.resultContent li a:hover{color:#FF7300;}
+.dataTime{display:inline-block;position:absolute;top:5px;right:15px;color:#999;}
+.resultContent li span{display:inline-block;font: 12px/22px "\5FAE\8F6F\96C5\9ED1";color:#999;margin-right:20px;}
+.resultContent li p{margin:15px 0;}
+.resultContent li p b{height:22px;font:12px/22px "\5FAE\8F6F\96C5\9ED1";padding:0 10px;border:1px solid #E4E4E4;border-radius:4px;color:#999;margin-right:15px;display:inline-block;}
+/*---- 招标公告右侧内容 ----*/
+.resultSidebar{width:258px;height:auto;overflow:hidden;float:left;margin-left:20px;}
+.tenderHot{height:auto;border:1px solid #E4E4E4}
+.tenderHot h2{font: 18px/40px "\5FAE\8F6F\96C5\9ED1";padding-left:30px;border-bottom:2px solid #46A400;}
+.tenderHot a{display:inline-block;padding:0 10px;margin:6px 12px;height:23px;border:1px solid #E4E4E4;font:12px/23px "\5FAE\8F6F\96C5\9ED1";color:#999;}
+.tenderHot a:hover{border:1px solid #fcaf54;background-color:#fff9f2;color:#FCAF54;text-decoration:none;}
+.tenderMenu{width:258px;height:auto;padding-top:15px;}
+.menuTit{border:none;border-bottom:1px solid #E4E4E4;padding:19px 0 15px 30px;}
+.sidebarImg{margin-top:20px;display:block;}

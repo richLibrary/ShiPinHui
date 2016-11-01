@@ -1,0 +1,37 @@
+@charset "utf-8";
+body{background-color:#f2f2f2;}
+.headerMain h1 a{height:98px;display:block;font-size:24px;color:#2266b9;float:left;}
+.mainNav{width:100%;height:42px;background-color:#2266B9;margin:0px auto;overflow:hidden}
+.mainNav ul li a.on{background-color:#0f3f93}
+.mainNav ul li a:hover{background-color:#0f3f93}
+.companyInfo ul li h3{font:16px/24px "\5FAE\8F6F\96C5\9ED1";color:#666;height:24px;overflow:hidden;border:1px solid #E4E4E4;margin:5px;border-top-right-radius:8px;background-color:#e4e4e4;}
+.companyInfo ul li h3 i{color:#666;padding:0px 15px}
+.companyInfo ul li a:hover{background-color:#2266B9;}
+.companyInfor h2{height:35px;font:14px/35px "\5FAE\8F6F\96C5\9ED1";color:#fff;background-color:#2266B9;padding-left:17px;}
+.cemaTop h2{font:14px/35px "\5FAE\8F6F\96C5\9ED1";color:#fff;padding-left:15px;background-color:#2266B9}
+.companyInfo h3{height:35px;font:14px/35px "\5FAE\8F6F\96C5\9ED1";color:#fff;background-color:#2266B9;padding-left:17px;}
+.rightbar h2{height:35px;font:14px/35px "\5FAE\8F6F\96C5\9ED1";color:#fff;background-color:#2266B9;padding-left:15px}
+.cdiType h2{height:35px;font:14px/35px "\5FAE\8F6F\96C5\9ED1";color:#fff;background-color:#2266B9;padding-left:17px;}
+.companyInfo h2{height:35px;font:14px/35px "\5FAE\8F6F\96C5\9ED1";color:#fff;background-color:#2266B9;padding-left:17px}
+.saleList h2{height:35px;font:14px/35px "\5FAE\8F6F\96C5\9ED1";color:#fff;background-color:#2266B9;padding-left:17px;}
+.newsLeftCenter h2{height:35px;font:14px/35px "\5FAE\8F6F\96C5\9ED1";color:#fff;background-color:#2266B9;padding-left:17px;}
+.contactUs h2{height:35px;font:14px/35px "\5FAE\8F6F\96C5\9ED1";color:#fff;background-color:#2266B9;padding-left:17px;}
+.coupon h2{background-color:#2266B9;}
+/*----公司简介 ----*/
+.companyInfor h2{background-color:#2266B9;}
+.goodsClass h2{background-color:#2266B9;}
+.companyContent{background-color:#2266B9}
+/*----联系我们 ----*/
+.contact h2{background-color:#2266B9;}
+/*----在线咨询 ----*/
+.feedBack h2{background-color:#2266B9;}
+/*----新闻详情 ----*/
+.news h2{background-color:#2266B9;}
+/*----新闻列表 ----*/
+.newsClass h2{background-color:#2266B9;}
+/*----相册列表 ----*/
+.myPhotos h2{background-color:#2266B9;}
+/*----产品详情 ----*/
+.newList h2{background-color:#2266B9;}
+.productHot h2{background-color:#2266B9;}
+.aAddCart{background-color:#2266B9;}

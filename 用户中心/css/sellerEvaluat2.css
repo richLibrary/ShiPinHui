@@ -1,0 +1,10 @@
+@charset "utf-8";
+/*卖家评价*/
+.evaluCon{ width:747px; height:120px; background-color:#fffcec; border:#f8efba 1px solid;padding:45px 0px 0px 158px}
+.evaluCon img{ float:left; margin-right:20px}
+.evaluCon p{ font:bold 18px/36px "\5FAE\8F6F\96C5\9ED1"; color:#333; display:inline-block}
+.evaluCon span{ width:175px; height:24px; font:14px/24px "\5FAE\8F6F\96C5\9ED1"; color:#333;display:block; overflow:hidden; margin-bottom:20px}
+.evaluCon span b{ font:14px/24px "\5FAE\8F6F\96C5\9ED1";color:#eb4f38}
+.evaluCon a{ width:72px; height:20px; display:block; float:left;font:12px/12px "\5FAE\8F6F\96C5\9ED1"; color:#3f8bfa;}
+.evaluCon a.allEvalua{ margin:0px 32px 0px 80px}
+.evaluCon a:hover{ color:#ff7300; text-decoration:none}

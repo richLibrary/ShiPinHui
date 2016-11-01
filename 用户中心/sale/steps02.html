@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+	<meta charset="utf-8" />
+	<title>卖家处理退换货申请</title>
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">  
+	<link rel="stylesheet" href="../css/common.css" type="text/css" />
+	<link rel="stylesheet" href="../css/refund.css" type="text/css" />
+	<link rel="stylesheet" href="../css/iconfont/iconfont.css" type="text/css" />
+	<script type="text/javascript" src="../js/jquery.js"></script> 
+</head> 
+<body style="background-color:#fff;">
+<!--
+模块名称：公共头部
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2015.12.16
+-->
+<div class="topBar">
+	<div class="topMain">
+		欢迎来到食品荟！
+		<a class="topLogin" href="#" title="登录" target="_blank">[登录]</a>
+		<a class="topRegist" href="#" title="免费注册" target="_blank">[免费注册]</a>
+		<!-- 登录后的状态
+		<a class="loginEd" href="#" title="登录" target="_blank">用户名称要长一点啊。。</a>
+		<a class="msgRemind" href="#" title="消息">消息<i>19888</i></a>
+		<a class="quitLogin" title="退出登录" target="_self">[退出]</a>
+		-->
+		<div class="topRight">
+			<a href="" title="网址导航" target="_blank">网址导航</a><i class="iconfont">&#xe600;</i>
+			<ul class="siteNav">
+				<li>
+					<b>行业市场</b>
+					<a href="#" title="服装内衣" target="_blank">服装内衣</a>
+					<a href="#" title="鞋包配饰" target="_blank">鞋包配饰</a>
+					<a href="#" title="运动户外" target="_blank">运动户外</a>
+					<a href="#" title="童装母婴" target="_blank">童装母婴</a>
+					<a href="#" title="日用百货" target="_blank">日用百货</a>
+					<a href="#" title="汽车用品" target="_blank">汽车用品</a>
+					<a href="#" title="工艺品及宠物" target="_blank">工艺品及宠物</a>
+					<a href="#" title="食品" target="_blank">食品</a>
+					<a href="#" title="家纺家饰" target="_blank">家纺家饰</a>
+					<a href="#" title="家装建材" target="_blank">家装建材</a>
+				</li>
+				<li>
+					<b>特色市场</b>
+					<a href="#" title="服装内衣" target="_blank">服装内衣</a>
+					<a href="#" title="鞋包配饰" target="_blank">鞋包配饰</a>
+					<a href="#" title="运动户外" target="_blank">运动户外</a>
+					<a href="#" title="童装母婴" target="_blank">童装母婴</a>
+					<a href="#" title="日用百货" target="_blank">日用百货</a>
+					<a href="#" title="汽车用品" target="_blank">汽车用品</a>
+					<a href="#" title="工艺品及宠物" target="_blank">工艺品及宠物</a>
+					<a href="#" title="食品" target="_blank">食品</a>
+					<a href="#" title="家纺家饰" target="_blank">家纺家饰</a>
+					<a href="#" title="家装建材" target="_blank">家装建材</a>
+				</li>
+				<li>
+					<b>行业市场</b>
+					<a href="#" title="服装内衣" target="_blank">服装内衣</a>
+					<a href="#" title="鞋包配饰" target="_blank">鞋包配饰</a>
+					<a href="#" title="运动户外" target="_blank">运动户外</a>
+					<a href="#" title="童装母婴" target="_blank">童装母婴</a>
+					<a href="#" title="日用百货" target="_blank">日用百货</a>
+					<a href="#" title="汽车用品" target="_blank">汽车用品</a>
+					<a href="#" title="工艺品及宠物" target="_blank">工艺品及宠物</a>
+					<a href="#" title="食品" target="_blank">食品</a>
+					<a href="#" title="家纺家饰" target="_blank">家纺家饰</a>
+					<a href="#" title="家装建材" target="_blank">家装建材</a>
+				</li>
+			</ul>
+		</div>
+		<div class="topRight">
+			<a href="" title="帮助中心" target="_blank">帮助中心</a><i class="iconfont">&#xe600;</i><code>|</code>
+			<ul class="customService">
+				<li><a href="#" title="新手入门" target="_blank">新手入门</a></li>
+				<li><a href="#" title="买家帮助" target="_blank">买家帮助</a></li>
+				<li><a href="#" title="卖家帮助" target="_blank">卖家帮助</a></li>
+				<li><a href="#" title="在线客服" target="_blank">在线客服</a></li>
+				<li><a href="#" title="联系我们" target="_blank">联系我们</a></li>
+			</ul>
+		</div>
+		<div class="topRight">
+			<a href="" title="客户服务" target="_blank">客户服务</a><i class="iconfont">&#xe600;</i><code>|</code>
+			<ul class="customService">
+				<li><a href="#" title="联系我们" target="_blank">联系我们</a></li>
+				<li><a href="#" title="新会员申请" target="_blank">新会员申请</a></li>
+				<li><a href="#" title="老会员续费" target="_blank">老会员续费</a></li>
+				<li><a href="#" title="优惠活动" target="_blank">优惠活动</a></li>
+			</ul>
+		</div>
+		<div class="topRight">
+			<a href="" title="收藏夹" target="_blank">收藏夹</a><i class="iconfont">&#xe600;</i><code>|</code>
+
+			<ul class="myFavorite">
+				<li><a href="#" title="收藏的商品" target="_blank">收藏的商品</a></li>
+				<li><a href="#" title="收藏的供应商" target="_blank">收藏的供应商</a></li>
+				<li><a href="#" title="交易过的供应商" target="_blank">交易过的供应商</a></li>
+			</ul>
+			
+		</div>
+		<div class="topRight">
+			<a href="" title="进货单" target="_blank">进货单</a><i class="iconfont">&#xe600;</i><code>|</code>
+			<ul class="goodsOrder">
+				<b>最近加入商品</b>
+				<li>
+					<a class="orderImg" href="" title="进货单" target="_blank">
+						<img src="" width="40" height="40" alt="" title=""/>
+					</a>
+					<a class="orderName" href="" title="商品的名称商品的名称商品的名称" target="_blank">商品的名称商品的名称商品的名称商品的名称商品的名称</a>
+					<p>包装规格：盒装&nbsp;&nbsp;薯片味儿</p>
+					<span>&yen;3500 x 1</span>
+
+					<a class="delBtn" href="javascript:void(0)" title="删除">删除</a>
+				</li>
+				<li>
+					<a class="orderImg" href="" title="进货单" target="_blank">
+						<img src="" width="40" height="40" alt="" title=""/>
+					</a>
+					<a class="orderName" href="" title="商品的名称商品的名称商品的名称" target="_blank">商品的名称商品的名称商品的名称商品的名称商品的名称</a>
+					<p>包装规格：盒装&nbsp;&nbsp;薯片味儿</p>
+					<span>&yen;35 x 1</span>
+
+					<a class="delBtn" href="javascript:void(0)" title="删除">删除</a>
+				</li>
+				<li>
+					<a class="orderImg" href="" title="进货单" target="_blank">
+						<img src="" width="40" height="40" alt="" title=""/>
+					</a>
+					<a class="orderName" href="" title="商品的名称商品的名称商品的名称" target="_blank">商品的名称商品的名称商品的名称商品的名称商品的名称</a>
+					<p>包装规格：盒装&nbsp;&nbsp;薯片味儿</p>
+					<span>&yen;35 x 1</span>
+
+					<a class="delBtn" href="javascript:void(0)" title="删除">删除</a>
+				</li>
+				<p class="orderListBtn"><a href="#" title="查看进货单" target="_blank">查看进货单</a></p>
+			</ul>
+		</div>
+		<div class="topRight">
+			<a href="#" title="我的食品荟" target="_blank">我的食品荟</a>
+			<i class="iconfont">&#xe600;</i><code>|</code>
+			<ul class="mySph">
+				<li>
+					<b>批发进货</b>
+					<a href="#" title="已买到的商品" target="_blank">已买到的商品</a>
+					<a href="#" title="优惠券" target="_blank">优惠券</a>
+				</li>
+
+				<li>
+					<b>生产采购</b>
+					<a href="#" title="发布招标单" target="_blank">发布招标单</a>
+					<a href="#" title="发布询价单" target="_blank">发布询价单</a>
+				</li>
+				<li>
+					<b>销售</b>
+					<a href="#" title="已卖出货品" target="_blank">已卖出货品</a>
+					<a href="#" title="发布商品" target="_blank">发布商品</a>
+					<a href="#" title="管理商品" target="_blank">管理商品</a>
+					<a href="#" title="管理店铺" target="_blank">管理店铺</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<!--
+模块名称：用户中心头部
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2016.01.19
+-->
+<div class="ucNav">
+	<div class="ucNavMain">
+		<h1><a href="#" title="食品荟用户中心" target="_self">食品荟用户中心</a>我的食品荟</h1>
+		<ul>
+			<li><a href="#" title="首页" target="_self">首页</a></li>
+			<li><a href="buy/index.html" title="首页" target="_self">批发进货</a></li>
+		  <li><a href="sale/index.html" title="首页" target="_self">	产品销售</a></li>
+	  </ul>
+		<!-- 主导航服务下拉 -->
+		<div class="serviceTit">
+			<h2>服务<i class="iconfont">&#xe600;</i></h2>
+			<div class="serviceTxt">
+				<a href="shop/index.html" title="店铺设置" target="_self">店铺设置</a>
+				<a href="shop/enterprise.html" title="诚信认证" target="_self">诚信认证</a>
+				<a href="shop/infor.html" title="账户设置" target="_self">账户设置</a>
+				<a href="#" title="金融服务" target="_self">金融服务</a>
+				<a href="#" title="物流服务" target="_self">物流服务</a>
+				<a href="#" title="我的百科" target="_self">我的百科</a>				
+			</div>
+	  	</div>
+	</div>
+</div>
+<!--
+模块名称：用户中心左侧菜单
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2016.01.19
+-->
+<div class="ucMain">
+	<!--左侧导航菜单 -->
+	<div class="leftMenu">
+		<h2><i class="iconfont">&#xe603;</i>店铺管理</h2>
+		<ul>
+			<li><a href="" title="店铺主页" target="_self">店铺主页</a></li>
+			<li><a href="" title="栏目设置" target="_self">栏目设置</a></li>
+			<li><a href="" title="店招设置" target="_self">店招设置</a></li>
+			<li><a href="" title="轮播图设置" target="_self">轮播图设置</a></li>
+			<li><a href="" title="背景设置" target="_self">背景设置</a></li>
+			<li><a href="" title="首页广告设置" target="_self">首页广告设置</a></li>
+		</ul>
+		<!-- 商品管理 -->
+		<h2><i class="iconfont">&#xe604;</i>商品管理</h2>
+		<ul>
+			<li><a href="" title="类别管理" target="_self">类别管理</a></li>
+			<li><a href="" title="栏目设置" target="_self">发布商品</a></li>
+			<li><a href="" title="商品审核信息" target="_self">商品审核信息</a></li>
+			<li><a href="" title="出售中的商品	" target="_self">出售中的商品</a></li>
+			<li><a href="" title="大宗交易的商品" target="_self">大宗交易的商品</a></li>
+			<li><a href="" title="下架的商品" target="_self">下架的商品</a></li>
+		</ul>
+		<!-- 交易管理 -->
+		<h2><i class="iconfont">&#xe601;</i>交易管理</h2>
+		<ul>
+			<li><a href="" title="退货/退款管理" target="_self">退货/退款管理</a></li>
+			<li><a href="" title="已卖出的商品" target="_self">已卖出的商品</a></li>
+			<li><a href="" title="评价管理" target="_self">评价管理</a></li>
+			<li><a href="" title="已卖出的大宗商品	" target="_self">已卖出的大宗商品</a></li>
+		</ul>
+	</div>
+	<!-- 卖家处理退换货申请 -->
+	<div class="ucRight">
+		<div class="refund">
+			<ul class="steps">
+				<li class="stepsOneS">1、买家申请仅退款</li>
+				<li class="stepsTwoS">2、卖家处理退款申请</li>
+				<li class="stepsThrS">3、买家退货给卖家</li>
+				<li class="stepsFouS">4、退款完成</li>
+			</ul>
+			<div class="leftSidebar">
+				<h3>仅申请退款</h3>
+				<dl class="refundPro">
+					<dt><img src="" width="80" height="80" alt=""></dt>
+					<dd><a class="refundTitle" href="" target="_blank" title="">思念手打天下水饺</a></dd>
+					<dd>规格：2.5kg/袋</dd>
+					<dd>口味：韭菜鸡蛋</dd>
+				</dl>
+				<ul class="refundInfor">
+					<li>买家：张三<a class="online" href="" target="_self" title="QQ交谈"></a></li>
+					<li>订单编号：2235456865987</li>
+					<li>单价：<span class="refundColor">15.00元</span>x60(数量)</li>
+					<li>运费：<span class="refundColor">200.00元</span></li>
+					<li>退款编号：2235456865987</li>
+					<li>退款金额：<span class="refundColor">300.00元</span></li>
+					<li>退款原因：未按约定发货</li>
+					<li>退款要求：仅退款</li>
+					<li>退款说明：卖家发货太慢、四天了还没收到货</li>
+					<li>退货凭证：<span class="refundImg"><img src="" width="44" height="44" alt=""><img src="" width="44" height="44" alt=""></span></li>
+				</ul>
+			</div>
+			<div class="refundBar">
+				<span class="refundTips">
+					如因您提供的退货换地址有误,导致买家无法退货或退回商品后无法退回,由您承担因此产生的费用。
+				</span>
+				<dl class="returnAddress">
+					<dt><font>*</font>退货地址:</dt>
+					<dd><input type="radio" name="radio"/>河南省 郑州市 高新区 冬青街26号电子商务产业园(张三 收) 13598636452</dd>
+					<dd><input type="radio" name="radio"/>河南省 郑州市 高新区 冬青街26号电子商务产业园(张三 收) 13598636452</dd>
+					<dd><a class="manageAddress" href="" target="_blank" title="">管理收货地址</a></dd>
+				</dl>
+				<dl class="refundIns">
+					<dt>退换说明:</dt>
+					<textarea>你可以告诉买家选择哪种物流</textarea>
+				</dl>
+				<input type="button" class="send" value="发送退货地址" onclick="javascript:window.location.href='steps03.html'">
+				<input type="button" class="return" value="取消并返回" onclick="javascript:window.location.href='steps01.html'"></a>
+			</div>
+		</div>
+	</div>
+</div>
+<!--
+模块名称：公共底部
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2016.01.19
+-->
+<div class="ucFooter">
+	<div class="ucFooterMain">
+		<a href="#" title="关于我们" target="_blank">关于我们</a>|
+		<a href="#" title="联系我们" target="_blank">联系我们</a>|
+		<a href="#" title="广告服务" target="_blank">广告服务</a>|
+		<a href="#" title="食品百科" target="_blank">食品百科</a>|
+		<a href="#" title="友情链接" target="_blank">友情链接</a>|
+		<a href="#" title="意见投诉" target="_blank">意见投诉</a>|
+		<a href="#" title="网站地图" target="_blank">网站地图</a>|
+		<a href="#" title="法律声明" target="_blank">法律声明</a>|
+		<a href="#" title="服务条款" target="_blank">服务条款</a>|
+		<a href="#" title="隐私声明" target="_blank">隐私声明</a>
+		<p>版权所有&nbsp;©&nbsp;2012-2015&nbsp;&nbsp;&nbsp;漯河食品荟网络科技有限公司&nbsp;&nbsp;&nbsp;保留所有权利&nbsp;&nbsp;&nbsp;经营许可证编号：<a href="#" title="经营许可证编号" target="_blank">豫B2-20140075</a></p>
+	</div>
+</div>
+<script type="text/javascript" src="../js/ucCommon.js"></script>
+</body>
+</html>

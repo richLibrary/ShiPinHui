@@ -1,0 +1,83 @@
+@charset "utf-8";
+/*----
+模块名称：伙拼首页
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2015.12.21
+----*/
+/*---- 伙拼焦点图 ----*/
+.groupBanner{width:1200px;height:auto;overflow:hidden;margin:16px auto 0px auto;position:relative;}
+.groupFocus{width:910px;height:250px;float:left;position:relative;background-color:#eee;}
+.groupFocus .bd{width:910px !important;height:250px !important;overflow:hidden;}
+.groupFocus .bd li{width:910px !important;height:250px !important;}
+.groupFocus .hd{overflow:hidden;position:absolute;bottom:4px;right:16px;text-align:right;}
+.groupFocus .hd li{display:inline-block !important;width:12px;height:12px;cursor:pointer;border-radius:50%;background-color:#fff;margin:0px 5px;line-height:999px;overflow:hidden;}
+.groupFocus .hd li.on{background-color:#ff7300;}
+.groupEnter{width:270px;height:120px;position:absolute;right:0px;top:0px;}
+.groupRules{width:270px;height:115px;position:absolute;right:0px;bottom:0px;}
+/*---- 伙拼筛选 ----*/
+.groupSort{width:1200px;height:auto;margin:29px auto 0px auto;overflow:hidden;}
+.groupSort ul{height:auto;overflow:hidden;width:1218px;}
+.groupSort ul li{width:53px;height:64px;float:left;margin-right:12px;border:#eee solid 1px;float:left;}
+.groupSort ul li a{display:block;width:53px;height:20px;background:url(../images/sortBg01.png) no-repeat 0px 0px scroll;padding-top:44px;color:#666;text-align:center;}
+.groupSort ul li a:hover{background:url(../images/sortBg02.png) no-repeat -1px -1px scroll;color:#fff;text-decoration:none;}
+.groupSort ul li.sort02 a{background-position:-68px -1px;}
+.groupSort ul li.sort03 a{background-position:-135px -1px;}
+.groupSort ul li.sort04 a{background-position:-202px -1px;}
+.groupSort ul li.sort05 a{background-position:-269px -1px;}
+.groupSort ul li.sort06 a{background-position:-336px -1px;}
+.groupSort ul li.sort07 a{background-position:-403px -1px;}
+.groupSort ul li.sort08 a{background-position:-470px -1px;}
+.groupSort ul li.sort09 a{background-position:-537px -1px;}
+.groupSort ul li.sort10 a{background-position:-604px -1px;}
+.groupSort ul li.sort11 a{background-position:-671px -1px;}
+.groupSort ul li.sort12 a{background-position:-738px -1px;}
+.groupSort ul li.sort13 a{background-position:-805px -1px;}
+.groupSort ul li.sort14 a{background-position:-872px -1px;}
+.groupSort ul li.sort15 a{background-position:-939px -1px;}
+.groupSort ul li.sort16 a{background-position:-1006px -1px;}
+.groupSort ul li.sort17 a{background-position:-1073px -1px;}
+/*---- 伙拼专区 ----*/
+.groupTit{width:1200px;height:50px;overflow:hidden;margin:32px auto 0px auto;background-color:#43a400;}
+.groupTit h2{padding:0px 22px 0px 30px;display:inline-block;font:20px/50px "微软雅黑";color:#fff;float:left;}
+.groupTit input{width:185px;height:28px;font-size:14px;border-radius:3px;border:#fff solid 1px;float:left;padding-left:35px;margin-top:10px;}
+.groupTit span{float:right;padding:11px 20px 11px 0px;}
+.groupTit span a{display:inline-block;padding:7px 12px;display:inline-block;color:#fff;font:12px/14px "微软雅黑";}
+.groupTit span a.selected{background-color:#fff;border-radius:4px;color:#43a400;text-decoration:none;}
+.groupTit span a:hover{text-decoration:none;}
+.groupTit a i{margin-left:2px;font:14px/12px "微软雅黑";}
+/*---- 伙拼列表 ----*/
+.groupList{width:1200px;height:auto;overflow:hidden;margin:20px auto 0px auto;}
+.groupList ul{width:1240px;height:auto;overflow:hidden;}
+.groupList ul li{width:270px;height:auto;overflow:hidden;margin:0px 40px 25px 0px;background-color:#fff;padding-bottom:12px;float:left}
+.groupList ul li p{padding:0px 20px;}
+.groupName{height:18px;overflow:hidden;margin:20px 0px 10px 0px;}
+.groupName a{font:16px/16px "微软雅黑";color:#333;}
+.groupName a:hover{text-decoration:none;color:#f60;}
+.groupTit01{color:#999;font:12px/20px "微软雅黑";height:40px;overflow:hidden;}
+.groupPrice{height:auto;overflow:hidden;margin:7px 0px 11px 0px;}
+.groupPrice span{width:35%;float:left;display:inline-block;text-align:right;font:12px/24px "微软雅黑";color:#999;}
+.groupPrice del{width:30%;float:left;display:inline-block;text-align:center;font:12px/24px "微软雅黑";color:#999;}
+.groupPrice span.price{font:24px/24px "微软雅黑";color:#ff7300;text-align:left;}
+.groupPrice span.price sub{font:16px/24px "微软雅黑";margin:0px;padding:0px;}
+.groupPrice span.price em{font:16px/24px "微软雅黑";}
+.joinGroup{height:auto;overflow:hidden;}
+.joinGroup i{font:30px/34px "微软雅黑";color:#ff7300;}
+.joinGroup span{color:#999;}
+.joinGroup a{width:80px;height:34px;background-color:#ff7300;color:#fff;cursor:pointer;border-radius:4px;border:none;display:inline-block;float:right;text-align:center;font:14px/34px "微软雅黑";}
+.joinGroup a:hover{background-color:#fc8320;text-decoration:none;}
+/*---- 厂家推荐 ----*/
+.recommondCo{width:1200px;height:auto;overflow:hidden;margin:0px auto 0px auto;position:relative;}
+.recMore{position:absolute;top:0px;right:10px;color:#fff;font:14px/50px "微软雅黑";}
+.recommondCo h2{background-color:#43a400;height:50px;font:20px/50px "微软雅黑";color:#fff;padding-left:22px;}
+.recommondCo ul{width:1245px;height:auto;overflow:hidden;margin-top:20px;}
+.recommondCo ul li{width:368px;height:auto;float:left;overflow:hidden;margin:0px 45px 0px 0px;padding-bottom:16px;border:#eee solid 1px;background-color:#fff;}
+.recommondCo ul li img{border-bottom:#eee solid 1px;}	
+.recommondCo ul li p{padding:0px 13px;color:#999;font:12px/24px "微软雅黑";}
+.recommondCo ul li p.coName{margin:10px 0px 5px 0px;height:18px;overflow:hidden;}
+.coName a{color:#333;font:14px/14px "微软雅黑";}
+.coName a:hover{color:#ff7300;text-decoration:none;}
+.coName span{float:right;}
+.coName span font{color:#ff7300;}
+.coName i{float:left;color:#ff7300;margin-right:4px;}
+

@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+/*---- 标题和面包屑导航 ----*/    
+.ucorderTit{height:40px;overflow:hidden;position:relative;}
+.ucorderTit h2{display:inline-block;float:left;font:18px/40px "微软雅黑";color:#333;background:url("../images/titBg01.png") no-repeat 0px center scroll;padding-left:15px}
+.ucBreads{padding-right:0px;float:right;line-height:40px;}
+.ucBreads a{color:#666;}
+.ucBreads a:hover{color:#ff7300}
+
+/*优惠券*/
+.coupon{ width: 988px; margin-top:30px; font-size: 14px; }
+.couponNav{ width: 100%;}
+.couponNav ul li{ width: 98px; cursor: pointer; background: #fff; height: 40px; float: left; margin-right: 10px; text-align: center; line-height: 38px;}
+.couponOn{ border:1px solid #e4e4e4; border-top: 1px solid #ff7300; border-bottom: 1px solid #fff; color: #ff7300;}
+.couponOld{ border:1px solid #e4e4e4;}
+.couponList{ width: 988px; border-top:1px solid #e4e4e4; margin-top: -1px;}
+.couponlb >ul >li{ width: 100%; border-bottom: 1px dashed #e4e4e4; line-height: 40px;}
+.couponlb >ul >li td{ text-align: center;}
+.couponlb >ul >li td a{ color: #0099ff; text-decoration: none;}
+.couponlb >ul >li .hui{ color: #999;}
+.couponlb >ul >li .lan{ color: #0099ff;}
+.couponlb >ul >li .ju{ color: #ff7300;}
+
+/*收藏的店铺*/
+.shop{ width: 988px; margin-top:30px; font-size: 14px;}
+.shopNav span{ display: block; width: 138px; border:1px solid #e4e4e4; border-top: 1px solid #ff7300; border-bottom: 1px solid #fff; color: #ff7300; background: #fff; height: 40px; margin-right: 10px; text-align: center; line-height: 40px;}
+.shopNav{ width: 100%; height: 40px; border-bottom:1px solid #e4e4e4;}
+.shopOperate{ width: 100%; line-height: 40px; }
+.shopOperate >input{ float: left; margin:14px 10px auto 0; }
+.shopOperate >a{margin-left: 20px; color: #0099ff; text-decoration: none;}
+
+.shopList{ width: 988px; }
+.shopList >ul >li{ width: 986px; border: 1px solid #e4e4e4; padding: 20px 0; margin-bottom: 20px;}
+.shopLeft{ width: 365px; float: left; border-right: 1px solid #e4e4e4; margin-left: 35px; top: 0px;}
+.shopLeftTitle{ width: 100%; position: relative; font:16px/40px "\5FAE\8F6F\96C5\9ED1"; color: #333; }
+.shopLeftTitle >input{ float: left; margin-top: 15px; margin-right: 5px;}
+.shopLeftTitle >p{ width:180px; height: 40px; overflow: hidden; float: left; }
+.shopLeftTitle >p >a{ color:#333; text-decoration:none}
+.shopLeftTitleBg{ width: 130px;  height: 35px; float: left; margin-top: 3px; font:12px/35px "\5FAE\8F6F\96C5\9ED1"; color: #666; }
+.shopLeftTitleBg font{ color: #CC0057; font-weight: bold; }
+.shopLeft .zycp{ width: 100%; margin:10px auto; color: #999;}
+.shopLeft .zycp >a{ display: inline; text-decoration: none; margin-right: 8px; font:14px/20px "\5FAE\8F6F\96C5\9ED1"; color: #333; padding: 3px 10px; }
+.shopLeft >p{ width: 90%; height: 25px; overflow: hidden; font:14px/25px "\5FAE\8F6F\96C5\9ED1"; color: #666; }
+.enterBtn{ width: 100%; height: 30px; margin: 20px auto 0px; }
+.enterBtn >a{ display: inline; text-decoration: none; font:14px/20px "\5FAE\8F6F\96C5\9ED1";padding: 5px 20px; border-radius: 5px; margin-right: 10px; }
+.enterju{ border: 1px solid #f60; color: #f60; }
+.enterblue{ border: 1px solid #26a1ff; color: #26a1ff;}
+.enterblue1{ color: #26a1ff;}
+.shopRight{ width: 540px; float: left; margin-top: 10px; }
+.shopRight ul li{ width: 150px; float: left; margin-left: 30px;}
+.shopRight ul li p{ width: 100%;  font:12px/30px "\5FAE\8F6F\96C5\9ED1"; color: #666; position: relative; text-align: right; }
+.shopRight ul li p font{ display: block; width: 60%; overflow:hidden; text-align: left; position: absolute; font:16px/30px "\5FAE\8F6F\96C5\9ED1"; color: #FF7300;}
+
+.companyNone{ width: 340px; margin: 200px auto; min-height: 500px; text-align: center; }
+.companyNone p{ font:25px/45px "\9ED1\4F53"; color: #666; margin-top: 20px; text-align: left;}
+.companyNone p font{ color: #FF9900; }
+
+/*收藏的货品*/
+.goods{ width: 988px; margin-top:30px; font-size: 14px; }
+.goodsNav{ width: 100%;}
+.goodsNav >ul >li{ width: 138px; cursor: pointer; background: #fff; height: 40px; float: left; margin-right: 10px; text-align: center; line-height: 38px;}
+.goodsOn{ border:1px solid #e4e4e4; border-top: 1px solid #ff7300; border-bottom: 1px solid #fff; color: #ff7300;}
+.goodsOld{ border:1px solid #e4e4e4;}
+.goodsList{ width: 988px; border-top:1px solid #e4e4e4; margin-top: -1px;}
+.goodsOperate{ width: 100%; line-height: 50px;}
+.goodsOperate >input{ float: left; margin:20px 10px auto 0; }
+.goodsOperate >a{ display: inline; margin-left: 20px; color: #0099ff; text-decoration: none;}
+.collectlb{ width: 100%;}
+.collectlb >ul >li{ width: 224px; height: 350px; float: left; margin-left: 30px; margin-bottom: 30px;}
+.collectlb >ul >li >a >img{ border: 1px solid #e4e4e4;}
+.collectlb >ul >li >h3{ width: 100%; font-weight: normal; line-height: 40px; height: 40px; overflow: hidden; color: #999;}
+.collectlb >ul >li >h3 >input{ float: left; margin: 15px 10px auto 0;}
+.collectlb >ul >li >h3 >a{ color: #999; text-decoration: none;}
+.collectlb >ul >li .price{ width: 100%; line-height: 40px;}
+.collectlb >ul >li .price font{ display: block; width: 70%; height: 40px; overflow: hidden; float: left; color: #f60; font-size: 18px;}
+.collectlb >ul >li .shixiao{ width: 100%; line-height: 30px; color: #999;}
+.collectlb >ul >li .shixiao i{ font:20px/30px "\5FAE\8F6F\96C5\9ED1";color:#999;}
+.collectlb >ul >li .btn{ width: 100%; line-height: 30px; margin-top: 10px;}
+.collectlb >ul >li .btn a{ display: block; width:108px; border: 1px solid #f60; border-radius: 5px; float: left; margin-right: 80px; color: #f60; font-size: 16px; text-decoration: none; text-align: center; }
+.collectlb >ul >li .btn a:hover{ background: #f60; color: #fff;}
+.collectlb >ul >li .btn i{ font:26px/30px "\5FAE\8F6F\96C5\9ED1";color:#999; cursor: pointer;}
+.collectlb >ul >li .btn i:hover{ font:26px/30px "\5FAE\8F6F\96C5\9ED1";color:#f60;}
+.collectlb >ul >li .btnhui{ width: 100%; line-height: 30px; margin-top: 10px;}
+.collectlb >ul >li .btnhui a{ display: block; width:108px; border: 1px solid #e4e4e4; background:#e4e4e4; border-radius: 5px; float: left; margin-right: 80px; color: #fff; font-size: 16px; text-decoration: none; text-align: center; }
+.collectlb >ul >li .btnhui i{ font:26px/30px "\5FAE\8F6F\96C5\9ED1";color:#e4e4e4; cursor: pointer;}

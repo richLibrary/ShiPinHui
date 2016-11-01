@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+	<meta charset="utf-8" />
+	<title>百科详情页</title>
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="Keywords" content="关键词"/>
+	<meta name="Description" content="我是网页的描述sss"/>
+	<link rel="stylesheet" href="css/iconfont/iconfont.css" type="text/css" />
+	<link rel="stylesheet" href="css/common.css" type="text/css" />
+	<link rel="stylesheet" href="css/detail.css" type="text/css" />
+	<link rel="stylesheet" href="css/baidu.css" type="text/css" />
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/sideBarnav.j"></script>
+	<script type="text/javascript" src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
+</head>
+<body ng-app="myApp" ng-controller="userCtrl" style="background-color:#e9e9e9;">
+<div ng-include="'header.html'"></div>
+<!--<div ng-include="'header.html'"></div>-->
+<!--
+模块名称：详情头部
+修改内容：暂无
+模块作者：裴富成
+修改时间：2016.01.26
+-->
+<div class="detailHeader">
+	<div class="define">
+		<p class="detailText"><b>番茄</b>是一个多义词，请在下列义项上选择浏览<a class="detailSel" href="">(共3个义项)</a></p><a class="addList" href=""><i class="iconfont">&#xe63b;</i>添加义项</a>
+	</div>
+	<ul class="detailList">
+		<li><span class="selected">茄科蔬果</span></li>
+		<li><a href="" target="_self" title="">茄科蔬果</a></li>
+		<li><a href="" target="_self" title="">茄科蔬果</a></li>
+	</ul>
+</div>
+<div class="detailContent">
+	<div class="leftConment">
+		<h1>番茄</h1>
+		<a class="detailEditor" href="javascript:" target="_blank" title=""><i class="iconfont">&#xe603;</i>编辑</a>
+		<div class="edityText">		
+			番茄（Tomato），别名西红柿、洋柿子。古名六月柿、喜报三元。在秘鲁和墨西哥，最初称之为“狼桃”。全体生粘质腺毛，有强烈气味。茎易倒伏。叶羽状复叶或羽状深裂，小叶极不规则，大小不等，卵形或矩圆形，边缘有不规则锯齿或裂片。花萼辐状，裂片披针形，果时宿存；花冠辐状，黄色。浆果扁球状或近球状，肉质而多汁液，桔黄色或鲜红色，光滑；种子黄色。花果期夏秋季.
+			番茄是喜温、喜光性蔬菜，对土壤条件要求不太严格，但为获得丰产，促进根系良好发育，应选用土层深厚，排水良好，富含有机质的肥沃壤土。原产南美洲，中国南北广泛栽培.
+			番茄营养丰富，具特殊风味。具有减肥瘦身、消除疲劳、增进食欲、提高对蛋白质的消化、减少胃胀食积等功效。
+		</div>
+		<div class="detailPar">
+			<a class="parEditor" href=""><i class="iconfont">&#xe603;</i>编辑</a>
+			<dl class="parameter">
+				<dt>中文学名</dt>
+				<dd>番茄</dd>
+				<dt>名称</dt>
+				<dd>番柿、六月柿、西红柿、洋柿子、毛秀才、爱情果、情人果</dd>
+				<dt>科</dt>
+				<dd>茄科</dd>
+				<dt>属</dt>
+				<dd>茄属</dd>
+			</dl>
+			<dl class="parameter">
+				<dt>亚属</dt>
+				<dd>番茄亚属</dd>
+				<dt>种</dt>
+				<dd>番柿</dd>
+				<dt>分布区域</dt>
+				<dd>原产于中美洲和南美洲，现作为食用蔬果已被全球性广泛种植。</dd>
+				<dt>颜色</dt>
+				<dd>红色</dd>
+			</dl>
+		</div>
+		<!---- 目录 ---->
+		<div class="directory">
+			<h2>目录</h2>
+			<div class="dirList">
+				<ol>
+					<li class="dirNav"><span class="numberList">1.</span><a class="dirTitle" href="#Characte" target="_self" title="">形态特征</a></li>
+					<li class="dirNav"><span class="numberList">2.</span><a class="dirTitle" href="" target="_self" title="">分布范围</a></li>
+					<li class="dirNav"><span class="numberList">3.</span><a class="dirTitle" id="thr" href="" target="_self" title="">物种分类</a></li>
+					<li class="dirNav"><span class="numberList">4.</span><a class="dirTitle" id="four" href="" target="_self" title="">主要价值</a></li>
+				</ol>
+				<ol>
+					<li class="circleNav"><a class="circleTitle" href="" target="_self" title="">营养价值</a></li>
+					<li class="circleNav"><a class="circleTitle" href="" target="_self" title="">食疗功效</a></li>
+					<li class="circleNav"><a class="circleTitle" href="" target="_self" title="">养生功效</a></li>
+					<li class="circleNav"><a class="circleTitle" href="" target="_self" title="">药用价值</a></li>
+					<li class="circleNav"><a class="circleTitle" href="" target="_self" title="">民间验方</a></li>
+				</ol>
+				<ol>
+					<li class="dirNav"><span class="numberList">5.</span><a class="dirTitle" href="#environment" target="_self" title="">生长环境</a></li>
+					<li class="circleNav"><a class="circleTitle" href="#temperature" target="_self" title="">温度</a></li>
+					<li class="circleNav"><a class="circleTitle" href="#light" target="_self" title="">光照</a></li>
+					<li class="circleNav"><a class="circleTitle" href="#moisture" target="_self" title="">水分</a></li>
+					<li class="circleNav"><a class="circleTitle" href="#soil" target="_self" title="">土壤</a></li>				
+				</ol>
+				<ol>
+					<li class="dirNav"><span class="numberList">6.</span><a class="dirTitle" href="#seedling" target="_self" title="">培育技术</a></li>
+					<li class="circleNav"><a class="circleTitle" href="" target="_self" title="">基地土壤</a></li>
+					<li class="circleNav"><a class="circleTitle" href="" target="_self" title="">育苗条件</a></li>
+					<li class="circleNav"><a class="circleTitle" href="" target="_self" title="">适时定时</a></li>
+					<li class="circleNav"><a class="circleTitle" href="" target="_self" title="">肥水管理</a></li>
+				</ol>
+				<ol>
+					<li class="circleNav"><a class="circleTitle" href="" target="_self" title="">基地土壤</a></li>
+					<li class="circleNav"><a class="circleTitle" href="" target="_self" title="">育苗条件</a></li>
+					<li class="circleNav"><a class="circleTitle" href="" target="_self" title="">适时定时</a></li>
+				</ol>
+			</div>
+		</div>
+		<!---- 形态特征---->
+		<div class="environment" id="environment">
+			<h2 class="headlineOne">
+				<a class="anchorOne" ></a>
+				<span class="envirTitle headline-content">形态特征</span>
+			</h2>
+			<a class="envirEditor" href=""><i class="iconfont">&#xe603;</i>编辑</a>
+			<!--<h3 class="headlineTwo">
+				<a class="anchorTwo"  ></a>
+				<span class="headline-content envTitle">温度</span>
+			</h3>-->
+			<div class="envishow"> 体高0.6-2米，全体生粘质腺毛，有强烈气味。茎易倒伏。叶羽状复叶或羽状深裂，长10-40厘米，图片 带露珠的番茄
+小叶极不规则,大小不等，常5-9枚，卵形或矩圆形，长5-7厘米，边缘有不规则锯齿或裂片。花序总梗长2-5厘米，常3-7朵花；花梗长1-1.5厘米；花萼辐状，裂片披针形，果时宿存；花冠辐状，直径约2厘米，黄色。浆果扁球状或近球状，肉质而多汁液，桔黄色或鲜红色，光滑；种子黄色。花果期夏秋季。</div>
+		</div>
+		<!---- 生长环境 ---->
+		<div class="environment" id="environment">
+			<h2 class="headlineOne">
+				<a class="anchorOne"></a>
+				<span class="envirTitle headline-content">生长环境</span>
+			</h2>
+			<a class="envirEditor" href=""><i class="iconfont">&#xe603;</i>编辑</a>
+			<h3 class="headlineTwo">
+				<a class="anchorTwo"></a>
+				<span class="headline-content envTitle">温度</span>
+			</h3>
+			<div class="envishow">番茄是喜温性蔬菜，正常条件下，同化作用最适温度为20～25℃，根系生长最适土温为20～22℃。提高土温不仅能促进根系发育，同时土壤中硝态氮含量显著增加，生长发育加速，产量增高。</div>
+			<h3 class="headlineTwo">
+				<a class="anchorTwo"  ></a>
+				<span class="headline-content envTitle">光照</span>
+			</h3>
+			<div class="envishow">番茄是喜温性蔬菜，正常条件下，同化作用最适温度为20～25℃，根系生长最适土温为20～22℃。提高土温不仅能促进根系发育，同时土壤中硝态氮含量显著增加，生长发育加速，产量增高。</div>
+			<h3 class="headlineTwo">
+				<a class="anchorTwo" ></a>
+				<span class="headline-content envTitle">水分</span>
+			</h3>
+			<div class="envishow">番茄是喜温性蔬菜，正常条件下，同化作用最适温度为20～25℃，根系生长最适土温为20～22℃。提高土温不仅能促进根系发育，同时土壤中硝态氮含量显著增加，生长发育加速，产量增高。</div>
+			<h3 class="headlineTwo">
+				<a class="anchorTwo" ></a>
+				<span class="headline-content envTitle">土壤</span>
+			</h3>
+			<div class="envishow">番茄是喜温性蔬菜，正常条件下，同化作用最适温度为20～25℃，根系生长最适土温为20～22℃。提高土温不仅能促进根系发育，同时土壤中硝态氮含量显著增加，生长发育加速，产量增高。</div>
+		</div>
+		<!---- 育苗技术 ---->
+		 <div class="environment" id="environment">
+			<h2 class="headlineOne">
+				<a class="anchorOne" ></a>
+				<span class="envirTitle headline-content">育苗技术</span>
+			</h2>
+			<a class="envirEditor" href=""><i class="iconfont">&#xe603;</i>编辑</a>
+			<!--<h3 class="headlineTwo">
+				<a class="anchorTwo"  ></a>
+				<span class="headline-content envTitle">温度</span>
+			</h3>-->
+			<div class="envishow">一般番茄种子每克含有300粒左右，根据定植密度，一般每667平方米大田用种量20-30克。每平方米播种床可以播种10-15克。如果种子发芽率低于85%，播种量还应该适当增加些。种子，需先用温水浸泡6-8小时，使种子充分膨胀，然后放置在25-28摄氏度温度条件下芽2-3天。而用药剂浸种的种子，只需用清水将种子冲洗干净后即可直接催芽。催芽过程中，需提供适宜的温度、水分和空气，为此要经常检查和翻动种子，使种子处于松散状态，每天还需要用清水淘洗1-2次，以更新空气和保持湿度。催芽最好采用恒温箱。经过催芽的种子，播种后出苗快而整齐，有利于培育健壮的幼苗。</div>
+			 
+		</div>
+			<!---- 词条相册 ---->
+		<div class="entryPhotos">
+			<h2>词条相册</h2>
+			<a class="photosEditor" href=""><i class="iconfont">&#xe603;</i>编辑</a>
+			<ul class="photosList">
+				<li>
+					<div class="photosImg">					
+						<a href="javacript:"><img src="" width="157" height="129" alt=""></a>
+					</div>
+					<span class="photosText">词条图片<b>(15)</b></span>
+				</li>
+				<li>
+					<div class="photosImg">					
+						<a href="javacript:"><img src="" width="157" height="129" alt=""></a>
+					</div>
+					<span class="photosText">词条图片<b>(15)</b></span>
+				</li>
+				<li>
+					<div class="photosImg">					
+						<a href="javacript:"><img src="images/bk02.jpg" width="157" height="129" alt=""></a>
+					</div>
+					<span class="photosText">词条图片<b>(15)</b></span>
+				</li>
+				<li>
+					<div class="photosImg">					
+						<a href="javacript:"><img src="" width="157" height="129" alt=""></a>
+					</div>
+					<span class="photosText">词条图片<b>(15)</b></span>
+				</li>
+				<li>
+					<div class="photosImg">					
+						<a href="javacript:"><img src="" width="157" height="129" alt=""></a>
+					</div>
+					<span class="photosText">词条图片<b>(15)</b></span>
+				</li>
+			</ul>
+		</div>
+		<!----参考资料---->
+		<div class="resources">
+			<h2>参考资料</h2>
+			<a class="resEditor" href=""><i class="iconfont">&#xe603;</i>编辑</a>
+			<ul class="resList">
+				<li>
+					<span class="resNumber">1.</span>
+					<a class="resTitle" href="" target="_blank" title="">番茄</a>
+					<span class="resSite">中国植物社</span><span>[引用日期2014-07-05]</span>
+				</li>
+				<li>
+					<span class="resNumber">2.</span>
+					<a class="resTitle" href="" target="_blank" title="">盆栽西红柿种植栽培技术</a>
+					<span class="resSite">武清政府网</span><span>[引用日期2014-07-05]</span>
+				</li>
+				<li>
+					<span class="resNumber">3.</span>
+					<a class="resTitle" href="" target="_blank" title="">日常食疗养生必知吃西红柿的营养价值有哪些? </a>
+					<span class="resSite">中国植物社</span><span>[引用日期2014-07-05]</span>
+				</li>
+				<li>
+					<span class="resNumber">4.</span>
+					<a class="resTitle" href="" target="_blank" title="">郭文文，转基因番茄对土壤生物学性质及养分吸收的影响 </a>
+					<span class="resSite">世界热带农业信息</span><span>[引用日期2014-07-05]</span>
+				</li>
+				<li>
+					<span class="resNumber">5.</span>
+					<a class="resTitle" href="" target="_blank" title="">番茄最早被称“狼桃” 无人敢食 </a>
+					<span class="resSite">人民网</span><span>[引用日期2014-07-05]</span>
+				</li>
+			</ul>
+		</div>
+		<!---- 词条标签 ---->
+		<div class="entryLable">
+		<b>词条标签：</b>
+		<a class="labEditor" href=""><i class="iconfont">&#xe603;</i>编辑</a>
+		<ul class="lableList">
+			<li>饮食，</li>
+			<li>自然科学,</li>
+			<li>生物物种,</li>
+			<li>植物,</li>
+		</ul>
+	</div>
+	</div>
+	<div class="rightSibar">
+		<div class="proImg">
+			<a href="" target="_blank" title=""><img src="" width="253" height="253" alt="图片"></a>
+			<a href="" target="_blank" title="" class="proTitle"><i class="iconfont">&#xe660;</i>番茄相册</a>
+		</div>
+		<!----词条统计---->
+		<div class="entryStatic">
+			<h3>词条统计</h3>
+			<ul class="staticCon">
+				<li>浏览次数：<span class="viewed">2385277</span>次</li>
+				<li>编辑次数：<span class="editorNum">518</span>次</li>
+				<li>最近更新：<span class="Date">2016-05-26</span></li>
+				<li>创建作者：<a href="" target="_blank" title="" class="auther">中国大明白</a></li>
+			</ul>
+		</div>
+		<!----相关词条---->
+		<div class="entryRelat">
+			<h3>相关词条</h3>
+			<ul class="RelatConment">
+				<li><a href="" target="" title="">进口产品</a></li>
+				<li><a href="" target="" title="">学烹饪</a></li>
+				<li><a href="" target="" title="">信息发布系统</a></li>
+				<li><a href="" target="" title="">胡萝卜蝴蝶</a></li>
+				<li><a href="" target="" title="">上海迪士尼</a></li>
+				<li><a href="" target="" title="">迪士尼</a></li>
+				<li><a href="" target="" title="">蝴蝶花</a></li>
+			</ul>
+		</div>
+		<a class="sidebarImg" href="" target="_blank" title=""><img src="" width="255" height="260" alt="图片"></a>
+	</div>
+	<a class="backTop" href="javascript:void(0)" title="回到顶部" target="_self"><i class="iconfont">&#xe665;</i></a>
+</div>
+<div ng-include="'footer.html'"></div>
+<script type="text/javascript">
+	angular.module('myApp', []).controller('userCtrl', function($scope) {})
+</script>
+<script type="text/javascript">
+$(document).ready(function(){
+	//回到顶部
+	$(window).scroll(function(){
+		if ($(window).scrollTop()>100)
+		   {$(".backTop").fadeIn(500);}
+		else
+			{$(".backTop").fadeOut(500);}
+		});
+	//当点击跳转链接后，回到页面顶部位置
+	$(".backTop").click(function(){
+	$('body,html').animate({scrollTop:0},1000);
+	return false;
+	});
+	$(".dirList ol:last").css("border-right","none")
+})
+</script>
+</body>
+</html>

@@ -1,0 +1,289 @@
+
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+	<meta charset="utf-8" />
+	<title>购买流程第一步</title>
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="Keywords" content="关键词"/>
+	<meta name="Description" content="我是网页的描述sss"/>
+	<link rel="stylesheet" href="css/common.css" type="text/css" />
+	<link rel="stylesheet" href="css/cart01.css" type="text/css" />
+	<link rel="stylesheet" href="css/iconfont/iconfont.css" type="text/css" />
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
+
+</head>
+
+<body ng-app="myApp" ng-controller="userCtrl">
+<div ng-include="'header.html'"></div>
+<!----
+模块名称：购物车头部
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2016.01.05
+---->
+<div class="cartTop">
+	<div class="cartTopMain">
+		<h1><a href="#" title="食品荟购物车" target="_blank"></a><b>进货单</b></h1>
+		<div class="cartSteps">
+			<p><i style="width:85px;"></i></p>
+			<span class="step01 on">我的进货单</span><span class="step02">填写核对订单信息</span><span class="step03">成功提交订单</span>
+		</div>
+	</div>
+</div>
+<!---- 购物车为空 ---->
+<div class="cartNull">
+	<p>您的购物车还是空的，赶紧去挑几件中意的商品吧~</p>
+	<p><a href="#" title="去逛逛" target="_self">去逛逛</a></p>
+</div>
+<!----
+模块名称：购物车头部
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2016.01.05
+---->
+<div class="allProduct">
+	<h2>全部商品&nbsp;18</h2>
+</div>
+<!----
+模块名称：购物车列表标题
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2016.01.05
+---->
+
+<div class="cartMain">
+
+
+	<div class="cartlistTit">
+		<span class="tit"><input type="checkbox"/>全选</span>
+		<span class="tit02">商品信息</span>
+		<span>数量</span>
+		<span>单价(元)</span>
+		<span>小计</span>
+		<span>操作</span>
+	</div>
+	<!----
+	模块名称：购物车列表
+	修改内容：暂无
+	模块作者：刘朋玉
+	修改时间：2016.01.05
+	---->
+	<div class="cartList">
+		<div class="selectShop">
+			<input type="checkbox">郑州思念食品有限公司
+		</div>
+		
+		<ul>
+			<li>
+				<span class="chooseProduct">
+					<input type="checkbox">
+				</span>
+				<span class="proImgs">
+					<a href="#" title="商品名称" target="_blank">
+						<img src="#" width="80" height="80" alt="商品名称" title="商品名称">
+					</a>
+				</span>
+				
+				<a class="goodsName" href="#" title="商品名称" target="_blank">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</a>
+				<p class="operationBtn">
+					<a href="javascript:void(0)" title="删除">删除</a><br>
+					<a href="javascript:void(0)" title="移动到收藏夹">移动到收藏夹</a>
+				</p>
+				
+				
+				<dl>
+					<dd class="proName">
+						<span>规格：20kg/袋、40kg/袋</span>
+					</dd>
+
+					<dd class="proSpec">
+						<p><input type="checkbox">口味：原味</p>
+						<p><input type="checkbox">口味：原味</p>
+					</dd>
+					<dd class="proCounts">
+						<p><input type="button" value="-"><input class="proNum" type="text" value="1"><input type="button" value="+"></p>
+						<p><input type="button" value="-"><input class="proNum" type="text" value="1"><input type="button" value="+"></p>
+					</dd>
+
+					<dd class="proPrice">
+						<p class="on"><span>1-99袋</span><b>100</b></p>
+						<p><span>100-99999袋</span><b>80</b></p>
+						<p><span>≥1000袋</span><b>50</b></p>
+					</dd>
+					<dd class="proTotal">
+						<p>900.00</p>
+						<p>900.00</p>
+						
+					</dd>
+					
+				</dl>
+				
+				
+				
+				
+				<dl>
+					<dd class="proName">
+						
+						<span>规格：20kg/袋、40kg/袋</span>
+					</dd>
+
+					<dd class="proSpec">
+						<p><input type="checkbox">口味：原味</p>
+						<p><input type="checkbox">口味：原味</p>
+					</dd>
+					<dd class="proCounts">
+						<p><input type="button" value="-"><input class="proNum" type="text" value="1"><input type="button" value="+"></p>
+						<p><input type="button" value="-"><input class="proNum" type="text" value="1"><input type="button" value="+"></p>
+					</dd>
+
+					<dd class="proPrice">
+						
+					</dd>
+					<dd class="proTotal">
+						<p>900.00</p>
+						<p>900.00</p>
+					</dd>
+					<dd class="operationBtn">
+						
+					</dd>
+				</dl>
+			</li>
+		</ul>
+	</div>
+
+	<!----
+	模块名称：购物车列表
+	修改内容：暂无
+	模块作者：刘朋玉
+	修改时间：2016.01.05
+	---->
+	<div class="cartList">
+		<div class="selectShop">
+			<input type="checkbox">郑州思念食品有限公司
+		</div>
+		
+		<ul>
+			<li>
+				<span class="chooseProduct">
+					<input type="checkbox">
+				</span>
+				<span class="proImgs">
+					<a href="#" title="商品名称" target="_blank">
+						<img src="#" width="80" height="80" alt="商品名称" title="商品名称">
+					</a>
+				</span>
+				
+				<a class="goodsName" href="#" title="商品名称" target="_blank">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</a>
+				<p class="operationBtn">
+					<a href="javascript:void(0)" title="删除">删除</a><br>
+					<a href="javascript:void(0)" title="移动到收藏夹">移动到收藏夹</a>
+				</p>
+				
+				
+				<dl>
+					<dd class="proName">
+						<span>规格：20kg/袋、40kg/袋</span>
+					</dd>
+
+					<dd class="proSpec">
+						<p><input type="checkbox">口味：原味</p>
+						<p><input type="checkbox">口味：原味</p>
+					</dd>
+					<dd class="proCounts">
+						<p><input type="button" value="-"><input class="proNum" type="text" value="1"><input type="button" value="+"></p>
+						<p><input type="button" value="-"><input class="proNum" type="text" value="1"><input type="button" value="+"></p>
+					</dd>
+
+					<dd class="proPrice">
+						<p class="on"><span>1-99袋</span><b>100</b></p>
+						<p><span>100-99999袋</span><b>80</b></p>
+						<p><span>≥1000袋</span><b>50</b></p>
+					</dd>
+					<dd class="proTotal">
+						<p>900.00</p>
+						<p>900.00</p>
+						
+					</dd>
+					
+				</dl>
+				
+				
+			</li>
+		</ul>
+	</div>
+	
+	<!----
+	模块名称：购物车操作和统计
+	修改内容：暂无
+	模块作者：刘朋玉
+	修改时间：2016.01.05
+	---->
+	<div class="totalBar">
+		<input type="checkbox" /> 全选
+		<a href="#" title="删除" target="_self">删除</a>
+		<a href="#" title="移如收藏夹" target="_self">移如收藏夹</a>
+		<input class="goPayBtn" type="button" value="去结算"/>
+		<span>总价(不含运费)：<strong>&yen;56000000.00</strong></span>
+		<span>已选择3件货品</span>
+	</div>
+</div>	
+<!----
+模块名称：购物车产品推荐
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2016.01.05
+---->
+<div class="proRecommond">
+	<div class="prTit">
+		<span class="on">猜你喜欢</span>
+		<span class="tit">我的收藏</span>
+	</div>
+	<ul class="prTxt">
+		<li>
+			<a href="#" title="" target="_blank">
+				<img src="" width="220" height="220" />
+			</a>
+			<p><a href="#" title="商品名称" target="_blank">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</a></p>
+			<p><font>&yen;19.66</font></p>
+		</li>
+		<li>
+			<a href="#" title="" target="_blank">
+				<img src="" width="220" height="220" />
+			</a>
+			<p><a href="#" title="商品名称" target="_blank">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</a></p>
+			<p><font>&yen;19.66</font></p>
+		</li>
+		<li>
+			<a href="#" title="" target="_blank">
+				<img src="" width="220" height="220" />
+			</a>
+			<p><a href="#" title="商品名称" target="_blank">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</a></p>
+			<p><font>&yen;19.66</font></p>
+		</li>
+		<li>
+			<a href="#" title="" target="_blank">
+				<img src="" width="220" height="220" />
+			</a>
+			<p><a href="#" title="商品名称" target="_blank">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</a></p>
+			<p><font>&yen;19.66</font></p>
+		</li>
+		<li>
+			<a href="#" title="" target="_blank">
+				<img src="" width="220" height="220" />
+			</a>
+			<p><a href="#" title="商品名称" target="_blank">商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称</a></p>
+			<p><font>&yen;19.66</font></p>
+		</li>
+		
+	</ul>
+</div>
+
+<div ng-include="'footer.html'"></div>
+<script type="text/javascript">
+	angular.module('myApp', []).controller('userCtrl', function($scope) {})
+</script>
+</body>
+</html>

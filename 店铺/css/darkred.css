@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+body{background-color:#180902;}
+.header{width:100%;height:136px;margin:0px auto;background-color:#180902;}
+.headerMain h1 a{height:98px;display:block;font-size:24px;color:#fff;float:left;}
+.mainNav ul li a:hover{background:#900000;}
+.mainNav{width:100%;height:41px;background-color:#59140f;margin:0px auto;overflow:hidden}
+.cemaTop{margin-top:15px;}
+.cemaTop h2{font:14px/35px "\5FAE\8F6F\96C5\9ED1";color:#fff;padding-left:15px;background-color:#59140f}
+.companyInfo ul li h3{color:#A16332;}
+.companyInfo ul li a{color:#ff7300;}
+.companyInfor h2{height:35px;font:14px/35px "\5FAE\8F6F\96C5\9ED1";color:#fff;background-color:#59140f;padding-left:17px;}
+.mainNav ul li a.on{background-color:#8d100c;}
+.companyInfo h2{height:35px;font:14px/35px "\5FAE\8F6F\96C5\9ED1";color:#fff;background-color:#59140f;padding-left:17px;}
+.cdiType h2{height:35px;font:14px/35px "\5FAE\8F6F\96C5\9ED1";color:#fff;background-color:#59140f;padding-left:17px;}
+.companyInfo h2{height:35px;font:14px/35px "\5FAE\8F6F\96C5\9ED1";color:#fff;background-color:#59140f;padding-left:17px}
+.saleList h2{height:35px;font:14px/35px "\5FAE\8F6F\96C5\9ED1";color:#fff;background-color:#59140f;padding-left:17px;}
+.newsLeftCenter h2{height:35px;font:14px/35px "\5FAE\8F6F\96C5\9ED1";color:#fff;background-color:#59140f;padding-left:17px;}
+.contactUs h2{height:35px;font:14px/35px "\5FAE\8F6F\96C5\9ED1";color:#fff;background-color:#59140f;padding-left:17px;}
+.rightbar h2{height:35px;font:14px/35px "\5FAE\8F6F\96C5\9ED1";color:#fff;background-color:#59140f;padding-left:15px}
+.coupon h2{background-color:#59140f;}
+/*----公司简介 ----*/
+.companyInfor h2{background-color:#59140f;}
+.goodsClass h2{background-color:#59140f;}
+.companyContent{background-color:#59140f}
+/*----联系我们 ----*/
+.contact h2{background-color:#59140f;}
+/*----在线咨询 ----*/
+.feedBack h2{background-color:#59140f;}
+/*----新闻详情 ----*/
+.news h2{background-color:#59140f;}
+/*----新闻列表 ----*/
+.newsClass h2{background-color:#59140f;}
+/*----相册列表 ----*/
+.myPhotos h2{background-color:#59140f;}
+/*----产品详情 ----*/
+.newList h2{background-color:#59140f;}
+.productHot h2{background-color:#59140f;}
+.aAddCart{background-color:#59140f;}

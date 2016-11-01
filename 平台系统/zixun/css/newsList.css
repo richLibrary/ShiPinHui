@@ -1,0 +1,37 @@
+@charset "utf-8";
+.wrapper{width:1200px;height:auto;margin:15px auto 0;overflow:hidden}
+/*热门关注*/
+.newsMain{ width:927px; height:auto; overflow:hidden; border:#e4e4e4 1px solid; float:left}
+.newsTitle{ width:927px; height:41px; border-bottom:#e4e4e4 1px solid; background-color:#fdfdfd}
+.newsTitle h2{font:16px/16px "\5FAE\8F6F\96C5\9ED1"; color:#333; border-left:#ff7300 5px solid; margin:8px 10px 0px 35px; padding-left:10px; display:inline-block}
+.newsMain ul{ height:auto; overflow:hidden; padding:34px}
+.newsMain ul li{ width:848px; height:102px; border-bottom:#e4e4e4 1px dashed}
+.newsMain ul li h3{ padding-top:10px}
+.newsMain h3 a{ font:bold 14px/24px "\5FAE\8F6F\96C5\9ED1"; color:#333;}
+.newsMain h3 a:hover{ text-decoration:none}
+.newsMain h3 span{ font:12px/24px "\5FAE\8F6F\96C5\9ED1"; color:#999; margin-right:34px; float:right}
+.newsMain ul li p{ font:12px/24px "\5FAE\8F6F\96C5\9ED1"; color:#333; margin-top:10px}
+.newsMain p a{ color:#ff7300}
+/*右边栏*/
+.rightSider{ width:260px; float:right}
+/*每日推荐*/
+.rightMenu{width:258px;height:auto;float:right;overflow:hidden;border:#e4e4e4 1px solid;margin-bottom:14px}
+.rightMenu h2{font:16px/38px "\5FAE\8F6F\96C5\9ED1";color:#333;background-color:#fdfdfd;border-bottom:#ff7300 2px solid;padding-left:20px}
+.rightMenu ul.proContent{height:auto;overflow:hidden;padding:16px 12px}
+.proContent li{ width:234px; height:26px; overflow:hidden;list-style:inside; color:#666}
+.proContent li span{width:14px;height:14px;color:#fff;background-color:#bbb;display:inline-block;text-align:center;line-height:14px;margin-right:10px}
+.proContent li span.probg{background-color:#ff7300}
+.proContent li a{font:12px/26px "\5FAE\8F6F\96C5\9ED1";color:#333;text-decoration:none}
+.proContent li a:hover{text-decoration:none;color:#ff7300}
+/*老国货--王老吉*/
+.photImg{ width:260px; height:auto; overflow:hidden;margin-bottom:10px}
+.photImg img{border:#e4e4e4 1px solid}
+/*资讯排行*/
+.rightMenu{width:258px;height:auto;float:right;overflow:hidden;border:#e4e4e4 1px solid;margin-bottom:14px}
+.rightMenu h2{font:16px/38px "\5FAE\8F6F\96C5\9ED1";color:#333;background-color:#fdfdfd;border-bottom:#ff7300 2px solid;padding-left:20px}
+.rightMenu ul.InforList{height:auto;overflow:hidden;padding:16px 10px}
+.InforList li{height:26px; overflow:hidden}
+.InforList li span{width:14px;height:14px;color:#fff;background-color:#bbb;display:inline-block;text-align:center;line-height:14px;margin-right:10px}
+.InforList li span.probg{background-color:#ff7300}
+.InforList li a{font:12px/26px "\5FAE\8F6F\96C5\9ED1";color:#333;text-decoration:none}
+.InforList li a:hover{text-decoration:none;color:#ff7300}

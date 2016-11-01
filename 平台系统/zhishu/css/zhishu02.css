@@ -1,0 +1,45 @@
+@charset "utf-8";
+/*----
+模块名称：指数详情页
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2015.01.15
+----*/
+/*---- 面包屑导航 ----*/
+.breadsNav{width:1200px;height:auto;overflow:hidden;margin:0px auto;color:#333;padding:18px 0px 13px 0px;}
+.breadsNav span{float:right;}
+.breadsNav font{color:#ff7300;margin:0px 4px;}
+.breadsNav a{color:#333;}
+.breadsNav a:hover{color:#ff7300;}
+.breadsNav code{margin:0px 4px;}
+/*---- 面包屑导航 ----*/
+.quoMain{width:1200px;height:auto;overflow:hidden;margin:0px auto 0px auto;position:relative;}
+.quoSort{width:922px;height:auto;overflow:hidden;float:left;border:#e4e4e4 solid 1px;background-color:#fbfbfb;}
+.quoSort h2{font:16px/16px "微软雅黑";padding:13px 0px 13px 31px;color:#333;border-bottom:#e4e4e4 solid 1px;background-color:#fff;}
+.quoSort ul li{min-height:44px;overflow:hidden;position:relative;padding-left:135px;border-bottom:#ddd dashed 1px;font:14px/44px "微软雅黑";}
+.quoSort ul li b{width:130px;display:inline-block;text-align:right;position:absolute;top:0px;left:0px;color:#333;font:14px/44px "微软雅黑";}
+.quoSort ul li a{margin-right:30px;display:inline-block;color:#666}
+.quoSort ul li a:hover{color:#ff7300;text-decoration:none;}
+.quoSort ul li.last{border:none;}
+.quoSort ul li.last input[type="text"]{width:223px;height:26px;border:#ddd solid 1px;border-right:none;float:left;margin-top:8px;box-sizing:content-box;padding-left:8px;}
+.quoSort ul li.last input[type="submit"]{width:58px;height:28px;font-size:14px;color:#fff;background-color:#ff7300;border:none;cursor:pointer;float:left;margin-top:8px;}
+/*---- 指数列表 ----*/
+.quoList{float:left;width:924px;border:#ddd solid 1px;margin-top:10px;border-bottom:none;border-right:none;}
+.quoList tr.tit{height:37px;text-align:center;}
+.quoList tr.tit td{border-bottom:#ff7300 solid 2px;font-size:14px;color:#333;border-right:#ddd solid 1px;}
+.quoList tr.txt td{border-bottom:#ddd solid 1px;font-size:12px;color:#333;height:36px;text-align:center;border-right:#ddd solid 1px;}
+.quoList tr.txt.gray{background-color:#f8f8f8;}
+.quoList tr.txt td.unit{color:#999;}
+.quoList tr.txt td.date{color:#999;}
+.quoList tr.txt td a{color:#333}
+.quoList tr.txt td a:hover{color:#ff7300}
+/*---- 热门价格指数 ----*/
+.hotQuo{width:258px;height:auto;overflow:hidden;float:right;border:#ddd solid 1px;}
+.hotQuo h2{font:14px/38px "微软雅黑";color:#333;padding-left:12px;border-bottom:#ff7300 solid 2px;}
+.hotQuo h3{font:14px/14px "微软雅黑";color:#333;margin:15px 12px 0px 12px;}
+.hotQuo h3 i{color:#3e9b00;margin-right:7px;}
+.hotQuo ul{margin:8px 12px 0px 12px;border-bottom:#ddd dashed 1px;height:auto;overflow:hidden;padding-bottom:8px;}
+.hotQuo ul li{height:26px;font:12px/26px "微软雅黑";}
+.hotQuo ul li span{width:58px;float:left;text-align:center;}
+.hotQuo ul li span.up{color:#ff7300;}
+.hotQuo ul li span.down{color:#3e9b00;}

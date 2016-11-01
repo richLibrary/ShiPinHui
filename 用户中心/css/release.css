@@ -1,0 +1,20 @@
+@charset "utf-8";
+/*----用户中心发布分类选择 -----*/
+.releaseSteps{height:36px;overflow:hidden;padding:30px 0px 25px 0px;background:url("../images/releaseSteps.png") no-repeat center center scroll;border-bottom:#e4e4e4 solid 1px;}	
+.categoryChoice{height:auto;overflow:hidden;padding:0px 145px;}
+.categoryChoice h2{font:16px/60px "\5FAE\8F6F\96C5\9ED1";}	
+.categoryChoice ul{width:200px;height:252px;background-color:#f7fcff;border:#b7e2fd solid 1px;padding:12px 0px;overflow:auto;float:left;display:ininline-block;margin-right:30px;}
+.categoryChoice ul li{height:32px;font:14px/32px "\5FAE\8F6F\96C5\9ED1";padding-left:25px;background:url("../images/rightIcon01.png") no-repeat 170px center scroll;cursor:pointer;}
+.categoryChoice ul li.on{background:#e0f3fe url("../images/rightIcon02.png") no-repeat 170px center scroll;}
+.categoryChoiced{height:auto;overflow:hidden;font:14px/14px "\5FAE\8F6F\96C5\9ED1";color:#333;padding:28px 0px 23px 145px;border-bottom:#e4e4e4 solid 1px;}
+.categoryChoiced font{color:#f00}
+.categoryChoiced span{color:#0085d7;}
+.releaseBtn{height:auto;overflow:hidden;padding:40px 0px;text-align:center;}
+.releaseBtn input{width:184px;height:39px;background-color:#3d6dce;border:#2951a2 solid 2px;color:#fff;cursor:pointer;letter-spacing:2px}
+.releaseBtn input:disabled{background-color:#efefef;border:#ccc solid 2px;color:#999;}
+
+
+
+
+
+

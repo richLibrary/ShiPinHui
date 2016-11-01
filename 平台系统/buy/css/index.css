@@ -1,0 +1,244 @@
+@charset "utf-8";
+/*----
+模块名称：焦点图等
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2015.12.21
+----*/
+.slideArea{width:960px;height:521px;overflow:hidden;margin:12px auto 0px auto;position:relative;padding-left:240px;border-bottom:#dcdcdc solid 1px;}
+.sphFocus{width:735px;height:365px;float:left;position:relative;overflow:hidden;}
+.sphFocus .bd li{width:735px;height:365px;overflow:hidden}
+.sphFocus .hd{width:735px;position:absolute;z-index:1;bottom:0;left:0;height:30px;line-height:30px;text-align:center}
+.sphFocus .hd ul{text-align:center}
+.sphFocus .hd ul li{cursor:pointer;display:inline-block;zoom:1;width:12px;height:12px;border-radius:50%;margin:0 5px;background-color:#fff;overflow:hidden;line-height:9999px}
+.sphFocus .hd ul .on{background-color:#ff7300}
+
+.sphFocus .prev,.sphFocus .next{width:40px;height:90px;background-color:rgba(255,255,255,0.3);position:absolute;top:135px;color:#fff;text-align:center;font:30px/90px "arial";display:none;}
+.sphFocus .prev:hover,.sphFocus .next:hover{text-decoration:none;}
+.sphFocus .prev{left:0px;}
+.sphFocus .next{right:0px;}
+
+/*---- 登录和注册入口 ----*/
+.loginLink{width:210px;height:48px;position:absolute;top:0px;right:0px;overflow:hidden;border:#dcdcdc solid 1px;}
+.loginLink span{width:80px;float:left;height:48px;padding-left:24px;}
+.loginLink span.loginFirst{border-right:#dcdcdc solid 1px;}
+.loginLink span i{font:20px/48px "\5FAE\8F6F\96C5\9ED1";color:#ff7300;margin-right:3px}
+.loginLink span a{color:#333;font:14px/48px "\5FAE\8F6F\96C5\9ED1";}
+.loginLink span a:hover{color:#ff7300;text-decoration:none;}
+/*---- 热门信息tab选项卡 ----*/
+.hotInfo{width:210px;height:110px;position:absolute;top:50px;right:0px;overflow:hidden;border:#dcdcdc solid 1px;border-top:none;padding-top:30px;}
+.hotInfoTit{width:210px;height:31px;overflow:hidden;position:absolute;top:0px;left:0px;}
+.hotInfoTit a{padding:0px 8px;float:left;font:12px/30px "\5FAE\8F6F\96C5\9ED1";color:#666;}
+.hotInfoTit a:hover{color:#ff7300;text-decoration:none;}
+.hotInfoTit a.on{border-bottom:#ff7300 solid 1px;color:#ff7300;}
+.hotInfoTxt{height:87px;overflow:hidden;border-top:#dcdcdc solid 1px;}
+.hotInfoTxt ul li{padding-left:20px;height:12px;overflow:hidden;font:12px/12px "\5FAE\8F6F\96C5\9ED1";margin-top:17px;}
+.hotInfoTxt ul li a{color:#666;}
+.hotInfoTxt ul li a:hover{color:#ff7300;}
+/*---- 食品荟保障 ----*/
+.sphEnsure{width:210px;height:74px;position:absolute;top:192px;right:0px;overflow:hidden;border:#dcdcdc solid 1px;border-top:none;}
+.sphEnsure i{font:42px/74px "arial";color:#999;float:left;margin-left:22px}
+.sphEnsure i.safe{font:38px/70px "arial";}
+.sphEnsure i.zhengpin{font:44px/70px "arial"}
+/*---- 今日商品总数 ----*/
+.todyProTotal{width:195px;height:97px;padding-left:15px;position:absolute;top:267px;right:0px;overflow:hidden;border:#dcdcdc solid 1px;border-top:none;background-color:#f7f7f7;}
+.todyProTotal h3{font:14px/35px "\5FAE\8F6F\96C5\9ED1";color:#333;}
+.todyProTotal h3 i{font:24px/35px "arial";color:#ff7300;margin-right:5px}
+.todyProTotal p{text-align:center;height:32px;overflow:hidden;padding:10px 10px 0px 0px;}
+.todyProTotal p i{width:20px;height:32px;background-color:#f90;display:inline-block;color:#fff;border-radius:4px;text-align:center;font:bold 20px/32px "arial";}
+/*---- 热门专场活动 ----*/
+.hotActivity{width:735px;float:left;padding:5px 0px;height:auto;overflow:hidden;}
+.hotActivity li{width:224px;float:left;padding:0px 0px 36px 20px;border-right:#dcdcdc solid 1px;position:relative;}
+.hotActivity li.hotLast{border-right:none;}
+.hotActivity li a{display:block;}
+.hotActivity li a:hover{text-decoration:none;}
+.hotActivity li b{display:block;font:bold 18px/18px "\5FAE\8F6F\96C5\9ED1";color:#333;margin-top:20px;}
+.hotActivity li span{display:block;font:12px/12px "\5FAE\8F6F\96C5\9ED1";color:#999;margin-top:15px;}
+.hotActivity li strong{display:block;font:bold 15px/15px "\5FAE\8F6F\96C5\9ED1";color:#d81b3a;margin-top:30px;}
+.hotActivity li img{width:110px;height:110px;position:absolute;top:18px;right:0px;}
+/*---- 首页价格指数 ----*/
+.priceIndex{width:195px;height:156px;padding-left:15px;position:absolute;top:365px;right:0px;overflow:hidden;border:#dcdcdc solid 1px;border-top:none;border-bottom:none;}
+.priceIndex h3{font:14px/35px "\5FAE\8F6F\96C5\9ED1";color:#333;}
+.priceIndex h3 i{font:22px/35px "arial";color:#ff7300;margin-right:5px}
+.priceIndex ul{height:auto;overflow:hidden;}
+.priceIndex ul li{height:auto;overflow:hidden;padding-right:15px;margin-top:8px}
+.priceIndex ul li a{color:#666;font:12px/12px "\5FAE\8F6F\96C5\9ED1";}
+.priceIndex ul li a:hover{color:#ff7300;}
+.priceIndex ul li span{float:right;color:#999;}
+/*----
+模块名称：平台指导价格
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2015.12.22
+----*/
+.guidePrice{width:1200px;height:auto;overflow:hidden;margin:0px auto 0px auto;padding-top:30px;}
+.guidePrice h2{font:20px/20px "\5FAE\8F6F\96C5\9ED1";color:#333;padding-bottom:15px;border-bottom:#43a400 solid 2px;}
+.guidePrice ul{width:1199px;height:343px;overflow:hidden;border-right:#dcdcdc solid 1px;border-bottom:#dcdcdc solid 1px;}
+.guidePrice ul li{width:348px;float:left;border-bottom:#dcdcdc solid 1px;border-left:#ebebeb solid 1px;padding:25px 0px 20px 50px;}
+.shopLogo{float:left;}
+.shopLogo img{width:160px;height:60px;}
+.enterShop{width:90px;height:28px;border:#dcdcdc solid 1px;text-align:center;font:12px/28px "\5FAE\8F6F\96C5\9ED1";color:#333;display:inline-block;margin:15px 0px 15px 13px;float:left}
+.enterShop:hover{text-decoration:none;color:#ff7300}
+.guidePrice ul li span{width:147px;height:20px;float:left;font:12px/20px "\5FAE\8F6F\96C5\9ED1";padding-left:13px;margin:13px 0px 0px 0px;color:#000;}
+
+.shopName{border-right:#dcdcdc solid 1px;}
+.shopName a{font:16px/20px "\5FAE\8F6F\96C5\9ED1";color:#000;}
+.shopName a:hover{text-decoration:none;color:#ff7300}
+.priceTrend{font:12px/20px "\5FAE\8F6F\96C5\9ED1";}
+.priceTrend b{font:16px/20px "\5FAE\8F6F\96C5\9ED1";color:#ff7300;}
+.guidePrice ul li span.priceUpdate{color:#999;border-right:#dcdcdc solid 1px;}
+.newPrice b{font:bold 20px/20px "\5FAE\8F6F\96C5\9ED1";color:#ff7300}
+/*----
+模块名称：首页楼层
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2015.12.22
+----*/
+.indexFloor{width:1200px;height:555px;overflow:hidden;margin:0px auto 0px auto;padding-top:30px;position:relative;border-bottom:#dcdcdc solid 1px;}
+.indexFloor h2{font:20px/20px "\5FAE\8F6F\96C5\9ED1";color:#333;padding-bottom:15px;border-bottom:#43a400 solid 2px;}
+.floorMore{position:absolute;top:40px;right:0px;font:12px/12px "\5FAE\8F6F\96C5\9ED1";}
+.floorMore a{color:#666;margin-right:5px;}
+.floorMore a:hover{color:#ff7300;}
+.floorBigImg{width:200px;height:520px;position:absolute;top:65px;left:0px;z-index:10;}
+.floorCategory{width:550px;height:320px;float:left;padding:0px 0px 0px 0px;margin-left:200px;_margin-left:100px;}
+.floorCategory li{height:20px;overflow:hidden;margin-top:18px;padding:0px 15px 0px 25px;}
+.floorCategory li b{width:80px;float:left;color:#333;font:bold 12px/20px "\5FAE\8F6F\96C5\9ED1";}
+.floorCategory li a{font:12px/12px "\5FAE\8F6F\96C5\9ED1";color:#666;padding:4px 5px;float:left;margin:0px 2px;display:inline-block;}
+.floorCategory li a:hover{border:#ff7300 solid 1px;padding:3px 4px;color:#ff7300;text-decoration:none;}
+/*---- 楼层推荐企业 ----*/
+.companyShow{width:449px;float:left;height:320px;overflow:hidden;border-right:#dcdcdc solid 1px;}
+.companyShow li{height:112px;overflow:hidden;padding:24px 0px;}
+.companyLogo{width:110px;height:110px;float:left;margin-right:20px;border:#dcdcdc solid 1px;}
+.companyName{font:bold 14px/22px "\5FAE\8F6F\96C5\9ED1";color:#333;margin-bottom:10px;display:inline-block;}
+.companyName:hover{color:#ff7300}
+.companyShow li p{font:12px/25px "\5FAE\8F6F\96C5\9ED1";color:#666;height:25px;overflow:hidden;}
+/*---- 楼层推荐产品 ----*/
+.floorProducts{width:1000px;float:right;padding:10px 0px;border-top:#dcdcdc solid 1px;border-right:#dcdcdc solid 1px;position:absolute;bottom:0px;right:0px;}
+.floorProducts li{width:150px;height:182px;float:left;text-align:center;padding:0px 7px 0px 8px;border-left:#dcdcdc solid 1px;}
+.floorProducts li img{width:150px;height:150px;display:block}
+.floorProducts li b{display:block;font:12px/35px "\5FAE\8F6F\96C5\9ED1";color:#333;}
+.floorProducts li a:hover b,.floorProducts li a:hover{color:#ff7300;text-decoration:none;}
+/*----
+模块名称：物流线路
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2015.12.22
+----*/
+.sphWl{width:1200px;height:auto;overflow:hidden;margin:0px auto 0px auto;padding-top:30px;position:relative;}
+/*---- 物流线路 ----*/
+.wlService{width:590px;height:;overflow:hidden;float:left;position:relative;}
+.wlService h2{font:20px/20px "\5FAE\8F6F\96C5\9ED1";color:#43a400;padding-bottom:15px;}
+.wlTabTit{position:absolute;top:5px;left:100px;}
+.wlTabTit li{padding:0px 10px;float:left;font:14px/14px "\5FAE\8F6F\96C5\9ED1";color:#333;cursor:pointer;border-right:#dbdbdb solid 1px;}
+.wlTabTit li.on{color:#3e9b00;}
+.wlTabTxt{width:588px;border:#dcdcdc solid 1px;height:258px;overflow:hidden;}
+.wlTabTxt ul{height:auto;overflow:hidden;padding:7px 5px;}
+.wlTabTxt li{width:289px;float:left;margin-top:5px;font:12px/30px "\5FAE\8F6F\96C5\9ED1";}
+.wlTabTxt li.on{background-color:#f5f5f5;}
+.wlTabTxt li span{width:70px;float:left;text-align:center;}
+.wlTabTxt li span.start{width:55px;text-align:right;padding-right:5px;}
+.wlTabTxt li span.destination{width:55px;text-align:left;padding-left:5px;}
+.wlTabTxt li a span{color:#666;}
+.wlTabTxt li i{float:left;color:#999;}
+/*---- 物流公司推荐----*/
+.wlCompany{height:45px;padding:9px 0px 9px 6px;border:#dcdcdc solid 1px;border-top:none}
+.wlCompany a{display:inline-block;float:left;margin:0px 7px;}
+.wlCompany img{width:130px;height:45px;}
+/*---- 金融服务 ----*/
+.jrService{width:590px;height:;overflow:hidden;float:right;}
+.jrService h2{font:20px/20px "\5FAE\8F6F\96C5\9ED1";color:#ff7300;padding-bottom:15px;}
+.jrService ul{height:323px;border:#dcdcdc solid 1px;}
+.jrService ul li{height:120px;padding:21px;border-bottom:#dcdcdc solid 1px;overflow:hidden;position:relative}
+.jrLogo{float:left;width:160px;height:120px;margin-right:20px;}
+.jrService ul li em{margin-left:30px;color:#999;font:12px/16px "\5FAE\8F6F\96C5\9ED1";float:right}
+.jrService ul li p.jrName{padding:0px 60px 0px 0px}
+.jrName a{font:16px/16px "\5FAE\8F6F\96C5\9ED1";color:#333;}
+.jrName a:hover{color:#ff7300;text-decoration:underline}
+.jrService ul li p{position:relative;padding:10px 10px 0px 0px}
+.jrService ul li p span{padding:2px 7px;border:#fcaf53 solid 1px;background-color:#fff9f2;color:#fcaf53;border-radius:4px;display:inline-block;margin-right:13px;}
+.supplyBtn{width:80px;height:25px;display:inline-block;text-align:center;font:12px/25px "\5FAE\8F6F\96C5\9ED1";color:#fff;background-color:#ff7300;border-radius:4px;}
+/*----
+模块名称：食品百科
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2015.12.22
+----*/
+.sphEncy{width:1200px;height:auto;overflow:hidden;margin:0px auto 0px auto;padding-top:30px;position:relative;}
+.sphEncy h2{font:20px/20px "\5FAE\8F6F\96C5\9ED1";color:#333;padding-bottom:15px;border-bottom:#43a400 solid 2px;margin-bottom:20px}
+/*---- 百科焦点 ----*/
+.encyFocus{width:460px;height:240px;float:left;margin-right:20px;overflow:hidden;position:relative}
+.encyFocusImg{position:relative;z-index:0;}
+.encyFocusImg li{position:relative;}
+.encyFocusImg li p{width:460px;height:35px;font:14px/35px "\5FAE\8F6F\96C5\9ED1";text-align:center;background-color:rgba(0,0,0,0.6);position:absolute;bottom:0px;left:0px;color:#fff;}
+.encyFocus .prev,.encyFocus .next{width:30px;height:60px;background-color:rgba(0,0,0,0.6);position:absolute;top:70px;color:#fff;text-align:center;font:20px/60px "arial";display:none}
+.encyFocus .prev:hover,.encyFocus .next:hover{text-decoration:none;}
+.encyFocus .prev{left:0px;}
+.encyFocus .next{right:0px;}
+.encyFocusTit{position:absolute;top:214px;right:7px;}
+.encyFocusTit li{cursor:pointer;display:inline-block;zoom:1;width:10px;height:10px;margin:0 4px;background-color:#fff;overflow:hidden;line-height:9999px}
+.encyFocusTit li.on{background-color:#ff7300}
+/*---- 热门帖子排行 ----*/
+.hotBbs{width:240px;height:350px;float:left;}
+.hotBbs h3{font:16px/16px "\5FAE\8F6F\96C5\9ED1";color:#333;}
+.hotBbs ul li{margin-top:21px;height:15px;overflow:hidden;font:12px/15px "\5FAE\8F6F\96C5\9ED1";color:#666;}
+.hotBbs ul li i{width:15px;height:15px;float:left;background-color:#9f9f9f;margin-right:8px;border-radius:50%;display:inline-block;text-align:center;color:#fff;font:12px/16px "arial"}
+.hotBbs ul li i.hot{background-color:#fb5016}
+.hotBbs ul li a{color:#666;}
+.hotBbs ul li a:hover{text-decoration:none;color:#ff7300}
+/*---- 编辑精选 ----*/
+.editSelect{width:460px;height:350px;float:right;position:relative}
+.editSelect h3{font:16px/20px "\5FAE\8F6F\96C5\9ED1";color:#333;margin-bottom:15px;}
+/*---- 编辑推荐 ----*/
+.editRecommond{width:230px;height:80px;float:left;}
+.editRecommond img{float:left;margin-right:10px}
+.editRecommondTit{color:#666;font:12px/18px "\5FAE\8F6F\96C5\9ED1";}
+.editRecommondTit:hover{color:#ff7300;text-decoration:none;}
+.editRecommond02{width:230px;height:115px;position:absolute;top:0px;right:0px;}
+/*---- 编辑精选列表 ----*/
+.editSelect ul{clear:both}
+.editSelect ul li{width:220px;height:15px;float:left;overflow:hidden;font:12px/15px "\5FAE\8F6F\96C5\9ED1";margin-top:14px;padding-right:10px;}
+.editSelect ul li a{color:#666;}
+.editSelect ul li a.orange,.editSelect ul li a:hover{color:#ff7300;}
+/*---- 食品安全/法律法规 ----*/
+.foodLaws{width:460px;height:;position:absolute;bottom:10px;left:0px;}
+.foodLaws h3{font:16px/20px "\5FAE\8F6F\96C5\9ED1";color:#333;}
+.foodLaws ul{height:auto;overflow:hidden;}
+.foodLaws ul li{width:220px;height:15px;float:left;overflow:hidden;font:12px/15px "\5FAE\8F6F\96C5\9ED1";margin-top:14px;padding-right:10px;}
+.foodLaws ul li a{color:#666;}
+.foodLaws ul li a.orange,.editSelect ul li a:hover,.foodLaws ul li a:hover{color:#ff7300;}
+/*----
+模块名称：供应商推荐
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2015.12.22
+----*/
+.supplier{width:1200px;height:auto;overflow:hidden;margin:0px auto 0px auto;padding-top:30px;position:relative;}
+.supplier h2{font:20px/20px "\5FAE\8F6F\96C5\9ED1";color:#333;padding-bottom:15px;border-bottom:#dcdcdc solid 1px;margin-bottom:20px}
+/*---- 供应商推荐刷新 ----*/
+.refreshBtn{position:absolute;top:8px;right:0px;color:#666;font:14px/20px "\5FAE\8F6F\96C5\9ED1";}
+.refreshBtn:hover{color:#ff7300;text-decoration:none;}
+.refreshBtn i{font:18px/20px "arial";float:left;margin-right:8px;-webkit-transition: .6s all;-webkit-transition:.6s all;-moz-transition:.6s all;-ms-transition:.6s all;transition:.6s all;display:inline-block;text-align:center;}
+.refreshBtn:hover i{-moz-transform:rotate(180deg);-webkit-transform:rotate(180deg);-o-transform:rotate(180deg);transform:rotate(180deg);-moz-transform-origin:50%;-webkit-transform-origin:50%;-o-transform-origin:50%;transform-origin:50%;}
+/*---- 推荐的供应商列表 ----*/
+.supplier ul{width:1230px;height:auto;overflow:hidden;}
+.supplier ul li{width:276px;float:left;height:auto;margin-right:31px;text-align:center}
+.supplierName{clear:both;font:14px/30px "\5FAE\8F6F\96C5\9ED1";color:#333;margin-bottom:10px;display:inline-block;}
+.supplier ul li img{width:123px;height:123px;margin-right:15px;float:left;margin-bottom:15px;}
+.supplier ul li span{display:block;border-top:#dcdcdc solid 1px;padding:10px 0px 0px 0px;}
+.supplier ul li span a{width:91px;height:35px;border-right:#dcdcdc solid 1px;float:left;text-align:center;color:#666;}
+.supplier ul li span a:hover,.supplierName:hover{color:#ff7300;text-decoration:none;}
+.supplier ul li span b{font:14px/14px "arial";display:block}
+.supplier ul li span a.last{border:none;}
+/*----
+模块名称：首页楼层导航
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2015.12.22
+----*/
+.floorNav{width:35px;position:fixed;height:288px;left:10px;top:245px;z-index:999;background-color:#fff;display:none;}
+.floorNav ul li a,.floorNav b{width:35px;height:32px;text-align:center;position:relative;font:12px/14px "\5B8B\4F53";margin-bottom:1px;display:block;padding-top:3px}
+.floorNav ul li a{background-color:#eee;color:#666;}
+.floorNav b{background-color:#787878;color:#fff;}
+.floorNav ul li a i{color:#8b8b8b;width:35px;height:35px;position:absolute;top:0px;left:0px;display:block;background-color:#eee;font:18px/35px "arial"}
+.floorNav ul li a:hover,.floorNav ul li.on a{background-color:#787878;color:#fff;text-decoration:none}
+.floorNav ul li a:hover i,.floorNav ul li.on a i{display:none;}

@@ -1,0 +1,165 @@
+﻿ @charset "utf-8";
+ /*---- 大宗交易管理导航 ----*/
+ .trader{width:975px;height:auto;float:left;}
+ .trader h2{font:700 18px/40px "\5FAE\8F6F\96C5\9ED1";color:#333;/*border-bottom:1px solid #E4E4E4;*/}
+ .trader span.priceTow{ font: 16px/30px "\5FAE\8F6F\96C5\9ED1"; color: #333; margin-bottom: 10px; display: block;}
+ .traderNav{margin:40px auto;height:auto;overflow:hidden;background:url(../images/nav.png) no-repeat scroll 38px 0;padding-top:25px;width:600px;m}
+ .trader span.proNafist{ font: 16px/30px "\5FAE\8F6F\96C5\9ED1"; color: #333;display: block;}
+ .trader span.selecpro{font: 14px/30px "\5FAE\8F6F\96C5\9ED1"; color: #333;display: block;}
+ .traderNav li{float:left;font:14px/34px "\5FAE\8F6F\96C5\9ED1";color:#999;}
+ .traderNav li.on{color:#333;}
+.stepsOne{margin-right:135px;}
+.stepsThr{margin-left:136px;}
+/*---- 入驻大宗交易--选择交易类型和时间 ----*/
+.traderTips{font:12px/20px "\5FAE\8F6F\96C5\9ED1";color:#999;margin:65px 0 0 42px;display:block;text-align:left;}
+.Steps{width:100px;height:35px;background-color:#FF7300;color:#fff;font:16px/35px "\5FAE\8F6F\96C5\9ED1";margin:20px 0 0 390px;display:block;text-align:center; border:none;}
+.settshow{width:160px;height:50px;background-color:#FF7300;color:#fff;font:16px/50px "\5FAE\8F6F\96C5\9ED1";margin:50px 0 0 200px;display:block;text-align:center; border:none; cursor:pointer; float:left;}
+.settshow1{width:160px;height:50px;background-color:#36c;color:#fff;font:16px/50px "\5FAE\8F6F\96C5\9ED1";margin:50px 0 0 50px;display:block;text-align:center; border:none; cursor:pointer; float:left;}
+/*---- 日历插件 ----*/
+.datepicker{height:auto;margin-top:40px;overflow:hidden;margin-left:45px;}
+table.jCalendar{border-collapse:collapse;font-family:Arial;width:100%;}
+table.jCalendar th{background:#fff;color:#3c3c3c;font-weight:normal;height:60px;line-height:60px;vertical-align:middle;}
+table.jCalendar td{background:#EBF6FF;color:#3c3c3c;font-size:11px;border:1px solid #cdcfd3;height:60px;line-height:60px;text-align:center;}
+table.jCalendar td.other-month{background:#f7f7f7;color:#555;}
+table.jCalendar td.today{background:#8ca4c8;color:#fff;}
+table.jCalendar td.selected,table.jCalendar td.selected.dp-hover{background:#3366cc;color:#fff;}
+table.jCalendar td.dp-hover,table.jCalendar tr.activeWeekHover td{background:#8ca4c8;color:#fff;}
+table.jCalendar tr.selectedWeek td{background:#f66;color:#fff;}
+table.jCalendar td.disabled, table.jCalendar td.disabled.dp-hover{background:#ECF1F4;color:#888;}
+table.jCalendar td.unselectable,table.jCalendar td.unselectable:hover,table.jCalendar td.unselectable.dp-hover{background:#8ca4c8;color:#fff;}
+/* For the popup *//* NOTE - you will probably want to style a.dp-choose-date - see how I did it in demo.css */
+div.dp-popup{position:relative;font-size:12px;font-family:arial, sans-serif;padding:0 2px 2px 2px;width:852px;height:465px;line-height:1.2em;border:solid 1px #ddd;background:#F4F4F4;}
+div#dp-popup{position:absolute;z-index:199;}
+div.dp-popup h2{font-size:14px;text-align:center;margin:0;padding:0;height:36px;line-height:36px;border-bottom:solid 1px #cdcfd3;border-top:solid 1px #fff;color:#3c3c3c;}
+a#dp-close{font-size:11px;padding:4px 0;text-align:center;display:block;}
+a#dp-close:hover{text-decoration:underline;}
+div.dp-popup a{color:#000;text-decoration:none;width:19px;height:19px;line-height:999em;overflow:hidden;background:url(../images/arrowicon.gif) no-repeat;margin:6px 2px 0 2px;display:inline;}
+div.dp-popup a#dp-nav-prev-year.disabled{background-position:0 -19px;}
+div.dp-popup a#dp-nav-prev-month.disabled{background-position:-19px -19px;}
+div.dp-popup a#dp-nav-prev-year{background-position:0 0;}
+div.dp-popup a#dp-nav-prev-month{background-position:-19px 0;}
+div.dp-popup a#dp-nav-next-year{background-position:-57px 0;}
+div.dp-popup a#dp-nav-next-month{background-position:-38px 0;}
+div.dp-popup div.dp-nav-prev{position:absolute;top:2px;left:12px;width:50px;}
+div.dp-popup div.dp-nav-prev a{float:left;}
+/* Opera needs the rules to be this specific otherwise it doesn't change the cursor back to pointer after you have disabled and re-enabled a link */
+div.dp-popup div.dp-nav-prev a, div.dp-popup div.dp-nav-next a{cursor:pointer;}
+div.dp-popup div.dp-nav-prev a.disabled, div.dp-popup div.dp-nav-next a.disabled{cursor:default;}
+div.dp-popup div.dp-nav-next{position:absolute;top:2px;right:12px;width:50px;}
+div.dp-popup div.dp-nav-next a{float:right;}
+div.dp-popup a.disabled{cursor:default;color:#aaa;}
+div.dp-popup td{cursor:pointer;font-size:14px;}
+div.dp-popup td.disabled{cursor:default;}
+/*---- 入驻大宗交易--选择报名产品 ----*/
+.activityTime{height:auto;overflow:hidden;margin:20px 15px;position:relative;}
+.activityTime b{font:700 18px/70px "\5FAE\8F6F\96C5\9ED1";color:#333;width:108px;height:70px;display:block;float:left;}
+.activityTime span{width:157px;height:57px;border:1px solid #fee997;background-color:#fff7d7;text-align:center;display:block;padding-top:15px;float:left;}
+.activityTime span em{font-size:20px;color:#FF7300;display:block}
+.line{width:30px;height:1px;background-color:#ffcb97;overflow:hidden;float:left;margin:38px 15px 0 15px;}
+/*---- 选择产品 ----*/
+.selectPro{height:auto;overflow:hidden;}
+.selectPro b{font:700 18px/22px "\5FAE\8F6F\96C5\9ED1";color:#333;display:block;}
+.productConment{height:auto;overflow:hidden;margin-top:20px;}
+.subMenu{width:221px;height:auto;overflow:hidden;border:1px solid #E4E4E4;float:left;position:relative;padding-bottom:30px;}
+.searchMenu{width:174px;height:30px;border:1px solid #E4E4E4;padding-left:15px;color:#ccc;margin:15px;}
+.subMenu i{position:absolute;right:22px;top:18px;color:#333;}
+.childNav{width:215px;margin:0px auto;height:auto;overflow:hidden;}
+.childNav li{height:28px;line-height:28px;text-align:left;}
+.childNav li h3{font:14px/28px "\5FAE\8F6F\96C5\9ED1";color:#3676df;height:28px;background:url(../images/iconBg.png) no-repeat -35px -154px scroll;padding-left:30px;cursor:pointer;}
+.childNav li a{font:12px/25px "\5FAE\8F6F\96C5\9ED1";display:block;padding-left:37px;color:#333;display:none;}
+.childNav li.cur{height:auto;}
+.childNav li.cur h3{background:url(../images/iconBg.png) no-repeat -35px -187px scroll;padding-left:30px;}
+.childNav li.cur a{display:block;}
+.childNav li.cur a:hover{background-color:#dff1fb;}
+.subSidebar{width:678px;height:auto;padding:12px 0;border:1px solid #E4E4E4;float:left;margin-left:25px;}
+.selectTitle{line-height:32px;margin:15px 0 0 30px;}
+.productList{height:auto;overflow:hidden;}
+.productList li{width:132px;height:142px;border:1px solid #E4E4E4;margin:15px 0 0 32px;float:left;}
+.productList li:hover{border:1px solid #FF7300;}
+.proImg{width:116px;height:96px;margin:8px;display:block;}
+.proTitle{font:12px/30px "\5FAE\8F6F\96C5\9ED1";color:#333;text-align:center;display:block;width:132px;height:30px;overflow:hidden;cursor:pointer;}
+.selectedList{height:auto;overflow:hidden;}
+.selectedList li{width:132px;height:138px;border:1px solid #E4E4E4;margin:15px 0 0 32px;float:left;}
+.prevSteps{width:100px;height:35px;font:16px/35px "\5FAE\8F6F\96C5\9ED1";text-align:center;color:#fff;background-color:#ff9900;float:left;margin:45px;display:block;}
+.nextSteps{width:100px;height:35px;font:16px/35px "\5FAE\8F6F\96C5\9ED1";text-align:center;color:#fff;background-color:#027cff;float:left;margin-top:45px;display:block; border:none; margin-left:20px; cursor: pointer;}
+/*----入驻大宗交易--产品价格修改----*/
+.cancle{width:78px;height:26px;background-color:#fff0e6;color:#FF7300;text-align:center;border:1px solid #ffdfca;display:block;line-height:26px;}
+.goodsInfor{padding-bottom:20px;height:auto;display:table;}
+.goodsInfor thead{background-color:#f5f5f5;}
+.goodsInfor td{border-bottom:1px solid #E4E4E4;}
+.subTable td{border-bottom:none;}
+.tableTitle{width:145px;max-height:44px;line-height:22px;overflow:hidden;display:block;color:#333;float:left;margin:15px 0 0 15px;}
+.tableImg{display:block;float:left;}
+.subTable{width:344px;height:32px;padding:18px;border:1px solid #E4E4E4;display:table;}
+.subTable i{cursor:pointer;margin-left:3px;}
+.subInput{width:66px;height:24px;text-align:center;line-height:24px;color:#666;border:1px solid #E4E4E4;}
+.confirm{width:205px;height:54px;font:20px/54px "\5FAE\8F6F\96C5\9ED1";color:#fff;border:none;text-align:center;background-color:#ff7300;border-radius:3px;float:right; cursor: pointer;
+/*---- 起订量弹窗 ----*/
+.prOperate{height:auto;overflow:hidden;width:353px;height:135px;position:relative}
+.prOperate ul{height:auto;overflow:hidden;}
+.prOperate ul li{height:auto;overflow:hidden;padding-bottom:20px;}
+.prOperate ul li a{color:#06f;margin-left:10px;}
+.prOperate a.prOperateBtn{margin:15px 0px 13px 0px;padding-left:25px;color:#36c;display:inline-block;background:url(../images/addBtn.png) no-repeat 0px center scroll;}	
+.prRight{width:398px;background-color:#fff;border:#efefef solid 1px;float:left;}
+.prRightTit{height:40px;color:#333;border-bottom:#ccc solid 1px;position:relative;}
+.prRightTit span{position:absolute;font:700 12px/40px "微软雅黑";top:0px;left:226px;}
+.prRightTit span.tit{left:75px;}
+.prRightTxt{padding:19px 22px 0px 22px;}
+.prRightTxt p{height:auto;overflow:hidden;margin-top:15px;color:#e42a2a;font:12px/15px "\5B8B\4F53";
+background:url(../images/tipsIcon01.png) no-repeat 0px 0px scroll;padding-left:17px;}
+.prRightTxt input[type="text"]{width:68px;height:14px;border:#ccc solid 1px;text-align:center;padding:4px 0px;color:#333;margin:0px 12px;}
+.OK{border:1px solid #E42A2A;width:68px;height:28px;background-color:#FF7300;color:#fff;text-align:center;line-height:28px;cursor:pointer;margin-left:130px;}
+.closeDialog{position:absolute;right:4px;top:0;color:#666;}
+/*---- 价格区间、可售数量弹窗 ----*/
+.prSale{width:380px;padding:15px;background-color:#fff;border:#efefef solid 1px;height:auto;}
+.prTitle b{font:14px/42px "\5FAE\8F6F\96C5\9ED1";color:#333;}
+.prSaleTit{height:40px;color:#333;border:#ccc solid 1px;position:relative;}
+.prSaleTit span{position:absolute;font:700 12px/40px "微软雅黑";top:0px;left:226px;}
+.prSaleTit span.tit{left:75px;}
+.prSaleTxt{padding:19px 13px 0px 14px;height:auto;overflow:hidden;border:1px solid #E4E4E4;border-top:none;}
+.prSaleTxt p{height:auto;overflow:hidden;margin-top:15px;color:#e42a2a;font:12px/15px "\5B8B\4F53";
+background:url(../images/tipsIcon01.png) no-repeat 0px 0px scroll;padding-left:17px;}
+.addPrice{overflow:hidden;width:354px;height:138px;position:relative}
+.addPrice ul{height:auto;overflow:hidden;}
+.addPrice ul li{height:auto;overflow:hidden;padding-bottom:20px;}
+.addPrice ul li a{color:#06f;margin-left:10px;}
+.addPrice a.addPriceBtn{margin:15px 0px 13px 0px;padding-left:25px;color:#36c;display:inline-block;background:url(../images/addBtn.png) no-repeat 0px center scroll;}	
+.prSaleTxt input[type="text"]{width:68px;height:14px;border:#ccc solid 1px;text-align:center;padding:4px 0px;color:#333;margin:0px 12px;}
+.OK{border:1px solid #E42A2A;width:68px;height:28px;background-color:#FF7300;color:#fff;text-align:center;line-height:28px;cursor:pointer;margin:20px 0 20px 130px;}
+.closeDialog{position:absolute;right:4px;top:0;color:#666;}
+.saleNumber{width:380px;background-color:#fff;float:left;}
+.saleNumber b{font:14px/42px "\5FAE\8F6F\96C5\9ED1";color:#333;}
+.paRight{width:378px;height:auto;overflow:hidden;border:#ccc solid 1px;border-bottom:none;float:left;}
+.paRightTit{position:absolute;left:0px;width:70px;top:-1px;height:100%;border-right:#ccc solid 1px;border-bottom:#ccc solid 1px}
+.paRightTit b{width:70px;position:absolute;text-align:center;display:inline-block;top:50%;margin-top:-14px;font-size:14px;font-weight:normal;color:#333}
+.paRight li{height:auto;overflow:hidden;position:relative;padding-left:70px;}
+.paRight li.tit{padding-left:0px;border-bottom:#ccc solid 1px;}
+.paRight li.tit span{height:42px;font:700 14px/42px "微软雅黑";color:#333;float:left;text-align:center;}
+.paRight li.tit span.tit01{width:70px;}
+.paRight li.tit span.tit02{width:175px;}
+.paRight li.tit span.tit03{width:130px;float:right;}
+.paRight li.tit span.tit03 font{color:#f00;}
+.paRight li p{height:45px;border-bottom:#ccc solid 1px;color:#666;font-size:14px;line-height:45px;}
+.paRight li p span{width:175px;height:45px;float:left;text-align:center;overflow:hidden;}
+.paRight li p input{width:100px;height:22px;text-align:center;border:#797979 solid 1px;float:right;margin:12px 17px 0px 0px;}
+.saleOk{border:1px solid #E42A2A;width:68px;height:28px;background-color:#FF7300;color:#fff;text-align:center;line-height:28px;cursor:pointer;margin:15px 0 0 130px;}
+/*---- 规格报价弹窗 ----*/
+.specPrice{height:auto;overflow:hidden;background-color:#fff;padding:15px;width:590px;}
+.specPrice b{font:14px/42px "\5FAE\8F6F\96C5\9ED1";color:#333;}
+.specPrice b font{color:#f00;margin-right:3px;}
+.spRight{width:588px;height:auto;overflow:hidden;border:#ccc solid 1px;border-bottom:none;}
+.spRight b{width:95px;position:absolute;text-align:center;display:inline-block;top:50%;margin-top:-14px;font-size:14px;font-weight:normal;color:#333}
+.spRight li{height:auto;overflow:hidden;position:relative;}
+.spRight li.tit{padding-left:0px;border-bottom:#ccc solid 1px;}
+.spRight li span{width:132px;height:42px;font:14px/42px "微软雅黑";color:#333;float:left;text-align:center;border-right:#ccc solid 1px}
+.spRight li span.tit01{width:93px;}
+.spRight li span font{color:#f00;}
+.spRight li.txt{padding-left:94px;}
+.spRight li input{width:80px;height:22px;text-align:center;border:#797979 solid 1px;float:right;margin:12px 17px 0px 0px;}
+.spRight li span:last-child{border-right:none;}
+.spListTit{width:93px;position:absolute;left:0px;top:-1px;height:100%;border-bottom:#ccc solid 1px;border-right:#ccc solid 1px;}
+.spListTxt{height:auto;overflow:hidden;border-bottom:#ccc solid 1px;}
+.specSearch{height:auto;margin-top:20px;overflow:hidden;color:#333;}
+.specSearch font{color:#f00;margin-right:3px;}
+.specInput{width:116px;height:22px;font:12px/22px "\5FAE\8F6F\96C5\9ED1";text-align:center;border:1px solid #E4e4e4; margin:0 8px;}
+.specOk{border:1px solid #E42A2A;width:68px;height:28px;background-color:#FF7300;color:#fff;text-align:center;line-height:28px;cursor:pointer;margin:15px 0 0 76px;}

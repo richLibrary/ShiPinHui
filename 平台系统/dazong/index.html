@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+	<meta charset="utf-8" />
+	<title>大宗交易首页</title>
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="Keywords" content="关键词"/>
+	<meta name="Description" content="我是网页的描述sss"/>
+	<link rel="stylesheet" href="css/iconfont/iconfont.css" type="text/css" />
+	<link rel="stylesheet" href="css/common.css" type="text/css" />
+	<link rel="stylesheet" href="css/wrapper.css" type="text/css" />
+	<script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+	<script type="text/javascript" src="js/onePageNav.js"></script>
+	<script type="text/javascript" src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
+</head>
+<body ng-app="myApp" ng-controller="userCtrl">
+<div ng-include="'header.html'"></div>	
+<!----
+模块名称：wrapper部分
+修改内容：暂无
+模块作者：裴富成
+修改时间：2015.12.29
+---->
+<div class="wrapper">
+	<!--- 大宗入驻动态 --->
+	<div class="wrapperIn">
+		<h3><i class="iconfont">&#xe61d;</i>大宗入驻动态</h3>
+	<ul>
+		<li>
+			<span class="wrapperTitle">
+				<a href="" target="_blank" title="采购">[采购]</a>
+			</span>
+			<a href="" target="_blank" title="郑州思念食品入住大宗采购">郑州思念食品入住大宗采购</a>
+		</li>
+		<li>
+			<span class="wrapperTitle">
+				<a href="" target="_blank" title="招投标">[招投标]</a>
+			</span>
+			<a href="" target="_blank" title="郑州思念食品入住大宗采购">郑州思念食品入住大宗采购</a>
+		</li>
+		<li>
+			<span class="wrapperTitle">
+				<a href="" target="_blank" title="伙拼">[伙拼]</a>
+			</span>
+			<a href="" target="_blank" title="郑州思念食品入住大宗采购">郑州思念食品入住大宗采购</a>
+		</li>
+	</ul>
+	</div>
+	<!--- 大宗交易动态 --->
+	<div class="wrapperTrading">
+		<h3><i class="iconfont">&#xe61e;</i>大宗交易动态</h3>
+	<ul>
+		<li>
+			<span class="tradingTitle">
+				<a href="" target="_blank" title="采购">[采购]</a>
+			</span>
+			<a href="" target="_blank" title="使用级别玉米">使用级别玉米</a>
+			<span class="tradingSuccess">已成交</span>
+		</li>
+		<li>
+			<span class="tradingTitle">
+				<a href="" target="_blank" title="招投标">[招投标]</a>
+			</span>
+			<a href="" target="_blank" title="使用级别玉米">使用级别玉米</a>
+			<span class="tradingSuccess">已成交</span>
+		</li>
+		<li>
+			<span class="tradingTitle">
+				<a href="" target="_blank" title="伙拼">[伙拼]</a>
+			</span>
+			<a href="" target="_blank" title="使用级别玉米">使用级别玉米</a>
+			<span class="tradingSuccess">已成交</span>
+		</li>
+		<li>
+			<span class="tradingTitle">
+				<a href="" target="_blank" title="伙拼">[伙拼]</a>
+			</span>
+			<a href="" target="_blank" title="使用级别玉米">使用级别玉米</a>
+			<span class="tradingSuccess">已成交</span>
+		</li>
+	</ul>
+	</div>
+	<!---- 轮播图 ---->
+	<div class="wrapperFocus">
+		<div class="bd">
+			<ul>
+				<li>
+					<a href="#" title="活动名称" target="_blank">
+						<img src="images/testimg/test05.jpg" width="696" height="315" title="活动名称" alt="活动名称"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="活动名称" target="_blank">
+						<img src="images/testimg/test06.jpg" width="696" height="315" title="活动名称" alt="活动名称"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="活动名称" target="_blank">
+						<img src="images/testimg/test07.jpg" width="696" height="315" title="活动名称" alt="活动名称"/>
+					</a>
+				</li>
+				<!--<li>
+					<a href="#" title="活动名称" target="_blank">
+						<img src="images/testimg/test08.jpg" width="696" height="315" title="活动名称" alt="活动名称"/>
+					</a>
+				</li>
+				<li>
+					<a href="#" title="活动名称" target="_blank">
+						<img src="images/testimg/test09.jpg" width="696" height="315" title="活动名称" alt="活动名称"/>
+					</a>
+				</li>-->
+			</ul>
+		</div>
+		<div class="hd"><ul></ul></div>
+		<a class="prev iconfont" href="javascript:void(0)">&#xe615;</a>
+		<a class="next iconfont" href="javascript:void(0)">&#xe614;</a>
+	</div>
+	<!---- 右侧大宗公告 ---->
+	<div class="wrapperright">
+		<a class="applyBtn" target="_blank" title="申请入驻大宗交易">申请入驻大宗交易</a>
+		<div class="wrapperTips">
+			<h3>大宗公告</h3>
+			<ul>
+				<li><a href="" target="_blank" title="">[公告] 电商网早报：易果网投资早酷</a></li>
+				<li><a href="" target="_blank" title="">[公告] 电商网早报：易果网投资早酷</a></li>
+				<li><a href="" target="_blank" title="">[公告] 电商网早报：易果网投资早酷</a></li>
+			</ul>
+		</div>
+		<div class="procurement">
+			<a href="" target="_blank" title="采购">
+				<b class="proFirst"></b>
+				<span class="iconText">大额采购</span>
+			</a>
+			<a href="" target="_blank" title="采购">
+				<b class="proTwo"></b>
+				<span class="iconText">大额采购</span>
+			</a>
+			<a href="" target="_blank" title="采购">
+				<b class="proThr"></b>
+				<span class="iconText">大额采购</span>
+			</a>
+		</div>
+	</div>
+</div>
+<!--- 爆品采购 --->
+<div class="hotDazong">
+	<h2><i class="iconfont">&#xe61f;</i>名企大宗采购爆品<b>帮助企业实现透明、高效、低成本采购</b></h2>
+	<ul class="dazongNav">
+		<li class="on">食品原料</li>
+		<li>食品原料</li>
+		<li>食品原料</li>
+		<li>食品原料</li>
+		<li>食品原料</li>
+		<li>食品原料</li>
+	</ul>
+	<div class="dazongLeft">
+		<a href="" target="_blank" title=""><img src="images/testimg/baopin.jpg" width="240" height="280" alt="图片名称"/></a>
+		<ul>
+			<li><a href="" target="_blank" title="郑州国华食品">郑州国华食品</a></li>
+			<li><a href="" target="_blank" title="郑州国华食品">郑州国华食品</a></li>
+			<li><a href="" target="_blank" title="南街村集团">南街村集团</a></li>
+			<li><a href="" target="_blank" title="南街村集团">南街村集团</a></li>
+			<li><a href="" target="_blank" title="郑州国华食品">郑州国华食品</a></li>
+			<li><a href="" target="_blank" title="郑州国华食品">郑州国华食品</a></li>
+			<li><a href="" target="_blank" title="南街村集团">南街村集团</a></li>
+			<li><a href="" target="_blank" title="南街村集团">南街村集团</a></li>
+			<li><a href="" target="_blank" title="郑州国华食品">郑州国华食品</a></li>
+			<li><a href="" target="_blank" title="郑州国华食品">郑州国华食品</a></li>
+		</ul>
+	</div>
+	<div class="dazongContent">
+		<ul class="dazongRight">
+			<li>
+				<a class="dazongImg" href="" target="_blank" title="核桃"><img src="images/testimg/hetao.jpg" width="198" height="198" alt="核桃"/></a>
+				<a class="dazongFood" href="" target="_blank" title="新疆华天有机核桃">新疆华天有机核桃</a>
+				<a class="dazongCompany" href="" target="_blank" title="郑州思念食品有限公司">郑州思念食品有限公司</a>
+				<p><i class="iconfont">&#xe623;</i>大宗数量<b>5吨起</b></p>
+				<p><i class="iconfont">&#xe621;</i>大宗数量<b>5吨起</b></p>
+				<p><i class="iconfont">&#xe622;</i>大宗数量<b>5吨起</b></p>
+				<a class="dazongBtn" href="" target="_blank" title="">立即参与</a>
+			</li>
+			<li>
+				<a class="dazongImg" href="" target="_blank" title="核桃"><img src="images/testimg/hetao.jpg" width="198" height="198" alt="核桃"/></a>
+				<a class="dazongFood" href="" target="_blank" title="新疆华天有机核桃">新疆华天有机核桃</a>
+				<a class="dazongCompany" href="" target="_blank" title="郑州思念食品有限公司">郑州思念食品有限公司</a>
+				<p><i class="iconfont">&#xe623;</i>大宗数量<b>5吨起</b></p>
+				<p><i class="iconfont">&#xe621;</i>大宗数量<b>5吨起</b></p>
+				<p><i class="iconfont">&#xe622;</i>大宗数量<b>5吨起</b></p>
+				<a class="dazongBtn" href="" target="_blank" title="">立即参与</a>
+			</li>
+			<li>
+				<a class="dazongImg" href="" target="_blank" title="核桃"><img src="images/testimg/hetao.jpg" width="198" height="198" alt="核桃"/></a>
+				<a class="dazongFood" href="" target="_blank" title="新疆华天有机核桃">新疆华天有机核桃</a>
+				<a class="dazongCompany" href="" target="_blank" title="郑州思念食品有限公司">郑州思念食品有限公司</a>
+				<p><i class="iconfont">&#xe623;</i>大宗数量<b>5吨起</b></p>
+				<p><i class="iconfont">&#xe621;</i>大宗数量<b>5吨起</b></p>
+				<p><i class="iconfont">&#xe622;</i>大宗数量<b>5吨起</b></p>
+				<a class="dazongBtn" href="" target="_blank" title="">立即参与</a>
+			</li>
+			<li>
+				<a class="dazongImg" href="" target="_blank" title="核桃"><img src="images/testimg/hetao.jpg" width="198" height="198" alt="核桃"/></a>
+				<a class="dazongFood" href="" target="_blank" title="新疆华天有机核桃">新疆华天有机核桃</a>
+				<a class="dazongCompany" href="" target="_blank" title="郑州思念食品有限公司">郑州思念食品有限公司</a>
+				<p><i class="iconfont">&#xe623;</i>大宗数量<b>5吨起</b></p>
+				<p><i class="iconfont">&#xe621;</i>大宗数量<b>5吨起</b></p>
+				<p><i class="iconfont">&#xe622;</i>大宗数量<b>5吨起</b></p>
+				<a class="dazongBtn" href="" target="_blank" title="">立即参与</a>
+			</li>
+		</ul>
+		<ul class="dazongRight" style="display: none;">
+			<li>
+				<a class="dazongImg" href="" target="_blank" title="核桃"><img src="images/testimg/hetao.jpg" width="198" height="198" alt="核桃"/></a>
+				<a class="dazongFood" href="" target="_blank" title="新疆华天有机核桃">新疆华天有机核桃11</a>
+				<a class="dazongCompany" href="" target="_blank" title="郑州思念食品有限公司">郑州思念食品有限公司</a>
+				<p><i class="iconfont">&#xe623;</i>大宗数量<b>5吨起</b></p>
+				<p><i class="iconfont">&#xe621;</i>大宗数量<b>5吨起</b></p>
+				<p><i class="iconfont">&#xe622;</i>大宗数量<b>5吨起</b></p>
+				<a class="dazongBtn" href="" target="_blank" title="">立即参与</a>
+			</li>
+			<li>
+				<a class="dazongImg" href="" target="_blank" title="核桃"><img src="images/testimg/hetao.jpg" width="198" height="198" alt="核桃"/></a>
+				<a class="dazongFood" href="" target="_blank" title="新疆华天有机核桃">新疆华天有机核桃</a>
+				<a class="dazongCompany" href="" target="_blank" title="郑州思念食品有限公司">郑州思念食品有限公司</a>
+				<p><i class="iconfont">&#xe623;</i>大宗数量<b>5吨起</b></p>
+				<p><i class="iconfont">&#xe621;</i>大宗数量<b>5吨起</b></p>
+				<p><i class="iconfont">&#xe622;</i>大宗数量<b>5吨起</b></p>
+				<a class="dazongBtn" href="" target="_blank" title="">立即参与</a>
+			</li>
+			<li>
+				<a class="dazongImg" href="" target="_blank" title="核桃"><img src="images/testimg/hetao.jpg" width="198" height="198" alt="核桃"/></a>
+				<a class="dazongFood" href="" target="_blank" title="新疆华天有机核桃">新疆华天有机核桃</a>
+				<a class="dazongCompany" href="" target="_blank" title="郑州思念食品有限公司">郑州思念食品有限公司</a>
+				<p><i class="iconfont">&#xe623;</i>大宗数量<b>5吨起</b></p>
+				<p><i class="iconfont">&#xe621;</i>大宗数量<b>5吨起</b></p>
+				<p><i class="iconfont">&#xe622;</i>大宗数量<b>5吨起</b></p>
+				<a class="dazongBtn" href="" target="_blank" title="">立即参与</a>
+			</li>
+			<li>
+				<a class="dazongImg" href="" target="_blank" title="核桃"><img src="images/testimg/hetao.jpg" width="198" height="198" alt="核桃"/></a>
+				<a class="dazongFood" href="" target="_blank" title="新疆华天有机核桃">新疆华天有机核桃</a>
+				<a class="dazongCompany" href="" target="_blank" title="郑州思念食品有限公司">郑州思念食品有限公司</a>
+				<p><i class="iconfont">&#xe623;</i>大宗数量<b>5吨起</b></p>
+				<p><i class="iconfont">&#xe621;</i>大宗数量<b>5吨起</b></p>
+				<p><i class="iconfont">&#xe622;</i>大宗数量<b>5吨起</b></p>
+				<a class="dazongBtn" href="" target="_blank" title="">立即参与</a>
+			</li>
+		</ul>
+	</div>
+</div>
+<!--- 招投标采购 --->
+<div class="hotTender">
+	<h2><i class="iconfont">&#xe613;</i>名企大宗采购爆品<b>帮助企业实现透明、高效、低成本采购</b></h2>
+	<ul class="tenderNav">
+		<li class="on">食品原料</li>
+		<li>食品原料</li>
+		<li>食品原料</li>
+		<li>食品原料</li>
+		<li>食品原料</li>
+		<li>食品原料</li>
+	</ul>
+	<a class="tenderLeft" href="" target="_blank" title=""><img src="images/testimg/tender01.jpg" alt="名企大宗采购爆品"/></a>
+	<div class="tenderContent">
+		<ul class="tenderRight">
+			<li>
+				<a class="tenderImg" href="" target="_blank" title="核桃"><img src="images/testimg/brand.jpg" width="100" height="100" alt="核桃"/></a>
+				<h3>何华宇龙辰农业科技有限公司11</h3>
+				<p>投标时间<em>5吨起</em></p>
+				<p>投标时间<em>5吨起</em></p>
+			</li>
+			<li>
+				<a class="tenderImg" href="" target="_blank" title="核桃"><img src="images/testimg/brand.jpg" width="100" height="100" alt="核桃"/></a>
+				<h3>何华宇龙辰农业科技有限公司</h3>
+				<p>投标时间<em>5吨起</em></p>
+				<p>投标时间<em>5吨起</em></p>
+			</li>
+			<li>
+				<a class="tenderImg" href="" target="_blank" title="核桃"><img src="images/testimg/brand.jpg" width="100" height="100" alt="核桃"/></a>
+				<h3>何华宇龙辰农业科技有限公司</h3>
+				<p>投标时间<em>5吨起</em></p>
+				<p>投标时间<em>5吨起</em></p>
+			</li>
+			<li>
+				<a class="tenderImg" href="" target="_blank" title="核桃"><img src="images/testimg/brand.jpg" width="100" height="100" alt="核桃"/></a>
+				<h3>何华宇龙辰农业科技有限公司</h3>
+				<p>投标时间<em>5吨起</em></p>
+				<p>投标时间<em>5吨起</em></p>
+			</li>
+			<li>
+				<a class="tenderImg" href="" target="_blank" title="核桃"><img src="images/testimg/brand.jpg" width="100" height="100" alt="核桃"/></a>
+				<h3>何华宇龙辰农业科技有限公司</h3>
+				<p>投标时间<em>5吨起</em></p>
+				<p>投标时间<em>5吨起</em></p>
+			</li>
+			<li>
+				<a class="tenderImg" href="" target="_blank" title="核桃"><img src="images/testimg/brand.jpg" width="100" height="100" alt="核桃"/></a>
+				<h3>何华宇龙辰农业科技有限公司</h3>
+				<p>投标时间<em>5吨起</em></p>
+				<p>投标时间<em>5吨起</em></p>
+			</li>
+			<li>
+				<a class="tenderImg" href="" target="_blank" title="核桃"><img src="images/testimg/brand.jpg" width="100" height="100" alt="核桃"/></a>
+				<h3>何华宇龙辰农业科技有限公司</h3>
+				<p>投标时间<em>5吨起</em></p>
+				<p>投标时间<em>5吨起</em></p>
+			</li>
+			<li>
+				<a class="tenderImg" href="" target="_blank" title="核桃"><img src="images/testimg/brand.jpg" width="100" height="100" alt="核桃"/></a>
+				<h3>何华宇龙辰农业科技有限公司</h3>
+				<p>投标时间<em>5吨起</em></p>
+				<p>投标时间<em>5吨起</em></p>
+			</li>
+		</ul>
+	</div>
+</div>
+<!--- 伙拼采购 --->
+<div class="hotPaired">
+	<h2><i class="iconfont">&#xe624;</i>伙拼采购<b>大家伙拼更实惠</b></h2>
+	<ul class="pairedNav">
+		<li class="on">食品原料</li>
+		<li>食品原料</li>
+		<li>食品原料</li>
+		<li>食品原料</li>
+		<li>食品原料</li>
+		<li>食品原料</li>
+	</ul>
+	<a class="pairedLeft" href="" target="_blank" title=""><img src="images/testimg/tender02.jpg" alt="伙拼采购"/></a>
+	<div class="pairedContent">
+		<ul class="pairedRight">
+			<li class="pairedPro">
+				<a class="pairedImg" href="" target="_blank" title="核桃"><img src="images/testimg/pro.jpg" width="218" height="218" alt="核桃"/></a>
+				<h3>何华宇龙辰农业科技有限公司</h3>
+				<p>经过多道工序加工而成，多次翻炒味道纯正</p>
+				<strong>&yen;38.00</strong>
+				<del>&yen;53.00</del>
+				<span class="pairedNumber">10袋起批</span>
+				<span class="pairedCity"><i class="iconfont">&#xe620;</i>郑州</span>
+				<a class="pairedOrder" href="" target="_blank" title="">伙拼抢单</a>
+			</li>
+			<li>
+				<a class="pairedImg" href="" target="_blank" title="核桃"><img src="images/testimg/pro.jpg" width="218" height="218" alt="核桃"/></a>
+				<h3>何华宇龙辰农业科技有限公司</h3>
+				<p>经过多道工序加工而成，多次翻炒味道纯正</p>
+				<strong>&yen;38.00</strong>
+				<del>&yen;53.00</del>
+				<span class="pairedNumber">10袋起批</span>
+				<span class="pairedCity"><i class="iconfont">&#xe620;</i>郑州</span>
+				<a class="pairedOrder" href="" target="_blank" title="">伙拼抢单</a>
+			</li>
+			<li>
+				<a class="pairedImg" href="" target="_blank" title="核桃"><img src="images/testimg/pro.jpg" width="218" height="218" alt="核桃"/></a>
+				<h3>何华宇龙辰农业科技有限公司</h3>
+				<p>经过多道工序加工而成，多次翻炒味道纯正</p>
+				<strong>&yen;38.00</strong>
+				<del>&yen;53.00</del>
+				<span class="pairedNumber">10袋起批</span>
+				<span class="pairedCity"><i class="iconfont">&#xe620;</i>郑州</span>
+				<a class="pairedOrder" href="" target="_blank" title="">伙拼抢单</a>
+			</li>
+			<li>
+				<a class="pairedImg" href="" target="_blank" title="核桃"><img src="images/testimg/pro.jpg" width="218" height="218" alt="核桃"/></a>
+				<h3>何华宇龙辰农业科技有限公司</h3>
+				<p>经过多道工序加工而成，多次翻炒味道纯正</p>
+				<strong>&yen;38.00</strong>
+				<del>&yen;53.00</del>
+				<span class="pairedNumber">10袋起批</span>
+				<span class="pairedCity"><i class="iconfont">&#xe620;</i>郑州</span>
+				<a class="pairedOrder" href="" target="_blank" title="">伙拼抢单</a>
+			</li>
+			<li>
+				<a class="pairedImg" href="" target="_blank" title="核桃"><img src="images/testimg/pro.jpg" width="218" height="218" alt="核桃"/></a>
+				<h3>何华宇龙辰农业科技有限公司</h3>
+				<p>经过多道工序加工而成，多次翻炒味道纯正</p>
+				<strong>&yen;38.00</strong>
+				<del>&yen;53.00</del>
+				<span class="pairedNumber">10袋起批</span>
+				<span class="pairedCity"><i class="iconfont">&#xe620;</i>郑州</span>
+				<a class="pairedOrder" href="" target="_blank" title="">伙拼抢单</a>
+			</li>
+			<li>
+				<a class="pairedImg" href="" target="_blank" title="核桃"><img src="images/testimg/pro.jpg" width="218" height="218" alt="核桃"/></a>
+				<h3>何华宇龙辰农业科技有限公司</h3>
+				<p>经过多道工序加工而成，多次翻炒味道纯正</p>
+				<strong>&yen;38.00</strong>
+				<del>&yen;53.00</del>
+				<span class="pairedNumber">10袋起批</span>
+				<span class="pairedCity"><i class="iconfont">&#xe620;</i>郑州</span>
+				<a class="pairedOrder" href="" target="_blank" title="">伙拼抢单</a>
+			</li>
+			<li>
+				<a class="pairedImg" href="" target="_blank" title="核桃"><img src="images/testimg/pro.jpg" width="218" height="218" alt="核桃"/></a>
+				<h3>何华宇龙辰农业科技有限公司</h3>
+				<p>经过多道工序加工而成，多次翻炒味道纯正</p>
+				<strong>&yen;38.00</strong>
+				<del>&yen;53.00</del>
+				<span class="pairedNumber">10袋起批</span>
+				<span class="pairedCity"><i class="iconfont">&#xe620;</i>郑州</span>
+				<a class="pairedOrder" href="" target="_blank" title="">伙拼抢单</a>
+			</li>
+			<li>
+				<a class="pairedImg" href="" target="_blank" title="核桃"><img src="images/testimg/pro.jpg" width="218" height="218" alt="核桃"/></a>
+				<h3>何华宇龙辰农业科技有限公司</h3>
+				<p>经过多道工序加工而成，多次翻炒味道纯正</p>
+				<strong>&yen;38.00</strong>
+				<del>&yen;53.00</del>
+				<span class="pairedNumber">10袋起批</span>
+				<span class="pairedCity"><i class="iconfont">&#xe620;</i>郑州</span>
+				<a class="pairedOrder" href="" target="_blank" title="">伙拼抢单</a>
+			</li>
+			<li>
+				<a class="pairedImg" href="" target="_blank" title="核桃"><img src="images/testimg/pro.jpg" width="218" height="218" alt="核桃"/></a>
+				<h3>何华宇龙辰农业科技有限公司</h3>
+				<p>经过多道工序加工而成，多次翻炒味道纯正</p>
+				<strong>&yen;38.00</strong>
+				<del>&yen;53.00</del>
+				<span class="pairedNumber">10袋起批</span>
+				<span class="pairedCity"><i class="iconfont">&#xe620;</i>郑州</span>
+				<a class="pairedOrder" href="" target="_blank" title="">伙拼抢单</a>
+			</li>
+		</ul>
+	</div>
+</div>
+<div ng-include="'footer.html'"></div>
+<script type="text/javascript">
+	angular.module('myApp', []).controller('userCtrl', function($scope) {})
+</script>
+<script type="text/javascript">
+	jQuery(".wrapperFocus").slide({ titCell:".hd ul", mainCell:".bd ul", effect:"fold",  autoPlay:true, autoPage:true, trigger:"click",interTime:5000});
+</script>
+<script type="text/javascript">
+	jQuery(".wrapperFocus").slide({ titCell:".hd ul", mainCell:".bd ul", effect:"fold",  autoPlay:true, autoPage:true, trigger:"click",interTime:5000});
+	$(function(){
+		$(".dazongNav li").each(function(index){
+			$(this).hover(function(){
+				$(".dazongNav li.on").removeClass("on");
+				$(this).addClass("on");
+				$(".dazongRight:eq("+index+")").show().siblings().hide()
+			})
+		})
+	})
+</script>
+</body>
+</html>

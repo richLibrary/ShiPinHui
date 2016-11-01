@@ -1,0 +1,356 @@
+@charset "UTF-8";
+body{ background:#f4f4f6;}
+/*
+制作时间：2016.3.3
+作者：王勇
+用途：食品荟金融服务首页
+*/
+
+
+/*---------banner部分--------*/
+.bannerMain{
+	width:100%;
+	height:400px;
+	background:url(../images/testimg/banner.jpg) no-repeat center;
+	position:relative;
+}
+.bannerMain .loginMain{
+	width:1200px;
+	height:354px;
+	margin:0px auto;
+	padding-top:14px;
+	position:relative;
+	top:17px;
+	right:;
+	background:url(../images/loginBg.png) no-repeat top right;
+}
+.bannerMain .loginMain h2{
+	width:362px;
+	height:26px;
+	line-height:26px;
+	text-align:center;
+	float:right;
+	font-size:22px;
+	color:#fe9900;
+	font-weight:normal;
+}
+.bannerMain .loginMain label{
+	width:362px;
+	height:28px;
+	float:right;
+	margin:7px 0px;
+	clear:both;
+	font-size:14px;
+}
+.bannerMain .loginMain label span{
+	width:88px;
+	height:28px;
+	display:inline-block;
+	line-height:28px;
+	text-align:right;
+	color:#fff;
+	margin-right:20px;
+}
+.bannerMain .loginMain label input{
+	border:none;
+	height:26px;
+	padding-top:2px;
+	line-height:24px;
+	padding-left:10px;
+}
+.bannerMain .loginMain label input.lInput{
+	width:218px;
+	background:url(../images/lIput.png) no-repeat left center;
+}
+.bannerMain .loginMain label select{
+	width:107px;
+	height:28px;
+	line-height:28px;
+	border:none;
+}
+.bannerMain .loginMain label select option{
+	padding:7px 0px 7px 10px;
+}
+.bannerMain .loginMain label select.chengs{
+	margin-left:6px;
+
+}
+
+.bannerMain .loginMain label input.sex{
+	width:13px;
+	height:13px;
+	margin-top:-3px;
+	margin-right:6px;
+}
+.bannerMain .loginMain label em{
+	display:inline-block;
+	margin-right:50px;
+	color:#fff;
+}
+.bannerMain .loginMain label input.mInput{
+	width:178px;
+	background:url(../images/mIput.png) no-repeat left center;
+	margin-right:15px;
+}
+.bannerMain .loginMain label b{
+	color:#fff;
+}
+.bannerMain .loginMain label.tijiao input.tj{
+	width:320px;
+	height:42px;
+	line-height:36px;
+	font-size:20px;
+	color:#fff;
+	background:#fc7102;
+	cursor:pointer;
+	border:1px solid #fc7102;
+	border-radius:3px;
+}
+.bannerMain .loginMain label.tijiao{
+	text-align:center;
+}
+
+/*---------副导航部分----------*/
+.fastNavigation{
+	width:100%;
+	height:240px;
+	border-bottom:1px solid #d2d2d3;
+	background:#fff;
+}
+.fastNavigation ul{
+	width:1200px;
+	height:240px;
+	margin:0px auto;
+}
+.fastNavigation ul li{
+	width:230px;
+	height:auto;
+	float:left;
+	margin:0px 35px;
+	text-align:center;
+}
+.fastNavigation ul li i{
+	width:126px;
+	height:126px;
+	display:block;
+	margin:12px auto 10px auto;
+}
+.fastNavigation ul li i.quk{
+	background:url(../images/big_icon.png) no-repeat center -4px;
+}
+.fastNavigation ul li i.up{
+	background:url(../images/big_icon.png) no-repeat center -128px;
+}
+.fastNavigation ul li i.down{
+	background:url(../images/big_icon.png) no-repeat center -255px;
+}
+.fastNavigation ul li i.lettle{
+	background:url(../images/big_icon.png) no-repeat center -383px;
+}
+.fastNavigation ul li h2{
+	font-size:18px;
+	color:#333;
+	font-weight:normal;
+}
+.fastNavigation ul li b{font: 14px/20px "微软雅黑";color: #999;}
+
+/*--------------热门贷款推荐部分---------------*/
+
+
+.textMain{
+	width:1200px;
+	height:auto;
+	margin:20px auto;
+}
+.financialMain{
+	width:900px;
+	height:auto;
+	float:left;
+	margin-right:20px;	
+}
+.financialMain h2{
+	font-size:18px;
+	color:#333;
+	line-height:42px;
+	font-weight:normal;
+	padding:0px 20px;
+	border-bottom:1px solid #fd8238;
+	background-color: #fff;
+}
+.financialMain h2 a{
+	font-size:14px;
+	float:right;
+	color:#999;
+}
+.financialMain h2 a:hover{
+	color:#666;
+}
+
+
+/*---------listMain 部分---------*/
+
+.listMain{
+	width:860px;
+	height:auto;
+	padding:20px;
+	margin-bottom:20px;
+	border-bottom:1px solid #d2d2d3;
+	background:#fff;
+}
+.listMain:hover{
+	border-bottom:1px solid #f36e00;
+}
+.listMain img{
+	float:left;
+	margin-right:22px;
+}
+.cenTwo{
+	width:570px;
+	height:119px;
+	float:left;
+}
+
+.listMain .cenTwo h3{
+	width:570px;
+	height:26px;
+	line-height:26px;
+	font-size:16px;
+	color:#333;
+	font-weight:normal;
+}
+.listMain .cenTwo span{
+	width:725px;
+	height:18px;
+	display:block;
+	line-height:18px;
+	color:#333;
+	font-size:14px;
+	margin:22px 0px;
+}
+.listMain .cenTwo span b{
+	width:180px;
+	height:18px;
+	padding-left:26px;
+	margin-right:55px;
+	background:url(../images/check_pic.jpg) no-repeat left center;
+}
+.listMain .cenTwo a{
+	width:100px;
+	height:30px;
+	display:block;
+	text-align:center;
+	color:#fff;
+	font-size:14px;
+	line-height:30px;
+	background:#fe7300;
+	border:1px solid #fe7300;
+	border-radius:3px;
+}
+.listMain p{
+	width:140px;
+	height:auto;
+	float:left;
+	font-size:14px;
+	color:#333;
+	line-height:31px;
+}
+
+
+/*-------右侧列表部分---------*/
+
+.sideRight{
+	float:right;
+	width:244px;
+	height:auto;
+	padding:0px 18px;
+	border-bottom:1px solid #d2d2d3;
+	margin-bottom:20px;
+	background:#fff;
+}
+.sideRight h2{
+	font-size:18px;
+	color:#333;
+	font-weight:normal;
+	line-height:42px;
+	border-bottom:1px solid #e4e4e4;
+	margin-bottom:;
+}
+.sideRight h2 b{
+	padding:8px 12px;
+	border-bottom:1px solid #fd8238;
+}
+.sideRight ul{
+	width:244px;
+	height:auto;
+	margin:10px 0px;
+}
+.sideRight ul li{
+	width:244px;
+	line-height:32px;
+	overflow:hidden;
+}
+.sideRight ul li a{
+	font-size:12px;
+	color:#333;
+}
+.sideRight ul li a:hover{color:#f60;}
+.sideRight ul li.liber{
+	border-bottom:1px dashed #e4e4e4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

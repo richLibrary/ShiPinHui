@@ -1,0 +1,31 @@
+@charset "utf-8";
+/*卖家评价*/
+.sellerInfo{width:988px;height:auto;overflow:hidden}
+.sellerInfo h2{font:14px/14px "\5FAE\8F6F\96C5\9ED1";color:#333;margin:20px 0 15px 15px;display:inline-block}
+.selInfoCon{width:988px;height:auto;overflow:hidden;border-top:#e4e4e4 1px solid;padding:25px 0 30px 10px}
+.sellFowCon{ height:auto; overflow:hidden; margin-top:20px}
+.sellFowCon li{ width:177px; height:29px; font:14px/29px "\5FAE\8F6F\96C5\9ED1"; color:#333; float:left; text-align:center}
+.sellFowCon li.fowOne{ background:url(../images/sellerFlowImg.png) no-repeat 0px 0px scroll;color:#fff; margin-left:15px}
+.sellFowCon li.fowTow{ background:url(../images/sellerFlowImg.png) no-repeat 0px -29px scroll}
+.sellFowCon li.fowThree{ background:url(../images/sellerFlowImg.png) no-repeat 0px -58px scroll}
+.sellFowCon li.fowFour{ background:url(../images/sellerFlowImg.png) no-repeat 0px -58px scroll}
+.sellFowCon li.fowFive{ background:url(../images/sellerFlowImg.png) no-repeat 0px -58px scroll}
+/*卖家信息*/
+.selInfoCon span{width:200px;height:30px;overflow:hidden;font:14px/30px "\5FAE\8F6F\96C5\9ED1";color:#666;display:block;margin-bottom:10px}
+.selInfoCon span b{font:14px/30px "\5FAE\8F6F\96C5\9ED1";color:#ff7300}
+.selConImg{float:left;margin-right:20px}
+/*对买家进行评价*/
+.buyerEval{width:988px;height:auto;overflow:hidden}
+.buyerEval h2{font:14px/14px "\5FAE\8F6F\96C5\9ED1";color:#333;margin:0 0 15px 0}
+.buyEvalCon{width:988px;height:auto;overflow:hidden;border-top:#e4e4e4 1px solid;padding:25px 0 30px 10px}
+.buyEvalCon span{float:left}
+.buyProImg{margin:0 12px 0 20px;float:left}
+.buyEvalCon a.buyEvadel{width:200px;height:26px;overflow:hidden;font:14px/26px "\5FAE\8F6F\96C5\9ED1";color:#666;display:block}
+.buyEvalCon a.buyEvadel:hover{color:#ff7300}
+.buyEvalCon b{font:700 14px/24px "\5FAE\8F6F\96C5\9ED1";color:#ff7300}
+.buyConRight{float:right;width:615px;height:auto;overflow:hidden}
+.buyConRight p{font:14px/14px "\5FAE\8F6F\96C5\9ED1";color:#666;margin-bottom:10px}
+.buyCon{background-color:#f7f7f7;padding:10px 0 0 10px;border:#e4e4e4 1px solid}
+.comments{width:130px;height:40px;font:16px/40px "\5FAE\8F6F\96C5\9ED1";color:#fff;border:none;text-align:center;background-color:#f33;border-radius:3px;margin:20px 0 0 382px}
+.buyConRight i{color:#ff6300}
+.buyConRight i.grayStar{color:#ccc}

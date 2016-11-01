@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+	<meta charset="utf-8" />
+	<title>资讯首页</title>
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="Keywords" content="关键词"/>
+	<meta name="Description" content="我是网页的描述sss"/>
+	<link rel="stylesheet" href="css/iconfont/iconfont.css" type="text/css" />
+	<link rel="stylesheet" href="css/common.css" type="text/css"/>
+	<link rel="stylesheet" href="css/information.css" type="text/css"/>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+	<script type="text/javascript" src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
+</head>
+<body ng-app="myApp" ng-controller="userCtrl">
+<div ng-include="'header.html'"></div>	
+<!---- 轮播焦点图 ---->
+<div class="informationContent">
+	<div id="slideBox" class="slideBox">
+		<ul class="hd">
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+		<div class="slideBg"></div>
+		<ul class="slideTxt">
+			<li><a href="#">Quiet</a></li>
+			<li><a href="#">DoubleLi</a></li>
+			<li><a href="#">Super</a></li>
+		</ul>
+		<ul class="bd">
+			<li><a href="#" target="_blank"><img src="images/testimg/chihuo.jpg" width="400" height="300" alt=""/></a></li>
+			<li><a href="#" target="_blank"><img src="images/testimg/chihuo.jpg" width="400" height="300" alt="" /></a></li>
+			<li><a href="#" target="_blank"><img src="images/testimg/chihuo.jpg" width="400" height="300" alt="" /></a></li>
+		</ul>
+		<a class="prev" href="javascript:void(0)"></a>		
+		<a class="next" href="javascript:void(0)"></a>
+	</div>
+	<div class="informationList">
+		<div class="informationCompany">
+			<h3><a href="" target="_blank" title="">洛阳慧元乳业有限公司配送中心项目</a></h3>
+			<ul class="informationText">
+				<li><a href="" target="_blank" title="">元旦将近 菜价肉价还要涨</a></li>
+				<li><a href="" target="_blank" title="">年底需求量增加 猪肉禽类水产品都会涨</a></li>
+				<li><a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a></li>
+				<li><a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a></li>
+			</ul>
+		</div>
+		<div class="informationCompany">
+			<h3><a href="" target="_blank" title="">洛阳慧元乳业有限公司配送中心项目</a></h3>
+			<ul class="informationText">
+				<li><a href="" target="_blank" title="">元旦将近 菜价肉价还要涨</a></li>
+				<li><a href="" target="_blank" title="">年底需求量增加 猪肉禽类水产品都会涨</a></li>
+				<li><a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a></li>
+				<li><a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a></li>
+			</ul>
+		</div>
+		<div class="informationCompany">
+			<h3><a href="" target="_blank" title="">洛阳慧元乳业有限公司配送中心项目</a></h3>
+			<ul class="informationText">
+				<li><a href="" target="_blank" title="">元旦将近 菜价肉价还要涨</a></li>
+				<li><a href="" target="_blank" title="">年底需求量增加 猪肉禽类水产品都会涨</a></li>
+				<li><a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a></li>
+				<li><a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="informationRight">
+		<a href="" target="_self" title=""><img src="images/testimg/chihuo.jpg" width="108" height="57" alt=""/><span class="informationTitle">发布公告</span></a>
+		<a href="" target="_self" title=""><img src="images/testimg/chihuo.jpg" width="108" height="57" alt=""/><span class="informationTitle">发布公告</span></a>
+		<a href="" target="_self" title=""><img src="images/testimg/chihuo.jpg" width="108" height="57" alt=""/><span class="informationTitle">发布公告</span></a>
+		<a href="" target="_self" title=""><img src="images/testimg/chihuo.jpg" width="108" height="57" alt=""/><span class="informationTitle">发布公告</span></a>
+		<a href="" target="_self" title=""><img src="images/testimg/chihuo.jpg" width="108" height="57" alt=""/><span class="informationTitle">发布公告</span></a>
+		<a href="" target="_self" title=""><img src="images/testimg/chihuo.jpg" width="108" height="57" alt=""/><span class="informationTitle">发布公告</span></a>
+	</div>
+</div>
+<div class="informationResult">
+	<div class="foodShow">
+		<h2><i class="iconfont">&#xe631;</i>食品展会</h2>
+		<a class="showMore" href="" target="_blank" title="更多">更多>></a>
+		<ul class="foodshowContent">
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a><span>2016-01-07</span>
+			</li>
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a><span>2016-01-07</span>
+			</li>
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a><span>2016-01-07</span>
+			</li>
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a><span>2016-01-07</span>
+			</li>
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a><span>2016-01-07</span>
+			</li>
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a><span>2016-01-07</span>
+			</li>
+		</ul>
+	</div>
+	<div class="hotFoucs">
+		<h2><i class="iconfont">&#xe637;</i>热门关注</h2>
+		<div class="hotFirst">
+			<a class="hotImg" href="" target="_blank" title="热点图"><img src="images/testimg/chihuo.jpg" width="150" height="85" alt=""></a>
+			<a class="hotTitle" href="" target="_blank" title="麦当劳停用含抗生素鸡肉 海外市场尚无定数">麦当劳停用含抗生素鸡肉 海外市场尚无定数</a>
+			<p>3月5日，麦当劳美国公司宣布将停止出售使用了人类抗生素的鸡肉，并提供未注射.</p>
+			<span class="hotTime">时间：2015-12-4</span>
+			<span class="hotLook">查看：<a href="" target="_blank" title="">876</a></span>
+		</div>
+		<ul class="hotText">
+			<li>
+				<a href="" target="_blank" title="">嘉士利成立基金投资跨境电子食品贸易</a>
+			</li>
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a>
+			</li>
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a>
+			</li>
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a>
+			</li>
+		</ul>
+	</div>
+	<div class="Market">
+		<h2><i class="iconfont">&#xe631;</i>市场行情</h2>
+		<a class="showMore" href="" target="_blank" title="更多">更多>></a>
+		<ul class="marketText">
+			<li>
+				<a href="" target="_blank" title=""><i class="iconfont">&#xe639;</i>南阳蓝天食品厂肉松包装纸箱招标公告</a>
+			</li>
+			<li>
+				<a href="" target="_blank" title=""><i class="iconfont">&#xe639;</i>南阳蓝天食品厂高品肉松包装纸箱招标公告</a>
+			</li>
+			<li>
+				<a href="" target="_blank" title=""><i class="iconfont">&#xe639;</i>南阳蓝天食品厂高品质肉松包装纸箱招标公告</a>
+			</li>
+			<li>
+				<a href="" target="_blank" title=""><i class="iconfont">&#xe639;</i>南阳蓝天食品厂高品肉松包装纸箱招标公告</a>
+			</li>
+			<li>
+				<a href="" target="_blank" title=""><i class="iconfont">&#xe639;</i>南阳蓝天食品厂高品质肉松包装纸箱招标公告</a>
+			</li>
+			<li>
+				<a href="" target="_blank" title=""><i class="iconfont">&#xe639;</i>南阳蓝天食品质肉松包装纸箱招标公告</a>
+			</li>
+		</ul>
+	</div>
+</div>
+<div class="Advertise">
+	<a href="" target="_blank" title="活动名称"><img src="images/testimg/zx01.jpg" width="1200" height="90" alt="图片名称"/></a>
+</div>
+<!---- 食品安全 ---->   
+<div class="foodCategory">
+	<div class="foodSecurity">
+		<div class="securityTitle">
+			<h2>食品安全</h2>
+			<a class="showMore" href="" target="_blank" title="更多">更多>></a>
+		</div>
+		<div class="securityFirst">
+			<a class="securityImg" href="" target="_blank" title="热点图"><img src="images/testimg/chihuo.jpg" width="150" height="85" alt=""></a>
+			<a class="securityText" href="" target="_blank" title="麦当劳停用含抗生素鸡肉 海外市场尚无定数">麦当劳停用海外市场尚无定数</a>
+			<p>3月5日，麦当劳美国公司宣布将停止出售使用了人类抗生素的鸡肉，并提供未注射.</p>
+		</div>
+		<ul class="securityCompany">
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a><span>2016-01-07</span>
+			</li>
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a><span>2016-01-07</span>
+			</li>
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a><span>2016-01-07</span>
+			</li>
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a><span>2016-01-07</span>
+			</li>
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a><span>2016-01-07</span>
+			</li>
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a><span>2016-01-07</span>
+			</li>
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a><span>2016-01-07</span>
+			</li>
+		</ul>
+	</div>
+	<div class="foodRoots">
+		<div class="rootsTitle">
+			<h2>食品溯源</h2>
+			<a class="showMore" href="" target="_blank" title="更多">更多>></a>
+		</div>
+		<div class="rootsFirst">
+			<a class="securityImg" href="" target="_blank" title="热点图"><img src="images/testimg/chihuo.jpg" width="150" height="85" alt=""></a>
+			<a class="securityText" href="" target="_blank" title="麦当劳停用含抗生素鸡肉 海外市场尚无定数">麦当劳停用海外市场尚无定数</a>
+			<p>3月5日，麦当劳美国公司宣布将停止出售使用了人类抗生素的鸡肉，并提供未注射.</p>
+		</div>
+		<ul class="rootsCompany">
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a><span>2016-01-07</span>
+			</li>
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a><span>2016-01-07</span>
+			</li>
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a><span>2016-01-07</span>
+			</li>
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a><span>2016-01-07</span>
+			</li>
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a><span>2016-01-07</span>
+			</li>
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a><span>2016-01-07</span>
+			</li>
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a><span>2016-01-07</span>
+			</li>
+		</ul>
+	</div>
+	<div class="foodMachinery">
+		<div class="machineryTitle">
+			<h2>食品机械</h2>
+			<a class="showMore" href="" target="_blank" title="更多">更多>></a>
+		</div>
+		<div class="machineryFirst">
+			<a class="securityImg" href="" target="_blank" title="热点图"><img src="images/testimg/chihuo.jpg" width="150" height="85" alt=""></a>
+			<a class="securityText" href="" target="_blank" title="麦当劳停用含抗生素鸡肉 海外市场尚无定数">麦当劳停用海外市场尚无定数</a>
+			<p>3月5日，麦当劳美国公司宣布将停止出售使用了人类抗生素的鸡肉，并提供未注射.</p>
+		</div>
+		<ul class="machineryCompany">
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a><span>2016-01-07</span>
+			</li>
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a><span>2016-01-07</span>
+			</li>
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a><span>2016-01-07</span>
+			</li>
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a><span>2016-01-07</span>
+			</li>
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a><span>2016-01-07</span>
+			</li>
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a><span>2016-01-07</span>
+			</li>
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a><span>2016-01-07</span>
+			</li>
+		</ul>
+	</div>
+	<div class="enterPrise">
+		<div class="priseTitle">
+			<h2>企业服务</h2>
+			<a class="showMore" href="" target="_blank" title="更多">更多>></a>
+		</div>
+		<div class="priseFirst">
+				<a class="securityImg" href="" target="_blank" title="热点图"><img src="images/testimg/chihuo.jpg" width="150" height="85" alt=""></a>
+				<a class="securityText" href="" target="_blank" title="麦当劳停用含抗生素鸡肉 海外市场尚无定数">麦当劳停用海外市场尚无定数</a>
+				<p>3月5日，麦当劳美国公司宣布将停止出售使用了人类抗生素的鸡肉，并提供未注射.</p>
+			</div>
+		<ul class="priseCompany">
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a><span>2016-01-07</span>
+			</li>
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a><span>2016-01-07</span>
+			</li>
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a><span>2016-01-07</span>
+			</li>
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a><span>2016-01-07</span>
+			</li>
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a><span>2016-01-07</span>
+			</li>
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a><span>2016-01-07</span>
+			</li>
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a><span>2016-01-07</span>
+			</li>
+		</ul>
+	</div>
+	<a class="informationImg" href="" target="_blank" title=""><img src="images/testimg/information.jpg" width="260" height="328" alt=""></a>
+	<div class="wealElite">
+		<h2><i class="iconfont">&#xe631;</i>食品安全</h2>
+		<a class="eliteMore" href="" target="_blank" title="更多">更多>></a>
+		<div class="eliteFirst">
+			<a class="eliteImg" href="" target="_blank" title="热点图"><img src="images/testimg/chihuo.jpg" width="113" height="76" alt=""><span>上海沪胜：以服务站稳市场 </span></a>
+			<a class="eliteImg" href="" target="_blank" title="热点图"><img src="images/testimg/chihuo.jpg" width="113" height="76" alt=""><span>上海沪胜：以服务站稳市场 </span></a>
+		</div>
+		<ul class="eliteCompany">
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a>
+			</li>
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a>
+			</li>
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a>
+			</li>
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a>
+			</li>
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a>
+			</li>
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a>
+			</li>
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a>
+			</li>
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a>
+			</li>
+		</ul>
+	</div>
+</div>
+<div class="Advertise">
+	<a href="" target="_blank" title="活动名称"><img src="images/testimg/zx02.jpg" width="1200" height="90" alt="图片名称"/></a>
+</div>
+<div class="careKnowledge">
+	<div class="keepHealth">
+			<h2>养生保健</h2>
+			<a class="healthMore" href="" target="_blank" title="更多">更多>></a>
+		<div class="healthTitle">
+			<a class="healthText" href="" target="_blank" title="黑豆豆浆的功效 它的补肾抗衰效果一绝">黑豆豆浆的功效它的补肾抗衰效果一绝</a>
+			<p>黑豆是比较常见的一种豆类食物，由黑豆磨制成的豆浆叫做黑豆豆浆豆浆叫做黑豆豆浆。</p>
+		</div>
+		<ul class="healthProblem">
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公厂高品质肉松包装纸箱招标公告</a>
+			</li>
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松品厂高品质肉松包装纸箱招标公告</a>
+			</li>
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a>
+			</li>
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸肉松包装纸箱招标公告</a>
+			</li>
+		</ul>
+		<div class="showImg">
+			<a class="HealthImg" href="" target="_blank" title=""><img src="images/testimg/zhou.jpg" width="172" height="85" alt=""></a>
+			<a class="HealthImg" href="" target="_blank" title=""><img src="images/testimg/zhou.jpg" width="172" height="85" alt=""></a>
+		</div>
+	</div>
+	<div class="healthGuide">
+			<h2>养生保健</h2>
+			<a class="healthMore" href="" target="_blank" title="更多">更多>></a>
+		<div class="guideTitle">
+			<a class="guideText" href="" target="_blank" title="黑豆豆浆的功效 它的补肾抗衰效果一绝">黑豆豆浆的功效它的补肾抗衰效果一绝</a>
+			<p>黑豆是比较常见的一种豆类食物，由黑豆磨制成的豆浆叫做黑豆豆浆豆浆叫做黑豆豆浆。</p>
+		</div>
+		<ul class="guideProblem">
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公厂高品质肉松包装纸箱招标公告</a>
+			</li>
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松品厂高品质肉松包装纸箱招标公告</a>
+			</li>
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a>
+			</li>
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸肉松包装纸箱招标公告</a>
+			</li>
+		</ul>
+		<div class="showImg">
+			<a class="HealthImg" href="" target="_blank" title=""><img src="images/testimg/zhou.jpg" width="172" height="85" alt=""></a>
+			<a class="HealthImg" href="" target="_blank" title=""><img src="images/testimg/zhou.jpg" width="172" height="85" alt=""></a>
+		</div>
+	</div>
+	<div class="businessRoad">
+		<h2>创业路上</h2>
+		<a class="healthMore" href="" target="_blank" title="更多">更多>></a>
+		<div class="roadTitle">
+			<a class="roadImg" href="" target="_blank" title="热点图"><img src="images/testimg/chihuo.jpg" width="150" height="85" alt=""></a>
+			<a class="roadText" href="" target="_blank" title="麦当劳停用含抗生素鸡肉 海外市场尚无定数">麦当劳停用海外市场尚无定数</a>
+			<p>3月5日，麦当劳美国公司宣布将停止出售使用了人类抗生素的鸡肉，并提供未注射.</p>
+		</div>
+		<ul class="roadCompany">
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a><span>2016-01-07</span>
+			</li>
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a><span>2016-01-07</span>
+			</li>
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a><span>2016-01-07</span>
+			</li>
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a><span>2016-01-07</span>
+			</li>
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a><span>2016-01-07</span>
+			</li>
+			<li>
+				<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a><span>2016-01-07</span>
+			</li>
+		</ul>
+	</div>
+</div>
+<div class="firendLink">
+	<h2>友情链接</h2>
+	<div class="linkContent">
+		<a href="" target="_blank" title="">商场资讯</a>
+		<a href="" target="_blank" title="">铁路网</a>
+		<a href="" target="_blank" title="">中国铁路商贸网</a>
+		<a href="" target="_blank" title="">商场资讯</a>
+		<a href="" target="_blank" title="">铁路网</a>
+		<a href="" target="_blank" title="">中国铁贸网</a>
+		<a href="" target="_blank" title="">商场资讯</a>
+		<a href="" target="_blank" title="">铁路网</a>
+		<a href="" target="_blank" title="">中国铁路商贸网</a>
+		<a href="" target="_blank" title="">商场资讯</a>
+		<a href="" target="_blank" title="">铁路网</a>
+		<a href="" target="_blank" title="">中国铁路商贸网</a>
+		<a href="" target="_blank" title="">商场资讯</a>
+		<a href="" target="_blank" title="">铁路网</a>
+		<a href="" target="_blank" title="">中国铁路商贸网</a>
+		<a href="" target="_blank" title="">商场资讯</a>
+		<a href="" target="_blank" title="">铁路网</a>
+		<a href="" target="_blank" title="">中国铁路商贸网</a>
+	</div>
+</div>
+<div ng-include="'footer.html'"></div>
+<script type="text/javascript">	
+$(document).ready(function(){
+	// 图片轮播
+	jQuery(".slideBox").slide({mainCell:".bd",autoPlay:true,
+	startFun:function(i){
+		jQuery(".slideBox .slideTxt li").eq(i).animate({"right":0}).siblings().animate({"right":430});
+	}
+	});
+});
+</script>
+<script type="text/javascript">
+	angular.module('myApp', []).controller('userCtrl', function($scope) {})
+</script>
+</body>
+</html>

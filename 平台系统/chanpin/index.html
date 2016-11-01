@@ -1,0 +1,2174 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+	<meta charset="utf-8" />
+	<title>优选好货</title>
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="Keywords" content="关键词"/>
+	<meta name="Description" content="我是网页的描述sss"/>
+	<link rel="stylesheet" href="css/iconfont/iconfont.css" type="text/css" />
+	<link rel="stylesheet" href="css/common.css" type="text/css" />
+	<link rel="stylesheet" href="css/index.css" type="text/css" />
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/SuperSlide.js"></script>
+	<script type="text/javascript" src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
+</head>
+<body ng-app="myApp" ng-controller="userCtrl">
+<div ng-include="'header.html'"></div>
+<!--
+模块名称：焦点图
+修改内容：暂无
+模块作者：董文静
+修改时间：2016.01.12
+-->
+<div class="categoryMenu">
+	<ul>
+		<li>
+			<div class="menuTit">
+				<h3>
+					<i class="iconfont">&#xe609;</i>
+					<a class="categoryTit" href="#" title="食品成品" target="_blank">食品成品</a>
+				</h3>
+				<a href="#" title="休闲食品" target="_blank">休闲食品</a>
+				<a href="#" title="方便食品" target="_blank">方便食品</a>
+				<a href="#" title="烘焙食品" target="_blank">烘焙食品</a>
+			</div>
+			<div class="menuTxt">
+				<p class="menuTags">
+					<a href="#" title="休闲食品" target="_blank">休闲食品</a>
+					<a href="#" title="休闲食品" target="_blank">休闲食品</a>
+					<a href="#" title="休闲食品" target="_blank">休闲食品</a>
+					<a href="#" title="休闲食品" target="_blank">休闲食品</a>
+					<a href="#" title="休闲食品" target="_blank">休闲食品</a>
+					<a href="#" title="休闲食品" target="_blank">休闲食品</a>
+				</p>
+				<p class="menuCategory">
+					<a class="cateTit" href="#" title="休闲食品" target="_blank">休闲食品</a>
+					<a href="#" title="" target="_blank">巧克力</a>
+					<a href="#" title="" target="_blank">炒货</a>
+					<a href="#" title="" target="_blank">凉果</a>
+					<a href="#" title="" target="_blank">蜜饯</a>
+					<a href="#" title="" target="_blank">培根</a>
+					<a href="#" title="" target="_blank">培根</a>
+					<a href="#" title="" target="_blank">培根</a>
+					<a href="#" title="" target="_blank">培根</a>
+					<a href="#" title="" target="_blank">培根</a>
+					<a href="#" title="" target="_blank">培根</a>
+					<a href="#" title="" target="_blank">培根</a>
+					<a href="#" title="" target="_blank">培根</a>
+				</p>
+				<p class="menuCategory">
+					<a class="cateTit" href="#" title="休闲食品" target="_blank">休闲食品</a>
+					<a href="#" title="" target="_blank">巧克力</a>
+					<a href="#" title="" target="_blank">炒货</a>
+					<a href="#" title="" target="_blank">凉果</a>
+					<a href="#" title="" target="_blank">蜜饯</a>
+					<a href="#" title="" target="_blank">培根</a>
+					<a href="#" title="" target="_blank">培根</a>
+					<a href="#" title="" target="_blank">培根</a>
+					<a href="#" title="" target="_blank">培根</a>
+					<a href="#" title="" target="_blank">培根</a>
+					<a href="#" title="" target="_blank">培根</a>
+					<a href="#" title="" target="_blank">培根</a>
+					<a href="#" title="" target="_blank">培根</a>
+				</p>
+				<p class="menuCategory">
+					<a class="cateTit" href="#" title="休闲食品" target="_blank">休闲食品</a>
+					<a href="#" title="" target="_blank">巧克力</a>
+					<a href="#" title="" target="_blank">炒货</a>
+					<a href="#" title="" target="_blank">凉果</a>
+					<a href="#" title="" target="_blank">蜜饯</a>
+					<a href="#" title="" target="_blank">培根</a>
+					<a href="#" title="" target="_blank">培根</a>
+					<a href="#" title="" target="_blank">培根</a>
+					<a href="#" title="" target="_blank">培根</a>
+					<a href="#" title="" target="_blank">培根</a>
+					<a href="#" title="" target="_blank">培根</a>
+					<a href="#" title="" target="_blank">培根</a>
+					<a href="#" title="" target="_blank">培根</a>
+				</p>
+				<p class="menuCategory">
+					<a class="cateTit" href="#" title="休闲食品" target="_blank">休闲食品</a>
+					<a href="#" title="" target="_blank">巧克力</a>
+					<a href="#" title="" target="_blank">炒货</a>
+					<a href="#" title="" target="_blank">凉果</a>
+					<a href="#" title="" target="_blank">蜜饯</a>
+					<a href="#" title="" target="_blank">培根</a>
+					<a href="#" title="" target="_blank">培根</a>
+					<a href="#" title="" target="_blank">培根</a>
+					<a href="#" title="" target="_blank">培根</a>
+					<a href="#" title="" target="_blank">培根</a>
+					<a href="#" title="" target="_blank">培根</a>
+					<a href="#" title="" target="_blank">培根</a>
+					<a href="#" title="" target="_blank">培根</a>
+				</p>
+			</div>
+
+		</li>
+		<li>
+			<div class="menuTit">
+				<h3>
+					<i class="iconfont">&#xe605;</i>
+					<a class="categoryTit" href="#" title="食品原料" target="_blank">食品原料</a>
+				</h3>
+				<a href="#" title="休闲食品" target="_blank">休闲食品</a>
+				<a href="#" title="方便食品" target="_blank">方便食品</a>
+				<a href="#" title="烘焙食品" target="_blank">烘焙食品</a>
+			</div>
+		</li>
+		<li>
+			<div class="menuTit">
+				<h3>
+					<i class="iconfont">&#xe601;</i>
+					<a class="categoryTit" href="#" title="食品配料" target="_blank">食品配料</a>
+				</h3>
+				<a href="#" title="休闲食品" target="_blank">休闲食品</a>
+				<a href="#" title="方便食品" target="_blank">方便食品</a>
+				<a href="#" title="烘焙食品" target="_blank">烘焙食品</a>
+			</div>
+		</li>
+		<li>
+			<div class="menuTit">
+				<h3>
+					<i class="iconfont">&#xe604;</i>
+					<a class="categoryTit" href="#" title="食品包装" target="_blank">食品包装</a>
+				</h3>
+				<a href="#" title="休闲食品" target="_blank">休闲食品</a>
+				<a href="#" title="方便食品" target="_blank">方便食品</a>
+				<a href="#" title="烘焙食品" target="_blank">烘焙食品</a>
+			</div>
+		</li>
+		<li>
+			<div class="menuTit">
+				<h3>
+					<i class="iconfont">&#xe602;</i>
+					<a class="categoryTit" href="#" title="食品设备" target="_blank">食品设备</a>
+				</h3>
+				<a href="#" title="休闲食品" target="_blank">休闲食品</a>
+				<a href="#" title="方便食品" target="_blank">方便食品</a>
+				<a href="#" title="烘焙食品" target="_blank">烘焙食品</a>
+			</div>
+		</li>
+		<li>
+			<div class="menuTit">
+				<h3>
+					<i class="iconfont">&#xe60b;</i>
+					<a class="categoryTit" href="#" title="食品商务服务" target="_blank">食品商务服务</a>
+				</h3>
+				<a href="#" title="休闲食品" target="_blank">休闲食品</a>
+				<a href="#" title="方便食品" target="_blank">方便食品</a>
+				<a href="#" title="烘焙食品" target="_blank">烘焙食品</a>
+			</div>
+		</li>
+	</ul>
+</div>
+<div class="banner"><img src="images/banner01.jpg" width="1920" height="528" alt="" title=""></div>
+<!--
+模块名称：平台典藏
+修改内容：暂无
+模块作者：董文静
+修改时间：2016.01.12
+-->
+<div class="ptdc">
+	<h3 class="borderT1">平台典藏<font>/COLLECTION PLATFORM</font></h3>
+	<div class="ptdcList">
+		<ul>
+			<li>
+				<img height="420" width="230" src="images/testimg/pro07.png" class="ptdcListImg">
+				<div class="ptdcListTc" style="display: block;">
+					<h3>太原市四季果园食品有限公司</h3>
+					<p>
+						<font>店铺简介：</font>
+						<span>泰国有着历史悠久的天然精油和植物精华的保健文化传统。手工皂采用众多的天然植物元素,优良的纯手工冷制工艺保留了植物元素的效能和营养。</span>
+					</p>
+					<div class="zycp"><span>主营产品：</span><font>糕点</font><font>酥饼</font><font>糖果</font><font>炒货类</font><font>有机农产品</font></div>
+					<div class="lbImg">
+						<ul>
+							<li>
+								<img src="images/testimg/pro10.png">
+								<p><font>￥23.00 </font>成交117件</p>
+							</li>
+							<li>
+								<img src="images/testimg/pro10.png">
+								<p><font>￥23.00 </font>成交117件</p>
+							</li>
+							<li style="margin-right:0;">
+								<img src="images/testimg/pro10.png">
+								<p><font>￥23.00 </font>成交117件</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</li>
+			<li>
+				<img height="420" width="230" src="images/testimg/pro08.png" class="ptdcListImg" style="display: inline;">
+				<div class="ptdcListTc" style="display: none;">
+					<h3>太原市四季果园食品有限公司</h3>
+					<p>
+						<font>店铺简介：</font>
+						<span>泰国有着历史悠久的天然精油和植物精华的保健文化传统。手工皂采用众多的天然植物元素,优良的纯手工冷制工艺保留了植物元素的效能和营养。</span>
+					</p>
+					<div class="zycp"><span>主营产品：</span><font>糕点</font><font>酥饼</font><font>糖果</font><font>炒货类</font><font>有机农产品</font></div>
+					<div class="lbImg">
+						<ul>
+							<li>
+								<img src="images/testimg/pro10.png">
+								<p><font>￥23.00 </font>成交117件</p>
+							</li>
+							<li>
+								<img src="images/testimg/pro10.png">
+								<p><font>￥23.00 </font>成交117件</p>
+							</li>
+							<li style="margin-right:0;">
+								<img src="images/testimg/pro10.png">
+								<p><font>￥23.00 </font>成交117件</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</li>
+			<li>
+				<img height="420" width="230" src="images/testimg/pro09.png" class="ptdcListImg" style="display: inline;">
+				<div class="ptdcListTc" style="display: none;">
+					<h3>太原市四季果园食品有限公司</h3>
+					<p>
+						<font>店铺简介：</font>
+						<span>泰国有着历史悠久的天然精油和植物精华的保健文化传统。手工皂采用众多的天然植物元素,优良的纯手工冷制工艺保留了植物元素的效能和营养。</span>
+					</p>
+					<div class="zycp"><span>主营产品：</span><font>糕点</font><font>酥饼</font><font>糖果</font><font>炒货类</font><font>有机农产品</font></div>
+					<div class="lbImg">
+						<ul>
+							<li>
+								<img src="images/testimg/pro10.png">
+								<p><font>￥23.00 </font>成交117件</p>
+							</li>
+							<li>
+								<img src="images/testimg/pro10.png">
+								<p><font>￥23.00 </font>成交117件</p>
+							</li>
+							<li style="margin-right:0;">
+								<img src="images/testimg/pro10.png">
+								<p><font>￥23.00 </font>成交117件</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</li>
+			<li>
+				<img height="420" width="230" src="images/testimg/pro07.png" class="ptdcListImg" style="display: inline;">
+				<div class="ptdcListTc" style="display: none;">
+					<h3>太原市四季果园食品有限公司</h3>
+					<p>
+						<font>店铺简介：</font>
+						<span>泰国有着历史悠久的天然精油和植物精华的保健文化传统。手工皂采用众多的天然植物元素,优良的纯手工冷制工艺保留了植物元素的效能和营养。</span>
+					</p>
+					<div class="zycp"><span>主营产品：</span><font>糕点</font><font>酥饼</font><font>糖果</font><font>炒货类</font><font>有机农产品</font></div>
+					<div class="lbImg">
+						<ul>
+							<li>
+								<img src="images/testimg/pro10.png">
+								<p><font>￥23.00 </font>成交117件</p>
+							</li>
+							<li>
+								<img src="images/testimg/pro10.png">
+								<p><font>￥23.00 </font>成交117件</p>
+							</li>
+							<li style="margin-right:0;">
+								<img src="images/testimg/pro10.png">
+								<p><font>￥23.00 </font>成交117件</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</li>
+			<div class="clear"></div>
+		</ul>
+	</div>
+</div>
+<!--
+模块名称：火拼推荐
+修改内容：暂无
+模块作者：董文静
+修改时间：2016.01.12
+-->
+<div class="hptj">
+	<h3 class="borderT2">火拼推荐<font>/DO RECOMMEND</font></h3>
+	<div class="hptjList">
+		<div class="hptjListLeft">
+			<div class="hptjListLeftTj">
+				<i class="iconfont">&#xe621;</i>
+				<p>每日更新</p>
+				<font>每日准点开抢不容错过</font>
+			</div>
+			<div class="hptjListLeftNav">
+				<ul>
+					<li><i class="iconfont">&#xe614;</i><a href="#" title="" target="_blank">全部行业</a></li>
+					<li><i class="iconfont">&#xe609;</i><a href="#" title="" target="_blank">食品专区</a></li>
+					<li><i class="iconfont">&#xe605;</i><a href="#" title="" target="_blank">特色农业</a></li>
+					<li><i class="iconfont">&#xe604;</i><a href="#" title="" target="_blank">食品包装</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="hptjListRight">
+			<ul>
+				<li>
+					<div class="zjbfb"><p>直降<br />25%</p></div>
+					<a href="#" title="" target="_blank"><img src="images/testimg/pro04.png" title="" alt=""></a>
+					<p><a href="#" title="" target="_blank">台湾食品 早餐饮品冲泡奶茶</a></p>
+					<div class="price">
+						<font class="priceFont1">¥9.80</font>
+						<font class="priceFont2">¥13.00</font>
+						<font class="priceFont3">12盒起订</font>
+						<div class="clear"></div>
+					</div>
+					<span>参考零售价：¥20.00</span>
+					<div class="djs">
+						<i>1</i> 天 <i>19</i> ： <i>10</i> ： <i>41</i>
+					</div>
+				</li>
+				<li>
+					<div class="zjbfb"><p>直降<br />25%</p></div>
+					<a href="#" title="" target="_blank"><img src="images/testimg/pro04.png" title="" alt=""></a>
+					<p><a href="#" title="" target="_blank">台湾食品 早餐饮品冲泡奶茶</a></p>
+					<div class="price">
+						<font class="priceFont1">¥9.80</font>
+						<font class="priceFont2">¥13.00</font>
+						<font class="priceFont3">12盒起订</font>
+						<div class="clear"></div>
+					</div>
+					<span>参考零售价：¥20.00</span>
+					<div class="djs">
+						<i>1</i> 天 <i>19</i> ： <i>10</i> ： <i>41</i>
+					</div>
+				</li>
+				<li>
+					<div class="zjbfb"><p>直降<br />25%</p></div>
+					<a href="#" title="" target="_blank"><img src="images/testimg/pro04.png" title="" alt=""></a>
+					<p><a href="#" title="" target="_blank">台湾食品 早餐饮品冲泡奶茶</a></p>
+					<div class="price">
+						<font class="priceFont1">¥9.80</font>
+						<font class="priceFont2">¥13.00</font>
+						<font class="priceFont3">12盒起订</font>
+						<div class="clear"></div>
+					</div>
+					<span>参考零售价：¥20.00</span>
+					<div class="djs">
+						<i>1</i> 天 <i>19</i> ： <i>10</i> ： <i>41</i>
+					</div>
+				</li>
+				<li>
+					<div class="zjbfb"><p>直降<br />25%</p></div>
+					<a href="#" title="" target="_blank"><img src="images/testimg/pro04.png" title="" alt=""></a>
+					<p><a href="#" title="" target="_blank">台湾食品 早餐饮品冲泡奶茶</a></p>
+					<div class="price">
+						<font class="priceFont1">¥9.80</font>
+						<font class="priceFont2">¥13.00</font>
+						<font class="priceFont3">12盒起订</font>
+						<div class="clear"></div>
+					</div>
+					<span>参考零售价：¥20.00</span>
+					<div class="djs">
+						<i>1</i> 天 <i>19</i> ： <i>10</i> ： <i>41</i>
+					</div>
+				</li>
+				<div class="clear"></div>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>
+<!--
+模块名称：楼层
+修改内容：暂无
+模块作者：董文静
+修改时间：2016.01.14
+-->
+<div class="floor">
+	<h3 class="borderT1"><span>1F</span>食品专区<font>/FOOD PRODUCTS</font></h3>
+	<!--<div class="floorNav">
+		<ul>
+			<li class="floorOn">礼盒装红酒</li>
+			<li>尊尼获加黑方威士忌</li>
+			<li>比利时啤酒</li>
+			<li>礼盒装红酒</li>
+		</ul>
+	</div>-->
+	<div class="floorList">
+		<ul>
+			<li>
+				<div class="floorGgw">
+					<a href="#" title="" target="_blank"><img src="images/testimg/pro15.jpg"></a>
+				</div>
+				<div class="floorListLeft">
+					<img src="images/testimg/01.jpg">
+					<ul> 
+                        <li><a href="/product/prolist?categoryId=453" title="" target="_blank">调节血糖</a></li>
+                          <li> <a href="/product/prolist?categoryId=439" title="" target="_blank">改善胃肠食品</a></li>
+                          <li>  <a href="/product/prolist?categoryId=440" title="" target="_blank">免疫抗疲劳食品</a></li>
+                          <li>  <a href="/product/prolist?categoryId=441" title="" target="_blank">补钙、补血食品</a></li>
+                          <li>  <a href="/product/prolist?categoryId=442" title="" target="_blank">护肝、养肾食品</a></li>
+                          <li>  <a href="/product/prolist?categoryId=443" title="" target="_blank">改善记忆、睡眠食品</a></li>
+                          <li>  <a href="/product/prolist?categoryId=444" title="" target="_blank">其他保健食品</a></li>
+                          <li>  <a href="/product/prolist?categoryId=445" title="" target="_blank">延缓衰老食品</a></li>
+                          <li>  <a href="/product/prolist?categoryId=446" title="" target="_blank">美容食品</a></li>
+                         <li>   <a href="/product/prolist?categoryId=447" title="" target="_blank">改善视力食品</a> </li> 
+						<div class="clear"></div>
+					</ul>
+					<div class="room">
+ 						<a href="#" target="_blank" title="">进入零食馆<i class="iconfont">&#xe614;</i></a>
+						<a href="#" target="_blank" title="">进入豆制品馆<i class="iconfont">&#xe614;</i></a>
+						<a href="#" target="_blank" title="">进入方便食品馆<i class="iconfont">&#xe614;</i></a>
+					</div>
+				</div>
+				<div class="floorListRight">
+					<ul>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li class="marginLeft1">
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</li>
+			<li style="display:none">
+				<div class="floorGgw">
+					<a href="#" title="" target="_blank"><img src="images/testimg/pro06.png"></a>
+				</div>
+				<div class="floorListLeft">
+					<img src="images/testimg/pro05.png">
+					<ul>
+						<li><a href="#" target="_blank" title="">2日本曲奇饼干</a></li>
+						<li><a href="#" target="_blank" title="">印尼威化饼干</a></li>
+						<li><a href="#" target="_blank" title="">台湾冲调饮品</a></li>
+						<li><a href="#" target="_blank" title="">马来西亚咖啡</a></li>
+						<li><a href="#" target="_blank" title="">韩国柚子茶</a></li>
+						<li><a href="#" target="_blank" title="">台湾糕点</a></li>
+						<li><a href="#" target="_blank" title="">越南果干</a></li>
+						<li><a href="#" target="_blank" title="">进口坚果</a></li>
+						<li><a href="#" target="_blank" title="">日韩台膨化</a></li>
+						<li><a href="#" target="_blank" title="">进口夹心饼干</a></li>
+						<div class="clear"></div>
+					</ul>
+					<div class="room">
+						<a href="#" target="_blank" title="">进入橄榄油馆<i class="iconfont">&#xe614;</i></a>
+						<a href="#" target="_blank" title="">进入乳制品馆<i class="iconfont">&#xe614;</i></a>
+						<a href="#" target="_blank" title="">进入调味品馆<i class="iconfont">&#xe614;</i></a>
+					</div>
+				</div>
+				<div class="floorListRight">
+					<ul>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li class="marginLeft1">
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</li>
+			<li style="display:none">
+				<div class="floorGgw">
+					<a href="#" title="" target="_blank"><img src="images/testimg/pro06.png"></a>
+				</div>
+				<div class="floorListLeft">
+					<img src="images/testimg/pro05.png">
+					<ul>
+						<li><a href="#" target="_blank" title="">3日本曲奇饼干</a></li>
+						<li><a href="#" target="_blank" title="">印尼威化饼干</a></li>
+						<li><a href="#" target="_blank" title="">台湾冲调饮品</a></li>
+						<li><a href="#" target="_blank" title="">马来西亚咖啡</a></li>
+						<li><a href="#" target="_blank" title="">韩国柚子茶</a></li>
+						<li><a href="#" target="_blank" title="">台湾糕点</a></li>
+						<li><a href="#" target="_blank" title="">越南果干</a></li>
+						<li><a href="#" target="_blank" title="">进口坚果</a></li>
+						<li><a href="#" target="_blank" title="">日韩台膨化</a></li>
+						<li><a href="#" target="_blank" title="">进口夹心饼干</a></li>
+						<div class="clear"></div>
+					</ul>
+					<div class="room">
+						<a href="#" target="_blank" title="">进入橄榄油馆<i class="iconfont">&#xe614;</i></a>
+						<a href="#" target="_blank" title="">进入乳制品馆<i class="iconfont">&#xe614;</i></a>
+						<a href="#" target="_blank" title="">进入调味品馆<i class="iconfont">&#xe614;</i></a>
+					</div>
+				</div>
+				<div class="floorListRight">
+					<ul>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li class="marginLeft1">
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</li>
+			<li style="display:none">
+				<div class="floorGgw">
+					<a href="#" title="" target="_blank"><img src="images/testimg/pro06.png"></a>
+				</div>
+				<div class="floorListLeft">
+					<img src="images/testimg/pro05.png">
+					<ul>
+						<li><a href="#" target="_blank" title="">4日本曲奇饼干</a></li>
+						<li><a href="#" target="_blank" title="">印尼威化饼干</a></li>
+						<li><a href="#" target="_blank" title="">台湾冲调饮品</a></li>
+						<li><a href="#" target="_blank" title="">马来西亚咖啡</a></li>
+						<li><a href="#" target="_blank" title="">韩国柚子茶</a></li>
+						<li><a href="#" target="_blank" title="">台湾糕点</a></li>
+						<li><a href="#" target="_blank" title="">越南果干</a></li>
+						<li><a href="#" target="_blank" title="">进口坚果</a></li>
+						<li><a href="#" target="_blank" title="">日韩台膨化</a></li>
+						<li><a href="#" target="_blank" title="">进口夹心饼干</a></li>
+						<div class="clear"></div>
+					</ul>
+					<div class="room"> 						
+						<a href="#" target="_blank" title="">进入零食馆<i class="iconfont">&#xe614;</i></a>
+						<a href="#" target="_blank" title="">进入豆制品馆<i class="iconfont">&#xe614;</i></a>
+						<a href="#" target="_blank" title="">进入饼干馆<i class="iconfont">&#xe614;</i></a>
+					</div>
+				</div>
+				<div class="floorListRight">
+					<ul>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li class="marginLeft1">
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</li>
+		</ul>
+	</div>
+</div>
+<!--
+模块名称：楼层
+修改内容：暂无
+模块作者：董文静
+修改时间：2016.01.14
+-->
+<div class="floor">
+	<h3 class="borderT2"><span>2F</span>酒水茶饮<font>/TEA DRINKS</font></h3>
+	<!--<div class="floorNav">
+		<ul>
+			<li class="floorOn">礼盒装红酒</li>
+			<li>尊尼获加黑方威士忌</li>
+			<li>比利时啤酒</li>
+			<li>礼盒装红酒</li>
+		</ul>
+	</div>-->
+	<div class="floorList">
+		<ul>
+			<li>
+				<div class="floorGgw">
+					<a href="#" title="" target="_blank"><img src="images/testimg/pro16.jpg"></a>
+				</div>
+				<div class="floorListLeft">
+					<img src="images/testimg/02.jpg">
+					<ul>
+						<li><a target="_blank" title="" href="/product/prolist?categoryId=669">碳酸饮料</a></li>
+<li><a target="_blank" title="" href="/product/prolist?categoryId=670">茶饮料</a></li>
+<li><a target="_blank" title="" href="/product/prolist?categoryId=671">果蔬汁</a></li>
+<li><a target="_blank" title="" href="/product/prolist?categoryId=672">功能饮料</a></li>
+<li><a target="_blank" title="" href="/product/prolist?categoryId=640">保健酒</a></li>
+<li><a target="_blank" title="" href="/product/prolist?categoryId=641">黄酒</a></li>
+<li><a target="_blank" title="" href="/product/prolist?categoryId=642">果酒</a></li>
+<li><a target="_blank" title="" href="/product/prolist?categoryId=657">黄茶</a></li>
+<li><a target="_blank" title="" href="/product/prolist?categoryId=658">花果茶</a></li>
+<li><a target="_blank" title="" href="/product/prolist?categoryId=659">红茶</a></li>  
+						<div class="clear"></div>
+					</ul>
+					<div class="room">
+						<a href="#" target="_blank" title="">进入茶叶专区<i class="iconfont">&#xe614;</i></a>
+						<a href="#" target="_blank" title="">进入饮料专区<i class="iconfont">&#xe614;</i></a>
+						<a href="#" target="_blank" title="">进入白酒专区<i class="iconfont">&#xe614;</i></a>
+					</div>
+				</div>
+				<div class="floorListRight">
+					<ul>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li class="marginLeft1">
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</li> 
+		</ul>
+	</div>
+</div>
+<!--
+模块名称：楼层
+修改内容：暂无
+模块作者：董文静
+修改时间：2016.01.14
+-->
+<div class="floor">
+	<h3 class="borderT1"><span>3F</span>特色农业<font>/ AGRICULTURE</font></h3>
+	<!--<div class="floorNav">
+		<ul>
+			<li class="floorOn">礼盒装红酒</li>
+			<li>尊尼获加黑方威士忌</li>
+			<li>比利时啤酒</li>
+			<li>礼盒装红酒</li>
+		</ul>
+	</div>-->
+	<div class="floorList">
+		<ul>
+			<li>
+				<div class="floorGgw">
+					<a href="#" title="" target="_blank"><img src="images/testimg/pro17.jpg"></a>
+				</div>
+				<div class="floorListLeft">
+					<img src="images/testimg/03.jpg">
+					<ul>
+						<li><a class="cateTit" target="_blank" title="粮食" href="javascript:void(0);">粮食</a></li><li>
+<a href="/product/prolist?categoryId=7" title="" target="_blank">杂粮</a></li><li> 
+<a href="/product/prolist?categoryId=9" title="" target="_blank">麦类</a></li><li>
+<a href="/product/prolist?categoryId=10" title="" target="_blank">薯类</a></li><li> 
+<a href="/product/prolist?categoryId=12" title="" target="_blank">玉米</a></li><li>
+<a href="/product/prolist?categoryId=13" title="" target="_blank">豆类</a></li><li>
+<a href="/product/prolist?categoryId=14" title="" target="_blank">稻谷</a></li><li>
+<a href="/product/prolist?categoryId=15" title="" target="_blank">稻米</a></li><li>
+<a href="/product/prolist?categoryId=16" title="" target="_blank">大麦</a></li><li>
+<a href="/product/prolist?categoryId=17" title="" target="_blank">小麦</a></li> 
+						<div class="clear"></div>
+					</ul>
+					<div class="room">
+						<a href="#" target="_blank" title="">进入大豆专区<i class="iconfont">&#xe614;</i></a>
+						<a href="#" target="_blank" title="">进入粮食专区<i class="iconfont">&#xe614;</i></a>
+						<a href="#" target="_blank" title="">进入蔬菜专区<i class="iconfont">&#xe614;</i></a>
+					</div>
+				</div>
+				<div class="floorListRight">
+					<ul>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li class="marginLeft1">
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</li> 
+		</ul>
+	</div>
+</div>
+<!--
+模块名称：楼层
+修改内容：暂无
+模块作者：董文静
+修改时间：2016.01.14
+-->
+<div class="floor">
+	<h3 class="borderT2"><span>4F</span>食品配料<font>/FOOD INGREDIENTS</font></h3>
+	<!--<div class="floorNav">
+		<ul>
+			<li class="floorOn">礼盒装红酒</li>
+			<li>尊尼获加黑方威士忌</li>
+			<li>比利时啤酒</li>
+			<li>礼盒装红酒</li>
+		</ul>
+	</div>-->
+	<div class="floorList">
+		<ul>
+			<li>
+				<div class="floorGgw">
+					<a href="#" title="" target="_blank"><img src="images/testimg/pro18.jpg"></a>
+				</div>
+				<div class="floorListLeft">
+					<img src="images/testimg/04.jpg">
+					<ul>
+						<li><a href="/product/prolist?categoryId=235" title="" target="_blank">调味酱</a></li><li>
+<a href="/product/prolist?categoryId=236" title="" target="_blank">食盐</a></li><li>
+<a href="/product/prolist?categoryId=237" title="" target="_blank">味精、鸡精</a></li><li>
+<a href="/product/prolist?categoryId=238" title="" target="_blank">调味油</a></li><li>
+<a href="/product/prolist?categoryId=239" title="" target="_blank">果酱</a></li><li> 
+<a href="/product/prolist?categoryId=241" title="" target="_blank">调味香料</a></li><li>
+<a href="/product/prolist?categoryId=242" title="" target="_blank">酱油</a></li><li>
+<a href="/product/prolist?categoryId=243" title="" target="_blank">醋</a></li><li>
+<a href="/product/prolist?categoryId=244" title="" target="_blank">盐</a></li><li> 
+<a href="/product/prolist?categoryId=246" title="" target="_blank">食醋</a></li> 
+
+						<div class="clear"></div>  
+					</ul>
+					<div class="room">
+						<a href="#" target="_blank" title="">进入调味馆<i class="iconfont">&#xe614;</i></a>
+						<a href="#" target="_blank" title="">进入食品添加剂<i class="iconfont">&#xe614;</i></a>
+						<a href="#" target="_blank" title="">进入果酱馆<i class="iconfont">&#xe614;</i></a>
+					</div>
+				</div>
+				<div class="floorListRight">
+					<ul>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li class="marginLeft1">
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</li> 
+		</ul>
+	</div>
+</div>
+<!--
+模块名称：楼层
+修改内容：暂无
+模块作者：董文静
+修改时间：2016.01.14
+-->
+<div class="floor">
+	<h3 class="borderT1"><span>5F</span>食品包装<font>/ FOOD PACKAGING</font></h3>
+	<!--<div class="floorNav">
+		<ul>
+			<li class="floorOn">礼盒装红酒</li>
+			<li>尊尼获加黑方威士忌</li>
+			<li>比利时啤酒</li>
+			<li>礼盒装红酒</li>
+		</ul>
+	</div>-->
+	<div class="floorList">
+		<ul>
+			<li>
+				<div class="floorGgw">
+					<a href="#" title="" target="_blank"><img src="images/testimg/pro19.jpg"></a>
+				</div>
+				<div class="floorListLeft">
+					<img src="images/testimg/05.jpg">
+					<ul>
+						<li><a href="/product/prolist?categoryId=711" title="" target="_blank">酒类包装</a></li><li>
+<a href="/product/prolist?categoryId=712" title="" target="_blank">饮料包装</a></li><li>
+<a href="/product/prolist?categoryId=713" title="" target="_blank">保健品包装</a></li><li>
+<a href="/product/prolist?categoryId=714" title="" target="_blank">茶叶包装</a></li><li>
+<a href="/product/prolist?categoryId=715" title="" target="_blank">糖果包装</a></li><li>
+<a href="/product/prolist?categoryId=716" title="" target="_blank">休闲食品包装</a></li><li>
+<a href="/product/prolist?categoryId=717" title="" target="_blank">月饼包装</a></li><li>
+<a href="/product/prolist?categoryId=718" title="" target="_blank">水产包装</a></li><li>
+<a href="/product/prolist?categoryId=719" title="" target="_blank">调料包装</a></li><li>
+<a href="/product/prolist?categoryId=720" title="" target="_blank">其他食品包装</a></li>
+						<div class="clear"></div>
+					</ul>
+					<div class="room">
+						<a href="#" target="_blank" title="">进入茶叶包装馆<i class="iconfont">&#xe614;</i></a>
+						<a href="#" target="_blank" title="">进入糖果包装馆<i class="iconfont">&#xe614;</i></a>
+						<a href="#" target="_blank" title="">进入调料包装馆<i class="iconfont">&#xe614;</i></a>
+					</div>
+				</div>
+				<div class="floorListRight">
+					<ul>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li class="marginLeft1">
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</li>
+			<li style="display:none">
+				<div class="floorGgw">
+					<a href="#" title="" target="_blank"><img src="images/testimg/pro06.png"></a>
+				</div>
+				<div class="floorListLeft">
+					<img src="images/testimg/pro05.png">
+					<ul>
+						<li><a href="#" target="_blank" title="">2日本曲奇饼干</a></li>
+						<li><a href="#" target="_blank" title="">印尼威化饼干</a></li>
+						<li><a href="#" target="_blank" title="">台湾冲调饮品</a></li>
+						<li><a href="#" target="_blank" title="">马来西亚咖啡</a></li>
+						<li><a href="#" target="_blank" title="">韩国柚子茶</a></li>
+						<li><a href="#" target="_blank" title="">台湾糕点</a></li>
+						<li><a href="#" target="_blank" title="">越南果干</a></li>
+						<li><a href="#" target="_blank" title="">进口坚果</a></li>
+						<li><a href="#" target="_blank" title="">日韩台膨化</a></li>
+						<li><a href="#" target="_blank" title="">进口夹心饼干</a></li>
+						<div class="clear"></div>
+					</ul>
+					<div class="room">
+						<a href="#" target="_blank" title="">进入橄榄油馆<i class="iconfont">&#xe614;</i></a>
+						<a href="#" target="_blank" title="">进入乳制品馆<i class="iconfont">&#xe614;</i></a>
+						<a href="#" target="_blank" title="">进入调味品馆<i class="iconfont">&#xe614;</i></a>
+					</div>
+				</div>
+				<div class="floorListRight">
+					<ul>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li class="marginLeft1">
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</li>
+			<li style="display:none">
+				<div class="floorGgw">
+					<a href="#" title="" target="_blank"><img src="images/testimg/pro06.png"></a>
+				</div>
+				<div class="floorListLeft">
+					<img src="images/testimg/pro05.png">
+					<ul>
+						<li><a href="#" target="_blank" title="">3日本曲奇饼干</a></li>
+						<li><a href="#" target="_blank" title="">印尼威化饼干</a></li>
+						<li><a href="#" target="_blank" title="">台湾冲调饮品</a></li>
+						<li><a href="#" target="_blank" title="">马来西亚咖啡</a></li>
+						<li><a href="#" target="_blank" title="">韩国柚子茶</a></li>
+						<li><a href="#" target="_blank" title="">台湾糕点</a></li>
+						<li><a href="#" target="_blank" title="">越南果干</a></li>
+						<li><a href="#" target="_blank" title="">进口坚果</a></li>
+						<li><a href="#" target="_blank" title="">日韩台膨化</a></li>
+						<li><a href="#" target="_blank" title="">进口夹心饼干</a></li>
+						<div class="clear"></div>
+					</ul>
+					<div class="room">
+						<a href="#" target="_blank" title="">进入橄榄油馆<i class="iconfont">&#xe614;</i></a>
+						<a href="#" target="_blank" title="">进入乳制品馆<i class="iconfont">&#xe614;</i></a>
+						<a href="#" target="_blank" title="">进入调味品馆<i class="iconfont">&#xe614;</i></a>
+					</div>
+				</div>
+				<div class="floorListRight">
+					<ul>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li class="marginLeft1">
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</li>
+			<li style="display:none">
+				<div class="floorGgw">
+					<a href="#" title="" target="_blank"><img src="images/testimg/pro06.png"></a>
+				</div>
+				<div class="floorListLeft">
+					<img src="images/testimg/pro05.png">
+					<ul>
+						<li><a href="#" target="_blank" title="">4日本曲奇饼干</a></li>
+						<li><a href="#" target="_blank" title="">印尼威化饼干</a></li>
+						<li><a href="#" target="_blank" title="">台湾冲调饮品</a></li>
+						<li><a href="#" target="_blank" title="">马来西亚咖啡</a></li>
+						<li><a href="#" target="_blank" title="">韩国柚子茶</a></li>
+						<li><a href="#" target="_blank" title="">台湾糕点</a></li>
+						<li><a href="#" target="_blank" title="">越南果干</a></li>
+						<li><a href="#" target="_blank" title="">进口坚果</a></li>
+						<li><a href="#" target="_blank" title="">日韩台膨化</a></li>
+						<li><a href="#" target="_blank" title="">进口夹心饼干</a></li>
+						<div class="clear"></div>
+					</ul>
+					<div class="room">
+						<a href="#" target="_blank" title="">进入橄榄油馆<i class="iconfont">&#xe614;</i></a>
+						<a href="#" target="_blank" title="">进入乳制品馆<i class="iconfont">&#xe614;</i></a>
+						<a href="#" target="_blank" title="">进入调味品馆<i class="iconfont">&#xe614;</i></a>
+					</div>
+				</div>
+				<div class="floorListRight">
+					<ul>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li class="marginLeft1">
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</li>
+		</ul>
+	</div>
+</div>
+<div class="floor">
+	<h3 class="borderT1"><span>6F</span>食品设备<font>/ FOOD EQUIPMENT</font></h3>
+	<!--<div class="floorNav">
+		<ul>
+			<li class="floorOn">礼盒装红酒</li>
+			<li>尊尼获加黑方威士忌</li>
+			<li>比利时啤酒</li>
+			<li>礼盒装红酒</li>
+		</ul>
+	</div>-->
+	<div class="floorList">
+		<ul>
+			<li>
+				<div class="floorGgw">
+					<a href="#" title="" target="_blank"><img src="images/testimg/pro20.jpg"></a>
+				</div>
+				<div class="floorListLeft">
+					<img src="images/testimg/06.jpg">
+					<ul>
+						<li><a href="/product/prolist?categoryId=806" title="" target="_blank">挤压膨化机械</a></li><li>
+<a href="/product/prolist?categoryId=807" title="" target="_blank">输送机械</a></li><li>
+<a href="/product/prolist?categoryId=808" title="" target="_blank">搅拌均匀与均质机械</a></li><li>
+<a href="/product/prolist?categoryId=809" title="" target="_blank">成型机械、分离机械</a></li><li>
+<a href="/product/prolist?categoryId=810" title="" target="_blank">蒸发与浓缩机械</a></li><li>
+<a href="/product/prolist?categoryId=811" title="" target="_blank">干燥机械</a></li><li>
+<a href="/product/prolist?categoryId=812" title="" target="_blank">烘烤机械</a></li><li>
+<a href="/product/prolist?categoryId=813" title="" target="_blank">冷冻机械</a></li><li>
+<a href="/product/prolist?categoryId=814" title="" target="_blank">粉碎与切割机械</a></li><li>
+<a href="/product/prolist?categoryId=815" title="" target="_blank">清洗机械</a></li>
+						<div class="clear"></div>
+					</ul>
+					<div class="room">
+						<a href="#" target="_blank" title="">进入烘烤设备馆<i class="iconfont">&#xe614;</i></a>
+						<a href="#" target="_blank" title="">进入冷冻设备馆<i class="iconfont">&#xe614;</i></a>
+						<a href="#" target="_blank" title="">进入干燥设备馆<i class="iconfont">&#xe614;</i></a>
+					</div>
+				</div>
+				<div class="floorListRight">
+					<ul>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li class="marginLeft1">
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</li>
+			<li style="display:none">
+				<div class="floorGgw">
+					<a href="#" title="" target="_blank"><img src="images/testimg/pro06.png"></a>
+				</div>
+				<div class="floorListLeft">
+					<img src="images/testimg/pro05.png">
+					<ul>
+						<li><a href="#" target="_blank" title="">2日本曲奇饼干</a></li>
+						<li><a href="#" target="_blank" title="">印尼威化饼干</a></li>
+						<li><a href="#" target="_blank" title="">台湾冲调饮品</a></li>
+						<li><a href="#" target="_blank" title="">马来西亚咖啡</a></li>
+						<li><a href="#" target="_blank" title="">韩国柚子茶</a></li>
+						<li><a href="#" target="_blank" title="">台湾糕点</a></li>
+						<li><a href="#" target="_blank" title="">越南果干</a></li>
+						<li><a href="#" target="_blank" title="">进口坚果</a></li>
+						<li><a href="#" target="_blank" title="">日韩台膨化</a></li>
+						<li><a href="#" target="_blank" title="">进口夹心饼干</a></li>
+						<div class="clear"></div>
+					</ul>
+					<div class="room">
+						<a href="#" target="_blank" title="">进入橄榄油馆<i class="iconfont">&#xe614;</i></a>
+						<a href="#" target="_blank" title="">进入乳制品馆<i class="iconfont">&#xe614;</i></a>
+						<a href="#" target="_blank" title="">进入调味品馆<i class="iconfont">&#xe614;</i></a>
+					</div>
+				</div>
+				<div class="floorListRight">
+					<ul>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li class="marginLeft1">
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</li>
+			<li style="display:none">
+				<div class="floorGgw">
+					<a href="#" title="" target="_blank"><img src="images/testimg/pro06.png"></a>
+				</div>
+				<div class="floorListLeft">
+					<img src="images/testimg/pro05.png">
+					<ul>
+						<li><a href="#" target="_blank" title="">3日本曲奇饼干</a></li>
+						<li><a href="#" target="_blank" title="">印尼威化饼干</a></li>
+						<li><a href="#" target="_blank" title="">台湾冲调饮品</a></li>
+						<li><a href="#" target="_blank" title="">马来西亚咖啡</a></li>
+						<li><a href="#" target="_blank" title="">韩国柚子茶</a></li>
+						<li><a href="#" target="_blank" title="">台湾糕点</a></li>
+						<li><a href="#" target="_blank" title="">越南果干</a></li>
+						<li><a href="#" target="_blank" title="">进口坚果</a></li>
+						<li><a href="#" target="_blank" title="">日韩台膨化</a></li>
+						<li><a href="#" target="_blank" title="">进口夹心饼干</a></li>
+						<div class="clear"></div>
+					</ul>
+					<div class="room">
+						<a href="#" target="_blank" title="">进入橄榄油馆<i class="iconfont">&#xe614;</i></a>
+						<a href="#" target="_blank" title="">进入乳制品馆<i class="iconfont">&#xe614;</i></a>
+						<a href="#" target="_blank" title="">进入调味品馆<i class="iconfont">&#xe614;</i></a>
+					</div>
+				</div>
+				<div class="floorListRight">
+					<ul>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li class="marginLeft1">
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</li>
+			<li style="display:none">
+				<div class="floorGgw">
+					<a href="#" title="" target="_blank"><img src="images/testimg/pro06.png"></a>
+				</div>
+				<div class="floorListLeft">
+					<img src="images/testimg/pro05.png">
+					<ul>
+						<li><a href="#" target="_blank" title="">4日本曲奇饼干</a></li>
+						<li><a href="#" target="_blank" title="">印尼威化饼干</a></li>
+						<li><a href="#" target="_blank" title="">台湾冲调饮品</a></li>
+						<li><a href="#" target="_blank" title="">马来西亚咖啡</a></li>
+						<li><a href="#" target="_blank" title="">韩国柚子茶</a></li>
+						<li><a href="#" target="_blank" title="">台湾糕点</a></li>
+						<li><a href="#" target="_blank" title="">越南果干</a></li>
+						<li><a href="#" target="_blank" title="">进口坚果</a></li>
+						<li><a href="#" target="_blank" title="">日韩台膨化</a></li>
+						<li><a href="#" target="_blank" title="">进口夹心饼干</a></li>
+						<div class="clear"></div>
+					</ul>
+					<div class="room">
+						<a href="#" target="_blank" title="">进入橄榄油馆<i class="iconfont">&#xe614;</i></a>
+						<a href="#" target="_blank" title="">进入乳制品馆<i class="iconfont">&#xe614;</i></a>
+						<a href="#" target="_blank" title="">进入调味品馆<i class="iconfont">&#xe614;</i></a>
+					</div>
+				</div>
+				<div class="floorListRight">
+					<ul>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li class="marginLeft1">
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+						<li>
+							<a href="#" title="" target="_blank"><img src="images/testimg/pro01.png" width="150" height="150" title="" alt=""></a>
+							<p><a href="#" title="" target="_blank">新西兰安佳淡奶油1L</a></p>
+							<div class="price">
+								<font class="priceFont1">¥9.80</font>
+								<font class="priceFont3">12盒起订</font>
+								<div class="clear"></div>
+							</div>
+							<span>参考零售价：¥20.00</span>
+						</li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+			</li>
+		</ul>
+	</div>
+</div>
+<div ng-include="'footer.html'"></div>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript">
+	angular.module('myApp', []).controller('userCtrl', function($scope) {})
+</script>
+</body>
+</html>

@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+<meta charset="utf-8" />
+<title>我的食品荟-中国食品产业整合平台</title>
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link rel="stylesheet" href="../css/common.css" type="text/css" />
+<link rel="stylesheet" href="../css/evaluate.css" type="text/css" /> 
+<link rel="stylesheet" href="../css/iconfont/iconfont.css" type="text/css" /> 
+<script type="text/javascript" src="../js/jquery.js"></script>
+</script>
+</head>
+<body style="background-color:#fff;">
+<!--
+模块名称：公共头部
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2015.12.16
+-->
+<div class="topBar">
+  <div class="topMain"> 欢迎来到食品荟！ <a class="topLogin" href="#" title="登录" target="_blank">[登录]</a> <a class="topRegist" href="#" title="免费注册" target="_blank">[免费注册]</a>
+    <!-- 登录后的状态
+		<a class="loginEd" href="#" title="登录" target="_blank">用户名称要长一点啊。。</a>
+		<a class="msgRemind" href="#" title="消息">消息<i>19888</i></a>
+		<a class="quitLogin" title="退出登录" target="_self">[退出]</a>
+		-->
+    <div class="topRight"> <a href="" title="网址导航" target="_blank">网址导航</a><i class="iconfont">&#xe600;</i>
+      <ul class="siteNav">
+        <li> <b>行业市场</b> <a href="#" title="服装内衣" target="_blank">服装内衣</a> <a href="#" title="鞋包配饰" target="_blank">鞋包配饰</a> <a href="#" title="运动户外" target="_blank">运动户外</a> <a href="#" title="童装母婴" target="_blank">童装母婴</a> <a href="#" title="日用百货" target="_blank">日用百货</a> <a href="#" title="汽车用品" target="_blank">汽车用品</a> <a href="#" title="工艺品及宠物" target="_blank">工艺品及宠物</a> <a href="#" title="食品" target="_blank">食品</a> <a href="#" title="家纺家饰" target="_blank">家纺家饰</a> <a href="#" title="家装建材" target="_blank">家装建材</a> </li>
+        <li> <b>特色市场</b> <a href="#" title="服装内衣" target="_blank">服装内衣</a> <a href="#" title="鞋包配饰" target="_blank">鞋包配饰</a> <a href="#" title="运动户外" target="_blank">运动户外</a> <a href="#" title="童装母婴" target="_blank">童装母婴</a> <a href="#" title="日用百货" target="_blank">日用百货</a> <a href="#" title="汽车用品" target="_blank">汽车用品</a> <a href="#" title="工艺品及宠物" target="_blank">工艺品及宠物</a> <a href="#" title="食品" target="_blank">食品</a> <a href="#" title="家纺家饰" target="_blank">家纺家饰</a> <a href="#" title="家装建材" target="_blank">家装建材</a> </li>
+        <li> <b>行业市场</b> <a href="#" title="服装内衣" target="_blank">服装内衣</a> <a href="#" title="鞋包配饰" target="_blank">鞋包配饰</a> <a href="#" title="运动户外" target="_blank">运动户外</a> <a href="#" title="童装母婴" target="_blank">童装母婴</a> <a href="#" title="日用百货" target="_blank">日用百货</a> <a href="#" title="汽车用品" target="_blank">汽车用品</a> <a href="#" title="工艺品及宠物" target="_blank">工艺品及宠物</a> <a href="#" title="食品" target="_blank">食品</a> <a href="#" title="家纺家饰" target="_blank">家纺家饰</a> <a href="#" title="家装建材" target="_blank">家装建材</a> </li>
+      </ul>
+    </div>
+    <div class="topRight"> <a href="" title="帮助中心" target="_blank">帮助中心</a><i class="iconfont">&#xe600;</i><code>|</code>
+      <ul class="customService">
+        <li><a href="#" title="新手入门" target="_blank">新手入门</a></li>
+        <li><a href="#" title="买家帮助" target="_blank">买家帮助</a></li>
+        <li><a href="#" title="卖家帮助" target="_blank">卖家帮助</a></li>
+        <li><a href="#" title="在线客服" target="_blank">在线客服</a></li>
+        <li><a href="#" title="联系我们" target="_blank">联系我们</a></li>
+      </ul>
+    </div>
+    <div class="topRight"> <a href="" title="客户服务" target="_blank">客户服务</a><i class="iconfont">&#xe600;</i><code>|</code>
+      <ul class="customService">
+        <li><a href="#" title="联系我们" target="_blank">联系我们</a></li>
+        <li><a href="#" title="新会员申请" target="_blank">新会员申请</a></li>
+        <li><a href="#" title="老会员续费" target="_blank">老会员续费</a></li>
+        <li><a href="#" title="优惠活动" target="_blank">优惠活动</a></li>
+      </ul>
+    </div>
+    <div class="topRight"> <a href="" title="收藏夹" target="_blank">收藏夹</a><i class="iconfont">&#xe600;</i><code>|</code>
+      <ul class="myFavorite">
+        <li><a href="#" title="收藏的产品" target="_blank">收藏的产品</a></li>
+        <li><a href="#" title="收藏的供应商" target="_blank">收藏的供应商</a></li>
+        <li><a href="#" title="交易过的供应商" target="_blank">交易过的供应商</a></li>
+      </ul>
+    </div>
+    <div class="topRight"> <a href="" title="进货单" target="_blank">进货单</a><i class="iconfont">&#xe600;</i><code>|</code>
+      <ul class="goodsOrder">
+        <b>最近加入产品</b>
+        <li> <a class="orderImg" href="" title="进货单" target="_blank"> <img src="" width="40" height="40" alt="" title=""/> </a> <a class="orderName" href="" title="产品的名称产品的名称产品的名称" target="_blank">产品的名称产品的名称产品的名称产品的名称产品的名称</a>
+          <p>包装规格：盒装&nbsp;&nbsp;薯片味儿</p>
+          <span>&yen;3500 x 1</span> <a class="delBtn" href="javascript:void(0)" title="删除">删除</a> </li>
+        <li> <a class="orderImg" href="" title="进货单" target="_blank"> <img src="" width="40" height="40" alt="" title=""/> </a> <a class="orderName" href="" title="产品的名称产品的名称产品的名称" target="_blank">产品的名称产品的名称产品的名称产品的名称产品的名称</a>
+          <p>包装规格：盒装&nbsp;&nbsp;薯片味儿</p>
+          <span>&yen;35 x 1</span> <a class="delBtn" href="javascript:void(0)" title="删除">删除</a> </li>
+        <li> <a class="orderImg" href="" title="进货单" target="_blank"> <img src="" width="40" height="40" alt="" title=""/> </a> <a class="orderName" href="" title="产品的名称产品的名称产品的名称" target="_blank">产品的名称产品的名称产品的名称产品的名称产品的名称</a>
+          <p>包装规格：盒装&nbsp;&nbsp;薯片味儿</p>
+          <span>&yen;35 x 1</span> <a class="delBtn" href="javascript:void(0)" title="删除">删除</a> </li>
+        <p class="orderListBtn"><a href="#" title="查看进货单" target="_blank">查看进货单</a></p>
+      </ul>
+    </div>
+    <div class="topRight"> <a href="#" title="我的食品荟" target="_blank">我的食品荟</a> <i class="iconfont">&#xe600;</i><code>|</code>
+      <ul class="mySph">
+        <li> <b>批发进货</b> <a href="#" title="已买到的产品" target="_blank">已买到的产品</a> <a href="#" title="优惠券" target="_blank">优惠券</a> </li>
+        <li> <b>生产采购</b> <a href="#" title="发布招标单" target="_blank">发布招标单</a> <a href="#" title="发布询价单" target="_blank">发布询价单</a> </li>
+        <li> <b>销售</b> <a href="#" title="已卖出货品" target="_blank">已卖出货品</a> <a href="#" title="发布产品" target="_blank">发布产品</a> <a href="#" title="管理产品" target="_blank">管理产品</a> <a href="#" title="管理店铺" target="_blank">管理店铺</a> </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!--
+模块名称：用户中心头部
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2016.01.19
+-->
+<div class="ucNav">
+  <div class="ucNavMain">
+    <h1><a href="#" title="食品荟用户中心" target="_self">食品荟用户中心</a>我的食品荟</h1>
+    <ul>
+      <li><a href="../index.html" title="首页" target="_self">首页</a></li>
+      <li><a href="index.html" title="首页" target="_self">批发进货</a></li>
+      <li><a href="../sale/index.html" title="首页" target="_self">产品销售</a></li>
+    </ul>
+    <!-- 主导航服务下拉 -->
+    <div class="serviceTit">
+      <h2>服务<i class="iconfont">&#xe600;</i></h2>
+      <div class="serviceTxt"> <a href="#" title="店铺设置" target="_self">店铺设置</a> <a href="#" title="诚信认证" target="_self">诚信认证</a> <a href="#" title="账户设置" target="_self">账户设置</a> <a href="#" title="金融服务" target="_self">金融服务</a> <a href="#" title="物流服务" target="_self">物流服务</a> <a href="#" title="我的百科" target="_self">我的百科</a> </div>
+    </div>
+  </div>
+</div>
+<!--
+模块名称：用户中心左侧菜单
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2016.01.19
+-->
+<div class="ucMain">
+  <!-- 左侧导航菜单 -->
+  <div class="leftMenu">
+    <h2><i class="iconfont">&#xe603;</i>我的订单</h2>
+    <ul>
+      <li><a href="order.html" title="我的订单" target="_self">我的订单</a></li>
+      <li><a href="purchase.html" title="我的大宗采购 " target="_self">我的大宗采购 </a></li>
+      <li><a href="rush.html" title="我的伙拼" target="_self">我的伙拼</a></li>
+      <li><a href="take.html" title="我的拿样" target="_self">我的拿样</a></li> 
+    </ul>
+    <!---- 我的收藏 --->
+    <h2><i class="iconfont">&#xe604;</i>我的收藏</h2>
+    <ul>
+      <li><a href="commodity.html" title="收藏的商品" target="_self">收藏的商品</a></li>
+      <li><a href="cshop.html" title="收藏的店铺" target="_self">收藏的店铺</a></li> 
+    </ul>
+    <!---- 我的优惠券 --->
+    <h2><i class="iconfont">&#xe601;</i>我的优惠券</h2>
+    <ul>
+      <li><a href="coupon.html" title="我的优惠券" target="_self">我的优惠券</a></li> 
+    </ul>
+    <!---- 售后服务 --->
+    <h2><i class="iconfont">&#xe601;</i>售后服务</h2>
+    <ul>
+      <li><a href="return.html" title="退货/退款管理	" target="_self">退货/退款管理</a></li>
+      <li><a href="radmin.html" title="售后管理" target="_self">售后管理</a></li>
+    </ul>
+    <!---- 运营推广 --->
+    <h2><i class="iconfont">&#xe601;</i>评价管理</h2>
+    <ul>
+      <li><a href="evaluate.html" title="评价管理" target="_self">评价管理</a></li> 
+    </ul>      
+</div>
+  <!-- 用户中心右侧 -->
+  <!--
+	模块名称：公共底部
+	修改内容：暂无
+	模块作者：李士洋
+	修改时间：2016.01.31
+<!---->
+  <div class="ucRight">
+  	<!--评价管理导航-->
+  	<div class="uctit"><span class="fr gray f12">您所在的位置：<a href="#">批发进货</a>><a class="uctitInfo" href="#">评价管理</a></span><span class="afterSale">评价管理</span></div>
+    <!--评价管理-->
+    <div class="evCoupon">
+    	<div class="mackIssue">
+          <ul>
+            <li>做出的评价</li>
+            <li class="on">收到的评价</li>
+          </ul>
+           <div class="discuSide">
+           <!--星级表-->
+            <div class="mackIsCon">
+            	<div class="degree">
+                	<p class="transa">交易总体满意度</p>
+                    <span><i class="iconfont">&#xe602;</i><i class="iconfont">&#xe602;</i><i class="iconfont">&#xe602;</i><i class="iconfont">&#xe602;</i><i class="iconfont grayStar">&#xe602;</i>5.0分</span>  
+                    <p>作为买家收到评论共：<i>50</i>条</p>
+                </div>
+                <div class="degreeRight">
+                    <table  width="100%" border="0" cellpadding="0" cellspacing="0" class="starTable">
+                        <tr class="starTabTitle">
+                            <td width="25%">星级</td>
+                            <td width="15%">最近一周</td>
+                            <td width="15%">最近一月</td>
+                            <td width="15%">最近六个月</td>
+                            <td width="15%">半年以前</td>
+                            <td width="15%">总计</td>
+                        </tr>
+                        <tr class="starTabNub">
+                            <td><i class="iconfont">&#xe602;</i><i class="iconfont">&#xe602;</i><i class="iconfont">&#xe602;</i><i class="iconfont">&#xe602;</i><i class="iconfont">&#xe602;</i><span>&nbsp;&nbsp;(100%)</span></td>
+                            <td>1</td>
+                            <td>8</td>
+                            <td>20</td>
+                            <td>87</td>
+                            <td>87</td>
+                        </tr>
+                        <tr class="starTabNub">
+                            <td><i class="iconfont">&#xe602;</i><i class="iconfont">&#xe602;</i><i class="iconfont">&#xe602;</i><i class="iconfont">&#xe602;</i><i class="iconfont grayStar">&#xe602;</i><span>&nbsp;&nbsp;(0%)</span></td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>5</td>
+                            <td>5</td>
+                        </tr>
+                        <tr class="starTabNub">
+                            <td><i class="iconfont">&#xe602;</i><i class="iconfont">&#xe602;</i><i class="iconfont">&#xe602;</i><i class="iconfont grayStar">&#xe602;</i><i class="iconfont grayStar">&#xe602;</i><span>&nbsp;&nbsp;(0%)</span></td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>6</td>
+                            <td>6</td>
+                        </tr>
+                        <tr class="starTabNub">
+                            <td><i class="iconfont">&#xe602;</i><i class="iconfont">&#xe602;</i><i class="iconfont grayStar">&#xe602;</i><i class="iconfont grayStar">&#xe602;</i><i class="iconfont grayStar">&#xe602;</i><span>&nbsp;&nbsp;(0%)</span></td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                        </tr>
+                        <tr class="starTabNub">
+                            <td><i class="iconfont">&#xe602;</i><i class="iconfont grayStar">&#xe602;</i><i class="iconfont grayStar">&#xe602;</i><i class="iconfont grayStar">&#xe602;</i><i class="iconfont grayStar">&#xe602;</i><span>&nbsp;&nbsp;(0%)</span></td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>0</td>
+                        </tr>
+                        <tr class="starTabNub">
+                            <td><span>总计</span></td>
+                            <td>0</td>
+                            <td>8</td>
+                            <td>20</td>
+                            <td>10</td>
+                            <td>0</td>
+                        </tr>
+                    </table>
+                <span class="statis">评价统计截止到昨天</span>
+                </div>
+            </div>
+            <!--评价内容-->
+            <table width="100%" border="0" cellpadding="0" cellspacing="0" class="discuss">
+               <tr class="discTitle">
+                  <td width="20%">评价方（卖家）</td>
+                   <td width="20%">货品信息</td>
+                   <td width="20%">价格（元）</td>
+                   <td width="20%">
+                      <select>
+                      	<option>全部评价</option>
+                        <option>五星</option>
+                        <option>四星</option>
+                        <option>三星</option>
+                        <option>二星</option>
+                        <option>一星</option>
+                      </select>
+                   </td>
+                  <td width="20%">
+                      <select>
+                      	<option>全部评论</option>
+                        <option>有评论内容</option>
+                        <option>无评论内容</option>
+                      </select>
+                   </td>
+               </tr>
+               <tr class="disCon">
+               		<td style="text-align:left">
+                    	<p><a href="#" title="" target="_blank">郑州思念食品有限公司</a></p>
+                  		 <div class="shopLeftTitleBg">
+                    			<img src="../images/icon9.png" width="20" height="20"> 
+                    			<font>1</font>年&nbsp;|
+                      		<img src="../images/icon7.png" width="20" height="20"> 
+                      		<img src="../images/icon6.png" width="20" height="20"> 
+                      		<img src="../images/icon8.png" width="20" height="20"> 
+                  			</div>
+                        <a href="#" title="好想你枣" target="_blank">好想你枣</a>
+                        <a href="#" title="qq" target="_blank">
+                        	<img src="../images/qq.jpg" width="72" height="17" title="qq" alt="qq"/>
+                        </a>
+                        <span>2015-12-21 12:52:56</span>
+                    </td>
+                    <td>
+                    	<a href="#" class="disConIntro" title="好想你枣片 好想你原味枣片360克" target="_blank">好想你枣片 好想你原味枣片360克</a>
+                        <span>订单号：5623659874</span>
+                    </td>
+                    <td>
+                    	<font>80.00</font>
+                    </td>
+                    <td>
+                    	<i class="iconfont">&#xe602;</i><i class="iconfont">&#xe602;</i><i class="iconfont">&#xe602;</i><i class="iconfont">&#xe602;</i><i class="iconfont grayStar">&#xe602;</i>
+                    </td>
+                    <td><p>还挺好吃的，下次再来买。</p></td>
+               </tr>
+                <tr class="disCon">
+               		<td style="text-align:left">
+                    	<p><a href="#" title="郑州思念食品有限公司" target="_blank">郑州思念食品有限公司</a></p>
+                  		<div class="shopLeftTitleBg">
+                    			<img src="../images/icon9.png" width="20" height="20"> 
+                    			<font>1</font>年&nbsp;|
+                      		<img src="../images/icon7.png" width="20" height="20"> 
+                      		<img src="../images/icon6.png" width="20" height="20"> 
+                      		<img src="../images/icon8.png" width="20" height="20"> 
+                  			</div>
+                        <a href="#" title="好想你枣" target="_blank">好想你枣</a>
+                        <a href="#" title="qq" target="_blank">
+                        	<img src="../images/qq.jpg" width="72" height="17" title="qq" alt="qq"/>
+                        </a>
+                        <span>2015-12-21 12:52:56</span>
+                    </td>
+                    <td>
+                    	<a href="#" class="disConIntro" title="好想你枣片 好想你原味枣片360克" target="_blank">好想你枣片 好想你原味枣片360克</a>
+                        <span>订单号：5623659874</span>
+                    </td>
+                    <td>
+                    	<font>80.00</font>
+                    </td>
+                    <td>
+                    	<i class="iconfont">&#xe602;</i><i class="iconfont">&#xe602;</i><i class="iconfont">&#xe602;</i><i class="iconfont">&#xe602;</i><i class="iconfont grayStar">&#xe602;</i>
+                    </td>
+                    <td><p>评价方未及时做出评价，</br>
+系统默认好评！</p></td>
+               </tr>
+               <tr class="disCon">
+               		<td style="text-align:left">
+                    	<p><a href="#" title="郑州思念食品有限公司" target="_blank">郑州思念食品有限公司</a></p>
+                  		<<div class="shopLeftTitleBg">
+                    			<img src="../images/icon9.png" width="20" height="20"> 
+                    			<font>1</font>年&nbsp;|
+                      		<img src="../images/icon7.png" width="20" height="20"> 
+                      		<img src="../images/icon6.png" width="20" height="20"> 
+                      		<img src="../images/icon8.png" width="20" height="20"> 
+                  			</div>
+                        <a href="#" title="好想你枣" target="_blank">好想你枣</a>
+                        <a href="#" title="qq" target="_blank">
+                        	<img src="../images/qq.jpg" width="72" height="17" title="qq" alt="qq"/>
+                        </a>
+                        <span>2015-12-21 12:52:56</span>
+                    </td>
+                    <td>
+                    	<a href="#" class="disConIntro" title="好想你枣片 好想你原味枣片360克" target="_blank">好想你枣片 好想你原味枣片360克</a>
+                        <span>订单号：5623659874</span>
+                    </td>
+                    <td>
+                    	<font>80.00</font>
+                    </td>
+                    <td>
+                    	<i class="iconfont">&#xe602;</i><i class="iconfont">&#xe602;</i><i class="iconfont">&#xe602;</i><i class="iconfont">&#xe602;</i><i class="iconfont grayStar">&#xe602;</i>
+                    </td>
+                    <td><p>评价方未及时做出评价，</br>
+系统默认好评！</p></td>
+               </tr>
+               <tr class="disCon">
+               		<td style="text-align:left">
+                    	<p><a href="#" title="郑州思念食品有限公司" target="_blank">郑州思念食品有限公司</a></p>
+                  		<div class="shopLeftTitleBg">
+                    			<img src="../images/icon9.png" width="20" height="20"> 
+                    			<font>1</font>年&nbsp;|
+                      		<img src="../images/icon7.png" width="20" height="20"> 
+                      		<img src="../images/icon6.png" width="20" height="20"> 
+                      		<img src="../images/icon8.png" width="20" height="20"> 
+                  			</div>
+                        <a href="#" title="好想你枣" target="_blank">好想你枣</a>
+                        <a href="#" title="qq" target="_blank">
+                        	<img src="../images/qq.jpg" width="72" height="17" title="qq" alt="qq"/>
+                        </a>
+                        <span>2015-12-21 12:52:56</span>
+                    </td>
+                    <td>
+                    	<a href="#" class="disConIntro" title="好想你枣片 好想你原味枣片360克" target="_blank">好想你枣片 好想你原味枣片360克</a>
+                        <span>订单号：5623659874</span>
+                    </td>
+                    <td>
+                    	<font>80.00</font>
+                    </td>
+                    <td>
+                    	<i class="iconfont">&#xe602;</i><i class="iconfont">&#xe602;</i><i class="iconfont">&#xe602;</i><i class="iconfont">&#xe602;</i><i class="iconfont grayStar">&#xe602;</i>
+                    </td>
+                    <td><p>评价方未及时做出评价，</br>
+系统默认好评！</p></td>
+               </tr>
+               <tr class="disCon">
+               		<td style="text-align:left">
+                    	<p><a href="#" title="郑州思念食品有限公司" target="_blank">郑州思念食品有限公司</a></p>
+                  		<div class="shopLeftTitleBg">
+                    			<img src="../images/icon9.png" width="20" height="20"> 
+                    			<font>1</font>年&nbsp;|
+                      		<img src="../images/icon7.png" width="20" height="20"> 
+                      		<img src="../images/icon6.png" width="20" height="20"> 
+                      		<img src="../images/icon8.png" width="20" height="20"> 
+                  			</div>
+                        <a href="#" title="好想你枣" target="_blank">好想你枣</a>
+                        <a href="#" title="qq" target="_blank">
+                        	<img src="../images/qq.jpg" width="72" height="17" title="qq" alt="qq"/>
+                        </a>
+                        <span>2015-12-21 12:52:56</span>
+                    </td>
+                    <td>
+                    	<a href="#" class="disConIntro" title="好想你枣片 好想你原味枣片360克" target="_blank">好想你枣片 好想你原味枣片360克</a>
+                        <span>订单号：5623659874</span>
+                    </td>
+                    <td>
+                    	<font>40.00</font>
+                    </td>
+                    <td>
+                    	<i class="iconfont">&#xe602;</i><i class="iconfont">&#xe602;</i><i class="iconfont">&#xe602;</i><i class="iconfont">&#xe602;</i><i class="iconfont grayStar">&#xe602;</i>
+                    </td>
+                    <td><p>评价方未及时做出评价，</br>
+系统默认好评！</p></td>
+               </tr>
+            </table>
+            <!--评价内容-->
+            <table width="100%" border="0" cellpadding="0" cellspacing="0" class="discuss">
+               <tr class="discTitle">
+                  <td width="20%" class="discuer">评价方（卖家）</td>
+                   <td width="20%">货品信息</td>
+                   <td width="20%">价格（元）</td>
+                   <td width="20%">
+                      <select>
+                      	<option>全部评价</option>
+                        <option>五星</option>
+                        <option>四星</option>
+                        <option>三星</option>
+                        <option>二星</option>
+                        <option>一星</option>
+                      </select>
+                   </td>
+                  <td width="20%" class="discuPrice">
+                      <select>
+                      	<option>全部评论</option>
+                        <option>有评论内容</option>
+                        <option>无评论内容</option>
+                      </select>
+                   </td>
+               </tr>
+               <tr class="disCon">
+               		<td style="text-align:left">
+                    	<p><a href="#" title="郑州思念食品有限公司" target="_blank">郑州思念食品有限公司</a></p>
+                  		<div class="shopLeftTitleBg">
+                    			<img src="../images/icon9.png" width="20" height="20"> 
+                    			<font>1</font>年&nbsp;|
+                      		<img src="../images/icon7.png" width="20" height="20"> 
+                      		<img src="../images/icon6.png" width="20" height="20"> 
+                      		<img src="../images/icon8.png" width="20" height="20"> 
+                  			</div>
+                        <a href="#" title="好想你枣" target="_blank">好想你枣</a>
+                        <a href="#" title="qq" target="_blank">
+                        	<img src="../images/qq.jpg" width="72" height="17" title="qq" alt="qq"/>
+                        </a>
+                        <span>2015-12-21 12:52:56</span>
+                    </td>
+                    <td>
+                    	<a href="#" class="disConIntro" title="好想你枣片 好想你原味枣片360克" target="_blank">好想你枣片 好想你原味枣片360克</a>
+                        <span>订单号：5623659874</span>
+                    </td>
+                    <td>
+                    	<font>80.00</font>
+                    </td>
+                    <td>
+                    	<i class="iconfont">&#xe602;</i><i class="iconfont">&#xe602;</i><i class="iconfont">&#xe602;</i><i class="iconfont">&#xe602;</i><i class="iconfont grayStar">&#xe602;</i>
+                    </td>
+                    <td><p>还挺好吃的，下次再来买。</p></td>
+               </tr>
+                <tr class="disCon">
+               		<td style="text-align:left">
+                    	<p><a href="#" title="郑州思念食品有限公司" target="_blank">郑州思念食品有限公司</a></p>
+                  		<div class="shopLeftTitleBg">
+                    			<img src="../images/icon9.png" width="20" height="20"> 
+                    			<font>1</font>年&nbsp;|
+                      		<img src="../images/icon7.png" width="20" height="20"> 
+                      		<img src="../images/icon6.png" width="20" height="20"> 
+                      		<img src="../images/icon8.png" width="20" height="20"> 
+                  			</div>
+                        <a href="#" title="好想你枣" target="_blank">好想你枣</a>
+                        <a href="#" title="qq" target="_blank">
+                        	<img src="../images/qq.jpg" width="72" height="17" title="qq" alt="qq"/>
+                        </a>
+                        <span>2015-12-21 12:52:56</span>
+                    </td>
+                    <td>
+                    	<a href="#" class="disConIntro" title="好想你枣片 好想你原味枣片360克" target="_blank">好想你枣片 好想你原味枣片360克</a>
+                        <span>订单号：5623659874</span>
+                    </td>
+                    <td>
+                    	<font>80.00</font>
+                    </td>
+                    <td>
+                    	<i class="iconfont">&#xe602;</i><i class="iconfont">&#xe602;</i><i class="iconfont">&#xe602;</i><i class="iconfont">&#xe602;</i><i class="iconfont grayStar">&#xe602;</i>
+                    </td>
+                    <td><p>评价方未及时做出评价，</br>
+系统默认好评！</p></td>
+               </tr>
+               <tr class="disCon">
+               		<td style="text-align:left">
+                    	<p><a href="#" title="郑州思念食品有限公司" target="_blank">郑州思念食品有限公司</a></p>
+                  		<div class="shopLeftTitleBg">
+                    			<img src="../images/icon9.png" width="20" height="20"> 
+                    			<font>1</font>年&nbsp;|
+                      		<img src="../images/icon7.png" width="20" height="20"> 
+                      		<img src="../images/icon6.png" width="20" height="20"> 
+                      		<img src="../images/icon8.png" width="20" height="20"> 
+                  			</div>
+                        <a href="#" title="好想你枣" target="_blank">好想你枣</a>
+                        <a href="#" title="qq" target="_blank">
+                        	<img src="../images/qq.jpg" width="72" height="17" title="qq" alt="qq"/>
+                        </a>
+                        <span>2015-12-21 12:52:56</span>
+                    </td>
+                    <td>
+                    	<a href="#" class="disConIntro" title="好想你枣片 好想你原味枣片360克" target="_blank">好想你枣片 好想你原味枣片360克</a>
+                        <span>订单号：5623659874</span>
+                    </td>
+                    <td>
+                    	<font>80.00</font>
+                    </td>
+                    <td>
+                    	<i class="iconfont">&#xe602;</i><i class="iconfont">&#xe602;</i><i class="iconfont">&#xe602;</i><i class="iconfont">&#xe602;</i><i class="iconfont grayStar">&#xe602;</i>
+                    </td>
+                    <td><p>评价方未及时做出评价，</br>
+系统默认好评！</p></td>
+               </tr>
+               <tr class="disCon">
+               		<td style="text-align:left">
+                    	<p><a href="#" title="郑州思念食品有限公司" target="_blank">郑州思念食品有限公司</a></p>
+                  		<div class="shopLeftTitleBg">
+                    			<img src="../images/icon9.png" width="20" height="20"> 
+                    			<font>1</font>年&nbsp;|
+                      		<img src="../images/icon7.png" width="20" height="20"> 
+                      		<img src="../images/icon6.png" width="20" height="20"> 
+                      		<img src="../images/icon8.png" width="20" height="20"> 
+                  			</div>
+                        <a href="#" title="好想你枣" target="_blank">好想你枣</a>
+                        <a href="#" title="qq" target="_blank">
+                        	<img src="../images/qq.jpg" width="72" height="17" title="qq" alt="qq"/>
+                        </a>
+                        <span>2015-12-21 12:52:56</span>
+                    </td>
+                    <td>
+                    	<a href="#" class="disConIntro" title="qq" target="_blank">好想你枣片 好想你原味枣片360克</a>
+                        <span>订单号：5623659874</span>
+                    </td>
+                    <td>
+                    	<font>80.00</font>
+                    </td>
+                    <td>
+                    	<i class="iconfont">&#xe602;</i><i class="iconfont">&#xe602;</i><i class="iconfont">&#xe602;</i><i class="iconfont">&#xe602;</i><i class="iconfont grayStar">&#xe602;</i>
+                    </td>
+                    <td><p>评价方未及时做出评价，</br>
+系统默认好评！</p></td>
+               </tr>
+               <tr class="disCon">
+               		<td style="text-align:left">
+                    	<p><a href="#" title="郑州思念食品有限公司" target="_blank">郑州思念食品有限公司</a></p>
+                  		<div class="shopLeftTitleBg">
+                    			<img src="../images/icon9.png" width="20" height="20"> 
+                    			<font>1</font>年&nbsp;|
+                      		<img src="../images/icon7.png" width="20" height="20"> 
+                      		<img src="../images/icon6.png" width="20" height="20"> 
+                      		<img src="../images/icon8.png" width="20" height="20"> 
+                  			</div>
+                        <a href="#" title="好想你枣" target="_blank">好想你枣</a>
+                        <a href="#" title="qq" target="_blank">
+                        	<img src="../images/qq.jpg" width="72" height="17" title="qq" alt="qq"/>
+                        </a>
+                        <span>2015-12-21 12:52:56</span>
+                    </td>
+                    <td>
+                    	<a href="#" class="disConIntro" title="好想你枣片 好想你原味枣片360克" target="_blank">好想你枣片 好想你原味枣片360克</a>
+                        <span>订单号：5623659874</span>
+                    </td>
+                    <td>
+                    	<font>40.00</font>
+                    </td>
+                    <td>
+                    	<i class="iconfont">&#xe602;</i><i class="iconfont">&#xe602;</i><i class="iconfont">&#xe602;</i><i class="iconfont">&#xe602;</i><i class="iconfont grayStar">&#xe602;</i>
+                    </td>
+                    <td><p>评价方未及时做出评价，</br>
+系统默认好评！</p></td>
+               </tr>
+            </table>
+          </div>
+        </div>
+    </div>
+  </div>
+  <!--页码-->
+  <div class="page mt10">
+    <!-- AspNetPager 7.3.2 -->
+    <div class="paginator" > <a href="#">上一页</a><span class="this-page">1</span><a href="#">2</a><a href="#">3</a><a href="#">4</a><a href="#">下一页</a> 共100页  到第
+      <input type="text" style="width:28px;" class="ucinput" id="textfield2" name="textfield2">
+      页
+      <button class="sbtn">确定</button>
+    </div>
+    <!-- AspNetPager 7.3.2 -->
+  </div>
+</div>
+<!--
+模块名称：公共底部
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2016.01.19
+-->
+<div class="ucFooter">
+  <div class="ucFooterMain"> <a href="#" title="关于我们" target="_blank">关于我们</a>| <a href="#" title="联系我们" target="_blank">联系我们</a>| <a href="#" title="广告服务" target="_blank">广告服务</a>| <a href="#" title="食品百科" target="_blank">食品百科</a>| <a href="#" title="友情链接" target="_blank">友情链接</a>| <a href="#" title="意见投诉" target="_blank">意见投诉</a>| <a href="#" title="网站地图" target="_blank">网站地图</a>| <a href="#" title="法律声明" target="_blank">法律声明</a>| <a href="#" title="服务条款" target="_blank">服务条款</a>| <a href="#" title="隐私声明" target="_blank">隐私声明</a>
+    <p>版权所有&nbsp;©&nbsp;2012-2015&nbsp;&nbsp;&nbsp;漯河食品荟网络科技有限公司&nbsp;&nbsp;&nbsp;保留所有权利&nbsp;&nbsp;&nbsp;经营许可证编号：<a href="#" title="经营许可证编号" target="_blank">豫B2-20140075</a></p>
+  </div>
+</div>
+<script type="text/javascript" src="../js/ucCommon.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	//选项卡
+	$(".sampleTab li").each(function(index){
+		$(this).click(function(){
+			$(this).removeClass().addClass("on").siblings().removeClass();
+			$(".sampleMain:eq("+index+")").show()
+			.siblings().hide()
+			/*$(".sampleTab li.on").removeClass("on");
+			$(this).addClass("on");*/
+			
+		})
+	})
+})
+</script>
+</body>
+</html>

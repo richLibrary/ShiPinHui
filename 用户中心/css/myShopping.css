@@ -1,0 +1,81 @@
+ @charset "utf-8";
+/*---- 发布大宗采购页 ----*/	
+.releaseTit{height:auto;overflow:hidden;border-bottom:#e4e4e4 solid 1px;font:18px/50px "微软雅黑";color:#333;}
+/*---- 大宗交易标题 ----*/
+.buyTit{height:auto;overflow:hidden;padding:30px 0px 0px 50px;}
+.buyTit h3{font:16px/50px "微软雅黑";color:#333;}
+.buyTit h3 i{color:#f00;margin-right:4px}
+.buyTit input{width:400px;height:14px;padding:10px 0px 10px 6px;border:#bcbcbc solid 1px;}
+.buyTit input::-webkit-input-placeholder{color:#aaa}
+.buyTit span{margin-left:15px;color:#999}	
+.releaseTit{border-bottom:1px solid #e4e4e4;color:#333;font:18px/50px "微软雅黑";height:auto;overflow:hidden;}
+/*---- 采购信息 ----*/
+.buyInfo{height:auto;overflow:hidden;padding:15px 0px 0px 50px;}
+.buyInfo h3{font:16px/35px "微软雅黑";color:#333;}	
+.buyInfoTxt{height:auto;overflow:hidden;padding:15px 0px 0px 15px;}
+.buyInfoTxt i{width:120px;float:left;font:14px/30px "微软雅黑";color:#333;text-align:right}
+.buyInfoTxt i font{color:#f00;margin-right:4px}	
+.buyInfoTxt input{width:283px;height:14px;padding:10px 0px 10px 6px;border:#bcbcbc solid 1px;}
+.buyInfoTxt input.amouts{width:88px;margin-right:10px;}
+.buyInfoTxt textarea{width:570px;height:100px;brder:#e4e4e4 solid 1px;padding:5px;}
+/*---- 采购要求 ----*/
+.buyRequire{height:auto;overflow:hidden;padding:15px 0px 0px 50px;}
+.buyRequire h3{font:16px/35px "微软雅黑";color:#333;}
+.brTxt{height:auto;overflow:hidden;padding:15px 0px 0px 0px;}	
+.brTxt i.tit{width:135px;float:left;font:14px/30px "微软雅黑";color:#333;text-align:right}	
+.brTxt i.tit font{color:#f00;margin-right:4px}
+.brTxt input[type="text"]{width:283px;height:14px;padding:10px 0px 10px 6px;border:#bcbcbc solid 1px;}
+.brTxt select{width:137px;height:34px;border:#bcbcbc solid 1px;margin-right:12px}
+.supplierRequire{width:750px;height:auto;overflow:hidden;padding:0px 20px 0px 20px;border:#e4e4e4 solid 1px;}
+.supplierRequire li{height:auto;overflow:hidden;margin-top:12px;}
+.supplierRequire li i{color:#333;float:left}
+.brTxt input[type="radio"]{width:15px;height:15px;margin:0px 10px}
+.addressList{width:675px;display:inline-block;float:left;}
+.addressList span{float:left;display:inline-block;margin-bottom:10px}	
+.addressList input[type="checkbox"]{width:15px;height:15px;margin:0px 10px}	
+.buyAdditional{height:auto;overflow:hidden;margin-top:15px;}
+.buyAdditional i{width:135px;float:left;font:14px/30px "微软雅黑";color:#333;text-align:right}	
+.additionalEditor{width:789px;height:100px;brder:#e4e4e4 solid 1px;padding:5px;float:left}
+/*---- 联系方式 ----*/	
+.contactUs{height:auto;overflow:hidden;padding:15px 0px 0px 50px;}
+.contactUs h3{font:16px/35px "微软雅黑";color:#333;}
+.cuTxt{height:auto;overflow:hidden;padding:15px 0px 0px 0px;line-height:34px;}		
+.cuTxt i{width:135px;float:left;font:14px/34px "微软雅黑";color:#333;text-align:right}	
+.cuTxt i font{color:#f00;margin-right:4px}
+.cuTxt input[type="text"]{width:283px;height:14px;padding:10px 0px 10px 6px;border:#bcbcbc solid 1px;}
+.cuTxt input[type="radio"]{width:15px;height:15px;margin:0px 10px}	
+.releaseBtn{height:auto;overflow:hidden;padding:60px 0px 60px 120px;}
+.releaseBtn input[type="button"]{width:210px;height:55px;background-color:#f60;color:#fff;border:none;cursor:pointer;outline:none;letter-spacing:2px;font-size:18px;border-radius:5px;}
+/*----大宗采购管理页----*/
+.purHeader{width:988px;border:1px solid #eee;background:#f7f7f7;padding:20px 30px;border-top:none;}
+.purHeader td{font-size:14px;}
+.purHeader input[name="purTitle"]{width:148px;height:31px;line-height:31px;padding-left:3px;border:1px solid #E4E4E4;}
+.purHeader input[name="purTime"]{width:170px;height:31px;line-height:31px;padding-left:3px;border:1px solid #E4E4E4;}
+.releBtn{width:98px;height:30px;border:1px solid #ffdfcb;background-color:#fff;text-align:center;color:#FF6600;cursor:pointer;}
+.releBtn i{margin-right:3px;vertical-align:-2px;}
+.purCenter{margin-top:20px;}
+.purCenter td{text-align:center;border-bottom:1px solid #E4E4E4;}
+.centerTitle{background:#f5f5f5;font-size:14px;text-align:center;}
+.purText{display:block;font:14px/49px "\5FAE\8F6F\96C5\9ED1";color:#666;width:298px;height:49px;overflow:hidden;}
+.purNumber a{color:#FF7300; font-size:16px;}
+.modify{color:#008fe0;}
+.redist{color:#008000;margin:0 5px;}
+.delete{color:#FF6600;}
+.centerTitle input[name="checkbox"]{margin:0 5px 0 29px;}
+.allCenter td{text-align:left;}
+.allCenter a{width:48px;height:26px;font:12px/26px "\5FAE\8F6F\96C5\9ED1";color:#333;text-align:center;display:inline-block;border:1px solid #E4E4E4;margin-right:10px;}
+.allCenter input[name="checkbox"]{margin:0 5px 0 43px;}
+/*----收到的报价页----*/
+.recHeader{width:988px;border:1px solid #eee;background:#f7f7f7;padding:20px 30px;border-top:none;}
+.recHeader td{font-size:14px;}
+.recHeader input[name="recTitle"],.recHeader input[name="recTitle2"]{width:175px;height:31px;line-height:31px;padding-left:5px;border:1px solid #E4E4E4;}
+.recHeader input[name="recTime"]{width:98px;height:31px;line-height:31px;padding-left:5px;border:1px solid #E4E4E4;}
+.forGoods{color:#FF7300;}
+.detail{color:#008fe0;margin-right:10px;}
+.detailBtn{width:56px;height:28px;border:1px solid #E4E4E4;background-color:#fff;text-align:center;color:#333;cursor:pointer;}
+.recText{display:block;font:14px/49px "\5FAE\8F6F\96C5\9ED1";color:#666;overflow:hidden;}
+.recCenter{border:1px solid #E4E4E4;border-top:none;}
+.recCenter td{text-align:center;border-bottom:1px solid #E4E4E4;}
+.receive td{text-align:left;border-bottom:none;}
+.receive a{width:48px;height:26px;font:12px/26px "\5FAE\8F6F\96C5\9ED1";color:#333;text-align:center;display:inline-block;border:1px solid #E4E4E4;margin-right:10px;}
+.receive input[name="checkbox"]{margin:0 5px 0 39px;}

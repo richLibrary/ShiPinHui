@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+	<meta charset="utf-8" />
+	<title>店铺首页</title>
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="Keywords" content="关键词"/>
+	<meta name="Description" content="我是网页的描述sss"/>
+    <link rel="stylesheet" href="css/iconfont/iconfont.css" type="text/css" />
+	<link rel="stylesheet" href="css/common.css" type="text/css" />
+	<link rel="stylesheet" href="css/index.css" type="text/css" />
+	<link rel="stylesheet" href="css/red.css" type="text/css" />	
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+	<script type="text/javascript" src="js/artDialog.js"></script>
+	<script type="text/javascript" src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
+</head>
+<body ng-app="myApp" ng-controller="userCtrl">
+<div ng-include="'header.html'"></div>
+<!---- 轮播图 ---->
+<div class="wrapperFocus">
+	<div class="bd">
+		<ul>
+			<li>
+				<a href="#" title="活动名称" target="_blank">
+					<img src="images/banner.jpg" width="100%" height="500" title="活动名称" alt="活动名称"/>
+				</a>
+			</li>
+			<li>
+				<a href="#" title="活动名称" target="_blank">
+					<img src="images/banner.jpg" width="100%" height="500" title="活动名称" alt="活动名称"/>
+				</a>
+			</li>
+			<li>
+				<a href="#" title="活动名称" target="_blank">
+					<img src="images/banner.jpg" width="100%" height="500" title="活动名称" alt="活动名称"/>
+				</a>
+			</li>
+			<li>
+				<a href="#" title="活动名称" target="_blank">
+					<img src="images/banner.jpg" width="100%" height="500" title="活动名称" alt="活动名称"/>
+				</a>
+			</li>
+			<li>
+				<a href="#" title="活动名称" target="_blank">
+					<img src="images/banner.jpg" width="100%" height="500" title="活动名称" alt="活动名称"/>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div class="hd"><ul></ul></div>
+	<a class="prev iconfont" href="javascript:void(0)">&#xe615;</a>
+	<a class="next iconfont" href="javascript:void(0)">&#xe614;</a>
+</div>
+<!--占位图-->
+<div class="occuphot">
+	<img src="images/occupy.jpg" width="1200" height="350" title="" alt=""/>
+</div>
+<!--
+模块名称：公共模板部分
+修改内容：暂无
+模块作者：李士洋
+修改时间：2016.1.17
+-->
+<!--中部-->
+<div class="centmain">
+	<!--镇店之宝-->
+    <div class="cemaTop">
+    	<h2>镇店之宝</h2>
+        <!--镇店之宝上-->
+        <ul class="newcemaTop">
+        	<li>
+            	<a href="#" title="产品图" target="_blank">
+                	<img src="images/melonImg.jpg" width="214" height="214" title="产品图" alt="产品图"/>
+                </a>
+                <a href="#" class="proIntro" title="进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L" target="_blank">进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L</a>
+               <font>¥ 10.07</font>
+               <del>¥12.5</del>
+               <span>10件起批</span>
+            </li>
+        	<li>
+            	<a href="#" title="产品图" target="_blank">
+                	<img src="images/biscuitImg.jpg" width="214" height="214" title="产品图" alt="产品图"/>
+                </a>
+                <a href="#" class="proIntro" title="进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L" target="_blank">进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L</a>
+               <font>¥ 10.07</font>
+               <del>¥12.5</del>
+               <span>10件起批</span>
+            </li>
+            <li>
+            	<a href="#" title="产品图" target="_blank">
+                	<img src="images/durioImg.jpg" width="214" height="214" title="产品图" alt="产品图"/>
+                </a>
+                <a href="#" class="proIntro" title="进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L" target="_blank">进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L</a>
+               <font>¥ 10.07</font>
+               <del>¥12.5</del>
+               <span>10件起批</span>
+            </li>
+            <li>
+            	<a href="#" title="产品图" target="_blank">
+                	<img src="images/fabulousImg.jpg" width="214" height="214" title="产品图" alt="产品图"/>
+                </a>
+                <a href="#" class="proIntro" title="进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L" target="_blank">进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L</a>
+               <font>¥ 10.07</font>
+               <del>¥12.5</del>
+               <span>10件起批</span>
+            </li>
+            <li>
+            	<a href="#" title="产品图" target="_blank">
+                	<img src="images/berriesImg.jpg" width="214" height="214" title="产品图" alt="产品图"/>
+                </a>
+                <a href="#" class="proIntro" title="进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L" target="_blank">进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L</a>
+               <font>¥ 10.07</font>
+               <del>¥12.5</del>
+               <span>10件起批</span>
+            </li>
+        	<li>
+            	<a href="#" title="产品图" target="_blank">
+                	<img src="images/datesImg.jpg" width="214" height="214" title="进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L" alt="进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L"/>
+                </a>
+                <a href="#" class="proIntro" title="进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L" target="_blank">进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L</a>
+               <font>¥ 10.07</font>
+               <del>¥12.5</del>
+               <span>10件起批</span>
+            </li>
+        	<li>
+            	<a href="#" title="产品图" target="_blank">
+                	<img src="images/sweetImg.jpg" width="214" height="214" title="产品图" alt="产品图"/>
+                </a>
+                <a href="#" class="proIntro" title="进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L" target="_blank">进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L</a>
+               	<font>¥ 10.07</font>
+               	<del>¥12.5</del>
+               	<span>10件起批</span>
+            </li>
+            <li>
+            	<a href="#" title="产品图" target="_blank">
+                	<img src="images/cake.jpg" width="214" height="214" title="产品图" alt="产品图"/>
+                </a>
+                <a href="#" class="proIntro" title="进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L" target="_blank">进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L</a>
+               <font>¥ 10.07</font>
+               <del>¥12.5</del>
+               <span>10件起批</span>
+            </li>
+            <li>
+            	<a href="#" title="产品图" target="_blank">
+                	<img src="images/biscuitImg.jpg" width="214" height="214" title="产品图" alt="产品图"/>
+                </a>
+                <a href="#" class="proIntro" title="进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L" target="_blank">进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L</a>
+               <font>¥ 10.07</font>
+               <del>¥12.5</del>
+               <span>10件起批</span>
+            </li>
+            <li>
+            	<a href="#" title="产品图" target="_blank">
+                	<img src="images/durioImg.jpg" width="214" height="214" title="产品图" alt="产品图"/>
+                </a>
+                <a href="#" class="proIntro" title="进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L" target="_blank">进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L</a>
+               <font>¥ 10.07</font>
+               <del>¥12.5</del>
+               <span>10件起批</span>
+            </li>
+         </ul>
+    </div>
+</div>
+<!--广告条-->
+<div class="bannerAds">
+	<img src="images/bannerAdsimg.jpg" width="1200" height="100" title="广告图" alt="广告图"/>
+</div>
+<div class="wrapCom">
+	<div class="leftbar">
+    	<!--公司信息-->
+    	<div class="companyInfor">
+        	<h2>公司信息</h2>
+	 	  	<dl class="storeInformation">
+		        <dt>
+		        	<a href="#" class="storeTitle" title="周口天诚贸易有限公司" target="_blank">周口天诚贸易有限公司</a>
+		        </dt>
+		        <dd>
+		            <a class="storeEmail" title="信" target="_blank"></a><span class="storeTime">3年</span>
+		            <div class="storeIcon"><a class="companyQua" href=""></a><a class="dataTime" href=""></a><a class="return" href=""></a></div>
+		        </dd>
+		    </dl>
+            <div class="inforContent">
+            	<span>联系卖家：<a class="qqconsult" href="#" title="在线咨询" target="_blank">在线咨询</a></span>
+                <span class="proMain">主营产品：<a href="#" title="休闲食品" target="_blank">休闲食品</a>&nbsp;
+                <a href="#" title="酒水饮料" target="_blank">酒水饮料</a>&nbsp;
+                <a href="#" title="粮油" target="_blank">粮油</a>
+                <a href="#" title="副食" target="_blank">副食</a>&nbsp;
+                <a href="#" title="果酱奶品" target="_blank">果酱奶品</a>
+                </span>
+            </div>
+		    <a href="#" class="enterStore" title="进入店铺" target="_blank">进入店铺</a>
+		    <a href="#" class="foucsStore" title="关注店铺" target="_blank">关注店铺</a>
+        </div>
+		<!--优惠券-->
+		<div class="coupon">
+			<h2>优惠券</h2>
+			<ul>
+				<li>
+					<div class="couponCon">
+						<span class="tremPrice">¥<font>20</font></span>
+						<span class="trem">
+							<p>满100元可用</p>
+							<p class="validity">有效期： 2016.2.3-2016.3.10</p>
+						</span>
+					</div>
+				</li>
+				<li>
+					<div class="couponCon">
+						<span class="tremPrice">¥<font>50</font></span>
+						<span class="trem">
+							<p>满150元可用</p>
+							<p class="validity">有效期： 2016.2.3-2016.3.10</p>
+						</span>
+					</div>
+				</li>
+				<li>
+					<div class="couponCon grayCoup">
+						<span class="tremPrice">¥<font>20</font></span>
+						<span class="trem">
+							<p>满200元可用</p>
+							<p class="validity">有效期： 2016.2.3-2016.3.10</p>
+						</span>
+					</div>
+				</li>
+			</ul>
+		</div>
+        <!--商品分类-->
+        <div class="cdiType">
+        	<h2>商品分类</h2>
+            <div class="diTypeCont">
+            	<span>产品名：<input class="diPro" type="text"/></span>
+                <span>价&nbsp;&nbsp;&nbsp;格：<input class="diPrice" type="text"/>到<input class="diTo" type="text"/></span>
+                <input  class="caSearch" type="submit" value="搜索"/>
+            </div>
+        </div>
+        <!--商品分类-->
+        <div class="companyInfo">
+        	<h2>商品分类</h2>
+            <ul class="commodity">
+		 		<li class="cur">
+					<h3><i class="iconfont">&#xe62c;</i>订单管理</h3>
+					<a href="#" title="001" target="_self">001</a>
+					<a href="#" title="002" target="_self">002</a>
+					<a href="#" title="03" target="_self">003</a>
+				</li>
+ 		 		<li>
+					<h3><i class="iconfont">&#xe62c;</i>订单管理</h3>
+					<a class="hover" href="#" title="管理后台" target="_self">001</a>
+					<a href="#" title="管理后台" target="_self">002</a>
+				</li>
+ 		 		<li>
+					<h3><i class="iconfont">&#xe62c;</i>订单管理</h3>
+					<a class="hover" href="#" title="管理后台" target="_self">001</a>
+					<a href="#" title="管理后台" target="_self">002</a>
+				</li>
+ 		 		<li>
+					<h3><i class="iconfont">&#xe62c;</i>订单管理</h3>
+					<a class="hover" href="#" title="管理后台" target="_self">001</a>
+					<a href="#" title="管理后台" target="_self">002</a>
+				</li>
+ 		 		<li>
+					<h3><i class="iconfont">&#xe62c;</i>订单管理</h3>
+					<a class="hover" href="#" title="管理后台" target="_self">001</a>
+					<a href="#" title="管理后台" target="_self">002</a>
+				</li>
+ 		 		<li>
+					<h3><i class="iconfont">&#xe62c;</i>订单管理</h3>
+					<a class="hover" href="#" title="管理后台" target="_self">001</a>
+					<a href="#" title="管理后台" target="_self">002</a>
+				</li>
+            </ul>
+        </div>
+        <!--销量排行榜-->
+        <div class="saleList">
+        	<h2>销量排行榜</h2>
+            <ul class="sales">
+            	<li>
+                	<a class="salesImg" href="#" title="产品图" target="_blank">
+                    	<img src="images/berriesImg.jpg" width="205" height="205" title="产品图" alt="产品图"/>
+                    </a>
+                    <a href="#" class="saName" title="进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L" target="_blank">进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L</a>
+                    <font>¥ 10.07</font>
+               		<del>¥12.5</del>
+               		<span>10件起批</span>
+                </li>
+                <li>
+                	<a class="salesImg" href="#" title="产品图" target="_blank">
+                    	<img src="images/biscuitImg.jpg" class="bisImg" width="205" height="205" title="产品图" alt="产品图"/>
+                    </a>
+                    <a href="#" class="saName" title="进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L" target="_blank">进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L</a>
+                    <font>¥ 10.07</font>
+               		<del>¥12.5</del>
+               		<span>10件起批</span>
+                </li>
+            </ul>
+       </div>
+       <!--新闻中心-->
+       <div class="newsLeftCenter">
+        	<h2>新闻中心</h2>
+            <ul class="newsLeftList">
+            	<li>
+                    <a href="#" title="" target="_blank">千年制笔之乡的新经济发展探寻之路</a>
+                </li>
+                <li>
+                    <a href="#" title="" target="_blank">惠普力推3D、4D打印技术创新</a>
+                </li>
+               <li>
+                    <a href="#" title="" target="_blank">神秘的签字笔</a>
+                </li>
+                <li>
+                    <a href="#" title="" target="_blank">符合使用直觉的圆珠笔</a>
+                </li>
+                <li>
+                    <a href="#" title="" target="_blank">千年制笔之乡的新经济发展探寻之路</a>
+                </li>
+                <li>
+                    <a href="#" title="" target="_blank">惠普力推3D、4D打印技术创新</a>
+                </li>
+               <li>
+                    <a href="#" title="" target="_blank">神秘的签字笔</a>
+                </li>
+                <li>
+                    <a href="#" title="" target="_blank">符合使用直觉的圆珠笔</a>
+                </li>
+            </ul>
+        </div>
+        <!--联系我们-->
+        <div class="contactUs">
+        	<h2>联系我们</h2>
+            <span class="Map"><img src="images/map.jpg" width="206" height="205" title="地图" alt="地图"/></span>
+            <p>联系人：李经理</p>
+            <p>联系电话：159887746989</p>
+            <p>电子邮箱：159887746989@163.com</p>
+            <p>通讯地址：周口市川汇区交通路与工农路口向西60米路南日丰管专卖店</p>
+        </div>
+    </div>
+    <!--最新上架-->
+    <div class="rightbar">
+    	<h2>最新上架</h2>
+        <a href="#" class="more" title="更多" target="_blank">更多>></a>
+        <ul class="newArrival">
+        	<li>
+            	<a href="#" title="产品图" target="_blank">
+                	<img src="images/biscuitImg.jpg" width="214" height="214" title="产品图" alt="产品图"/>
+                </a>
+                <a href="#" class="proIntro" title="进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L" target="_blank">进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L</a>
+               <font>¥ 10.07</font>
+               <del>¥12.5</del>
+               <span>10件起批</span>
+            </li>
+            <li>
+            	<a href="#" title="产品图" target="_blank">
+                	<img src="images/durioImg.jpg" width="214" height="214" title="产品图" alt="产品图"/>
+                </a>
+                <a href="#" class="proIntro" title="进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L" target="_blank">进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L</a>
+               <font>¥ 10.07</font>
+               <del>¥12.5</del>
+               <span>10件起批</span>
+            </li>
+            <li>
+            	<a href="#" title="产品图" target="_blank">
+                	<img src="images/fabulousImg.jpg" width="214" height="214" title="产品图" alt="产品图"/>
+                </a>
+                <a href="#" class="proIntro" title="进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L" target="_blank">进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L</a>
+               <font>¥ 10.07</font>
+               <del>¥12.5</del>
+               <span>10件起批</span>
+            </li>
+            <li>
+            	<a href="#" title="产品图" target="_blank">
+                	<img src="images/berriesImg.jpg" width="214" height="214" title="产品图" alt="产品图"/>
+                </a>
+                <a href="#" class="proIntro" title="进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L" target="_blank">进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L</a>
+               <font>¥ 10.07</font>
+               <del>¥12.5</del>
+               <span>10件起批</span>
+            </li>
+        </ul>
+    </div>
+    <!--镇店之宝-->
+    <div class="rightbar">
+    	<h2>镇店之宝</h2>
+        <a href="#" class="more" title="更多" target="_blank">更多>></a>
+        <ul class="zdTreasure" >
+        	<li>
+            	<a href="#" title="产品图" target="_blank">
+                	<img src="images/melonImg.jpg" width="214" height="214" title="产品图" alt="产品图"/>
+                </a>
+                <a href="#" class="proIntro" title="进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L" target="_blank">进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L</a>
+               <font>¥ 10.07</font>
+               <del>¥12.5</del>
+               <span>10件起批</span>
+            </li>
+            <li>
+            	<a href="#" title="产品图" target="_blank">
+                	<img src="images/datesImg.jpg" width="214" height="214" title="产品图" alt="产品图"/>
+                </a>
+                <a href="#" class="proIntro" title="进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L" target="_blank">进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L</a>
+               <font>¥ 10.07</font>
+               <del>¥12.5</del>
+               <span>10件起批</span>
+            </li>
+            <li>
+            	<a href="#" title="产品图" target="_blank">
+                	<img src="images/sweetImg.jpg" width="214" height="214" title="产品图" alt="产品图"/>
+                </a>
+                <a href="#" class="proIntro" title="进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L" target="_blank">进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L</a>
+               <font>¥ 10.07</font>
+               <del>¥12.5</del>
+               <span>10件起批</span>
+            </li>
+            <li>
+            	<a href="#" title="产品图" target="_blank">
+                	<img src="images/cake.jpg" width="214" height="214" title="产品图" alt="产品图"/>
+                </a>
+                <a href="#" class="proIntro" title="进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L" target="_blank">进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L</a>
+               <font>¥ 10.07</font>
+               <del>¥12.5</del>
+               <span>10件起批</span>
+            </li>
+            <li>
+            	<a href="#" title="产品图" target="_blank">
+                	<img src="images/biscuitImg.jpg" width="214" height="214" title="产品图" alt="产品图"/>
+                </a>
+                <a href="#" class="proIntro" title="进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L" target="_blank">进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L</a>
+               <font>¥ 10.07</font>
+               <del>¥12.5</del>
+               <span>10件起批</span>
+            </li>
+            <li>
+            	<a href="#" title="产品图" target="_blank">
+                	<img src="images/durioImg.jpg" width="214" height="214" title="产品图" alt="产品图"/>
+                </a>
+                <a href="#" class="proIntro" title="进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L" target="_blank">进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L</a>
+               <font>¥ 10.07</font>
+               <del>¥12.5</del>
+               <span>10件起批</span>
+            </li>
+            <li>
+            	<a href="#" title="产品图" target="_blank">
+                	<img src="images/fabulousImg.jpg" width="214" height="214" title="产品图" alt="产品图"/>
+                </a>
+                <a href="#" class="proIntro" title="进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L" target="_blank">进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L</a>
+               <font>¥ 10.07</font>
+               <del>¥12.5</del>
+               <span>10件起批</span>
+            </li>
+            <li>
+            	<a href="#" title="产品图" target="_blank">
+                	<img src="images/berriesImg.jpg" width="214" height="214" title="产品图" alt="产品图"/>
+                </a>
+                <a href="#" class="proIntro" title="进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L" target="_blank">进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L</a>
+               <font>¥ 10.07</font>
+               <del>¥12.5</del>
+               <span>10件起批</span>
+            </li>
+        </ul>
+    </div>
+    <!--产品列表-->
+    <div class="rightbar">
+    	<h2>产品列表</h2>
+        <a href="#" class="more" title="更多" target="_blank">更多>></a>
+        <ul class="prosList">
+        	<li>
+            	<a href="#" title="产品图" target="_blank">
+                	<img src="images/melonImg.jpg" width="214" height="214" title="产品图" alt="产品图"/>
+                </a>
+                <a href="#" class="proIntro" title="进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L" target="_blank">进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L</a>
+               <font>¥ 10.07</font>
+               <del>¥12.5</del>
+               <span>10件起批</span>
+            </li>
+            <li>
+            	<a href="#" title="产品图" target="_blank">
+                	<img src="images/datesImg.jpg" width="214" height="214" title="产品图" alt="产品图"/>
+                </a>
+                <a href="#" class="proIntro" title="进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L" target="_blank">进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L</a>
+               <font>¥ 10.07</font>
+               <del>¥12.5</del>
+               <span>10件起批</span>
+            </li>
+            <li>
+            	<a href="#" title="产品图" target="_blank">
+                	<img src="images/sweetImg.jpg" width="214" height="214" title="产品图" alt="产品图"/>
+                </a>
+                <a href="#" class="proIntro" title="进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L" target="_blank">进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L</a>
+               <font>¥ 10.07</font>
+               <del>¥12.5</del>
+               <span>10件起批</span>
+            </li>
+            <li>
+            	<a href="#" title="产品图" target="_blank">
+                	<img src="images/cake.jpg" width="214" height="214" title="产品图" alt="产品图"/>
+                </a>
+                <a href="#" class="proIntro" title="进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L" target="_blank">进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L</a>
+               <font>¥ 10.07</font>
+               <del>¥12.5</del>
+               <span>10件起批</span>
+            </li>
+            <li>
+            	<a href="#" title="产品图" target="_blank">
+                	<img src="images/biscuitImg.jpg" width="214" height="214" title="产品图" alt="产品图"/>
+                </a>
+                <a href="#" class="proIntro" title="进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L" target="_blank">进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L</a>
+               <font>¥ 10.07</font>
+               <del>¥12.5</del>
+               <span>10件起批</span>
+            </li>
+            <li>
+            	<a href="#" title="产品图" target="_blank">
+                	<img src="images/durioImg.jpg" width="214" height="214" title="产品图" alt="产品图"/>
+                </a>
+                <a href="#" class="proIntro" title="进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L" target="_blank">进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L</a>
+               <font>¥ 10.07</font>
+               <del>¥12.5</del>
+               <span>10件起批</span>
+            </li>
+            <li>
+            	<a href="#" title="产品图" target="_blank">
+                	<img src="images/fabulousImg.jpg" width="214" height="214" title="产品图" alt="产品图"/>
+                </a>
+                <a href="#" class="proIntro" title="进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L" target="_blank">进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L</a>
+               <font>¥ 10.07</font>
+               <del>¥12.5</del>
+               <span>10件起批</span>
+            </li>
+            <li>
+            	<a href="#" title="产品图" target="_blank">
+                	<img src="images/berriesImg.jpg" width="214" height="214" title="产品图" alt="产品图"/>
+                </a>
+                <a href="#" class="proIntro" title="进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L" target="_blank">进口果汁批发 塞浦路斯原装进口SK天然7种热带水果饮料1L</a>
+               <font>¥ 10.07</font>
+               <del>¥12.5</del>
+               <span>10件起批</span>
+            </li>
+        </ul>
+    </div>
+    <!--我的相册-->
+    <div class="rightbar">
+    	<h2>我的相册</h2>
+        <a href="#" class="more" title="更多" target="_blank">更多>></a>
+        <ul class="myAlbum">
+        	<li>
+            	<a href="#" title="产品图" target="_blank">
+                	<img src="images/datesImg.jpg" width="214" height="214" title="产品图" alt="产品图"/>
+                </a>
+                <a href="#" class="phoTheme" title="滋补美食" target="_blank">滋补美食</a>
+                <span class="photos">3张图片</span>
+            </li>
+            <li>
+            	<a href="#" title="产品图" target="_blank">
+                	<img src="images/durioImg.jpg" width="214" height="214" title="产品图" alt="产品图"/>
+                </a>
+                <a href="#" class="phoTheme" title="新鲜水果" target="_blank">新鲜水果</a>
+                <span class="photos">7张图片</span>
+            </li>
+            <li>
+            	<a href="#" title="产品图" target="_blank">
+                	<img src="images/sweetImg.jpg" width="214" height="214" title="产品图" alt="产品图"/>
+                </a>
+                <a href="#" class="phoTheme" title="速食饼干" target="_blank">速食饼干</a>
+                <span class="photos">4张图片</span>
+            </li>
+            <li>
+            	<a href="#" title="产品图" target="_blank">
+                	<img src="images/cake.jpg" width="214" height="214" title="产品图" alt="产品图"/>
+                </a>
+                <a href="#" class="phoTheme" title="甜美糕点" target="_blank">甜美糕点</a>
+                <span class="photos">5张图片</span>
+            </li>
+        </ul>
+    </div>
+    <!--公司简介-->
+    <div class="rightbar">
+    	<h2>公司简介</h2>
+        <a href="#" class="more" title="更多" target="_blank">更多>></a>
+        <div class="comProfile">
+        	<img src="images/profileImg.jpg" width="200" height="200" title="公司简介图" alt="公司简介图"/>
+            <p>办公用品，指人们在日常工作中所使用的辅助用品，办公用品主要被应用于企业单位，它涵盖的种类非常广泛，包括：文件档案用品桌面用品、办公设备、财务用品、耗材等一系列与工作相关的用品。</p>
+			<p class="office">我国办公用品行业运行目前发展形势良好，该行业企业正逐步向产业化、规模化发展，专业、高效、节能是我国办公用品行业运行的发展方向，我国办公用品行业运行生产的产品品质具备国际市场竞争力。智研数据研究中心随着我国办公用品行业运行需求市场的不断扩大以及出口增长，我国办公用品行业运行迎来一个新的发展机遇。</p>
+			<p>办公用品，指人们在日常工作中所使用的辅助用品，办公用品主要被应用于企业单位，它涵盖的种类非常广泛，包括：文件档案用品、桌面用品、办公设备、财务用品、耗材等一系列与工作相关的用品。我国办公用品行业运行需求.......<a href="#" title="" target="_blank">[查看详情]</a></p>
+        </div>
+    </div>
+</div>
+<!--弹出框-->
+<div class="popup" id="popup">
+	<h2>领取优惠券</h2>
+	<i class="iconfont" i="close">&#xe60a;</i>
+	<div class="popupCon">
+		<p>亲，确定领取河南双汇食品集团的</br>100元店铺优惠券吗？</p>
+	</div>
+	<div class="opBtn">
+		<input class="okBtn" data-id="ok" type="button" value="确定">
+		<input class="cancelBtn" data-id="cancel"  type="button" value="取消">
+	</div>
+</div>
+<!--领取成功-->	
+<div class="drawCon">
+	<span></span>
+	<p>领取成功!</p>
+</div>
+<!--领取失败-->	
+<div class="drawMain">
+	<span></span>
+	<p>领取失败!</p>
+</div>		
+<div ng-include="'footer.html'"></div>
+<script type="text/javascript">
+	jQuery(".wrapperFocus").slide({titCell:".hd ul", mainCell:".bd ul", effect:"fold",  autoPlay:true, autoPage:true, trigger:"click",interTime:5000});
+	$(document).ready(function(){
+		//左侧点击展开
+		$(".companyInfo ul li h3").click(function(){
+			$(this).parent().toggleClass("cur")
+			$(this).parent().siblings().removeClass("cur")
+		})
+		$('.coupon ul li').click(function(){
+	     dialog({
+	         content:document.getElementById('popup'),
+	         ok: function () {
+	             this.close();
+	             return false;
+	             },
+	         cancel: function () {
+	             this.close();
+	             return false;
+	             },
+	     }).showModal();
+	     //让隐藏的样式显示
+	     $('#popup').css('display','block');
+		});
+	})
+</script>
+<script type="text/javascript">
+	angular.module('myApp', []).controller('userCtrl', function($scope) {})
+</script>
+</body>
+</html>

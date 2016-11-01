@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh">
+	<meta charset="utf-8" />
+	<title>伙拼产品详情</title>
+	<meta name="Keywords" content="关键词"/>
+	<meta name="Description" content="我是网页的描述sss"/>
+	<link rel="stylesheet" href="css/common.css" type="text/css" />
+	<link rel="stylesheet" href="css/huopinDetail.css" type="text/css" />
+	<link rel="stylesheet" href="css/iconfont/iconfont.css" type="text/css" />
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/zoom.js"></script>
+    <script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+	<script type="text/javascript" src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
+</head>
+<body ng-app="myApp" ng-controller="userCtrl">
+<div ng-include="'header.html'"></div>	
+<div class="breadsNav">
+	您现在的位置：<a href="#" title="" target="_self">首页</a><code>&gt;</code><a href="#" title="" target="_self">大宗采购</a><code>&gt;</code><b>商家采购页</b>
+</div>
+<!---- 产品属性 ---->
+<div class="proContent">
+<div class="detailLeft">
+	<h3><a href="" target="_blank" title="">进口果汁批发 塞浦路斯原装进口 SK天然7种热带水果饮料1L*12盒</a></h3>
+	<!---- 产品大图 ---->
+<div class="Glass">
+	<div id="proPhotos">
+		<div class="bigImg">
+			<img class="viewBigImg" src="images/testimg/six.jpg"/> 
+		</div>
+		<!---- 产品小图 ---->
+		<div class="proItems">
+			<ul>
+				<li class="on">
+					<img src="images/testimg/six.jpg" width="60" height="60" title="产品名称" alt="产品名称"/>
+				</li>
+				<li>
+					<img src="images/testimg/senve.jpg" width="60" height="60" title="产品名称" alt="产品名称"/>
+				</li>
+				<li>
+					<img src="images/testimg/six.jpg" width="60" height="60" title="产品名称" alt="产品名称"/>
+				</li>
+				<li>
+					<img src="images/testimg/senve.jpg" width="60" height="60" title="产品名称" alt="产品名称"/>
+				</li>
+			</ul>
+			<span class="prevBtn">&lt;</span>
+	        <span class="nextBtn">&gt;</span>
+		</div>
+	</div>
+<div class="productDetail">
+	<div class="proTips">
+	<b>伙拼</b>
+	<span class="tipsText">此商品正在参加伙拼，<span>1天18小时</span>结束，请尽快购买！</span>
+	</div>
+	<div class="proPrice">
+		<table border="0" cellspacing="0" cellpadding="0">
+			<tbody>
+				<tr>
+					<td class="priceTitle">价格:</td>
+					<td><span class="onePrice">&yen;100.00</span></td>
+					<td><span class="twoPrice">&yen;100.00</span></td>
+					<td><span class="threePrice">&yen;100.00</span></td>
+				</tr>
+				<tr>
+					<td class="priceTitle">起批量:</td>
+					<td><span class="oneNumber">20-40袋</span></td>
+					<td><span class="twoNumber">20-40袋</span></td>
+					<td><span class="threeNumber">20-40袋</span></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<!---- 物流 ---->
+	<div class="logistics">
+		<span class="logisticsTitle">物流：</span>
+		<div id="selectList">
+			<div id="summary-stock">
+				<span class="formCity">四川 成都 &nbsp;至</span>
+				<div class="Delivery">
+					<div id="store-selector">
+						<div class="toCity"><span>请选择配送地区</span><i class="iconfont">&#xe625;</i></div>                   
+						<div onclick="$('#store-selector').removeClass('hover')" class="close"><i class="iconfont">&#xe60a;</i></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<span class="logistText">物流：93</span>
+		<span class="logistText">快递：93</span>
+	</div>
+	<!-- 口味 -->
+	<div class="taste">
+		<span class="tasteTitle">口味：</span><span class="tasteOne on">共1000包</span><span class="tasteOne">共1000包</span><span class="tasteOne">共1000包</span>
+	</div>
+	<!---- 包装规格 ---->
+	<div class="specifications">
+		<table border="0" cellspacing="0" cellpadding="0">
+			<tbody>
+				<tr class="specifContent">
+					<td class="specifTitle">包装规格:</td>
+					<td><span class="specifOne">1000ml*2盒</span></td>
+					<td><span class="specifTwo">1000ml*2盒</span></td>
+					<td><span class="specifThr">1000ml*2盒</span></td>
+					<td>
+						<span class="orderAdd">		
+							<i class="iconfont cut">&#xe63a;</i>
+							<input id="buyCount" type="text" value="1">
+							<i class="iconfont add">&#xe63b;</i>
+						</span>
+					</td>
+				</tr>
+				<tr class="specifContent">
+					<td class="specifTitle"></td>
+					<td><span class="specifOne">1000ml*2盒</span></td>
+					<td><span class="specifTwo">1000ml*2盒</span></td>
+					<td><span class="specifThr">1000ml*2盒</span></td>
+					<td>
+						<span class="orderAdd">		
+							<i class="iconfont cut">&#xe63a;</i>
+							<input id="buyCount" type="text" value="1">
+							<i class="iconfont add">&#xe63b;</i>
+						</span>
+					</td>
+				</tr>
+				<tr class="specifContent">
+					<td class="specifTitle"></td>
+					<td><span class="specifOne">1000ml*2盒</span></td>
+					<td><span class="specifTwo">1000ml*2盒</span></td>
+					<td><span class="specifThr">1000ml*2盒</span></td>
+					<td>
+						<span class="orderAdd">		
+							<i class="iconfont cut">&#xe63a;</i>
+							<input id="buyCount" type="text" value="1">
+							<i class="iconfont add">&#xe63b;</i>
+						</span>
+					</td>
+				</tr>
+			</tbody>
+		</table>		
+	</div>
+	<div class="selectList">
+		<span class="selectNumber">5个</span>|<strong>21.4元</strong><span class="listText">已选清单</span>
+	</div>
+	<div class="buyBtn">
+		<a class="addSale" href="" target="_self" title="">立即订购</a>
+		<a class="addToCart" href="" target="_self" title="">加入采购单</a>
+	</div>
+	<div class="Credibility">
+		<span class="buyers">买家保障</span>
+		<span class="seller">实力卖家</span>
+	</div>
+	<div class="detailPay">
+		<span class="payment">支付方式:</span>
+		<a href="javascript:void(0)" class="payType">银联支付</a>
+		<a href="javascript:void(0)" class="payType">货到付款</a>
+	</div>
+</div>
+</div>
+<!---- 产品属性信息 ---->
+<div class="goodsDetail">
+	<div class="goodsTitle">
+		<span class="on">详细信息</span>
+		<span>评价<b>(59)</b></span>
+		<a href="javascript:void(0);" target="_self" class="aAddCart">加入购物车</a>
+	</div>
+<!---- 产品详细信息 ---->
+	<div class="sideRightCon">
+		<div class="detailInfor">
+			<ul>
+				<li>商品品牌：<span>&yen;100.0</span></li>
+				<li>商品条形码：<span>400124584554</span></li>
+				<li>是否进口：<span>是</span></li>
+				<li>产品类别：<span>方便面</span></li>
+				<li>保质期：<span>365天</span></li>
+				<li>品牌：<span>出前一丁</span></li>
+				<li>净含量(规格)：<span>100克</span></li>
+				<li>包装规格(箱入数)：<span>30</span></li>
+				<li>生产厂家：<span>香港日清食品有限公司</span></li>
+				<li>原料与配料：<span>小麦粉、淀粉、食盐等</span></li>
+				<li>储存方法：<span>请置于阴凉干燥处、避免阳光</span></li>
+			</ul>		
+		</div>
+		<!---- 商品评价 ---->
+		<div class="evaluation">
+			<h3>商品评价<b>(22)</b></h3>
+			<div class="starFilter">
+				<label><input type="radio" name="star" checked="checked"/>全部</label>
+				<label><input type="radio" name="star"/>四星五星<span>(100)</span></label>
+				<label><input type="radio" name="star"/>三星<span>(100)</span></label>
+				<label><input type="radio" name="star"/>二星<span>(100)</span></label>
+				<label><input type="radio" name="star"/>一星<span>(100)</span></label>
+			</div>
+			<div class="evaContent">
+				<dl>
+					<dt>dfdfdfd</dt>
+					<dd>
+						<div class="evaAttr">
+							<span class="pentagram">星级：<i class="iconfont">&#xe647;</i><i class="iconfont">&#xe647;</i></span>
+							<span class="evaNumber">数量：24瓶</span>
+							<span class="evaTotal">累计采购：24瓶</span>
+							<span class="evaTime">2016-1-18 18:01:38</span>
+						</div>
+					</dd>
+					<dd>
+						<p class="evaText">口感很好，客户很是喜欢，好评！口感很好，客户很是喜欢，好评！口感很好，客户很是喜欢，好评！口感很好，客户很是喜欢，好评！口感很好，客户很是喜欢，好评！口感很好，客户很是喜欢，好评！口感很好，客户很是喜欢，好评！口感很好，客户很是喜欢，好评！口感很好，客户很是喜欢，好评！</p>
+					</dd>
+				</dl>
+				<dl>
+					<dt>dfdfdfd</dt>
+					<dd>
+						<div class="evaAttr">
+							<span class="pentagram">星级：<i class="iconfont">&#xe647;</i><i class="iconfont">&#xe647;</i></span>
+							<span class="evaNumber">数量：24瓶</span>
+							<span class="evaTotal">累计采购：24瓶</span>
+							<span class="evaTime">2016-1-18</span>
+						</div>
+					</dd>
+					<dd>
+						<p class="evaText">口感很好，客户很是喜欢，好评！口感很好，客户很是喜欢，好评！口感很好，客户很是喜欢，好评！口感很好，客户很是喜欢，好评！口感很好，客户很是喜欢，好评！口感很好，客户很是喜欢，好评！口感很好，客户很是喜欢，好评！口感很好，客户很是喜欢，好评！口感很好，客户很是喜欢，好评！</p>
+					</dd>
+				</dl>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+<!--产品详情左侧看了又看-->
+<div class="detailSidebar">
+	<div class="storeSidebar">	
+	  	<dl class="storeInformation">
+	    	<dt>诚信卖家</dt>
+	        <dd>
+	        	<a href="#" class="storeTitle" title="周口天诚贸易有限公司" target="_blank">周口天诚贸易有限公司</a>
+	        </dd>
+	        <dd>
+	            <a class="storeEmail" title="信" target="_blank"></a><span class="storeTime">3年</span>
+	            <div class="storeIcon"><a class="quality" href="javascript:0"></a><a class="dataTime" href="javascript:0"></a></div>
+	        </dd>
+	    </dl>
+	    <ul class="StoreContent">
+	    	<li>所在地区：海南 三亚</li>
+	    	<li>生产模式：生产厂家</li>
+	    	<li>联系卖家：吴静媛<a href="#" class="contactStore" title="联系卖家" target="_blank"><i class="iconfont">&#xe63f;</i>联系卖家</a></li>
+	    </ul>
+	    <a href="#" class="enterStore" title="进入店铺" target="_blank">进入店铺</a>
+	    <a href="#" class="foucsStore" title="关注店铺" target="_blank">关注店铺</a>
+	</div>
+	<div class="sideRight">
+		<h2>热销推荐</h2>
+		<ul>
+			<li>
+				<a href="" target="_blank" title="2件装 | KUMANO COSMETICS熊野油脂无硅马油洗发水+护发素 600毫升/瓶 2瓶装"><img src="images/testimg/produ.jpg" width="200" height="200" alt="2件装 | KUMANO COSMETICS熊野油脂无硅马油洗发水+护发素 600毫升/瓶 2瓶装"></a>
+				<h3 class="sideTitle"><a href="" target="_blank" title="2件装 | KUMANO COSMETICS熊野油脂无硅马油洗发水+护发素 600毫升/瓶 2瓶装">熊野油脂无硅马油洗发 600毫升/瓶洗发 600毫升/瓶</a></h3>
+				<strong class="sidePrice">￥39.0</strong><del>￥49</del><span class="wholeSale">8025人评价</span>
+			</li>
+			<li>
+				<a href="" target="_blank" title="2件装 | KUMANO COSMETICS熊野油脂无硅马油洗发水+护发素 600毫升/瓶 2瓶装"><img src="images/testimg/produ.jpg" width="200" height="200" alt="2件装 | KUMANO COSMETICS熊野油脂无硅马油洗发水+护发素 600毫升/瓶 2瓶装"></a>
+				<h3 class="sideTitle"><a href="" target="_blank" title="2件装 | KUMANO COSMETICS熊野油脂无硅马油洗发水+护发素 600毫升/瓶 2瓶装">熊野油脂无硅马油洗发 600毫升/瓶洗发 600毫升/瓶</a></h3>
+				<strong class="sidePrice">￥39.0</strong><del>￥49</del><span class="wholeSale">8025人评价</span>
+			</li>
+			<li>
+				<a href="" target="_blank" title="2件装 | KUMANO COSMETICS熊野油脂无硅马油洗发水+护发素 600毫升/瓶 2瓶装"><img src="images/testimg/produ.jpg" width="200" height="200" alt="2件装 | KUMANO COSMETICS熊野油脂无硅马油洗发水+护发素 600毫升/瓶 2瓶装"></a>
+				<h3 class="sideTitle"><a href="" target="_blank" title="2件装 | KUMANO COSMETICS熊野油脂无硅马油洗发水+护发素 600毫升/瓶 2瓶装">熊野油脂无硅马油洗发 600毫升/瓶洗发 600毫升/瓶</a></h3>
+				<strong class="sidePrice">￥39.0</strong><del>￥49</del><span class="wholeSale">8025人评价</span>
+			</li>
+			<li>
+				<a href="" target="_blank" title="2件装 | KUMANO COSMETICS熊野油脂无硅马油洗发水+护发素 600毫升/瓶 2瓶装"><img src="images/testimg/produ.jpg" width="200" height="200" alt="2件装 | KUMANO COSMETICS熊野油脂无硅马油洗发水+护发素 600毫升/瓶 2瓶装"></a>
+				<h3 class="sideTitle"><a href="" target="_blank" title="2件装 | KUMANO COSMETICS熊野油脂无硅马油洗发水+护发素 600毫升/瓶 2瓶装">熊野油脂无硅马油洗发 600毫升/瓶洗发 600毫升/瓶</a></h3>
+				<strong class="sidePrice">￥39.0</strong><del>￥49</del><span class="wholeSale">8025人评价</span>
+			</li>
+		</ul>
+	</div>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/zoom.js"></script>
+<script type="text/javascript" src="js/location.js"></script>
+<script type="text/javascript">
+//	商品评价tab切换
+	$(function(){
+		$(".goodsTitle span").each(function(index){
+			$(this).click(function(){
+				$(".goodsTitle span.on").removeClass("on");
+				$(this).addClass("on");
+				$(".sideRightCon>div:eq("+index+")").show().siblings().hide();
+			})
+		})
+	})
+//	商品评价tab切换浮动
+	$(window).scroll(function () {
+	    var topH = $(".goodsDetail").offset().top + 50,
+	        scrolltop = $(window).scrollTop();
+	    if (scrolltop >= topH) {
+	        $(".goodsTitle").addClass("top-nav-wrap-fixed");
+	        $(".goodsTitle").stop().animate({"top": "0"}, 200);
+	    }
+	    else {
+	        $(".goodsTitle").removeClass("top-nav-wrap-fixed");
+	        $(".goodsTitle").css({"top":""})
+	    }
+	});
+</script>
+</body>
+</html>

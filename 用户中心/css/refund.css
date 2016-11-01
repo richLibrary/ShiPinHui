@@ -1,0 +1,132 @@
+@charset "utf-8";
+/*---- 步骤导航 ----*/
+.steps{width:716px;height:29px;margin-bottom:25px;overflow:hidden;}
+.steps li{width:179px; height:29px; line-height:28px; float:left; text-align:center; font-size:14px;}
+/*初始样式*/
+.steps li.stepsThrV{ color:#999999;background: url(../images/sellerFlowImg.png) no-repeat 0px -58px; margin-left:-6px;}
+.steps li.stepsFouV{ color:#999999;background: url(../images/sellerFlowImg.png) no-repeat 0px -58px; margin-left:-6px;}
+/*即将进行的样式*/
+.steps li.stepsTwoR{color:#fff;background: url(../images/sellerFlowImg.png) no-repeat 0px -87px; margin-left:-6px;}
+.steps li.stepsThrR{color:#fff;background: url(../images/sellerFlowImg.png) no-repeat 0px -87px; margin-left:-6px;}
+.steps li.stepsFouR{color:#fff;background: url(../images/sellerFlowImg.png) no-repeat 0px -87px; margin-left:-6px;}
+/*完成时的样式*/
+.steps li.stepsOneS{color:#fff;background: url(../images/sellerFlowImg.png) no-repeat 0px 0px;}
+.steps li.stepsTwoS{color:#fff;background: url(../images/sellerFlowImg.png) no-repeat 0px -29px; margin-left:-6px;}
+.steps li.stepsThrS{color:#fff;background: url(../images/sellerFlowImg.png) no-repeat 0px -29px; margin-left:-6px;}
+.steps li.stepsFouS{color:#fff;background: url(../images/sellerFlowImg.png) no-repeat 0px -29px; margin-left:-6px;}
+/*----买家申请仅退款页 ----*/
+.ucRight{width:978px;height:auto;float:right;overflow:hidden;}
+.leftSidebar{width:208px;height:auto;border:1px solid #E4E4E4;padding:15px 20px;float:left;}
+.leftSidebar h3{font:700 16px/24px "\5FAE\8F6F\96C5\9ED1";color:#333;}
+.refundPro{height:auto;overflow:hidden;margin:22px 0 15px 0;}
+.refundPro dt{float:left;margin-right:15px;}
+.refundPro dd{margin-top:8px;float:left;color:#999;}
+.refundTitle{display:block;font:700 14px/14px "\5FAE\8F6F\96C5\9ED1";color:#333;}
+.refundPro dd span{display:inline-block;font:14px/14px "\5FAE\8F6F\96C5\9ED1";margin-left:8px;}
+.refundInfor{height:auto;overflow:hidden;}
+.refundInfor li{font:14px/24px "\5FAE\8F6F\96C5\9ED1";margin-top:10px;color:#666;}
+.online{width:87px;height:17px;background: url(../images/online.png) no-repeat scroll 0 0;margin-left:15px;display:inline-block;vertical-align:-3px ;}
+.refundColor{color:#ff7300;}
+.refundImg img{margin-left:8px;}
+.refundBar{width:673px;height:497px;overflow:hidden;border:1px solid #E4E4E4;border-left:none;padding:14px 0 0 25px;}
+.refundBar h3{font:700 16px/24px "\5FAE\8F6F\96C5\9ED1";color:#333;}
+.countdown{width:589px;height:43px;border:1px solid #f3f3f3;line-height:43px;padding-left:40px;margin:18px 0 35px 0;}
+.countdown i{font-size:29px;color:#FF7300;float:left;margin-right:10px;}
+.countText{font-size:16px;color:#333;}
+.countTime{height:auto;overflow:hidden;color:#333;font-size:16px;}
+#t_d,#t_h,#t_m,#t_s{color:#FF7300;margin-right:3px;font-size:14px;}
+.refundBar p{font:14px/28px "\5FAE\8F6F\96C5\9ED1";color:#999;padding-left:28px;}
+.Agree{width:130px;height:40px;background-color:#ff3636;color:#fff;font:14px/40px "\5FAE\8F6F\96C5\9ED1";text-align:center;margin:20px 0 0 28px;border-radius:3px;border:none;cursor:pointer;}
+.Refused{padding:20px 0 0 30px;margin-top:20px;border-top:1px dashed #E4E4E4;height:auto;overflow:hidden;}
+.refusText{font:14px/22px "\5FAE\8F6F\96C5\9ED1";color:#999;}
+.refusApply{color:#FF3636;text-decoration:underline;margin-left:3px;}
+/*---- 卖家处理退款申请页 ----*/
+.refundTips{width:605px;height:43px;font:12px/43px "\5FAE\8F6F\96C5\9ED1";color:#ff8b3a;background-color:#fffae0;border:1px solid #f8efea;display:block;padding-left:24px;}
+.returnAddress{margin:20px 0 0 15px;}
+.returnAddress dt{color:#333;float:left;width:70px;text-align:right;}
+.returnAddress dt font{color:#f00;margin-right:5px;}
+.returnAddress dd{color:#333;margin:0 0 10px 70px;}
+.returnAddress dd input[name="radio"]{margin:0 8px 0 15px;}
+.manageAddress{display:block;font:14px/22px "\5FAE\8F6F\96C5\9ED1";color:#6fa9ff;margin-left:35px;}
+.refundIns{margin:15px 0 0 15px;height:auto;overflow:hidden;}
+.refundIns dt{color:#333;float:left;width:70px;text-align:right;}
+.refundIns textarea{width:529px;height:88px;font:14px/22px "\5FAE\8F6F\96C5\9ED1";text-align:center;color:#999;margin-left:20px;padding-top:20px;}
+.send{width:130px;height:40px;background-color:#ff3636;color:#fff;font:14px/40px "\5FAE\8F6F\96C5\9ED1";text-align:center;margin:40px 0 0 104px;border:none;float:left;cursor:pointer;}
+.return{float:left;font:14px/40px "\5FAE\8F6F\96C5\9ED1";color:#6fa9ff;margin:40px 0 0 15px;cursor:pointer;border:none;background-color:#fff;}
+/*---- 买家退货给卖家页 ----*/
+.buyerReturn{width:614px;height:43px;border:1px solid #f3f3f3;line-height:43px;margin:18px 0 35px 0;background-color:#FFFAE0;padding-left:15px;}
+.buyerReturn i{font-size:29px;color:#FF7300;float:left;margin-right:10px;}
+.buyerTips{font:14px/43px "\5FAE\8F6F\96C5\9ED1";color:#FF7300;margin-right:15px;display:block;float:left;}
+.confim{width:130px;height:40px;background-color:#ff3636;color:#fff;font:14px/40px "\5FAE\8F6F\96C5\9ED1";text-align:center;margin:40px 0 0 30px;border-radius:3px;float:left;border:none;cursor:pointer;}
+/*---- 拒绝退款页 ----*/
+.refTips{width:605px;height:43px;font:12px/43px "\5FAE\8F6F\96C5\9ED1";color:#ff8b3a;background-color:#fffae0;border:1px solid #f8efea;display:block;padding-left:24px;}
+.refReason{margin:20px 0 0 24px;height:auto;overflow:hidden;}
+.refReason li{margin-top:16px;color:#333;font-size:14px;}
+.refReason li font{color:#f00;margin-left:3px;}
+.selReason{width:158px;height:23px;border:1px solid #E4E4E4;padding-left:8px;color:#333;margin-left:15px;border-top:1px solid #adabb3;color:#333;}
+.refundAno{float:left;display:block;}
+.instruction{width:478px;height:60px;font:14px/22px "\5FAE\8F6F\96C5\9ED1";color:#999;padding-left:8px;margin-left:15px;}
+.refReason li input[type="file"]{margin-left:28px;}
+.annotation{font:14px/22px "\5FAE\8F6F\96C5\9ED1";color:#999;display:block;margin:5px 0 0 83px;}
+/*---- 退款完成页 ----*/
+.step{width:988px;height:auto;overflow:hidden;margin-top:10px}
+.step ul{height:auto;overflow:hidden}
+.step ul li{width:329px;height:30px;text-align:center;font:14px/30px "\5FAE\8F6F\96C5\9ED1";color:#333;float:left}
+.step ul li.stepOne{background:url(../images/fllist.jpg) no-repeat 0 0 scroll}
+.step ul li.stepTow{background:url(../images/fllist.jpg) no-repeat 0 -32px scroll}
+.step ul li.stepThree{background:url(../images/fllist.jpg) no-repeat 0 -62px scroll;color:#fff;float:right}
+/*退款编号*/
+.returnMianCon{height:auto;overflow:hidden}
+.returnNumber{width:896px;height:68px;overflow:hidden;border:#e4e4e4 1px solid;padding:15px 45px;margin-top:27px;background-color:#FFFAE0;}
+.returnNumber span{font:14px/30px "\5FAE\8F6F\96C5\9ED1";color:#333;display:block}
+.returnNumber span b{color:#ff6300}
+/*退款协议与退款货品*/
+.sampleBox{width:988px;height:auto;overflow:hidden;margin-top:23px}
+.sampleTab{height:auto;overflow:hidden}
+.sampleTab li{padding:0 15px;height:37px;font:14px/37px "\5FAE\8F6F\96C5\9ED1";color:#333;float:left;text-align:center;border-bottom:#e4e4e4 1px solid;cursor:pointer;}
+.sampleTab li.on{color:#FF7300;border-bottom:1px solid #FF7300;padding:0 15px;}
+.sampleMain{height:234px;border:#e4e4e4 1px solid}
+.sampleMain dl{margin-top:10px;display:none;height:auto;overflow:hidden;}
+.sampleMain dt{width:150px;height:30px;overflow:hidden;display:block;text-align:right;font:700 14px/30px "\5FAE\8F6F\96C5\9ED1";color:#333;float:left}
+.sampleMain dd{width:690px;height:30px;overflow:hidden;display:block;float:left;margin-left:10px;font:12px/30px "\5FAE\8F6F\96C5\9ED1";color:#333}
+.sampleMain dd b{color:#ff6300}
+/*卖家信息*/
+.sellerInfo{width:986px;height:auto;overflow:hidden;border:#e4e4e4 1px solid;border-top:none;padding-bottom:22px}
+.sellerInfo h3{font:14px/30px "\5FAE\8F6F\96C5\9ED1";color:#333;padding-left:30px;margin-top:10px}
+.sellerInfo ul li{width:463px;font:12px/30px "\5FAE\8F6F\96C5\9ED1";color:#333;float:left;padding-left:30px}
+.sellerInfo ul li a,.sellerInfo ul li i{color:#ff7300}
+.sellerInfo ul li a img{margin-left:10px}
+/*退款货品列表*/
+.refundList{width:926px;height:auto;overflow:hidden;border:#e4e4e4 1px solid;padding:0 30px;border-top:none}
+.refundList h3{font:14px/30px "\5FAE\8F6F\96C5\9ED1";color:#333;padding:15px 0}
+.center{text-align:center;border:#e4e4e4 1px solid;background-color:#fafafa}
+.ucRight .stable1 td{font-size:13px}
+.dumpling{border:#e4e4e4 1px solid;border-top:none;text-align:center}
+.dumpling td{font:14px/16px "\5FAE\8F6F\96C5\9ED1";color:#666}
+.ucRight .stable1 td.dict{margin-left:10px}
+.dumpling img{margin-left:30px}
+.dumpling a.missMian{width:169px;height:20px;overflow:hidden;font:14px/20px "\5FAE\8F6F\96C5\9ED1";color:#333;text-align:left;float:left}
+.dumpling a.missMian:hover{color:#ff7300}
+.dumpling p{float:left;color:#999}
+.dumpling b{color:#ff7300}
+.refundList span{font:14px/30px "\5FAE\8F6F\96C5\9ED1";color:#666;padding:12px 0;display:block;float:right}
+.refundList span b{color:#ff7300}
+/*---- 退换货管理 ----*/
+.uctit span.afterSale{ border-left:#2b54aa 5px solid; padding-left:10px}
+.gray,.uctit span a{ color:#2b54aa}
+.refundInput{border:1px solid #e4e4e4;background:#fff;height:26px;line-height:26px;padding:2px 5px;width:93px;}
+.seaBtn{width:80px;height:40px;background:#ff6600;-moz-border-radius:3px;webkit-border-radius:3px;border-radius:3px;color:#fff;font-size:16px;border:none;cursor:pointer;}
+.manage{border:1px solid #eee; background:#f7f7f7; padding:15px 20px; }
+.manage td{font-size:14px;}
+.afterState{width:101px; height:32px}
+.afterState option{width:101px;height:32px;overflow:hidden}
+.strea{width:988px;height:40px;background-color:#f5f5f5;margin-top:30px; }
+.strea select{width:84px;height:28px;line-height:28px;}
+.strea td{font-size:14px;line-height:40px;text-align:center}
+.streaMain{width:988px; height:auto;overflow:hidden;margin-bottom:20px}
+.streaMain table{width:988px; height:99px;border:#eaeaea 1px solid;border-bottom:none}
+.streaMain td span{color:#ff7300}
+.streaMain td{ font-size:12px;color:#666;text-align:center;border-bottom:#eaeaea 1px solid}
+.streaMain td a{width:110px;height:auto;overflow:hidden;display:inline-block;color:#ff7300}
+.streaMain a.store,.streaMain a.part{ color:#5fbfff}
+.ucRight .search{border:1px solid #eee; background:#f7f7f7; padding:15px 20px; }

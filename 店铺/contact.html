@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+	<meta charset="utf-8" />
+	<title>店铺联系方式</title>
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="Keywords" content="关键词"/>
+	<meta name="Description" content="我是网页的描述sss"/>
+    <link rel="stylesheet" href="css/iconfont/iconfont.css" type="text/css" />
+	<link rel="stylesheet" href="css/common.css" type="text/css" />
+	<link rel="stylesheet" href="css/store.css" type="text/css" />
+    <link rel="stylesheet" href="css/black.css" type="text/css" />
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=您的密钥"></script>
+	<script type="text/javascript" src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
+</head>
+<body ng-app="myApp" ng-controller="userCtrl">
+<div ng-include="'header.html'"></div>
+<!---- 轮播图 ---->
+<div class="wrapperFocus">
+	<div class="bd">
+		<ul>
+			<li>
+				<a href="#" title="活动名称" target="_blank">
+					<img src="images/banner.jpg" width="100%" height="500" title="活动名称" alt="活动名称"/>
+				</a>
+			</li>
+			<li>
+				<a href="#" title="活动名称" target="_blank">
+					<img src="images/banner.jpg" width="100%" height="500" title="活动名称" alt="活动名称"/>
+				</a>
+			</li>
+			<li>
+				<a href="#" title="活动名称" target="_blank">
+					<img src="images/banner.jpg" width="100%" height="500" title="活动名称" alt="活动名称"/>
+				</a>
+			</li>
+			<li>
+				<a href="#" title="活动名称" target="_blank">
+					<img src="images/banner.jpg" width="100%" height="500" title="活动名称" alt="活动名称"/>
+				</a>
+			</li>
+			<li>
+				<a href="#" title="活动名称" target="_blank">
+					<img src="images/banner.jpg" width="100%" height="500" title="活动名称" alt="活动名称"/>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div class="hd"><ul></ul></div>
+	<a class="prev iconfont" href="javascript:void(0)">&#xe615;</a>
+	<a class="next iconfont" href="javascript:void(0)">&#xe614;</a>
+</div>
+<div class="storeContent">
+	<div class="leftbar">
+    	<!--公司信息-->
+    	<div class="companyInfor">
+        	<h2>公司信息</h2>
+	 	  	<dl class="storeInfor">
+		        <dt>
+		        	<a href="#" class="storeTitle" title="周口天诚贸易有限公司" target="_blank">周口天诚贸易有限公司</a>
+		        </dt>
+		        <dd>
+		            <a class="storeEmail" title="信" target="_blank"></a><span class="storeTime">3年</span>
+		            <div class="storeIcon"><a class="companyQua" href=""></a><a class="dataTime" href=""></a><a class="return" href=""></a></div>
+		        </dd>
+		    </dl>
+            <div class="inforContent">
+            	<span>联系卖家：<a class="qqconsult" href="#" title="在线咨询" target="_blank">在线咨询</a></span>
+                <span class="proMain">主营产品：<a href="#" title="休闲食品" target="_blank">休闲食品</a>&nbsp;
+                <a href="#" title="酒水饮料" target="_blank">酒水饮料</a>&nbsp;
+                <a href="#" title="粮油" target="_blank">粮油</a>
+                <a href="#" title="副食" target="_blank">副食</a>&nbsp;
+                <a href="#" title="果酱奶品" target="_blank">果酱奶品</a>
+               <a href="#" title="粮油" target="_blank">粮油</a>
+                <a href="#" title="副食" target="_blank">副食</a>&nbsp;
+                <a href="#" title="果酱奶品" target="_blank">果酱奶品</a>
+               <a href="#" title="粮油" target="_blank">粮油</a>
+                <a href="#" title="副食" target="_blank">副食</a>&nbsp;
+                <a href="#" title="果酱奶品" target="_blank">果酱奶品</a>
+                </span>
+            </div>
+		    <a href="#" class="enterStore" title="进入店铺" target="_blank">进入店铺</a>
+		    <a href="#" class="foucsStore" title="关注店铺" target="_blank">关注店铺</a>
+        </div>
+        <!--商品分类-->
+        <div class="goodsClass">
+        	<h2>商品分类</h2>
+            <ul class="commodity">
+		 		<li class="cur">
+					<h3><i class="iconfont">&#xe62c;</i>订单管理</h3>
+					<a href="#" title="001" target="_self">001</a>
+					<a href="#" title="002" target="_self">002</a>
+					<a href="#" title="03" target="_self">003</a>
+				</li>
+ 		 		<li>
+					<h3><i class="iconfont">&#xe62c;</i>订单管理</h3>
+					<a class="hover" href="#" title="管理后台" target="_self">001</a>
+					<a href="#" title="管理后台" target="_self">002</a>
+				</li>
+ 		 		<li>
+					<h3><i class="iconfont">&#xe62c;</i>订单管理</h3>
+					<a class="hover" href="#" title="管理后台" target="_self">001</a>
+					<a href="#" title="管理后台" target="_self">002</a>
+				</li>
+ 		 		<li>
+					<h3><i class="iconfont">&#xe62c;</i>订单管理</h3>
+					<a class="hover" href="#" title="管理后台" target="_self">001</a>
+					<a href="#" title="管理后台" target="_self">002</a>
+				</li>
+ 		 		<li>
+					<h3><i class="iconfont">&#xe62c;</i>订单管理</h3>
+					<a class="hover" href="#" title="管理后台" target="_self">001</a>
+					<a href="#" title="管理后台" target="_self">002</a>
+				</li>
+ 		 		<li>
+					<h3><i class="iconfont">&#xe62c;</i>订单管理</h3>
+					<a class="hover" href="#" title="管理后台" target="_self">001</a>
+					<a href="#" title="管理后台" target="_self">002</a>
+				</li>
+            </ul>
+        </div>
+        <!--联系我们-->
+        <div class="contactUs">
+        	<h2>联系我们</h2>
+            <span class="Map"><img src="images/map.jpg" width="206" height="205" title="地图" alt="地图"/></span>
+            <p>联系人：李经理</p>
+            <p>联系电话：159887746989</p>
+            <p>电子邮箱：159887746989@163.com</p>
+            <p>通讯地址：周口市川汇区交通路与工农路口向西60米路南日丰管专卖店</p>
+        </div>
+    </div>
+    <!--联系我们-->
+    <div class="contact">
+    	<h2>联系方式</h2>
+        <ul class="contactWay">
+        	<li>
+            	<i class="iconfont">&#xe640;</i>
+            	<span>李经理</span>
+            </li>
+            
+        	<li>
+            	<i class="iconfont">&#xe641;</i>
+            	<span>159887746989</span>
+            </li>
+            
+        	<li>
+            	<i class="iconfont">&#xe642;</i>
+            	<span>159887746989@163.com</span>
+            </li>
+            
+        	<li>
+            	<i class="iconfont">&#xe620;</i>
+            	<span>周口市川汇区交通路与工农路</br>口向西60米路南日丰管专卖店</span>
+            </li>
+        </ul>
+        <div class="mapImg" id="allmap"></div>
+    </div>
+</div>
+<div ng-include="'footer.html'"></div>
+<script type="text/javascript">
+	angular.module('myApp', []).controller('userCtrl', function($scope) {})
+</script>
+<script type="text/javascript">
+	jQuery(".wrapperFocus").slide({ titCell:".hd ul", mainCell:".bd ul", effect:"fold",  autoPlay:true, autoPage:true, trigger:"click",interTime:5000});
+	$(document).ready(function(){
+		//左侧点击展开
+		$(".goodsClass ul li h3").click(function(){
+			$(this).parent().toggleClass("cur")
+			$(this).parent().siblings().removeClass("cur")
+		})
+	})
+</script>
+<script type="text/javascript">
+	// 百度地图API功能
+	var map = new BMap.Map("allmap");    // 创建Map实例
+	map.centerAndZoom(new BMap.Point(116.404, 39.915), 11);  // 初始化地图,设置中心点坐标和地图级别
+	map.addControl(new BMap.MapTypeControl());   //添加地图类型控件
+	map.setCurrentCity("郑州");          // 设置地图显示的城市 此项是必须设置的
+	map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
+</script>
+</body>
+</html>

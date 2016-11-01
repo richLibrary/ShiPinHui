@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+	<meta charset="utf-8" />
+	<title>大宗招投标列表页</title>
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="Keywords" content="关键词"/>
+	<meta name="Description" content="我是网页的描述sss"/>
+	<link rel="stylesheet" href="css/iconfont/iconfont.css" type="text/css" />
+	<link rel="stylesheet" href="css/common.css" type="text/css" />
+	<link rel="stylesheet" href="css/tenderResult.css" type="text/css"/>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/breadnav.js"></script>
+	<script type="text/javascript" src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
+</head>
+<body ng-app="myApp" ng-controller="userCtrl">
+<div ng-include="'header.html'"></div>	
+	<!---- 面包屑导航 ---->
+<div class="breadsNav">
+	您现在的位置：<a href="#" title="" target="_self">首页</a>
+	<code>&gt;</code><a href="#" title="" target="_self">招投标</a>
+	<code>&gt;</code><b>河南</b>
+	<span class="breadsInfor">共找到<b>25632</b>条“河南”相关信息</span>
+</div>
+<!---- 面包屑内容 ---->
+<ul class="breadcrumb">
+	<li>
+		<dl id="brandContent">
+			<dt>项目分类 :</dt>			
+			<dd class="select-all selected"><a href="#">全部</a></dd>
+			<dd><a href="#" target="_self" title="招标公告">招标公告</a></dd>
+			<dd><a href="#" target="_self" title="招标变更公告">招标变更公告</a></dd>
+			<dd><a href="#" target="_self" title="评标结果公示">评标结果公示</a></dd>
+			<dd><a href="#" target="_self" title="中标结果公示">中标结果公示</a></dd>
+			<dd><a href="#" target="_self" title="政策法规">政策法规</a></dd>
+			<dd><a href="#" target="_self" title="招投标资料">招投标资料</a></dd>
+		</dl>
+	</li>
+	<li>
+		<dl id="ficatContent">
+			<dt>所属行业 :</dt>			
+			<dd class="select-all selected"><a href="#">全部</a></dd>
+			<dd><a href="#" target="_self" title="食品成品">食品成品</a></dd>
+			<dd><a href="#" target="_self" title="食品原料">食品原料</a></dd>
+			<dd><a href="#" target="_self" title="食品配方">食品配方</a></dd>
+			<dd><a href="#" target="_self" title="食品包装">食品包装</a></dd>
+			<dd><a href="#" target="_self" title="食品配料">食品配料</a></dd>
+			<dd><a href="#" target="_self" title="食品设备">食品设备</a></dd>
+			<dd><a href="#" target="_self" title="食品商务服务">食品商务服务</a></dd>
+		</dl>
+	</li>
+	<li>
+		<dl id="huopinContent">
+			<dt>所属地区 :</dt>			
+			<dd class="select-all selected"><a href="#">全部</a></dd>
+			<dd><a href="#" target="_self" title="河南省">河南省</a></dd>
+			<dd><a href="#" target="_self" title="北京">北京</a></dd>
+			<dd><a href="#" target="_self" title="上海">上海</a></dd>
+			<dd><a href="#" target="_self" title="广州">广州</a></dd>
+			<dd><a href="#" target="_self" title="杭州">杭州</a></dd>
+			<dd><a href="#" target="_self" title="斑马">农业</a></dd>
+			<dd><a href="#" target="_self" title="山东">山东</a></dd>
+			<dd><a href="#" target="_self" title="湖北">湖北</a></dd>
+			<dd><a href="#" target="_self" title="安徽">安徽</a></dd>
+			<dd><a href="#" target="_self" title="河南省">河南省</a></dd>
+			<dd><a href="#" target="_self" title="北京">北京</a></dd>
+			<dd><a href="#" target="_self" title="上海">上海</a></dd>
+			<dd><a href="#" target="_self" title="广州">广州</a></dd>
+			<dd><a href="#" target="_self" title="杭州">杭州</a></dd>
+			<dd><a href="#" target="_self" title="斑马">农业</a></dd>
+			<dd><a href="#" target="_self" title="山东">山东</a></dd>
+			<dd><a href="#" target="_self" title="湖北">湖北</a></dd>
+			<dd><a href="#" target="_self" title="安徽">安徽</a></dd>
+			<dd><a href="#" target="_self" title="湖北">湖北</a></dd>
+			<dd><a href="#" target="_self" title="安徽">安徽</a></dd>
+			<dd><a href="#" target="_self" title="河南省">河南省</a></dd>
+			<dd><a href="#" target="_self" title="北京">北京</a></dd>
+			<dd><a href="#" target="_self" title="上海">上海</a></dd>
+			<dd><a href="#" target="_self" title="广州">广州</a></dd>
+			<dd><a href="#" target="_self" title="杭州">杭州</a></dd>
+			<dd><a href="#" target="_self" title="斑马">农业</a></dd>
+			<dd><a href="#" target="_self" title="山东">山东</a></dd>
+			<dd><a href="#" target="_self" title="湖北">湖北</a></dd>
+			<dd><a href="#" target="_self" title="安徽">安徽</a></dd>
+		</dl>
+	</li>
+	<li>
+		<dl id="cityContent">
+			<dt>发布时间 :</dt>			
+			<dd class="select-all selected"><a href="#">全部</a></dd>
+			<dd><a href="#" target="_self" title="近三天">近三天</a></dd>
+			<dd><a href="#" target="_self" title="近一周">近一周</a></dd>
+			<dd><a href="#" target="_self" title="近一月">近一月</a></dd>
+			<dd><a href="#" target="_self" title="近一年">近一年</a></dd>
+		</dl>
+	</li>
+	<li>
+		<dl class="selResult">
+			<dt class="condition">已选条件：</dt>
+			<dd class="selectNo">暂时没有选择过滤条件</dd>
+		</dl>
+	</li>
+	<li>
+		<dl class="searchResult">
+			<dt class="keyword">关键字：</dt>
+			<dd><input class="searchText" type="text" placeholder="在结果中搜索" /><input class="selSearch" type="submit" value="搜索" /></dd>
+		</dl>
+	</li>
+</ul>
+<!---- 招标公告内容 ---->
+<div class="tenderResultContent">
+	<!---- 招标公告左侧内容 ---->
+	<div class="tenderResultLeft">
+		<ul class="resultContent">
+			<li>
+				<h3><a href="" target="_blank" title="">郑州统一企业有限公司物流二段招标公告</a></h3>
+				<span class="dataTime">2016-01-07</span>
+				<span>项目名称：“郑州统一2015年度一段线路物流服务”项目</span>
+				<span>项目范围/区域： 郑州</span>
+				<span>主要运输产品：饮料、方便面、行销品等；</span>
+				<span>配送区域所属子公司：郑州统一</span>
+				<span>招标线路： 郑州厂发出一段线路</span>
+				<p><b>所属行业：食品商务行业</b><b>所属地区：河南</b></p>				
+			</li>
+			<li>
+				<h3><a href="" target="_blank" title="">郑州统一企业有限公司物流二段招标公告</a></h3>
+				<span class="dataTime">2016-01-07</span>
+				<span>项目名称：“郑州统一2015年度一段线路物流服务”项目</span>
+				<span>项目范围/区域： 郑州</span>
+				<span>主要运输产品：饮料、方便面、行销品等；</span>
+				<span>配送区域所属子公司：郑州统一</span>
+				<span>招标线路： 郑州厂发出一段线路</span>
+				<p><b>所属行业：食品商务行业</b><b>所属地区：河南</b></p>				
+			</li>
+			<li>
+				<h3><a href="" target="_blank" title="">郑州统一企业有限公司物流二段招标公告</a></h3>
+				<span class="dataTime">2016-01-07</span>
+				<span>项目名称：“郑州统一2015年度一段线路物流服务”项目</span>
+				<span>项目范围/区域： 郑州</span>
+				<span>主要运输产品：饮料、方便面、行销品等；</span>
+				<span>配送区域所属子公司：郑州统一</span>
+				<span>招标线路： 郑州厂发出一段线路</span>
+				<p><b>所属行业：食品商务行业</b><b>所属地区：河南</b></p>				
+			</li>
+			<li>
+				<h3><a href="" target="_blank" title="">郑州统一企业有限公司物流二段招标公告</a></h3>
+				<span class="dataTime">2016-01-07</span>
+				<span>项目名称：“郑州统一2015年度一段线路物流服务”项目</span>
+				<span>项目范围/区域： 郑州</span>
+				<span>主要运输产品：饮料、方便面、行销品等；</span>
+				<span>配送区域所属子公司：郑州统一</span>
+				<span>招标线路： 郑州厂发出一段线路</span>
+				<p><b>所属行业：食品商务行业</b><b>所属地区：河南</b></p>				
+			</li>
+			<li>
+				<h3><a href="" target="_blank" title="">郑州统一企业有限公司物流二段招标公告</a></h3>
+				<span class="dataTime">2016-01-07</span>
+				<span>项目名称：“郑州统一2015年度一段线路物流服务”项目</span>
+				<span>项目范围/区域： 郑州</span>
+				<span>主要运输产品：饮料、方便面、行销品等；</span>
+				<span>配送区域所属子公司：郑州统一</span>
+				<span>招标线路： 郑州厂发出一段线路</span>
+				<p><b>所属行业：食品商务行业</b><b>所属地区：河南</b></p>				
+			</li>
+			<li>
+				<h3><a href="" target="_blank" title="">郑州统一企业有限公司物流二段招标公告</a></h3>
+				<span class="dataTime">2016-01-07</span>
+				<span>项目名称：“郑州统一2015年度一段线路物流服务”项目</span>
+				<span>项目范围/区域： 郑州</span>
+				<span>主要运输产品：饮料、方便面、行销品等；</span>
+				<span>配送区域所属子公司：郑州统一</span>
+				<span>招标线路： 郑州厂发出一段线路</span>
+				<p><b>所属行业：食品商务行业</b><b>所属地区：河南</b></p>				
+			</li>
+			<li>
+				<h3><a href="" target="_blank" title="">郑州统一企业有限公司物流二段招标公告</a></h3>
+				<span class="dataTime">2016-01-07</span>
+				<span>项目名称：“郑州统一2015年度一段线路物流服务”项目</span>
+				<span>项目范围/区域： 郑州</span>
+				<span>主要运输产品：饮料、方便面、行销品等；</span>
+				<span>配送区域所属子公司：郑州统一</span>
+				<span>招标线路： 郑州厂发出一段线路</span>
+				<p><b>所属行业：食品商务行业</b><b>所属地区：河南</b></p>				
+			</li>
+			<li>
+				<h3><a href="" target="_blank" title="">郑州统一企业有限公司物流二段招标公告</a></h3>
+				<span class="dataTime">2016-01-07</span>
+				<span>项目名称：“郑州统一2015年度一段线路物流服务”项目</span>
+				<span>项目范围/区域： 郑州</span>
+				<span>主要运输产品：饮料、方便面、行销品等；</span>
+				<span>配送区域所属子公司：郑州统一</span>
+				<span>招标线路： 郑州厂发出一段线路</span>
+				<p><b>所属行业：食品商务行业</b><b>所属地区：河南</b></p>				
+			</li>
+			<li>
+				<h3><a href="" target="_blank" title="">郑州统一企业有限公司物流二段招标公告</a></h3>
+				<span class="dataTime">2016-01-07</span>
+				<span>项目名称：“郑州统一2015年度一段线路物流服务”项目</span>
+				<span>项目范围/区域： 郑州</span>
+				<span>主要运输产品：饮料、方便面、行销品等；</span>
+				<span>配送区域所属子公司：郑州统一</span>
+				<span>招标线路： 郑州厂发出一段线路</span>
+				<p><b>所属行业：食品商务行业</b><b>所属地区：河南</b></p>				
+			</li>
+		</ul>
+	</div>
+	<!---- 招标公告右侧内容 ---->
+	<div class="resultSidebar">
+		<div class="tenderHot" id="tenderHot">
+			<h2>招标热点</h2>
+			<div class="tenderMenu">
+				<a class="hotList" href="#" title="烘焙食品" target="_blank">粮食加工招标</a>
+				<a class="hotList" href="#" title="烘焙食品" target="_blank">原材料运输招标</a>
+				<a class="hotList" href="#" title="烘焙食品" target="_blank">肥料招标</a>
+				<a class="hotList" href="#" title="烘焙食品" target="_blank">粮食加工招标</a>
+				<a class="hotList" href="#" title="烘焙食品" target="_blank">原材料运输招标</a>
+				<a class="hotList" href="#" title="烘焙食品" target="_blank">肥料招标</a>
+			</div>
+		</div>
+		<a class="sidebarImg" id="sidebarImg" href="" target="_blank" title=""><img src="images/testimg/holiday.jpg" width="260" height="140" alt=""></a>
+	</div>
+</div>
+<div ng-include="'footer.html'"></div>
+<script type="text/javascript">
+var rollStart = $('#sidebarImg'),
+	rollSet = $('#tenderHot');
+rollStart.before('<div class="da_rollbox" style="position:fixed;background-color:#fff;width:258px;"></div>');
+var offset = rollStart.offset(),objWindow = $(window),rollBox = rollStart.prev();
+objWindow.scroll(function() {
+	if (objWindow.scrollTop() > offset.top){
+		if(rollBox.html(null)){
+			rollSet.clone().prependTo('.da_rollbox');
+		}
+		rollBox.show().stop().animate({top:0,paddingTop:5},400);
+	} else {
+		rollBox.hide().stop().animate({top:0},400);
+	}
+});
+</script>
+<script type="text/javascript">
+	angular.module('myApp', []).controller('userCtrl', function($scope) {})
+</script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+@charset "utf-8";
+.pageContent{ width:966px; height:auto; margin:0px auto; overflow:hidden}
+.pageContent img{ margin:70px 0px 0px 273px}
+.pageContent p.pageSorry{ font:20px/20px "\5FAE\8F6F\96C5\9ED1"; color:#666; text-align:center; margin-top:54px}
+.pageMain{ margin:58px 0px 0px 254px}
+.pageMain span{ font:14px/30px "\5FAE\8F6F\96C5\9ED1"; color:#666}
+.pageMain p{ font:14px/30px "\5FAE\8F6F\96C5\9ED1"; color:#666;}
+.pageMain p a{ margin:0px 10px; color:#666;}
+.pageMain p a:hover{ color:#ff7300}

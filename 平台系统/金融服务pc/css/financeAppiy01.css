@@ -1,0 +1,23 @@
+@charset "utf-8";
+/*流程*/
+.applyCon{width:1200px;height:auto;overflow:hidden;margin:0 auto}
+.cartSteps{width:1200px;height:auto;position:relative;margin:20px 0}
+.cartSteps p{width:1200px;height:26px;background:url(../images/cartSteps.png) no-repeat center -32px scroll}
+.cartSteps p i{background:url(../images/cartSteps.png) no-repeat 0 -31px scroll;position:absolute;top:0;left:0;display:block;height:25px}
+.cartSteps span{color:#999;font:14px/30px "微软雅黑";display:inline-block;margin-left:156px}
+.cartSteps span.on{color:#333}
+.cartSteps span.step01{margin-left:315px}
+.cartSteps span.step03{margin-left:188px}
+/*个人信息*/
+.companInfo{width:938px;height:auto;overflow:hidden;border:#e4e4e4 1px solid;margin:0 auto}
+.companInfo ul{height:auto;overflow:hidden;padding-bottom:10px}
+.companInfo ul li i{width:340px;text-align:right;font:14px/56px "微软雅黑";color:#333;display:inline-block;margin-right:22px}
+.companInfo ul li span{font: 14px/32px "微软雅黑";color:#333}
+.companInfo ul li input{width:240px;height:32px;padding-left:5px;border:#e4e4e4 1px solid;font:14px/32px "微软雅黑";color:#333;margin-right: 10px;}
+.companInfo ul li input.detailInfo{display: block;margin-left: 364px;}
+.companInfo ul li input.limit{width: 102px;margin-left: 5px;}
+.companInfo ul li input.limitbusi{width: 102px;}
+.companInfo ul li select{width:120px;height:32px;padding-left:5px;border:#e4e4e4 1px solid;font:14px/32px "微软雅黑";color:#333;margin-right: 4px;}
+.companFile{width:140px;height:40px;background-color:#ff7300;color:#fff;border:none;font:16px/40px "微软雅黑";margin:0 0 20px 367px;cursor:pointer}
+.companInfo p{font:14px/30px "微软雅黑";color:#999;margin:20px 0 20px 200px}
+.companInfo p i{font:14px/30px "微软雅黑";color:#53a8ff;margin-right:10px}

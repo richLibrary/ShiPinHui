@@ -1,0 +1,116 @@
+@charset "utf-8";
+
+/*左侧 董文静 2016-02-01*/
+.indexMain{width:1200px;height:auto; margin:25px auto 0px auto;}
+.indexLeft{ width: 190px; margin-right: 20px; float: left;}
+.leftInfo{ width:188px;height:auto;overflow:hidden;background-color:#fff;border:#efefef solid 1px; margin-bottom: 20px; text-align: center; padding: 30px 0px;}
+.leftInfo p{ width: 105px; margin: 10px auto; line-height: 20px; color: #666;}
+.leftInfo a{ line-height: 25px; font-size: 14px; color: #333; text-decoration: underline;}
+
+/*右侧 董文静 2016-02-01*/
+.indexRight{ width:990px; float:left;}
+
+/*右侧-公告 董文静 2016-02-01*/
+.gonggao{ width: 988px; color: #f60; border: 1px solid #FFE2C4; background:#FFFCED; height: 38px; line-height: 38px;}
+.gonggao i{ float: left; font:16px/38px "\5FAE\8F6F\96C5\9ED1";color:#f60; margin-left: 15px; margin-right: 5px;}
+.gonggao p{ width: 800px; float: left; height: 38px; overflow: hidden;}
+
+/*右侧-批发进货 董文静 2016-02-01*/
+.pfjh{ width: 473px; border: 1px solid #efefef; float: left; margin-right: 40px;  margin-top: 30px; padding: 10px 0px;}
+.pfjh h2{ font:16px/25px "\5FAE\8F6F\96C5\9ED1"; text-align: center; font-weight: bold;}
+.pfjhLogo{ width: 100px; height: 100px; margin: 10px auto; background: #FF6666; border-radius: 50%; text-align: center;}
+.pfjhLogo i{ font:60px/100px "\5FAE\8F6F\96C5\9ED1";color:#fff;}
+.pfjhTab{ width: 300px; margin: 10px auto; line-height: 30px; color: #999;}
+.pfjhTab font{ color: #f60}
+
+/*右侧-产品销售 董文静 2016-02-01*/
+.cpxs{ width: 473px; border: 1px solid #efefef; float: left; margin-top: 30px; padding: 10px 0px; }
+.cpxs h2{ font:16px/25px "\5FAE\8F6F\96C5\9ED1"; text-align: center; font-weight: bold;}
+.cpxsLogo{ width: 100px; height: 100px; margin: 10px auto; background: #3CB0FB; border-radius: 50%; text-align: center;}
+.cpxsLogo i{ font:60px/100px "\5FAE\8F6F\96C5\9ED1";color:#fff;}
+.cpxsTab{ width: 300px; margin: 10px auto; line-height: 30px; color: #999;}
+.cpxsTab font{ color: #f60}
+
+/*右侧-食品百科 董文静 2016-02-01*/
+.spbk{width: 473px; border: 1px solid #efefef; float: left; margin-right: 40px; margin-top: 30px;}
+.spbk h3{ font:16px/38px "\5FAE\8F6F\96C5\9ED1"; color: #333; width: 100%; background: #F5F5F5; text-indent: 15px; border-bottom: 1px solid #efefef;}
+.spbk h3 a{ float: right; right: 20px; text-decoration: none; display: block; width: 70px; color: #999; font:13px/38px "\5FAE\8F6F\96C5\9ED1";}
+.spbkList{ width: 370px; margin: 20px auto;}
+.spbkList li{ width: 100%; margin-bottom: 30px;}
+.spbkList li a img{ float: left; display: block; margin-right: 20px;}
+.spbkms{ width: 260px; float: left;}
+.spbkms span{ line-height: 30px; font-size: 16px;}
+.spbkms span a{ color: #333; text-decoration: none;}
+.spbkms span a:hover{ color: #f60; text-decoration: none;}
+.spbkms p{ line-height: 25px; color: #999;}
+
+/*右侧-买卖入口 董文静 2016-02-01*/
+.business{ width: 473px; border: 1px solid #efefef; float: left; margin-top: 30px;}
+.business h3{ font:16px/38px "\5FAE\8F6F\96C5\9ED1"; color: #333; width: 100%; background: #F5F5F5; text-indent: 15px; border-bottom: 1px solid #efefef;}
+.business h3 a{ float: right; right: 20px; text-decoration: none; display: block; width: 70px; color: #999; font:13px/38px "\5FAE\8F6F\96C5\9ED1";}
+.businessList{ width: 430px; height: auto; overflow: hidden; margin: 10px auto;}
+.businessList li{ width: 100%; line-height: 25px;}
+.businessList li i{font:10px/27px "\5FAE\8F6F\96C5\9ED1"; color: #999; margin-right: 3px;}
+.businessList li a{ color: #999; text-decoration: none;}
+.businessList li a:hover{ color: #f60;}
+
+/*右侧-金融产品 董文静 2016-02-01*/
+.jrcp{ width: 473px; border: 1px solid #efefef; float: left; margin-right: 40px; margin-top: 30px;}
+.jrcp h3{ font:16px/38px "\5FAE\8F6F\96C5\9ED1"; color: #333; width: 100%; background: #F5F5F5; text-indent: 15px; border-bottom: 1px solid #efefef;}
+.jyd{ width: 460px; margin: 0 auto; padding: 23.5px 0px; border-bottom: 1px solid #efefef;}
+.jyd .left{ width: 155px; float: left; margin-left: 20px; margin-right: 20px; text-align: center; }
+.jydBg{ width: 100px; height: 100px; margin: 0 auto; background: #3D6DCE; border-radius: 50%;}
+.jydBg i{ font:60px/100px "\5FAE\8F6F\96C5\9ED1";color:#fff; }
+.jydBg1{ width: 100px; height: 100px; margin: 0 auto; background: #63B66C; border-radius: 50%;}
+.jydBg1 i{ font:60px/100px "\5FAE\8F6F\96C5\9ED1";color:#fff; }
+.jyd .left a{ display: block; margin: 10px auto; width: 150px; height: 30px; border: 1px solid #9F9F9F; border-radius: 3px; text-decoration: none; line-height: 32px; color: #666;}
+.jydTitle{ width: 100px; margin: 0 auto; font-weight: bold; height: 30px; overflow: hidden; line-height: 30px; color: #333; font-size: 16px;}
+.jydJianjie{ width: 100px; margin: 0 auto; line-height: 25px; text-align: center; height: 25px; overflow: hidden; }
+.jydJianjie font{ color: #f60}
+.jyd .right{ width: 265px; float: left;}
+.jydMs{ width: 90px; margin-right: 10px; padding-left: 20px; margin-top: 20px; line-height: 30px; float: left;}
+.jydMs p{ width: 90px; height: 30px; overflow: hidden; line-height: 30px; color: #333;}
+.jydMs span{ color: #999;}
+.jydMs span font{ color: #f60; font-weight: bold; font-size: 18px;}
+
+/*右侧-物流快运 董文静 2016-02-01*/
+.logistics{ width: 473px; border: 1px solid #efefef; float: left; margin-top: 30px;}
+.logistics h3{ font:16px/38px "\5FAE\8F6F\96C5\9ED1"; color: #333; width: 100%; background: #F5F5F5; text-indent: 15px; border-bottom: 1px solid #efefef;}
+.logistics ul{ width: 96%; margin: 0px auto;}
+.logistics ul li{ width: 100%;  padding: 13px 0px; border-top: 1px solid #efefef;}
+.logistics ul li a img{ float: left; width: 153px; height: 70px; display: block;}
+.logisticsms { width: 275px; float: left; margin-left: 20px;}
+.logisticsms span{ font-size: 14px; color: #999;}
+.logisticsms span font{ font-size: 16px; color: #333; font-weight: bold;}
+.logisticsms p{ width: 100%; line-height: 25px; color: #999;}
+
+/*右侧-食品政策、项目招标、食品指数 董文静 2016-02-01*/
+.tab{ width: 100%; margin-top: 30px;}
+.tabNav{ width: 100%; background: #fff;}
+.tabNav >ul >li{ width: 80px; cursor: pointer; float: left; font-size: 14px; margin-right: 10px; text-align: center; line-height: 40px;}
+.tabNavon{ color: #f60; border-bottom: 2px solid #f60;}
+.tabNavoff{ color: #333; border-bottom: 2px solid #fff;}
+.tabList{ border: 1px solid #efefef; padding: 10px 0px;}
+.tabList >ul{ width: 960px; margin: 0 auto;}
+
+.lbnr{ width: 100%;}
+.lbnr li{ width: 48%; margin-right: 2%; float: left; line-height: 30px; color: #999;}
+.lbnr li i{ float: left; font:10px/30px "\5FAE\8F6F\96C5\9ED1"; color: #999; margin-right: 3px;}
+.lbnr li a{ display: block; float: left; width: 320px; height: 30px; overflow: hidden; color:  #999; text-decoration: none;}
+.lbnr li a:hover{ color:  #f60;}
+.lbnr li font{ display: block; width: 100px; float: left; height: 30px; text-align: right;}
+
+/* 为您推荐 */
+.hotCommond{height:auto;overflow:hidden; position: relative; width: 988px; border: 1px solid #efefef; margin-top:30px}
+.hotCommond h3{font:16px/38px "\5FAE\8F6F\96C5\9ED1"; color: #333; width: 100%; background: #F5F5F5; text-indent: 15px; border-bottom: 1px solid #efefef;}
+.refreshBtn{position:absolute;top:0px;right:10px;font:14px/38px "微软雅黑";background:url(../images/refreshBtn.png) no-repeat 0px center scroll;padding-left:25px;color:#666;}    
+.refreshBtn:hover{color:#ff7300;}
+.hotCommond ul{height:auto;overflow:hidden;padding-top:20px;margin-top:18px;}
+.hotCommond ul li{width:160px;float:left;margin-left:30px;}
+.hotCommond ul li img{width:158px;height:158px;border:#e3e3e3 solid 1px;}    
+.hotCommond ul li p{height:auto;overflow:hidden;margin-top:10px;}
+.hotCommond ul li p.scName{font:14px/18px "微软雅黑";color:#666;height:35px;overflow:hidden;}
+.hotCommond ul li p.scName a{color:#666;}
+.hotCommond ul li p.scName a:hover{color:#ff7300}
+.hotCommond ul li p.price{height:auto;overflow:hidden;padding:10px 0px 10px 0px;font:14px/14px "微软雅黑";}
+.hotCommond ul li p.price font{color:#ff7300;}

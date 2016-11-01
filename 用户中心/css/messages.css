@@ -1,0 +1,27 @@
+@charset "utf-8";
+/*---- 站内消息通知 ----*/   
+.ucorderTit{height:40px;overflow:hidden;position:relative;}
+.ucorderTit h2{display:inline-block;float:left;font:18px/40px "微软雅黑";color:#333;background:url("../images/titBg01.png") no-repeat 0px center scroll;padding-left:15px}
+.ucBreads{padding-right:0px;float:right;line-height:40px;}
+.ucBreads a{color:#666;}
+.ucBreads a:hover{color:#ff7300}
+.coupon{ width: 988px; margin-top:30px; font-size: 14px; }
+.couponNav{ width: 100%;}
+.couponNav ul li{ width: 98px; cursor: pointer; background: #fff; height: 40px; float: left; margin-right: 10px; text-align: center; line-height: 38px;}
+.couponOn{ border:1px solid #e4e4e4; border-top: 1px solid #ff7300; border-bottom: 1px solid #fff; color: #ff7300;}
+.couponOld{ border:1px solid #e4e4e4;}
+.station{width:100%;line-height:28px;margin:20px auto}
+.station .checkbox{width:100px;float:left}
+.station .checkbox input{float:left;margin-top:8px;margin-right:5px}
+.station .btn{width:80px;float:left;height:28px;cursor:pointer;border:1px solid #E4E4E4;background:#fff;border-radius:5px}
+.station a{display:block;margin-left:30px;width:130px;height:28px;float:left;border:1px solid #f60;background:#fff;color:#f60;border-radius:5px;text-decoration:none;line-height:28px;text-align:center;cursor:pointer}
+.station a i{font:12px/28px "\5FAE\8F6F\96C5\9ED1";color:#f60;margin-right:5px}
+.znxxList{width:986px;font-size:14px;margin:20px auto;border:1px solid #EAEAEA;border-bottom:0;text-align:center}
+.znxxList ul li{width:100%;border-bottom:1px solid #EAEAEA;line-height:40px}
+.znxxList ul li:hover{background:#FFFAE0}
+.znxxList ul li>font{display:block;float:left}
+.znxxList ul li .quanx{float:left;margin-top:13px;margin-left:66px}
+.znxxList ul li .f60{color:#f60}
+.znxxList ul li .o6c{color:#06C}
+.znxxList ul li .c9{color:#999}
+.znxxList ul li .txtLeft{text-align:left;line-height:30px}

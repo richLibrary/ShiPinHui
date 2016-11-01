@@ -1,0 +1,718 @@
+@charset "UTF-8";
+/*
+制作时间：2016.3.1
+作者：王勇
+使用软件：SublimeText2
+用途：食品荟物流频道首页样式
+*/
+/*----
+模块名称：logo和搜索部分
+----*/
+
+
+.logisticsLogo{width:100%;height: auto;background-color:#fff;}
+.logisticsLogoMain{width:1200px;height:auto;overflow:hidden;margin:0px auto;padding:30px 0px;position:relative;}
+.logisticsLogoMain h1{width:275px;height:100px;float:left}
+.logisticsLogoMain h1 a{width:260px;height:100px;display:block;font-size:0px;background:url("../images/logo.jpg") no-repeat center center scroll;float: left;}
+.logisticsLogoFont{width:125px;height:100px;float:left;background:url(../images/tender.png) no-repeat 0 0 scroll;text-indent:-999em;}
+.logisticsLogoFont span{display:block;width:125px;height:100px;float:left;}
+/*--- 搜索 ---*/
+.logisticsSearch{position:absolute;right:140px;top:42px;}
+.logisticsSearchTab{height:auto;overflow:hidden;padding-bottom:10px;}
+.logisticsSearchTab li{padding:0px 12px;border-right:#dbdbdb solid 1px;float:left;font:12px/12px "\5FAE\8F6F\96C5\9ED1";cursor:pointer;}
+.logisticsSearchTab li.logisticsSearchTabOn{color:#fb6504;}
+.logisticsSearchTab li.last{border:none}
+/*--- 搜索输入框 ---*/
+.logisticsSearchInput{width:486px;height:38px;padding-left:12px;box-sizing:content-box;font-size:14px;border:#ff9900 solid 2px;border-right:none;float:left; line-height:38px;}
+.logisticsSearchBtn{width:78px;height:40px;border:#ff9900 solid 1px;box-sizing:content-box;background-color:#ff9900;color:#fff;font-size:18px;cursor:pointer;float:left;letter-spacing:2px}
+/*--- 热门搜索词 ---*/
+.logisticsSearchWords{position:absolute;bottom:30px;right:480px;}
+.logisticsSearchWords a{color:#999;margin-right:8px;}
+.logisticsSearchWords a:hover{color:#ff7300;text-decoration:underline}
+/*----
+模块名称：导航
+----*/
+/*.logisticsMainNav{width:100%;height:41px;background-color:#3e9c00;border-top:#037e01 solid 1px;border-bottom:#037e01 solid 1px;margin:0px auto;overflow:hidden}
+.logisticsMainNav ul{width:1200px;height:41px;margin:0px auto;}
+.logisticsMainNav ul h2{width:228px;text-align:center;float:left;color:#fff;background-color:#348400;font:15px/41px "\5FAE\8F6F\96C5\9ED1";margin-right:2px;letter-spacing:1px;}
+.logisticsMainNav ul h2 i{margin:0px 8px;font:22px/41px "\5FAE\8F6F\96C5\9ED1";}
+.logisticsMainNav ul li{float:left;font:15px/41px "\5FAE\8F6F\96C5\9ED1";}
+.logisticsMainNav ul li a{display:block;padding:0px 18px 10px 18px;color:#fff;letter-spacing:1px;}
+.logisticsMainNav ul li a:hover{text-decoration:none;background-color:#348400}*/
+/*----
+模块名称：导航
+----*/
+.logisticsGroupNav{width:100%;height:42px;margin:0px auto;border-bottom:#43a400 solid 3px;background-color:#fff;}
+.logisticsGroupNav ul{width:1200px;height:42px;margin:0px auto;}
+.logisticsGroupNav ul li{width:128px;height:42px;font:16px/42px "微软雅黑";float:left;text-align:center;}
+.logisticsGroupNav ul li a{color:#333;display:block;text-decoration:none;}
+.logisticsGroupNav ul li a:hover{color:#43a400;}
+.logisticsGroupNav ul li.on{background-color:#43a400;color:#fff;}
+.logisticsGroupNav ul li.on a{color:#fff}
+
+/*----
+模块名称：二维码
+----*/
+.weiXin{
+width:112px;
+height:110px;
+float:right;
+text-align:center;
+}
+.weiXin i.close{
+	width:19px;
+	height:19px;
+	display:block;
+	float: left;
+	border:1px solid #dcdcdc;
+	border-right:none;
+	cursor:pointer;
+	background:url(../images/icons.png) no-repeat -11px -45px;
+}
+.weiXin p{
+	width:90px;
+	height:108px;
+	float: right;
+	border:1px solid #DCDCDC;
+}
+.mainContent{
+	width:1200px;
+	height:auto;
+	margin:20px auto;
+}
+
+
+.mar{
+	margin:0px 30px 0px 0px;
+}
+.marBottom{
+	margin-bottom:20px;
+}
+
+/*------在线查询部分--------*/
+.search{
+	width:332px;
+	height:auto;
+	float:left;
+	padding:0px 10px;
+	border:1px solid #e4e4e4;
+}
+.search a{
+	width:166px;
+	height:56px;
+	display:block;
+	float:left;
+	line-height:56px;
+	text-align:center;
+	border-bottom:1px solid #e4e4e4;
+	font-size:16px;
+}
+.search a.sendSearch{
+	color:#ff7300;
+	border-bottom:1px solid #ff7300;
+	background:url(../images/jiantou.png) no-repeat bottom center;
+}
+.search a.webSearch:hover{
+	color:#ff7300;
+	border-bottom:1px solid #ff7300;
+	background:url(../images/jiantou.png) no-repeat bottom center;
+}
+.search a.webSearch{
+	color:#333333;
+}
+.search .address{
+	width:322px;
+	height:auto;
+	margin:0px auto;
+	text-align:center;
+}
+.search .address label{
+	width:332px;
+	height:37px;
+	display:block;
+	font-size:14px;
+	color:#666666;
+	line-height:37px;
+	margin:33px auto;
+}
+.search .address label input{
+	width:208px;
+	height:25px;
+	padding:5px 5px;
+	border:1px solid #e4e4e4;
+	background:#fff;
+	line-height:25px;
+	margin-left:20px;
+}
+.search .address label i.pullDown{
+	width:26px;
+	height:37px;
+	display:block;
+	background:#e4e4e4 url(../images/icons.png) no-repeat -9px -68px;
+	float:right;
+	margin-top:2px;
+	margin-right:10px;
+}
+
+/*-----------省部分--------------*/
+.addressMain{
+	width:348px;
+	height:auto;
+	border:1px solid #e4e4e4;
+	background:#fff;
+	position:absolute;
+	z-index:3;
+	text-align:left;
+}
+.addressMain ul.addressTitle{
+	width:348px;
+	height:45px;
+	line-height:45px;
+	text-align:center;
+	border-bottom:1px solid #e4e4e4;
+}
+.addressMain ul.addressTitle li{
+	width:116px;
+	height:45px;
+	float:left;
+	font-size:14px;
+	color:#333;
+}
+.addressMain ul.addressTitle li.fouc{
+	color:#ff7300;
+}
+.addressMain ul.addressTitle i{
+	width:12px;
+	height:12px;
+	display:block;
+	background:url(../images/icons.png) no-repeat -14px -49px;
+	position:absolute;
+	right:9px;
+	top:9px;
+	cursor:pointer;
+}
+.addressMain dl.addressText{
+	width:328px;
+	height:auto;
+	padding:10px;
+}
+.addressMain dl.addressText dt{
+	line-height:36px;
+	color:#333;
+	font-size:14px;
+}
+.addressMain dl.addressText dd{
+	font-size:12px;
+	line-height:32px;
+}
+.addressMain dl.addressText dd i{
+	padding:8px;
+	cursor:pointer;
+}
+
+
+/*-------市部分--------*/
+.addressMainTwo{
+	width:348px;
+	height:auto;
+	border:1px solid #e4e4e4;
+	background:#fff;
+	position:absolute;
+	top:49px;
+	left:530px;
+	z-index:3;
+	text-align:left;
+}
+.addressMainTwo ul.addressTitle{
+	width:348px;
+	height:45px;
+	line-height:45px;
+	text-align:center;
+	border-bottom:1px solid #e4e4e4;
+}
+.addressMainTwo ul.addressTitle li{
+	width:116px;
+	height:45px;
+	float:left;
+	font-size:14px;
+	color:#333;
+}
+.addressMainTwo ul.addressTitle li.fouc{
+	color:#ff7300;
+}
+.addressMainTwo ul.addressTitle i{
+	width:12px;
+	height:12px;
+	display:block;
+	background:url(../images/icons.png) no-repeat -14px -49px;
+	position:absolute;
+	right:9px;
+	top:9px;
+	cursor:pointer;
+}
+.addressMainTwo dl.addressText{
+	width:328px;
+	height:auto;
+	padding:10px;
+}
+.addressMainTwo dl.addressText dt{
+	line-height:36px;
+	color:#333;
+	font-size:14px;
+}
+.addressMainTwo dl.addressText dd{
+	font-size:12px;
+	line-height:32px;
+}
+.addressMainTwo dl.addressText dd i{
+	padding:8px;
+	cursor:pointer;
+}
+
+
+/*------------区县部分------------*/
+
+.addressMainThree{
+	width:348px;
+	height:auto;
+	border:1px solid #e4e4e4;
+	background:#fff;
+	position:absolute;
+	top:49px;
+	left:935px;
+	z-index:3;
+	text-align:left;
+}
+
+.addressMainThree ul.addressTitle{
+	width:348px;
+	height:45px;
+	line-height:45px;
+	text-align:center;
+	border-bottom:1px solid #e4e4e4;
+}
+.addressMainThree ul.addressTitle li{
+	width:116px;
+	height:45px;
+	float:left;
+	font-size:14px;
+	color:#333;
+}
+.addressMainThree ul.addressTitle li.fouc{
+	color:#ff7300;
+}
+.addressMainThree ul.addressTitle i{
+	width:12px;
+	height:12px;
+	display:block;
+	background:url(../images/icons.png) no-repeat -14px -49px;
+	position:absolute;
+	right:9px;
+	top:9px;
+	cursor:pointer;
+}
+.addressMainThree dl.addressText{
+	width:328px;
+	height:auto;
+	padding:10px;
+}
+.addressMainThree dl.addressText dt{
+	line-height:36px;
+	color:#333;
+	font-size:14px;
+}
+.addressMainThree dl.addressText dd{
+	font-size:12px;
+	line-height:32px;
+}
+.addressMainThree dl.addressText dd i{
+	padding:8px;
+	cursor:pointer;
+}
+
+/*-------查询按钮--------*/
+.search .address input.logusticsBtn{
+	width:233px;
+	height:38px;
+	background:#ff7300;
+	line-height:38px;
+	text-align: center;
+	color:#fff;
+	font-size:14px;
+	border:1px solid #ff7300;
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-o-border-radius:2px;
+	-webkit-border-radius:2px;
+	cursor:pointer;
+	margin-bottom:30px;
+}
+
+
+/*---- 轮播图 ----*/
+.wrapperFocus{width:822px;height:299px;float:right;position:relative;overflow:hidden; border:1px solid #dcdcdc; }
+.wrapperFocus .bd li{width:822px;height:299px;overflow:hidden}
+.wrapperFocus .hd{width:822px;position:absolute;z-index:1;bottom:0;left:0;height:30px;line-height:30px;text-align:center}
+.wrapperFocus .hd ul{text-align:center}
+.wrapperFocus .hd ul li{cursor:pointer;display:inline-block;zoom:1;width:12px;height:12px;border-radius:50%;margin:0 5px;background-color:#fff;overflow:hidden;line-height:9999px}
+.wrapperFocus .hd ul .on{background-color:#ff7300}
+.wrapperFocus .prev,.wrapperFocus .next{width:40px;height:90px;background-color:rgba(0,0,0,0.3);position:absolute;top:112px;color:#fff;text-align:center;font:30px/90px "arial";display:none;}
+.wrapperFocus .prev:hover,.wrapperFocus .next:hover{text-decoration:none;}
+.wrapperFocus .prev{left:0px;}
+.wrapperFocus .next{right:0px;}
+.wrapperFocus:hover a{display:block;}
+
+
+/*------------品牌推荐------------*/
+.recommendMain{
+	width:1200px;
+	height:auto;
+	margin-top:30px;
+	position:relative;
+}
+.recommendMain h2,.hotMain h2{
+	font-size:20px;
+	font-weight:normal;
+	color:#333;
+	line-height:44px;
+	border-bottom:2px solid #43a400;
+}
+.recommendMain h2 i{
+	width:22px;
+	height:22px;
+	display:block;
+	float:left;
+	margin-top:11px;
+	margin-right:5px;
+	background:url(../images/icons.png) no-repeat -10px -516px;
+}
+.recommendMain ul.recommendText,.recommendMain .tempWrap{
+	width:1130px;
+	height:69px;
+	margin:30px auto;
+	overflow:hidden;
+	text-align:center;
+}
+.recommendMain ul.recommendText li{
+	width:103px;
+	height:auto;
+	float:left;
+	margin:0px 10px;
+}
+.recommendMain ul.recommendText li a img{
+	border:1px solid #e4e4e4;
+}
+.recommendMain ul.recommendText li a h3{
+	font-size:12px;
+	color:#666;
+	font-weight:normal;
+}
+.recommendMain a.prev{
+	width:14px; 
+	height:27px;
+	display:block;
+	overflow:hidden;
+	position:absolute;
+	top:95px;
+	left:5px;
+	background:url(../images/icons.png) no-repeat -25px -450px;
+}
+.recommendMain a.next{
+	width:14px; 
+	height:27px;
+	display:block;
+	overflow:hidden;
+	position:absolute;
+	top:95px;
+	right:5px;
+	background:url(../images/icons.png) no-repeat -1px -450px;
+}
+
+
+
+/*-------热门推荐部分---------*/
+.hotMain{
+	width:1200px;
+	height:auto;
+}
+.hotMain h2 i{
+	width:24px;
+	height:21px;
+	display:block;
+	float:left;
+	margin-top:11px;
+	margin-right:5px;
+	background:url(../images/icons.png) no-repeat -10px -165px;
+}
+.hotMain h2 a{
+	font-size:12px;
+	color:#999999;
+	float:right;
+	margin-right:5px;
+	line-height:56px;
+}
+.hotMain h2 a:hover{
+	color:#666;
+}
+.hotMain .hotText{
+	float:left;
+	width:583px;
+	height:198px;
+	border:1px solid #e4e4e4;
+	margin-top:30px;
+	margin-bottom:15px;
+	color:#666;
+}
+.hotMain .hotText a .hotLeft{
+	float:left;
+	width:210px;
+	color:#666;
+}
+.hotMain .hotText a .hotLeft img.logoMall{
+	margin:3px 7px;	
+}
+.hotMain .hotText a .hotLeft p{
+	width:190px;
+	font-size:14px;
+	line-height:36px;
+	text-align:center;
+	border-top:1px dashed #e4e4e4;
+	margin:0px auto;
+}
+.hotMain .hotText a .hotLeft p b{
+	font-size:18px;
+	color:#ff7300;
+}
+.hotMain .hotText a .hotLeft h3{
+	width:200px;
+	font-size:16px;
+	line-height:36px;
+	text-align:center;
+}
+.hotMain .hotText a img.productPic{
+	float:right;
+	vertical-align: top;
+}
+
+/*-----------精品路线部分-----------*/
+.fineLineMain{
+	width:1200px;
+	height:auto;
+	margin-top:20px;
+}
+.fineLineMain h2{
+	font-size:20px;
+	font-weight:normal;
+	color:#333;
+	line-height:44px;
+}
+.fineLineMain h2.borYellow{
+	border-bottom:2px solid #ff7300;
+}
+.fineLineMain h2 i.fineIcon{
+	width:23px;
+	height:20px;
+	display:block;
+	float:left;
+	margin-top:11px;
+	margin-right:5px;
+	background:url(../images/icons.png) no-repeat -10px -208px;
+}
+.fineLineMain ul{
+	width:1200px;
+	height:auto;
+	margin-top:15px;
+}
+.fineLineMain ul li{
+	width:266px;
+	height:auto;
+	float:left;
+	margin:15px 16px;
+	padding:15px 0px 60px 0px;
+	position:relative;
+	z-index:2;
+	border:1px solid #e4e4e4;
+	border-bottom:none;
+}
+.fineLineMain ul li h3{
+	width:240px;
+	height:36px;
+	font-size:18px;
+	color:#333;
+	font-weight:normal;
+	line-height:36px;
+	text-align:center;
+	margin:0px auto 8px auto;
+	overflow:hidden;
+}
+.fineLineMain ul li h3 i{
+	width:36px;
+	height:10px;
+	display:inline-block;
+	margin:0px 8px;
+	background:url(../images/icons.png) no-repeat -2px -341px;
+}
+.fineLineMain ul li h4{
+	width:240px;
+	height:36px;
+	line-height:36px;
+	overflow:hidden;
+	font-size:14px;
+	color:#666;
+	margin:0px auto;
+	overflow:hidden;
+	text-align:center;
+	font-weight:normal;
+}
+.fineLineMain ul li h4 b{
+	font-size:18px;
+	color:#ff7300;
+}
+.fineLineMain ul li a.btnYellow{
+	width:278px;
+	height:45px;
+	display:block;
+	line-height:45px;
+	text-align:center;
+	color:#fff;
+	font-size:14px;
+	position:absolute;
+	left:-6px;
+	bottom:0px;
+	z-index:3;
+	background:#ff7300;
+}
+.fineLineMain ul li a i{
+	width:6px;
+	height:11px;
+	display:block;
+	position:absolute;
+	z-index:4;
+	top:-11px;
+}
+.fineLineMain ul li a.btnYellow i.left{
+	left:0;
+	background:url(../images/btn_left_icon.png) no-repeat center;
+}
+.fineLineMain ul li a.btnYellow i.right{
+	right:0;
+	background:url(../images/btn_right_icon.png) no-repeat center;
+}
+
+/*---------热门路线部分--------*/
+
+.fineLineMain h2 i.hotIcon{
+	width:22px;
+	height:18px;
+	display:block;
+	float:left;
+	margin-top:11px;
+	margin-right:5px;
+	background:url(../images/icons.png) no-repeat -8px -251px;
+}
+.fineLineMain h2.borRed{
+	border-bottom:2px solid #ee6666;
+}
+.fineLineMain ul li a.btnRed{
+	width:278px;
+	height:45px;
+	display:block;
+	line-height:45px;
+	text-align:center;
+	color:#fff;
+	font-size:14px;
+	position:absolute;
+	left:-6px;
+	bottom:0px;
+	z-index:3;
+	background:#ee6666;
+}
+.fineLineMain ul li a.btnRed i.left{
+	left:0;
+	background:url(../images/btn_left_icon_hong.png) no-repeat center;
+}
+.fineLineMain ul li a.btnRed i.right{
+	right:0;
+	background:url(../images/btn_right_icon_hong.png) no-repeat center;
+}
+
+/*---------推荐路线部分--------*/
+
+.fineLineMain h2 i.blueIcon{
+	width:23px;
+	height:24px;
+	display:block;
+	float:left;
+	margin-top:11px;
+	margin-right:5px;
+	background:url(../images/icons.png) no-repeat -8px -295px;
+}
+.fineLineMain h2.borBlue{
+	border-bottom:2px solid #3797e1;
+}
+.fineLineMain ul li a.btnBlue{
+	width:278px;
+	height:45px;
+	display:block;
+	line-height:45px;
+	text-align:center;
+	color:#fff;
+	font-size:14px;
+	position:absolute;
+	left:-6px;
+	bottom:0px;
+	z-index:3;
+	background:#3797e1;
+}
+.fineLineMain ul li a.btnBlue i.left{
+	left:0;
+	background:url(../images/btn_left_icon_lan.png) no-repeat center;
+}
+.fineLineMain ul li a.btnBlue i.right{
+	right:0;
+	background:url(../images/btn_right_icon_lan.png) no-repeat center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

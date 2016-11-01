@@ -1,0 +1,86 @@
+@charset "utf-8";
+/*---- 批发进货首页 ----*/
+.salePurchase{height:auto;overflow:hidden;padding:20px 0px;border-bottom:#e4e4e4 solid 1px;}
+.spLeft{width:;height:auto;overflow:hidden;float:left;border-right:#e4e4e4 solid 1px;}
+.spLeft img{width:80px;height:80px;float:left;margin-bottom:10px;}
+.spLeft p{width:335px;height:auto;overflow:hidden;font:14px/20px "微软雅黑";color:#333;}
+.spLeft p span{width:230px;padding-left:15px;}
+.spLeft p span a{font:14px/20px "微软雅黑";color:#333;}
+.spLeft p font{color:#999;font:12px/20px "微软雅黑";}
+.orderStat{height:auto;overflow:hidden;width:612px;padding:15px 20px 0px 20px;float:right;}
+.orderStat li{width:65px;margin:0px 44px;float:left;}
+.orderStat li i{width:65px;height:65px;display:inline-block;}
+.orderStat li b{display:block;width:65px;text-align:center;color:#666;font:14px/20px "微软雅黑";}
+.orderStat li font{display:block;width:65px;text-align:center;font:14px/14px "微软雅黑";}
+.orderStat li a{text-decoration:none;color:#ff7300;}
+.orderStat li.os01 i{background:url(../images/orderStat01.png) no-repeat center center scroll;}
+.orderStat li.os02 i{background:url(../images/orderStat02.png) no-repeat center center scroll;}
+.orderStat li.os03 i{background:url(../images/orderStat03.png) no-repeat center center scroll;}
+.orderStat li.os04 i{background:url(../images/orderStat04.png) no-repeat center center scroll;}
+/*---- 我的订单 ----*/
+.myOrder{height:auto;overflow:hidden;margin-top:20px;position:relative;}
+.myOrder h3{font:16px/25px "微软雅黑";color:#333;background:url(../images/titBg01.png) no-repeat 0px center scroll;padding-left:15px;}
+.moreOrder{position:absolute;top:0px;right:0px;color:#ff7300;font:14px/25px "微软雅黑";color:#ff7300}
+.myOrder ul{height:auto;overflow:hidden;margin-top:10px;border:#e4e4e4 solid 1px;border-bottom:none;}
+.myOrder ul li.tit{height:40px;background-color:#f7f7f7;}
+.myOrder ul li.tit span{width:158px;float:left;text-align:center;color:#333;font:14px/40px "微软雅黑";}
+.myOrder ul li.tit span.tit{width:344px;height:auto;}
+.myOrder ul li.txt{height:85px;padding:18px 0px;border-bottom:#e4e4e4 solid 1px;}
+.myOrder ul li.txt p{float:left;width:158px;text-align:center;}
+.myOrder ul li.txt p.tit{width:344px;text-align:left;}
+.myOrder ul li.txt p.tit img{width:81px;height:81px;float:left;border:#e4e4e4 solid 1px;padding:4px;margin-left:20px;}
+.myOrder ul li.txt p.tit a.proName{float:left;margin-left:15px;color:#666}
+.myOrder ul li.txt p.tit font{display:block;float:left;color:#999;font-size:12px;}
+.myOrder ul li.txt p span.proName{display:block;overflow:hidden;padding-left:15px;float:left;width:182px;height:40px;font:14px/20px "微软雅黑";color:#666}
+.myOrder ul li.txt p span.proName a{color:#333}
+.myOrder ul li.txt p span.proName a:hover{color:#ff7300}
+.myOrder ul li.txt p font{width:182px;padding-left:15px;padding-top:10px;font:12px/12px "微软雅黑";}
+.myOrder ul li.txt p{font-size:14px;}
+.myOrder ul li.txt p font{font-size:14px}
+/*---- 商品收藏 ----*/
+.proCollect{height:auto;overflow:hidden;position:relative;margin-top:18px}
+.proCollect h3{font:16px/16px "微软雅黑";background:url(../images/titBg01.png) no-repeat 0px center scroll;padding-left:15px;}
+.pcMore{position:absolute;right:0px;top:0px;font:14px/25px "微软雅黑";color:#ff7300;}
+.proCollect ul{width:1030px;height:auto;overflow:hidden;margin:15px 0px 0px 0px;}
+.proCollect ul li{width:223px;height:auto;border:#e3e3e3 solid 1px;overflow:hidden;float:left;margin-right:29px;}
+.proCollect ul li img{width:223px;height:223px;}
+.proCollect ul li p{padding:0px 12px;}
+.proCollect ul li p a{color:#333;}
+.pcName{font:14px/18px "微软雅黑";color:#666;height:35px;overflow:hidden;margin-top:10px}
+.proCollect ul li p a:hover{text-decoration:none;color:#ff7300;}
+.proCollect ul li p.price{height:auto;overflow:hidden;padding:10px 12px 10px 12px;}
+.proCollect ul li p font{float:left;color:#ff7300;font-size:14px;}
+.proCollect ul li p del{float:right;font-size:14px;color:#999;}
+/*---- 店铺收藏 ----*/
+.shopCollect{height:auto;overflow:hidden;position:relative;margin-top:18px}
+.shopCollect h3{font:16px/25px "微软雅黑";background:url(../images/titBg01.png) no-repeat 0px center scroll;padding-left:15px;}
+.shopInfo{height:auto;overflow:hidden;padding:16px 0px 15px 15px;border:#e3e3e3 solid 1px;border-bottom:none;margin-top:15px}
+.shopInfo img.coLogo{width:38px;height:38px;border:#e3e3e3 solid 1px;margin-right:10px}    
+.shopInfo a{font:14px/40px "微软雅黑";color:#333}  
+.shopInfo a:hover{color:#ff7300;text-decoration:none;}
+.scMore{position:absolute;right:0px;top:0px;color:#ff7300;font:14px/25px "微软雅黑";}
+.shopCollect ul{height:auto;overflow:hidden;border:#e3e3e3 solid 1px;border-top:none;}
+.shopCollect ul li{width:160px;float:left;margin-left:30px;}
+.shopCollect ul li img{width:158px;height:158px;border:#e3e3e3 solid 1px;}    
+.shopCollect ul li p{height:auto;overflow:hidden;margin-top:10px;}
+.shopCollect ul li p.scName{font:14px/18px "微软雅黑";color:#666;height:35px;overflow:hidden;}
+.shopCollect ul li p.scName a{color:#666}    
+.shopCollect ul li p.price{height:auto;overflow:hidden;padding:10px 0px 10px 0px;font:14px/14px "微软雅黑";}
+.shopCollect ul li p.price font{color:#ff7300;}
+.creditIcon{width:;height:auto;display:inline-block;padding-left:15px;}    
+.creditIcon img{margin:0px 5px}
+.creditIcon font{color:#ff7300;font-weight:bold;}
+/*---- 为您推荐 ----*/
+.hotCommond{height:auto;overflow:hidden;position:relative;margin-top:18px}
+.hotCommond h3{font:16px/25px "微软雅黑";background:url(../images/titBg01.png) no-repeat 0px center scroll;padding-left:15px;}
+.refreshBtn{position:absolute;top:0px;right:0px;font:14px/25px "微软雅黑";background:url(../images/refreshBtn.png) no-repeat 0px center scroll;padding-left:25px;color:#666;}    
+.refreshBtn:hover{color:#ff7300;}
+.hotCommond ul{height:auto;overflow:hidden;border:#e3e3e3 solid 1px;padding-top:20px;margin-top:18px;}
+.hotCommond ul li{width:160px;float:left;margin-left:30px;}
+.hotCommond ul li img{width:158px;height:158px;border:#e3e3e3 solid 1px;}    
+.hotCommond ul li p{height:auto;overflow:hidden;margin-top:10px;}
+.hotCommond ul li p.scName{font:14px/18px "微软雅黑";color:#666;height:35px;overflow:hidden;}
+.hotCommond ul li p.scName a{color:#666;}
+.hotCommond ul li p.scName a:hover{color:#ff7300}
+.hotCommond ul li p.price{height:auto;overflow:hidden;padding:10px 0px 10px 0px;font:14px/14px "微软雅黑";}
+.hotCommond ul li p.price font{color:#ff7300;}

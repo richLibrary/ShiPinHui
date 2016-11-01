@@ -1,0 +1,37 @@
+﻿@charset "utf-8";
+/*橱窗推荐的产品导航*/
+.ucinput{border:1px solid #e4e4e4;background:#fff;height:26px;line-height:26px;padding:2px 5px}
+.gray a.sellProdu{color:#666}
+.gray a:hover{ color:#ff7300;text-decoration:none}
+.ucinput:hover{border:1px solid #2c54ab}
+.ucRight .search{width:946px;border:1px solid #eee;background:#f7f7f7;padding:15px 20px}
+.ucRight .search a{float:left;margin-top:10px;line-height:40px;font-size:14px;text-decoration:underline;color:#06C}
+.ucRight .search td{font-size:14px}
+.ucRight .stit{border-top:1px solid #eee;background:#f7f7f7;height:42px;line-height:42px}
+.ucRight .stable1 td{border-bottom:1px solid #eaeaea;font-size:13px}
+.ucbtn{width:80px;height:40px;background:#f60;-moz-border-radius:3px;webkit-border-radius:3px;border-radius:3px;color:#fff;font-size:16px;border:none;cursor:pointer}
+.ucbtn:hover{background:#ff7300}
+.sbtn{width:50px;height:26px;border:1px solid #e4e4e4;background:#fff;-moz-border-radius:3px;webkit-border-radius:3px;border-radius:3px;color:#333;font-size:12px;cursor:pointer;}
+.sbtn:hover{border:1px solid #ff7010;color:#ff7010}
+/*橱窗推荐的产品标题*/
+.stitTitle{height:auto;overflow:hidden;margin-top:20px}
+.stitTitle li{width:105px;height:30px;float:left;text-align:center;font:14px/30px "\5FAE\8F6F\96C5\9ED1";color:#333}
+.mt20{margin-top:20px;}
+.stitTitle li.on{color:#ff7300;border-bottom:#ff7300 1px solid}
+.styvale{ border:#e4e4e4 1px solid;margin:20px 0px;border-bottom:none;}
+/*橱窗推荐的产品内容*/
+.proInfoTitle{border-bottom:#e4e4e4 1px solid;}
+.proInfoTitle td{font:14px/38px "\5FAE\8F6F\96C5\9ED1";color:#333;text-align:center}
+.qxtn{width:78px;height:25px;background-color:#fff;border:#e4e4e4 1px solid;border-radius:3px;}
+.qxtn:hover{ color:#ff7300;border:#ff7300 1px solid;cursor:pointer;} 
+.center a.remdproCon{width:155px;height:48px;display:block;float:right;overflow:hidden;font:14px/24px "\5FAE\8F6F\96C5\9ED1";color:#666;margin:18px 30px 0 0}
+.center a.remdproCon:hover{color:#ff7300} 
+.mr5{margin:0 5px 0 12px}
+.orange{height:30px;display:block;font:14px/30px "\5FAE\8F6F\96C5\9ED1";color:#ff7300}
+.cancle{width:78px;height:26px;background-color:#fff0e6;color:#FF7300;text-align:center;border:1px solid #ffdfca;display:block;line-height:26px} 
+.boult{color:#ff7300;}
+/*页码*/
+.paginator{clear:both;padding-bottom:12px;margin:0 auto;font:14px Arial,Helvetica,sans-serif;color:#666;padding-top:12px;float:right}
+.paginator A,.paginator A:link,.paginator A:visited{padding:0 12px;display:block;background:#fff;border:1px solid #ededed;float:left;color:#333;margin-right:4px;text-decoration:none;height:34px;line-height:34px}
+.paginator A:active,.paginator A:hover{padding:0 12px;background:#f40;border:1px solid #ededed;color:#fff;text-decoration:none;height:34px;line-height:34px}
+.paginator .this-page{padding:0 12px;display:block;background:#f40;float:left;height:34px;line-height:34px;margin-right:2px;text-decoration:none;color:#fff;font-weight:700}

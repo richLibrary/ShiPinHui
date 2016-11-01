@@ -1,0 +1,46 @@
+﻿@charset "utf-8";
+/*----
+模块名称：指数首页
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2015.01.15
+----*/
+/*---- 面包屑导航 ----*/
+.breadsNav{width:1200px;height:auto;overflow:hidden;margin:0px auto;color:#333;padding:18px 0px 13px 0px;}
+.breadsNav span{float:right;}
+.breadsNav font{color:#ff7300;margin:0px 4px;}
+.breadsNav a{color:#333;}
+.breadsNav a:hover{color:#ff7300;}
+.breadsNav code{margin:0px 4px;}
+/*---- 指数详情 ----*/
+.quoMain{width:1200px;height:826px;overflow:hidden;margin:20px auto 0px auto;position:relative;}
+.quoDets{width:;}
+.quoDets{width:922px;height:auto;overflow:hidden;float:left;border:#e4e4e4 solid 1px;background-color:#fff;}
+.quoDets h1{font:18px/18px "微软雅黑";padding:51px 0px 28px 0px;color:#333;text-align:center;}
+.quoTit{text-align:center;padding-bottom:25px;}
+.quoTit span{display:inline-block;margin:0px 18px;font:12px/24px "微软雅黑";color:#666;position:relative;height:24px;}
+.bdsharebuttonbox{display:inline-block;position:absolute;top:4px;left:0px;width:190px;}
+
+.quoCharts{width:800px;height:380px;margin:0px auto;}
+
+/*---- 指数列表 ----*/
+.quoList{float:left;width:924px;border:#ddd solid 1px;margin-top:10px;border-bottom:none;border-right:none;}
+.quoList tr.tit{height:37px;text-align:center;}
+.quoList tr.tit td{border-bottom:#ff7300 solid 2px;font-size:14px;color:#333;border-right:#ddd solid 1px;}
+.quoList tr.txt td{border-bottom:#ddd solid 1px;font-size:12px;color:#333;height:36px;text-align:center;border-right:#ddd solid 1px;}
+.quoList tr.txt.gray{background-color:#f8f8f8;}
+.quoList tr.txt td.unit{color:#999;}
+.quoList tr.txt td.date{color:#999;}
+.quoList tr.txt td a{color:#333}
+.quoList tr.txt td a:hover{color:#ff7300}
+/*---- 热门指数 ----*/
+.hotQuo{width:258px;height:auto;overflow:hidden;min-height:400px;float:right;border:#ddd solid 1px;position:absolute;top:0px;right:0px; background:#fdfdfd;}
+.hotQuo h2{font:14px/38px "微软雅黑";color:#333;padding-left:12px;border-bottom:#ff7300 solid 2px;}
+.hotQuo h3{font:14px/28px "微软雅黑";color:#333;margin:10px 12px 0px 12px;}
+.hotQuo h3 i{color:#3e9b00;margin-right:7px;}
+.hotQuo ul{margin:8px 12px 0px 12px;border-bottom:#ddd dashed 1px;height:auto;overflow:hidden;padding-bottom:8px;}
+.hotQuo ul li{height:28px;font:12px/28px "微软雅黑";overflow:hidden;}
+.hotQuo ul li span{width:58px;float:left;text-align:center;}
+.hotQuo ul li span.up{color:#ff7300;}
+.hotQuo ul li span.down{color:#3e9b00;}
+

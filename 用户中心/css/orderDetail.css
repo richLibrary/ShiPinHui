@@ -1,0 +1,76 @@
+@charset "utf-8";
+/*---- 标题和面包屑导航 ----*/    
+.ucorderTit{height:40px;overflow:hidden;position:relative;}
+.ucorderTit h2{display:inline-block;float:left;font:18px/40px "微软雅黑";color:#333;background:url("../images/titBg01.png") no-repeat 0px center scroll;padding-left:15px}
+.ucBreads{padding-right:0px;float:right;line-height:40px;}
+.ucBreads a{color:#666;}
+.ucBreads a:hover{color:#ff7300}
+/*---- 订单列表筛选 ----*/     
+/*---- 订单的不同状态 ----*/	
+.orderSteps{height:auto;overflow:hidden;border:#e4e4e4 solid 1px;}
+.stepsDets {height:auto;overflow:hidden;padding:25px 0px 5px 0px;}	
+.stepsDets p{width:594px;height:31px;background:url(../images/orderSteps.png) no-repeat 0px 0px scroll;position:relative;margin:0px auto 0px auto}
+.stepsDets p span{height:31px;position:absolute;top:0px;overflow:hidden;background:url(../images/orderSteps.png) no-repeat 0px -50px scroll;display:inline-block}	
+.stepsDets ul{width:750px;height:60px;overflow:hidden;margin:15px auto 0px auto;position:relative;}
+.stepsDets ul li{width:140px;top:0px;position:absolute;}
+.stepsDets ul li b,.stepsDets ul li font{width:140px;height:auto;overflow:hidden;text-align:center;display:inline-block}
+.stepsDets ul li font{font:12px/14px "微软雅黑";color:#999;display:none;}
+.stepsDets ul li b{font:14px/20px "微软雅黑";color:#333}
+.stepsDets ul li.on b{color:#ff7300}
+.stepsDets ul li.step01{left:25px}
+.stepsDets ul li.step02{left:212px}
+.stepsDets ul li.step03{left:408px}
+.stepsDets ul li.step04{left:588px}
+.stepsDets ul li.on font{display:block}
+
+/*物流信息*/
+.logticsInfo{width:936px;height:auto;overflow:hidden;padding:20px 25px 25px 25px}
+.logInfoCpy{height:auto;overflow:hidden;padding:20px 25px 25px 25px}
+.logInfoCpy li{font:12px/36px "\5FAE\8F6F\96C5\9ED1";color:#666;height:auto;overflow:hidden;}
+.spficAddre{ float: left; margin-right: 124px;}
+.logInfoCpy li span{color:#ff7300;float:left;}
+.logInfoCpy li i{width:70px;float:left;}
+.logticsTrack{display:inline-block;float:left;color:#ff7300}
+
+/*---- 订单信息 ----*/
+.orderInfo{height:auto;overflow:hidden;padding:12px 0px 10px 60px;border-top:#e4e4e4 solid 1px;}
+.orderInfo p{font:12px/30px "微软雅黑";color:#333}	
+.orderInfo p.tit{font:16px/35px "微软雅黑";color:#333}
+.orderInfo p.tit font{color:#ff7300}
+/*---- 买家信息 ----*/
+.odTxt{height:auto;overflow:hidden;border:#e4e4e4 solid 1px;padding-top:10px;}
+.buyerInfo{width:520px;float:left;height:auto;overflow:hidden;padding-left:30px;}
+.buyerInfo h3{font:14px/30px "微软雅黑";color:#333}
+.buyerInfo li{font:12px/30px "微软雅黑";color:#333;}
+/*---- 卖家信息 ----*/
+.salerInfo{width:350px;height:auto;overflow:hidden;float:right;}
+.salerInfo h3{font:14px/30px "微软雅黑";color:#333}
+.salerInfo li{font:12px/30px "微软雅黑";color:#333;height:auto;overflow:hidden}
+.salerInfo li a{color:#ff7300}
+/*---- 选项卡 ----*/
+.odTit{width:100%;height:37px;font:14px/37px "微软雅黑";color:#333;margin-top:18px;position:relative;z-index:99}
+.odTit a{width:99px;text-align:center;height:36px;display:inline-block;border:#e4e4e4 solid 1px;float:left;color:#333;position:absolute;top:0px;background-color:#fff;z-index:99;}
+.odTit a.on{border-top:#ff7300 solid 2px;border-bottom:#fff solid 1px;color:#ff7300;}
+.odTit a.odTit01{left:0px;}
+.odTit a.odTit02{left:100px;}
+.odTit a:hover{color:#ff7300;text-decoration:none;}
+/*---- 订单详情表格 ----*/
+.odTable{height:auto;overflow:hidden;border:#e4e4e4 solid 1px;border-bottom:none;margin-top:22px;}
+.odTableTit{height:35px;font:14px/35px "微软雅黑";color:#333;border-bottom:#e4e4e4 solid 1px;background-color:#fafafa}
+.odTableTit span{text-align:center;float:left;width:170px;}
+.odTableTit span.odTableTit01{width:476px;}
+.odTable ul{height:auto;overflow:hidden;position:relative}
+.odTable ul li{padding:15px 0px 15px 50px;height:auto;overflow:hidden;border-right:#e4e4e4 solid 1px;border-bottom:#e4e4e4 solid 1px;width:766px;float:left}
+.odTable ul li span{float:left;height:auto;overflow:hidden;width:170px;text-align:center;font-size:14px;}
+.odTable ul li span img{width:80px;height:80px;border:#e4e4e4 solid 1px;float:left;margin-right:15px;}
+.odTable ul li span.proName{width:426px;text-align:left;}
+.odTable ul li span.proName p{color:#999;font-size:12px;}
+.odTable ul li span a{font:14px/30px "微软雅黑";color:#333;}
+.odTable ul li span a:hover{color:#ff7300;}
+.odTable ul p.totalPrice{height:100%;position:absolute;width:170px;text-align:center;top:-1px;right:0px;border-bottom:#e4e4e4 solid 1px;}
+.odTable ul p.totalPrice font{font-size:16px;color:#ff7300;margin-top:15px;display:inline-block}
+/*---- 确认收货 ----*/
+.confirmRecived{height:auto;overflow:hidden;padding-top:10px;padding-bottom:50px;}
+.confirmRecived p{color:#333;font:14px/30px "微软雅黑";text-align:right}
+.confirmRecived p font{font:18px/30px "微软雅黑";color:#ff7300}
+.confirmRecived p input{width:155px;height:40px;background-color:#ff7300;color:#fff;font-size:14px;border-radius:4px;cursor:pointer;border:none;margin-top:15px;}

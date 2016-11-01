@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+body{background-color:#f2f2f2;}
+.headerMain h1 a{height:98px;display:block;font-size:24px;color:#16accc;float:left;}
+.mainNav{width:100%;height:41px;background-color:#17ACCC;margin:0px auto;overflow:hidden}
+.mainNav ul li a.on{background-color:#a4dfe7}
+.mainNav ul li a:hover{background-color:#a4dfe7}
+.companyInfo ul li h3{font:14px/24px "\5FAE\8F6F\96C5\9ED1";color:#666;height:24px;overflow:hidden;border:1px solid #E4E4E4;margin:5px;border-top-right-radius:8px;background-color:#e4e4e4;}
+.companyInfo ul li h3 i{color:#666;padding:0px 15px}
+.companyInfo ul li a:hover{color:#666;background-color:#e4e4e4;}
+.cemaTitle{background-color:#17ACCC;}
+.cemaTitle h2{font:14px/35px "\5FAE\8F6F\96C5\9ED1";color:#fff;padding-left:15px;background:url(../images/bluckbg.png) no-repeat 120px 0px scroll;}
+.cofoTitle{background-color:#17ACCC;}
+.cofoTitle h2{font:14px/35px "\5FAE\8F6F\96C5\9ED1";color:#fff; padding-left:17px;background:url(../images/bluckbg.png) no-repeat 120px 0px scroll}
+.cdiTitle{background-color:#17ACCC;}
+.cdiTitle h2{font:14px/35px "\5FAE\8F6F\96C5\9ED1";color:#fff;padding-left:17px;background:url(../images/bluckbg.png) no-repeat 120px 0px scroll}
+.panyInfo{background-color:#17ACCC;}
+.panyInfo h2{font:14px/35px "\5FAE\8F6F\96C5\9ED1";color:#fff;padding-left:17px;background:url(../images/bluckbg.png) no-repeat 120px 0px scroll}
+.saleTitle{background-color:#17ACCC;}
+.saleTitle h2{font:14px/35px "\5FAE\8F6F\96C5\9ED1";color:#fff;padding-left:17px;background:url(../images/bluckbg.png) no-repeat 120px 0px scroll}
+.newsleTit{background-color:#17ACCC;}
+.newsleTit h2{font:14px/35px "\5FAE\8F6F\96C5\9ED1";color:#fff;padding-left:17px;background:url(../images/bluckbg.png) no-repeat 120px 0px scroll}
+.ctactUs{background-color:#17ACCC;}
+.ctactUs h2{font:14px/35px "\5FAE\8F6F\96C5\9ED1";color:#fff;padding-left:17px;background:url(../images/bluckbg.png) no-repeat 120px 0px scroll}
+.ribarTit{background-color:#17ACCC;}
+.ribarTit h2{font:14px/35px "\5FAE\8F6F\96C5\9ED1";color:#fff;padding-left:15px;background:url(../images/bluckbg.png) no-repeat 120px 0px scroll}
+/*----首页 ----*/
+.cemaTop h2{font:14px/35px "\5FAE\8F6F\96C5\9ED1";color:#fff;padding-left:45px;background:url(../images/nav.jpg) no-repeat center center scroll}
+.rightbar h2{background:url(../images/rightNav.jpg) no-repeat 0 0 scroll;}
+.cdiType h2{background:url(../images/leftNav.jpg) no-repeat 0px 0px scroll;}
+.saleList h2{background:url(../images/leftNav.jpg) no-repeat 0px 0px scroll;}
+.newsLeftCenter h2{background:url(../images/leftNav.jpg) no-repeat 0px 0px scroll;}
+.contactUs h2{background:url(../images/leftNav.jpg) no-repeat 0px 0px scroll;}
+.companyInfo h2{background:url(../images/leftNav.jpg) no-repeat 0px 0px scroll;}
+.coupon h2{background:url(../images/leftNav.jpg) no-repeat 0px 0px scroll;}
+/*----公司简介 ----*/
+.companyInfor h2{background:url(../images/leftNav.jpg) no-repeat 0 0 scroll;}
+.goodsClass h2{background:url(../images/leftNav.jpg) no-repeat 0 0 scroll;}
+.companyContent{background:url(../images/leftNav.jpg) no-repeat 0 0 scroll;}
+/*----联系我们 ----*/
+.contact h2{background:url(../images/rightNav.jpg) no-repeat 0 0 scroll;}
+/*----在线咨询 ----*/
+.feedBack h2{background:url(../images/rightNav.jpg) no-repeat 0 0 scroll;}
+/*----新闻详情 ----*/
+.news h2{background:url(../images/rightNav.jpg) no-repeat 0 0 scroll;}
+/*----新闻列表 ----*/
+.newsClass h2{background:url(../images/rightNav.jpg) no-repeat 0 0 scroll;}
+/*----相册列表 ----*/
+.myPhotos h2{background:url(../images/rightNav.jpg) no-repeat 0 0 scroll;}
+/*----产品详情 ----*/
+.newList h2{background:url(../images/leftNav.jpg) no-repeat 0 0 scroll;}
+.productHot h2{background:url(../images/leftNav.jpg) no-repeat 0 0 scroll;}
+.aAddCart{background-color:#17accc;}

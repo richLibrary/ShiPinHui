@@ -1,0 +1,58 @@
+@charset "utf-8";
+/*---- 标题和面包屑导航 ----*/    
+.ucorderTit{height:40px;overflow:hidden;position:relative;}
+.ucorderTit h2{display:inline-block;float:left;font:18px/40px "微软雅黑";color:#333;background:url("../images/titBg01.png") no-repeat 0px center scroll;padding-left:15px}
+.ucBreads{padding-right:0px;float:right;line-height:40px;}
+.ucBreads a{color:#666;}
+.ucBreads a:hover{color:#ff7300}
+/*---- 订单列表筛选 ----*/     
+.orderSort{height:auto;overflow:hidden;background-color:#fafafa;border:#e4e4e4 solid 1px;height:54px;padding:0px 0px 0px 13px;font:14px/54px "微软雅黑";color:#666;}    
+.orderSort input{width:135px;height:30px;padding-left:4px;border:#e4e4e4 solid 1px;}
+.orderSort input.date{width:65px;margin:0px 4px;background:url("../images/dateBg.png") no-repeat 10px center scroll;padding-left:30px}
+.orderSort select{width:100px;height:32px;border:#e4e4e4 solid 1px;}
+.orderSort input[type="button"]{width:74px;height:32px;background-color:#ff7300;color:#fff;border-radius:4px;font-size:14px;border:none;cursor:pointer;margin-left:10px;}
+/*---- 订单状态选项卡 ----*/  
+.orderTab{height:14px;border-bottom:#e4e4e4 solid 1px;padding-bottom:12px;margin-top:15px}
+.orderTab a{padding:0px 25px;border-bottom:#e4e4e4 solid 1px;font:14px/14px "微软雅黑";height:24px;display:inline-block;color:#333}
+.orderTab a.on,.orderTab a:hover{border-bottom:#ff7300 solid 1px;color:#ff7300;text-decoration:none}
+
+
+.orderTit{height:auto;overflow:hidden;padding-top:10px}
+.orderTit span{height:auto;float:left}
+.orderTit select{float:left;width:120px;height:25px;border:#e4e4e4 solid 1px;text-align:center}
+.orderTit span.sp01{width:162px;text-align:center;font-size:14px;}
+.orderTit span.sp02{width:100px;text-align:center;font-size:14px;}
+.orderTit span.sp03{width:100px;text-align:center;font-size:14px;}
+.orderTit span.sp04{width:134px;padding-left:100px;text-align:center;font-size:14px;}
+.orderTit span.sp05{width:134px;float:right;text-align:center;font-size:14px;}
+/*---- 订单列表 ----*/
+.orderList{height:auto;overflow:hidden;}
+.olTxt{height:auto;overflow:hidden;border:#e4e4e4 solid 1px;border-bottom:none;margin-top:10px;margin-bottom:15px}
+.olTxtInfo{height:38px;overflow:hidden;border-bottom:#e4e4e4 solid 1px;background-color:#f9f9f9;padding-left:15px;font:13px/38px "微软雅黑";}
+.olTxtInfo a{color:#333;margin-left:15px;}
+.olTxtInfo a.msg{color:#999;float:right;font:16px/38px "微软雅黑";}
+.olTxtInfo a.del{color:#999;float:right;font:22px/33px "微软雅黑";margin-right:20px}
+.olTxtInfo a:hover{text-decoration:none;color:#ff7300}
+.olTable{height:auto;overflow:hidden;position:relative;}
+.olTable ul{width:582px;height:auto;overflow:hidden;float:left}
+.olTable ul li{padding:20px;border-bottom:#e4e4e4 solid 1px;height:auto;overflow:hidden}
+.olTable ul li span{float:left;height:82px;width:100px;text-align:center;line-height:82px;font-size:14px;color:#666}
+.olTable ul li span.proName{width:162px;line-height:18px;text-align:left}
+.olTable ul li span.proName a{font:14px/18px "微软雅黑";color:#333}
+.olTable ul li span.proName a:hover{color:#ff7300;}
+.olTable ul li span.proPrice{height:82px;}
+.olTable ul li span.proName font{color:#999;font-size:12px;}
+.olTable ul li{padding:20px 0px 20px 20px;border-bottom:#e4e4e4 solid 1px;}
+.olTable ul li span.service{line-height:20px;padding-top:20px;}
+.olTable ul li span.service a{color:#36c;}
+.olTable p{float:left;width:133px;height:100%;position:absolute;top:-1px;border-bottom:#e4e4e4 solid 1px;border-left:#e4e4e4 solid 1px;text-align:center;font-size:14px;}
+.olTable p.p1{left:582px;color:#ff7300;}
+.olTable p.p1 b{padding-top:40px;display:inline-block;font:18px/18px "微软雅黑";}
+.olTable p.p1 font{color:#999;}
+.olTable p.p2{right:136px;}
+.olTable p.p2 font{display:inline-block;width:133px;text-align:center;margin-top:40px;}    
+.olTable p.p2 a{color:#36c;}
+.olTable p.p3{right:0px;width:135px}
+.olTable p.p3 input{width:90px;height:28px;background-color:#fff;color:#ff7300;text-align:center;font-size:14px;border:#ff7300 solid 1px;border-radius:4px;cursor:pointer;margin-top:40px;margin-bottom:6px}    
+.olTable p.p3 a{color:#999;}
+.olTable p.p3 a:hover{color:#ff7300;}

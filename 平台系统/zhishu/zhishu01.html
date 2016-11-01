@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+	<meta charset="utf-8" />
+	<title>指数首页</title>
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="Keywords" content="指数首页"/>
+	<meta name="Description" content="指数首页"/>
+
+	<link rel="stylesheet" href="css/common.css" type="text/css" />
+	<link rel="stylesheet" href="css/zhishu01.css" type="text/css" />
+	<link rel="stylesheet" href="css/iconfont/iconfont.css" type="text/css" />
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/SuperSlide.js"></script>
+	<script type="text/javascript" src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
+	<script type="text/javascript" src="js/echarts.js"></script>
+	<script type="text/javascript" src="js/priceCharts.js"></script>
+</head>
+
+<body ng-app="myApp" ng-controller="userCtrl" style="background-color:#fff;">
+<div ng-include="'header.html'"></div>
+<!----
+模块名称：焦点图和指数
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2016.01.11
+---->
+<div class="indexBanner">
+	<!-- 今日行情均价 -->
+	<div class="focusList">
+		<ul class="focusTxt">
+			<li>
+				<a href="#" title="图片名称" target="_blank">
+					<img src="" width="" height="" alt="" title="" />
+				</a>
+				<p>图片名称</p>
+				<div class="overLay01"></div>
+			</li>
+		</ul>
+		<ul  class="focusTit">
+			<li><img src="" width="" height="" alt="" title="" /><b></b></li>
+			<li><img src="" width="" height="" alt="" title="" /><b></b></li>
+			<li><img src="" width="" height="" alt="" title="" /><b></b></li>
+		</ul>
+	</div>
+	<!-- 今日行情均价 -->
+	<div class="quoBlock">
+		<h2>今日行情均价</h2>
+		<a class="quoMore" title="更多" target="_blank">更多&gt;&gt;</a>
+		<ul>
+			<li class="tit">
+				<span class="tit">名称</span>
+				<span>价格</span>
+				<span>单位</span>
+				<span>涨跌</span>
+				<span>报价日期</span>
+			</li>
+			<li class="txt">
+				<span class="tit">食用油</span>
+				<span>12500</span>
+				<span>元/吨</span>
+				<span><i class="iconfont"></i>0.25%</span>
+				<span>2015-12-07</span>
+			</li>  
+			<li class="txt">
+				<span class="tit">食用油</span>
+				<span>12500</span>
+				<span>元/吨</span>
+				<span><i class="iconfont"></i>0.25%</span>
+				<span>2015-12-07</span>
+			</li>
+			<li class="txt">
+				<span class="tit">食用油</span>
+				<span>12500</span>
+				<span>元/吨</span>
+				<span><i class="iconfont"></i>0.25%</span>
+				<span>2015-12-07</span>
+			</li>
+			<li class="txt">
+				<span class="tit">食用油</span>
+				<span>12500</span>
+				<span>元/吨</span>
+				<span><i class="iconfont"></i>0.25%</span>
+				<span>2015-12-07</span>
+			</li>
+			<li class="txt">
+				<span class="tit">食用油</span>
+				<span>12500</span>
+				<span>元/吨</span>
+				<span><i class="iconfont"></i>0.25%</span>
+				<span>2015-12-07</span>
+			</li>
+			<li class="txt">
+				<span class="tit">食用油</span>
+				<span>12500</span>
+				<span>元/吨</span>
+				<span><i class="iconfont"></i>0.25%</span>
+				<span>2015-12-07</span>
+			</li>
+		</ul>
+	</div>
+</div>
+<!----
+模块名称：价格指数
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2016.01.11
+---->
+<div class="priceQuo">
+	<h2>近期价格指数</h2>
+	<ul class="productList">
+		<li><a href="#" title="" target="_blank">鸡蛋</a></li>
+		<li><a href="#" title="" target="_blank">鸡蛋</a></li>
+		<li><a href="#" title="" target="_blank">鸡蛋</a></li>
+		<li><a href="#" title="" target="_blank">鸡蛋</a></li>
+		<li><a href="#" title="" target="_blank">鸡蛋</a></li>
+		<li><a href="#" title="" target="_blank">鸡蛋</a></li>
+		<li><a href="#" title="" target="_blank">鸡蛋</a></li>
+		<li><a href="#" title="" target="_blank">鸡蛋</a></li>
+		<li><a href="#" title="" target="_blank">鸡蛋</a></li>
+		<li><a href="#" title="" target="_blank">鸡蛋</a></li>
+		<li><a href="#" title="" target="_blank">鸡蛋</a></li>
+		<li><a href="#" title="" target="_blank">鸡蛋</a></li>
+	</ul>
+	
+	<div class="priceQuoTit">
+		<h3>行情视表</h3>
+	</div>
+	
+	<ul class="quoTabTit">
+		<li class="on">葡萄酒</li>
+		<li>白糖</li>
+		<li>大米</li>
+		<li>大豆</li>
+		<li>花生油</li>
+		<li>维生素</li>
+		<li>香精香料</li>
+		<li>冷冻食品</li>
+	</ul>
+	<!---- 价格趋势图图表 ---->
+	<div class="quoTabTxt">
+		<div class="quoCharts" id="quoCharts"></div>
+	</div>
+	
+</div>
+<!----
+模块名称：指数资讯
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2016.01.11
+---->
+<div class="priceNews">
+	<div class="newsTxt">
+		<!---- 食品原料 ---->
+		<h2>食品原料</h2>
+		<span class="hotNews">
+			<b>热搜：</b>
+			<a href="#" title="" target="_blank">中药原料</a>|
+			<a href="#" title="" target="_blank">膳食纤维</a>|
+			<a href="#" title="" target="_blank">大豆</a>
+		</span>
+		<a class="newsMore" href="#" title="更多" target="_blank">更多&gt;&gt;</a>
+		
+		<div class="newsBigImg">
+			<a href="#" title="" target="_blank">
+				<img src="images/testimg/jr01.jpg" width="200" height="215" alt="图片名称" title="图片名称" />
+			</a>
+			<div class="overLay02"></div>
+			<b>图片名称</b>
+		</div>
+		<ul>
+			<li><span>2015-12-03</span><a href="#" title="更多" target="_blank">雅士利旗下多出多美滋奶粉品</a></li>
+			<li><span>2015-12-03</span><a href="#" title="更多" target="_blank">雅士利旗下多出多美滋奶粉品</a></li>
+			<li><span>2015-12-03</span><a href="#" title="更多" target="_blank">雅士利旗下多出多美滋奶粉品</a></li>
+			<li><span>2015-12-03</span><a href="#" title="更多" target="_blank">雅士利旗下多出多美滋奶粉品</a></li>
+			<li><span>2015-12-03</span><a href="#" title="更多" target="_blank">雅士利旗下多出多美滋奶粉品</a></li>
+			<li><span>2015-12-03</span><a href="#" title="更多" target="_blank">雅士利旗下多出多美滋奶粉品</a></li>
+			<li><span>2015-12-03</span><a href="#" title="更多" target="_blank">雅士利旗下多出多美滋奶粉品</a></li>
+		</ul>
+	</div>
+	<!---- 食品成品 ---->
+	<div class="newsTxt txt02">
+		<h2>食品成品</h2>
+		<span class="hotNews">
+			<b>热搜：</b>
+			<a href="#" title="" target="_blank">中药原料</a>|
+			<a href="#" title="" target="_blank">膳食纤维</a>|
+			<a href="#" title="" target="_blank">大豆</a>
+		</span>
+		<a class="newsMore" href="#" title="更多" target="_blank">更多&gt;&gt;</a>
+		
+		<div class="newsBigImg">
+			<a href="#" title="" target="_blank">
+				<img src="images/testimg/jr01.jpg" width="200" height="215" alt="图片名称" title="图片名称" />
+			</a>
+			<div class="overLay02"></div>
+			<b>图片名称</b>
+		</div>
+		<ul>
+			<li><span>2015-12-03</span><a href="#" title="更多" target="_blank">雅士利旗下多出多美滋奶粉品</a></li>
+			<li><span>2015-12-03</span><a href="#" title="更多" target="_blank">雅士利旗下多出多美滋奶粉品</a></li>
+			<li><span>2015-12-03</span><a href="#" title="更多" target="_blank">雅士利旗下多出多美滋奶粉品</a></li>
+			<li><span>2015-12-03</span><a href="#" title="更多" target="_blank">雅士利旗下多出多美滋奶粉品</a></li>
+			<li><span>2015-12-03</span><a href="#" title="更多" target="_blank">雅士利旗下多出多美滋奶粉品</a></li>
+			<li><span>2015-12-03</span><a href="#" title="更多" target="_blank">雅士利旗下多出多美滋奶粉品</a></li>
+			<li><span>2015-12-03</span><a href="#" title="更多" target="_blank">雅士利旗下多出多美滋奶粉品</a></li>
+		</ul>
+	</div>
+</div>
+<!----
+模块名称：指数资讯
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2016.01.11
+---->
+<div class="priceNews">
+	<!---- 食品原料 ---->
+	<div class="newsTxt">
+		<h2>食品原料</h2>
+		<span class="hotNews">
+			<b>热搜：</b>
+			<a href="#" title="" target="_blank">中药原料</a>|
+			<a href="#" title="" target="_blank">膳食纤维</a>|
+			<a href="#" title="" target="_blank">大豆</a>
+		</span>
+		<a class="newsMore" href="#" title="更多" target="_blank">更多&gt;&gt;</a>
+		
+		<div class="newsBigImg">
+			<a href="#" title="" target="_blank">
+				<img src="images/testimg/jr01.jpg" width="200" height="215" alt="图片名称" title="图片名称" />
+			</a>
+			<div class="overLay02"></div>
+			<b>图片名称</b>
+		</div>
+		<ul>
+			<li><span>2015-12-03</span><a href="#" title="更多" target="_blank">雅士利旗下多出多美滋奶粉品</a></li>
+			<li><span>2015-12-03</span><a href="#" title="更多" target="_blank">雅士利旗下多出多美滋奶粉品</a></li>
+			<li><span>2015-12-03</span><a href="#" title="更多" target="_blank">雅士利旗下多出多美滋奶粉品</a></li>
+			<li><span>2015-12-03</span><a href="#" title="更多" target="_blank">雅士利旗下多出多美滋奶粉品</a></li>
+			<li><span>2015-12-03</span><a href="#" title="更多" target="_blank">雅士利旗下多出多美滋奶粉品</a></li>
+			<li><span>2015-12-03</span><a href="#" title="更多" target="_blank">雅士利旗下多出多美滋奶粉品</a></li>
+			<li><span>2015-12-03</span><a href="#" title="更多" target="_blank">雅士利旗下多出多美滋奶粉品</a></li>
+		</ul>
+	</div>
+	<!---- 食品成品 ---->
+	<div class="newsTxt txt02">
+		<h2>食品成品</h2>
+		<span class="hotNews">
+			<b>热搜：</b>
+			<a href="#" title="" target="_blank">中药原料</a>|
+			<a href="#" title="" target="_blank">膳食纤维</a>|
+			<a href="#" title="" target="_blank">大豆</a>
+		</span>
+		<a class="newsMore" href="#" title="更多" target="_blank">更多&gt;&gt;</a>
+		
+		<div class="newsBigImg">
+			<a href="#" title="" target="_blank">
+				<img src="images/testimg/jr01.jpg" width="200" height="215" alt="图片名称" title="图片名称" />
+			</a>
+			<div class="overLay02"></div>
+			<b>图片名称</b>
+		</div>
+		<ul>
+			<li><span>2015-12-03</span><a href="#" title="更多" target="_blank">雅士利旗下多出多美滋奶粉品</a></li>
+			<li><span>2015-12-03</span><a href="#" title="更多" target="_blank">雅士利旗下多出多美滋奶粉品</a></li>
+			<li><span>2015-12-03</span><a href="#" title="更多" target="_blank">雅士利旗下多出多美滋奶粉品</a></li>
+			<li><span>2015-12-03</span><a href="#" title="更多" target="_blank">雅士利旗下多出多美滋奶粉品</a></li>
+			<li><span>2015-12-03</span><a href="#" title="更多" target="_blank">雅士利旗下多出多美滋奶粉品</a></li>
+			<li><span>2015-12-03</span><a href="#" title="更多" target="_blank">雅士利旗下多出多美滋奶粉品</a></li>
+			<li><span>2015-12-03</span><a href="#" title="更多" target="_blank">雅士利旗下多出多美滋奶粉品</a></li>
+		</ul>
+	</div>
+	
+</div>
+<!----
+模块名称：1200Banner
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2016.01.11
+---->
+<div class="banner1200">
+	<a href="#" title="图片名称" target="_blank">
+		<img  src="images/testimg/test19.jpg"  title="图片名称" alt="图片名称" width="1200" height="80"/>
+	</a>
+</div>
+<!----
+模块名称：热度排行榜
+修改内容：暂无
+模块作者：刘朋玉
+修改时间：2016.01.11
+---->
+<div class="hotQuo">
+	<h2>热度排行榜</h2>
+	<span class="hotTabTit">
+		<a class="on" href="#" title="日" target="_self">日</a>
+		<a href="#" title="周" target="_self">周</a>
+		<a href="#" title="月" target="_self">月</a>
+	</span>
+	
+	<a class="hotMore" href="#" target="_blank">更多&gt;&gt;</a>
+	<!--- 选项卡切换内容 --->
+	<div class="hotTabTxt">
+		<ul>
+			<li>
+				<span>14242</span>
+				<i class="on">1</i>
+				<a href="#" title="" target="_blank">2015重庆生猪价格行情</a>
+			</li>
+			<li>
+				<span>14242</span>
+				<i class="on">2</i>
+				<a href="#" title="" target="_blank">2015重庆生猪价格行情</a>
+			</li>
+			<li>
+				<span>14242</span>
+				<i class="on">3</i>
+				<a href="#" title="" target="_blank">2015重庆生猪价格行情</a>
+			</li>
+			<li>
+				<span>14242</span>
+				<i>1</i>
+				<a href="#" title="" target="_blank">2015重庆生猪价格行情</a>
+			</li>
+			<li>
+				<span>14242</span>
+				<i>1</i>
+				<a href="#" title="" target="_blank">2015重庆生猪价格行情</a>
+			</li>
+			<li>
+				<span>14242</span>
+				<i>1</i>
+				<a href="#" title="" target="_blank">2015重庆生猪价格行情</a>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<span>14242</span>
+				<i>1</i>
+				<a href="#" title="" target="_blank">2015重庆生猪价格行情</a>
+			</li>
+			<li>
+				<span>14242</span>
+				<i>2</i>
+				<a href="#" title="" target="_blank">2015重庆生猪价格行情</a>
+			</li>
+			<li>
+				<span>14242</span>
+				<i>3</i>
+				<a href="#" title="" target="_blank">2015重庆生猪价格行情</a>
+			</li>
+			<li>
+				<span>14242</span>
+				<i>1</i>
+				<a href="#" title="" target="_blank">2015重庆生猪价格行情</a>
+			</li>
+			<li>
+				<span>14242</span>
+				<i>1</i>
+				<a href="#" title="" target="_blank">2015重庆生猪价格行情</a>
+			</li>
+			<li>
+				<span>14242</span>
+				<i>1</i>
+				<a href="#" title="" target="_blank">2015重庆生猪价格行情</a>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<span>14242</span>
+				<i>1</i>
+				<a href="#" title="" target="_blank">2015重庆生猪价格行情</a>
+			</li>
+			<li>
+				<span>14242</span>
+				<i>2</i>
+				<a href="#" title="" target="_blank">2015重庆生猪价格行情</a>
+			</li>
+			<li>
+				<span>14242</span>
+				<i>3</i>
+				<a href="#" title="" target="_blank">2015重庆生猪价格行情</a>
+			</li>
+			<li>
+				<span>14242</span>
+				<i>1</i>
+				<a href="#" title="" target="_blank">2015重庆生猪价格行情</a>
+			</li>
+			<li>
+				<span>14242</span>
+				<i>1</i>
+				<a href="#" title="" target="_blank">2015重庆生猪价格行情</a>
+			</li>
+			<li>
+				<span>14242</span>
+				<i>1</i>
+				<a href="#" title="" target="_blank">2015重庆生猪价格行情</a>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<span>14242</span>
+				<i>1</i>
+				<a href="#" title="" target="_blank">2015重庆生猪价格行情</a>
+			</li>
+			<li>
+				<span>14242</span>
+				<i>2</i>
+				<a href="#" title="" target="_blank">2015重庆生猪价格行情</a>
+			</li>
+			<li>
+				<span>14242</span>
+				<i>3</i>
+				<a href="#" title="" target="_blank">2015重庆生猪价格行情</a>
+			</li>
+			<li>
+				<span>14242</span>
+				<i>1</i>
+				<a href="#" title="" target="_blank">2015重庆生猪价格行情</a>
+			</li>
+			<li>
+				<span>14242</span>
+				<i>1</i>
+				<a href="#" title="" target="_blank">2015重庆生猪价格行情</a>
+			</li>
+			<li>
+				<span>14242</span>
+				<i>1</i>
+				<a href="#" title="" target="_blank">2015重庆生猪价格行情</a>
+			</li>
+		</ul>
+	</div>
+</div>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	$(".quoBlock li.txt").hover(function(){
+		$(this).toggleClass("on")
+	})
+	//焦点图
+	jQuery(".focusList").slide({ titCell:".focusTit li", mainCell:".focusTxt",delayTime:200,triggerTime:0});
+})
+</script>
+<script type="text/javascript">
+        // 基于准备好的dom，初始化echarts实例
+        var myChart = echarts.init(document.getElementById('quoCharts'));
+
+        // 指定图表的配置项和数据
+        var option = {
+    tooltip : {
+        trigger: 'axis',
+		backgroundColor:'#fff',
+		borderColor:'#ddd',
+		borderWidth:1,
+		textStyle:{
+			color:'#333'
+		}
+    },
+   
+    grid: {
+        left: '3%',
+        right: '4%',
+        bottom: '0%',
+        containLabel: true,
+		borderColor:'#f00000',
+		borderWidth:8,
+    },
+    xAxis : [
+        {
+            type : 'category',
+            boundaryGap : false,
+            data : ['11.14','11.15','11.16','11.17','11.18','11.19','11.20',"11.21","11.22","11.23","11.24"],
+			axisLine:{
+				show:false
+			},
+			splitLine:{
+				show:false
+			}
+        },
+
+		
+    ],
+	
+    yAxis : [
+        {
+            type : 'value',
+			axisLine:{
+				show:false
+			},
+			splitLine:{
+				lineStyle:{
+					color:'#e4e4e4'
+				}
+			}
+        }
+    ],
+
+	
+
+	
+	
+    series : [
+        {
+            name:'邮件营销',
+            type:'line',
+            stack: '总量',
+            data:[120, 132, 101, 134, 90, 230, 210,260,210,800,120]
+        },
+        
+    ],
+	backgroundColor: '#fff',
+	borderColor:'#fff',
+	width:820,
+	height:180,
+	
+	 toolbox: {
+        feature: {
+            saveAsImage: {
+			show:false
+			}
+        },
+		
+    },
+
+};
+
+        // 使用刚指定的配置项和数据显示图表。
+        myChart.setOption(option);
+    </script>
+	
+<!---- angularJs构建模板 ---->
+<div ng-include="'footer.html'"></div>
+<script type="text/javascript">
+	angular.module('myApp', []).controller('userCtrl', function($scope) {})
+</script>
+</body>
+</html>

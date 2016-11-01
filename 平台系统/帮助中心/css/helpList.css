@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/*搜索*/
+.detril{height:auto;overflow:hidden;margin:20px 40px}
+.PrmInput{width:486px;height:38px;padding-left:12px;box-sizing:content-box;border:#e3e5eb solid 1px;border-right:none;float:left;font:14px/38px "微软雅黑";color:#666}
+.prmBtn{width:110px;height:38px;border:#d79d47 solid 1px;box-sizing:content-box;background-color:#efaf4f;color:#fff;font-size:18px;cursor:pointer;letter-spacing:2px}
+/*常见问题*/
+.frequentprom{height:auto;overflow:hidden;margin-left:40px;font:14px/38px "微软雅黑";color:#888}
+.frequentprom a{font:14px/38px "微软雅黑";color:#888}
+.frequentprom span{color:#666}
+.frequest{height:auto;overflow:hidden;border-top:#f0f3f8 1px solid;padding:25px 0}
+.frequest ul{height:auto;overflow:hidden}
+.frequest ul li{height:auto;overflow:hidden;font:14px/36px "微软雅黑";color:#666;padding:0 0 0 40px}
+.frequest ul li i{overflow:hidden;float:left;background:url(../images/newsListBg01.png) no-repeat 0 center scroll;width:36px;height:36px;display:inline-block;text-align:center;font:12px/999px "微软雅黑"}
+.frequest ul li.on i{background:url(../images/newsListBg02.png) no-repeat center center scroll;color:#fff;font:12px/36px "微软雅黑"}
+.frequest ul li a{color:#666}
+.frequest ul li a:hover{color:#ff7300;text-decoration:none}

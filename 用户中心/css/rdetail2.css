@@ -1,0 +1,46 @@
+@charset "utf-8";
+/*申请退货/退款*/
+.ucRight .uctit{ border-bottom:none; padding:0px; margin-bottom:15px}
+.uctit span.afterSale{ font:16px/25px "\5FAE\8F6F\96C5\9ED1"; color:#333;border-left:#2b54aa 5px solid;padding-left:10px}
+.uctit a.aplyFlow{ font:12px/25px "\5FAE\8F6F\96C5\9ED1";color:#333}
+/*申请退货/退款流程*/
+.step{width:988px;height:auto;overflow:hidden}
+.stepCon{height:auto;overflow:hidden}
+.stepCon li{width:241px;height:30px;text-align:center;font:14px/30px "\5FAE\8F6F\96C5\9ED1";color:#333;float:left; margin-right:6px}
+.stepCon li.stepOne{background:url(../images/fllistImg.png) no-repeat 0px -150px}
+.stepCon li.stepTow{background:url(../images/fllistImg.png) no-repeat 0 -60px scroll;color:#fff}
+.stepCon li.stepThree{background:url(../images/fllistImg.png) no-repeat 0 -30px scroll}
+.stepCon li.stepFour{background:url(../images/fllistImg.png) no-repeat 0 -90px scroll}
+.stepMain li{width:329px;height:30px;text-align:center;font:14px/30px "\5FAE\8F6F\96C5\9ED1";color:#333;float:left}
+.stepMain li.fundOne{background:url(../images/fllist.jpg) no-repeat 0 0 scroll}
+.stepMain li.fundTow{background:url(../images/fllist.jpg) no-repeat 0 -92px scroll;color:#fff}
+.stepMain li.fundThree{background:url(../images/fllist.jpg) no-repeat 0 -122px scroll;float:right}
+/*申请退货/退款*/
+.refReason{width:980px;height:auto;overflow:hidden; border:#e4e4e4 1px solid; margin:23px 0px 40px 0px}
+.reaOrCon{width:240px;height:auto;overflow:hidden;border-right:#e4e4e4 1px solid;float:left}
+.reaOrCon h3{font:14px/48px "\5FAE\8F6F\96C5\9ED1"; color:#333; padding-left:15px}
+.reaOrCon a.jujubeMain:hover{ color:#ff7300;text-decoration:none}
+.reaOrCon a.jujubeCon{ float:left;margin-right:15px; padding-left:15px}
+.reaOrCon a.jujubeMain{ width:130px; height:20px; overflow:hidden;font:12px/20px "\5FAE\8F6F\96C5\9ED1"; color:#333; display:block}
+.reaOrCon span{width:130px; height:20px;overflow:hidden;overflow:hidden;font:12px/20px "\5FAE\8F6F\96C5\9ED1"; color:#999; display:block}
+/*请填写退款原因及金额*/
+.reaOrder{ border-top:#e4e4e4 1px solid; margin-top:20px}
+.reaOrder dt{width:226px;padding-left:14px;font:14px/43px "\5FAE\8F6F\96C5\9ED1";color:#333}
+.reaOrder dd{font:12px/28px "\5FAE\8F6F\96C5\9ED1";color:#333}
+.reaOrder dd i{width:83px;display:inline-block;text-align:right}
+.reaOrder dd span{margin-left:80px}
+.reaOrder dd b{ font:12px/28px "\5FAE\8F6F\96C5\9ED1";color:#ff7300}
+.reaOrder dd a{margin-left:23px;font:14px/20px "\5FAE\8F6F\96C5\9ED1";color:#1c76fd;display:inline-block;padding:5px 0 15px 0}
+.reaOrder dd a:hover{ color:#ff7300; text-decoration:none}
+/*卖家信息*/
+.vendorInfo{width:220px;height:auto;overflow:hidden;border-top:#e4e4e4 1px dashed;padding:0 0 94px 20px}
+.vendorInfo h3{font:14px/40px "\5FAE\8F6F\96C5\9ED1";color:#333;padding-left:0px}
+.vendorInfo a{font:12px/28px "\5FAE\8F6F\96C5\9ED1";color:#1c76fd;display:inline-block;}
+.vendorInfo a:hover{ color:#ff7300; text-decoration:none}
+.vendorInfo span{font:12px/28px "\5FAE\8F6F\96C5\9ED1";color:#999;display:block}
+/*协议内容*/
+.protocol{width:711px;height:auto;overflow:hidden;padding:20px 0 28px 25px}
+.protocol span{font:16px/30px "\5FAE\8F6F\96C5\9ED1";color:#333;display:block}
+.protocol strong{font:14px/30px "\5FAE\8F6F\96C5\9ED1";color:#333}
+.protocol p{font:14px/30px "\5FAE\8F6F\96C5\9ED1";color:#333}
+.applypocol{width:129px;height:40px;font:16px/42px "\5FAE\8F6F\96C5\9ED1";background-color:#f60;border:none;border-radius:4px;color:#fff;margin-top:40px;cursor:pointer}

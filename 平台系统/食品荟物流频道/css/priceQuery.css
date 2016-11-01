@@ -1,0 +1,562 @@
+@charset "UTF-8";
+/*
+制作时间：2016.3.2
+作者：王勇
+使用软件：SublimeText2
+用途：食品荟物流频道查询价格和结果样式
+*/
+
+/*----
+模块名称：logo和搜索部分
+----*/
+
+
+.logisticsLogo{width:100%;height: auto;background-color:#fff;}
+.logisticsLogoMain{width:1200px;height:auto;overflow:hidden;margin:0px auto;padding:30px 0px;position:relative;}
+.logisticsLogoMain h1{width:275px;height:100px;float:left}
+.logisticsLogoMain h1 a{width:260px;height:100px;display:block;font-size:0px;background:url("../images/logo.jpg") no-repeat center center scroll;float: left;}
+.logisticsLogoFont{width:125px;height:100px;float:left;background:url(../images/tender.png) no-repeat 0 0 scroll;text-indent:-999em;}
+.logisticsLogoFont span{display:block;width:125px;height:100px;float:left;}
+/*--- 搜索 ---*/
+.logisticsSearch{position:absolute;right:140px;top:42px;}
+.logisticsSearchTab{height:auto;overflow:hidden;padding-bottom:10px;}
+.logisticsSearchTab li{padding:0px 12px;border-right:#dbdbdb solid 1px;float:left;font:12px/12px "\5FAE\8F6F\96C5\9ED1";cursor:pointer;}
+.logisticsSearchTab li.logisticsSearchTabOn{color:#fb6504;}
+.logisticsSearchTab li.last{border:none}
+/*--- 搜索输入框 ---*/
+.logisticsSearchInput{width:486px;height:38px;padding-left:12px;box-sizing:content-box;font-size:14px;border:#ff9900 solid 2px;border-right:none;float:left; line-height:38px;}
+.logisticsSearchBtn{width:78px;height:40px;border:#ff9900 solid 1px;box-sizing:content-box;background-color:#ff9900;color:#fff;font-size:18px;cursor:pointer;float:left;letter-spacing:2px}
+/*--- 热门搜索词 ---*/
+.logisticsSearchWords{position:absolute;bottom:30px;right:480px;}
+.logisticsSearchWords a{color:#999;margin-right:8px;}
+.logisticsSearchWords a:hover{color:#ff7300;text-decoration:underline}
+/*----
+模块名称：导航
+----*/
+/*.logisticsMainNav{width:100%;height:41px;background-color:#3e9c00;border-top:#037e01 solid 1px;border-bottom:#037e01 solid 1px;margin:0px auto;overflow:hidden}
+.logisticsMainNav ul{width:1200px;height:41px;margin:0px auto;}
+.logisticsMainNav ul h2{width:228px;text-align:center;float:left;color:#fff;background-color:#348400;font:15px/41px "\5FAE\8F6F\96C5\9ED1";margin-right:2px;letter-spacing:1px;}
+.logisticsMainNav ul h2 i{margin:0px 8px;font:22px/41px "\5FAE\8F6F\96C5\9ED1";}
+.logisticsMainNav ul li{float:left;font:15px/41px "\5FAE\8F6F\96C5\9ED1";}
+.logisticsMainNav ul li a{display:block;padding:0px 18px 10px 18px;color:#fff;letter-spacing:1px;}
+.logisticsMainNav ul li a:hover{text-decoration:none;background-color:#348400}*/
+/*----
+模块名称：导航
+----*/
+.logisticsGroupNav{width:100%;height:42px;margin:0px auto;border-bottom:#43a400 solid 3px;background-color:#fff;}
+.logisticsGroupNav ul{width:1200px;height:42px;margin:0px auto;}
+.logisticsGroupNav ul li{width:128px;height:42px;font:16px/42px "微软雅黑";float:left;text-align:center;}
+.logisticsGroupNav ul li a{color:#333;display:block;text-decoration:none;}
+.logisticsGroupNav ul li a:hover{color:#43a400;}
+.logisticsGroupNav ul li.on{background-color:#43a400;color:#fff;}
+.logisticsGroupNav ul li.on a{color:#fff}
+
+/*----
+模块名称：二维码
+----*/
+.weiXin{
+width:112px;
+height:110px;
+float:right;
+text-align:center;
+}
+.weiXin i.close{
+	width:19px;
+	height:19px;
+	display:block;
+	float: left;
+	border:1px solid #dcdcdc;
+	border-right:none;
+	cursor:pointer;
+	background:url(../images/icons.png) no-repeat -11px -45px;
+}
+.weiXin p{
+	width:90px;
+	height:108px;
+	float: right;
+	border:1px solid #DCDCDC;
+}
+.mainContent{
+	width:1200px;
+	height:auto;
+	margin:20px auto;
+}
+
+.priceQueryMain{
+	width:1200px;
+	height:auto;
+	margin:0px auto;
+}
+
+/*--------地址查询部分--------*/
+.MainSearch{
+	width:1200px;
+	height:60px;
+	background:#f7f7f7;
+	margin:30px 0px;
+	position:relative;
+}
+.MainSearch label{
+	width:332px;
+	height:37px;
+	display:block;
+	float: left;
+	font-size:14px;
+	color:#666666;
+	line-height:37px;
+	margin-left:60px;
+	margin-top:11px;
+}
+.MainSearch label input{
+	width:215px;
+	width:200px\9;
+	height:37px;
+	padding:0px 5px;
+	border:1px solid #e4e4e4;
+	background:#fff;
+	line-height:37px;
+	margin-left:10px;
+	float:right;
+}
+.MainSearch label i.pullDown{
+	width:26px;
+	height:39px;
+	height:39px\9;
+	display:block;
+	background:#e4e4e4 url(../images/icons.png) no-repeat -9px -68px;
+	float:right;
+	margin-right:10px;
+}
+
+
+/*---------省部分---------*/
+.addressMain{
+	width:348px;
+	height:auto;
+	border:1px solid #e4e4e4;
+	background:#fff;
+	position:absolute;
+	top:49px;
+	left:126px;
+	z-index:3;
+	text-align:left;
+}
+.addressMain ul.addressTitle{
+	width:348px;
+	height:45px;
+	line-height:45px;
+	text-align:center;
+	border-bottom:1px solid #e4e4e4;
+}
+.addressMain ul.addressTitle li{
+	width:116px;
+	height:45px;
+	float:left;
+	font-size:14px;
+	color:#333;
+}
+.addressMain ul.addressTitle li.fouc{
+	color:#ff7300;
+}
+.addressMain ul.addressTitle i{
+	width:12px;
+	height:12px;
+	display:block;
+	background:url(../images/icons.png) no-repeat -14px -49px;
+	position:absolute;
+	right:9px;
+	top:9px;
+	cursor:pointer;
+}
+.addressMain dl.addressText{
+	width:328px;
+	height:auto;
+	padding:10px;
+}
+.addressMain dl.addressText dt{
+	line-height:36px;
+	color:#333;
+	font-size:14px;
+}
+.addressMain dl.addressText dd{
+	font-size:12px;
+	line-height:32px;
+}
+.addressMain dl.addressText dd i{
+	padding:8px;
+	cursor:pointer;
+}
+
+/*-------市部分--------*/
+.addressMainTwo{
+	width:348px;
+	height:auto;
+	border:1px solid #e4e4e4;
+	background:#fff;
+	position:absolute;
+	top:49px;
+	left:530px;
+	z-index:3;
+	text-align:left;
+}
+.addressMainTwo ul.addressTitle{
+	width:348px;
+	height:45px;
+	line-height:45px;
+	text-align:center;
+	border-bottom:1px solid #e4e4e4;
+}
+.addressMainTwo ul.addressTitle li{
+	width:116px;
+	height:45px;
+	float:left;
+	font-size:14px;
+	color:#333;
+}
+.addressMainTwo ul.addressTitle li.fouc{
+	color:#ff7300;
+}
+.addressMainTwo ul.addressTitle i{
+	width:12px;
+	height:12px;
+	display:block;
+	background:url(../images/icons.png) no-repeat -14px -49px;
+	position:absolute;
+	right:9px;
+	top:9px;
+	cursor:pointer;
+}
+.addressMainTwo dl.addressText{
+	width:328px;
+	height:auto;
+	padding:10px;
+}
+.addressMainTwo dl.addressText dt{
+	line-height:36px;
+	color:#333;
+	font-size:14px;
+}
+.addressMainTwo dl.addressText dd{
+	font-size:12px;
+	line-height:32px;
+}
+.addressMainTwo dl.addressText dd i{
+	padding:8px;
+	cursor:pointer;
+}
+
+
+/*------------区县部分------------*/
+
+.addressMainThree{
+	width:348px;
+	height:auto;
+	border:1px solid #e4e4e4;
+	background:#fff;
+	position:absolute;
+	top:49px;
+	left:935px;
+	z-index:3;
+	text-align:left;
+}
+
+.addressMainThree ul.addressTitle{
+	width:348px;
+	height:45px;
+	line-height:45px;
+	text-align:center;
+	border-bottom:1px solid #e4e4e4;
+}
+.addressMainThree ul.addressTitle li{
+	width:116px;
+	height:45px;
+	float:left;
+	font-size:14px;
+	color:#333;
+}
+.addressMainThree ul.addressTitle li.fouc{
+	color:#ff7300;
+}
+.addressMainThree ul.addressTitle i{
+	width:12px;
+	height:12px;
+	display:block;
+	background:url(../images/icons.png) no-repeat -14px -49px;
+	position:absolute;
+	right:9px;
+	top:9px;
+	cursor:pointer;
+}
+.addressMainThree dl.addressText{
+	width:328px;
+	height:auto;
+	padding:10px;
+}
+.addressMainThree dl.addressText dt{
+	line-height:36px;
+	color:#333;
+	font-size:14px;
+}
+.addressMainThree dl.addressText dd{
+	font-size:12px;
+	line-height:32px;
+}
+.addressMainThree dl.addressText dd i{
+	padding:8px;
+	cursor:pointer;
+}
+
+/*---------查询提交按钮---------*/
+.MainSearch input.priceQueryBtn{
+	width:126px;
+	height:38px;
+	line-height:32px;
+	text-align:center;
+	background:#ff822b;
+	color:#fff;
+	float:right;
+	margin-right:50px;
+	margin-top:11px;
+	font-size:14px;
+	border:1px solid #ff822b;
+	border-radius:2px;
+	cursor:pointer;
+}
+
+/*-------------物流快递类型部分--------------*/
+.expressMain{
+	width:1168px;
+	height:auto;
+	border:1px solid #e4e4e4;
+	margin:0px auto;
+	padding:20px 15px;
+}
+.expressType{
+	font-size:14px;
+	color:#666;
+	line-height:36px;
+}
+.expressType b{
+	width:72px;
+	height:25px;
+	display:inline-block;
+	line-height:25px;
+	text-align:right;
+}
+.expressType a{
+	display:inline-block;
+	height:23px;
+	line-height:23px;
+	padding:0px 10px;
+	border:1px solid #e4e4e4;
+	margin:0px 5px;
+}
+.expressType a:hover{
+	color:#ff7300;
+	border:1px solid #ff7300;
+}
+.expressType a.focus{
+	color:#ff7300;
+	border:1px solid #ff7300;
+}
+.expressMain dl{
+	width:1168px;
+	height:auto;
+	font-size:14px;
+	color:#666;
+	margin-top:15px;
+}
+.expressMain dl dt{
+	width:72px;
+	height:25px;
+	display:inline-block;
+	line-height:25px;
+	text-align:right;
+	float:left;
+}
+.expressMain dl dd{
+	float:left;
+	width:1096px;
+	line-height:31px;
+}
+.expressMain dl dd label{
+	margin:0px 12px;
+}
+.expressMain dl dd label input{
+	margin:0px 3px;
+}
+
+
+/*-------------查询物流快递结果列表部分-------------*/
+.expressListMain{
+	width:1200px;
+	height:auto;
+	margin:0px auto 30px auto;
+
+}
+.expressListMain p.title{
+	line-height:60px;
+	background:#f7f7f7;
+	margin:30px 0px;
+	font-size:14px;
+	color:#666666;
+	padding-left:20px;
+}
+.expressListMain p.title b{
+	color:#ff7300;
+}
+.expressListMain p.title b.titleRight{
+	margin-left:450px;
+	margin-right:50px;
+}
+
+/*----------查询内容列表------------*/
+.expressList{
+	width:1200px;
+	height:auto;
+	margin-bottom:30px;
+}
+.expressList table{
+	width:1200px;
+	height:auto;
+	 border-collapse:collapse;
+}
+.expressList table tr{
+	width:1198px;
+	height:128px;
+	display:block;
+	border:1px solid #e4e4e4;
+	margin-bottom:30px;
+}
+.expressList table tr td.logoPic{
+	width:159px;
+	height:128px;
+	text-align:center;
+}
+.expressList table tr td.logoPic img{
+	display:block;
+	margin:15px auto 0px auto;
+	border:1px solid #e4e4e4;
+}
+.expressList table tr td.logoPic a{
+	font-size:14px;
+	color:#ff7300;
+	width:134px;
+	height:45px;
+	display:block;
+	line-height:45px;
+	padding-left:25px;
+	background:url(../images/qq.png) no-repeat 40px center;
+}
+.expressList table tr td.sgAddress{
+	width:274px;
+	height:128px;
+	padding-left:24px;
+}
+.expressList table tr td p{
+	font-size:14px;
+	color:#666;
+	line-height:30px;
+}
+.expressList table tr td.sendTime{
+	width:132px;
+	height:128px;
+	padding-left:32px;
+}
+.expressList table tr td.sendTime p i{
+	width:38px;
+	height:35px;
+	line-height:23px;
+	display:inline-block;
+	font-size:12px;
+	color:#fff;
+	text-align:center;
+	margin-right:5px;
+}
+.expressList table tr td.sendTime p i.kd {
+	background:url(../images/kuaidi.jpg) no-repeat center 2px;
+}
+.expressList table tr td.sendTime p i.wl {
+	background:url(../images/wuliu.jpg) no-repeat center 2px;
+}
+.expressList table tr td.productWeight{
+	width:240px;
+	height:128px;
+	text-align:center;
+}
+.expressList table tr td.productWeight p{
+	color:#999;
+}
+.expressList table tr td.sendPrice{
+	width:174px;
+	height:128px;
+}
+.expressList table tr td.sendPrice p{
+	color:#999;
+}
+.expressList table tr td.sendPrice p b{
+	color:#666;
+}
+.expressList table tr td.btn{
+	width:88px;
+	height:128px;
+	padding-left:75px;
+}
+.expressList table tr td.btn a{
+	font-size:14px;
+	line-height:36px;
+	display:block;
+}
+.expressList table tr td.btn a.yel{
+	color:#ff7300;
+}
+.expressList table tr td.btn a.gre{
+	color:#43a400;
+}
+
+/*---------内容为空的显示部分----------*/
+.expressListNone{
+	width:783px;
+	height:auto;
+	padding:50px 0px 0px  417px;
+	text-align:center;
+}
+.expressListNone i.iPic{
+	width:59px;
+	height:59px;
+	display:block;
+	float:left;
+	margin-top:24px;
+	background:url(../images/tishi.png) no-repeat center;
+}
+.expressListNone p{
+	width:500px;
+	height:auto;
+	display:block;
+	float:left;
+	font-size:14px;
+	color:#666;
+	line-height:36px;
+	text-align:left;
+	margin-left:30px;
+}
+.expressListNone p b{
+	color:#509dd5;
+}
+.expressListNone p a{
+	color:#ff7300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

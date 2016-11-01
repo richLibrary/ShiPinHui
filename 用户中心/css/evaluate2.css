@@ -1,0 +1,38 @@
+@charset "utf-8";
+<!--评价管理导航-->
+.uctit span.afterSale{border-left:#2b54aa 5px solid;padding-left:10px}
+.ucRight .uctit{font:18px/40px "微软雅黑";color:#333;border-bottom:none}
+.uctit a.uctitInfo{color:#333}
+/*评价管理*/
+.evCoupon{width:988px;height:auto;overflow:hidden}
+.mackIssue{width:988px;height:auto;overflow:hidden}
+.mackIssue ul{height:auto;overflow:hidden}
+.mackIssue ul li{width:108px;height:37px;font:14px/37px "\5FAE\8F6F\96C5\9ED1";color:#333;float:left;cursor:pointer;background:#fff;text-align:center;margin-right:10px;border:1px solid #e4e4e4;border-bottom:none}
+.mackIssue ul li.on{font:bold 14px/37px "\5FAE\8F6F\96C5\9ED1";border-top:2px solid #ff7300;color:#ff7300}
+/*评价内容*/
+.discuss{height:39px}
+.discuss td.discuer{ border-left:#e4e4e4 1px solid}
+.discuss td.discuPrice{border-right:#e4e4e4 1px solid}
+.discTitle td{ border-top:#e4e4e4 1px solid;border-bottom:#e4e4e4 1px solid}
+.discTitle td,.discTitle td select{font:12px/39px "\5FAE\8F6F\96C5\9ED1";color:#333;text-align:center}
+.discTitle td select{width:97px;height:26px;border:#e4e4e4 1px solid;padding-left:10px}
+.shopLeftTitle p{width:180px;height:40px;overflow:hidden;float:left}
+.shopLeftTitle p a{color:#333;text-decoration:none}
+.shopLeftTitleBg{width:130px;height:36px;font:12px/36px "\5FAE\8F6F\96C5\9ED1";color:#666}
+.shopLeftTitleBg font{color:#CC0057;font-weight:700}
+.disCon td{font:12px/36px "\5FAE\8F6F\96C5\9ED1";border-bottom:#e4e4e4 1px solid;text-align:center}
+.disCon td a{width:198px;height:36px;font:12px/36px "\5FAE\8F6F\96C5\9ED1";overflow:hidden;color:#1c76fd;display:block;text-align:left}
+.disCon td a.disConIntro{margin-top:-87px}
+.disCon td a:hover{color:#ff7300;text-decoration:none}
+.disCon td span{color:#999;display:block;text-align:left}
+.disCon td font{color:#ff7300}
+.disCon td i{color:#ff6300}
+.disCon td i.grayStar{color:#ccc}
+.disCon td p{font:12px/24px "\5FAE\8F6F\96C5\9ED1";text-align:left;overflow:hidden;color:#333}
+/*页码*/
+.paginator{clear:both;padding-bottom:12px;margin:0 auto;font:14px Arial,Helvetica,sans-serif;color:#666;padding-top:12px;float:right}
+.paginator A,.paginator A:link,.paginator A:visited{padding:0 12px;display:block;background:#fff;border:1px solid #ededed;float:left;color:#333;margin-right:4px;text-decoration:none;height:34px;line-height:34px}
+.paginator A:active,.paginator A:hover{padding:0 12px;background:#f40;border:1px solid #ededed;color:#fff;text-decoration:none;height:34px;line-height:34px}
+.paginator .this-page{padding:0 12px;display:block;background:#f40;float:left;height:34px;line-height:34px;margin-right:2px;text-decoration:none;color:#fff;font-weight:700}
+.ucinput{border:1px solid #e4e4e4;background:#fff;height:26px;line-height:26px;padding:2px 5px}
+.ucinput:hover{border:1px solid #2c54ab}

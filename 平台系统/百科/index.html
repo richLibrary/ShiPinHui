@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+	<meta charset="utf-8" />
+	<title>百科首页</title>
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="Keywords" content="关键词"/>
+	<meta name="Description" content="我是网页的描述sss"/>
+	<link rel="stylesheet" href="css/iconfont/iconfont.css" type="text/css" />
+	<link rel="stylesheet" href="css/common.css" type="text/css" />
+	<link rel="stylesheet" href="css/index.css" type="text/css" />
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+	<script type="text/javascript" src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
+</head>
+<body ng-app="myApp" ng-controller="userCtrl">
+<div ng-include="'header.html'"></div>
+<!--
+模块名称：焦点图
+修改内容：暂无
+模块作者：裴富成
+修改时间：2016.01.21
+-->
+<div class="wrapBanner">
+	<div class="wrapContent">
+		<div id="slideBox" class="slideBox">
+			<ul class="hd">
+				<li></li>
+				<li></li>
+				<li></li>
+                <li></li>
+			</ul>
+			<div class="slideBg"></div>
+			<ul class="slideTxt">
+				<li><a href="#">食品荟百科</a></li>
+				<li><a href="#">健康谷物新选择</a></li>
+				<li><a href="#">双汇集团</a></li>
+                <li><a href="#">北京方便面</a></li>
+			</ul>
+			<ul class="bd">
+				<li><a href="#" target="_blank"><img src="images/testimg/bk01.jpg" alt="食品荟百科"/></a></li>
+				<li><a href="#" target="_blank"><img src="images/testimg/bk02.jpg" alt="健康谷物新选择"/></a></li>
+				<li><a href="#" target="_blank"><img src="images/testimg/bk03.jpg" alt="双汇集团"/></a></li>
+                <li><a href="#" target="_blank"><img src="images/testimg/bk04.jpg" alt="北京方便面"/></a></li>
+			</ul>
+			<a class="prev" href="javascript:void(0)"></a>		
+			<a class="next" href="javascript:void(0)"></a>
+		</div>
+		<div class="wrapStatis">
+			<h2>食品百科</h2>
+			<span class="staticText">保障食品安全   倡导健康饮食</span>
+			<ul class="statisList">
+				<li><i class="iconfont">&#xe623;</i><b class="Entry">12975</b>个词条</li>
+				<li><i class="iconfont">&#xe603;</i><b class="Editor">100842</b>次编辑</li>
+				<li><i class="iconfont">&#xe656;</i><b class="Write">5783</b>人编写</li>
+			</ul>
+			<a class="createEntry" href="">新建词条</a>
+			<p class="staticProblem">你在编辑词条的过程中遇到困难了么？</p>
+		</div>
+	</div>
+</div>
+<div class="entryShow">
+	<div class="selectEntry">
+		<h2>精选词条</h2>
+		<ul class="entryContent">
+			<li>
+				<a href="" target="_blank" title=""><img class="entryImg" src="" width="274" height="163" alt="图片名称"></a>
+				<h3><a class="entryTitle" href="" target="_blank" title="">女人养生最适合的七大黄金食物</a></h3>
+			</li>
+			<li>
+				<a href="" target="_blank" title=""><img class="entryImg" src="" width="274" height="163" alt="图片名称"></a>
+				<h3><a class="entryTitle" href="" target="_blank" title="">女人养生最适合的七大黄金食物</a></h3>
+			</li>
+			<li>
+				<a href="" target="_blank" title=""><img class="entryImg" src="" width="274" height="163" alt="图片名称"></a>
+				<h3><a class="entryTitle" href="" target="_blank" title="">女人养生最适合的七大黄金食物</a></h3>
+			</li>
+		</ul>
+	</div>
+	<div class="hotEntry">
+		<h2>精选词条</h2>
+		<div class="hotContent">
+			<a href="" target="_blank" title="食品安全">食品安全</a>
+			<a href="" target="_blank" title="食品安全">食品安全</a>
+			<a href="" target="_blank" title="食品安全">食品安全</a>
+			<a href="" target="_blank" title="食品安全">食品安全</a>
+			<a href="" target="_blank" title="食品安全">食品安全</a>
+			<a href="" target="_blank" title="食品安全">食品安全</a>
+			<a href="" target="_blank" title="食品安全">食品安全</a>
+			<a href="" target="_blank" title="食品安全">食品安全</a>
+			<a href="" target="_blank" title="食品安全">食品安全</a>
+			<a href="" target="_blank" title="食品安全">食品安全</a>
+			<a href="" target="_blank" title="食品安全">食品安全</a>
+			<a href="" target="_blank" title="食品安全">食品安全</a>
+		</div>
+	</div>
+</div>
+<div class="hotRecommed">
+	<div class="recConment">
+		<div class="recLeft">
+			<h2>热门推荐</h2>
+			<dl class="leftList">
+				<dt><a href="" target="_blank" title=""><img class="leftImg" src="" width="188" height="122" alt="图片名称"></a></dt>
+				<dd><a class="leftTitle" href="" target="_blank" title="水稻或被驯化三次 新发现使人更理解亚洲文明起源">水稻或被驯化三次 新发现使人更理解亚洲文明起源</a></dd>
+				<dd><p class="leftText">水稻原产中国，后逐渐传播到世界各地。稻生长的最北限是中国的黑龙江省呼玛。按照不同的方法，水稻可以分为籼稻和粳稻、早稻和中晚稻，糯稻和非糯稻。水稻原产中国，后逐渐传播到世界各地...</p></dd>
+				<dd><span class="foodSafe">食品安全</span>/<span class="dateTime">2015-12-04 &nbsp;10:53</span><a class="iconfont" id="Editor" href="" target="_blank" title="">&#xe603;</a></dd>
+			</dl>
+			<dl class="leftList">
+				<dt><a href="" target="_blank" title=""><img class="leftImg" src="" width="188" height="122" alt="图片名称"></a></dt>
+				<dd><a class="leftTitle" href="" target="_blank" title="水稻或被驯化三次 新发现使人更理解亚洲文明起源">水稻或被驯化三次 新发现使人更理解亚洲文明起源</a></dd>
+				<dd><p class="leftText">水稻原产中国，后逐渐传播到世界各地。稻生长的最北限是中国的黑龙江省呼玛。按照不同的方法，水稻可以分为籼稻和粳稻、早稻和中晚稻，糯稻和非糯稻。水稻原产中国，后逐渐传播到世界各地...</p></dd>
+				<dd><span class="foodSafe">食品安全</span>/<span class="dateTime">2015-12-04 &nbsp;10:53</span><a class="iconfont" id="Editor" href="" target="_blank" title="">&#xe603;</a></dd>
+			</dl>
+			<dl class="leftList">
+				<dt><a href="" target="_blank" title=""><img class="leftImg" src="" width="188" height="122" alt="图片名称"></a></dt>
+				<dd><a class="leftTitle" href="" target="_blank" title="水稻或被驯化三次 新发现使人更理解亚洲文明起源">水稻或被驯化三次 新发现使人更理解亚洲文明起源</a></dd>
+				<dd><p class="leftText">水稻原产中国，后逐渐传播到世界各地。稻生长的最北限是中国的黑龙江省呼玛。按照不同的方法，水稻可以分为籼稻和粳稻、早稻和中晚稻，糯稻和非糯稻。水稻原产中国，后逐渐传播到世界各地...</p></dd>
+				<dd><span class="foodSafe">食品安全</span>/<span class="dateTime">2015-12-04 &nbsp;10:53</span><a class="iconfont" id="Editor" href="" target="_blank" title="">&#xe603;</a></dd>
+			</dl>
+			<dl class="leftList">
+				<dt><a href="" target="_blank" title=""><img class="leftImg" src="" width="188" height="122" alt="图片名称"></a></dt>
+				<dd><a class="leftTitle" href="" target="_blank" title="水稻或被驯化三次 新发现使人更理解亚洲文明起源">水稻或被驯化三次 新发现使人更理解亚洲文明起源</a></dd>
+				<dd><p class="leftText">水稻原产中国，后逐渐传播到世界各地。稻生长的最北限是中国的黑龙江省呼玛。按照不同的方法，水稻可以分为籼稻和粳稻、早稻和中晚稻，糯稻和非糯稻。水稻原产中国，后逐渐传播到世界各地...</p></dd>
+				<dd><span class="foodSafe">食品安全</span>/<span class="dateTime">2015-12-04 &nbsp;10:53</span><a class="iconfont" id="Editor" href="" target="_blank" title="">&#xe603;</a></dd>
+			</dl>
+		</div>
+		<div class="rightSidebar">
+			<div class="wikiFocus">
+				<h2>百科焦点</h2>
+				<a href="" target="_blank" title="">
+					<img class="focusImg" src="" width="300" height="94" alt=""/>
+					<span class="focusText">内蒙古羊肉价格下滑 牧民：卖或不卖都不挣钱</span>
+				</a>
+				<ul class="wikiList">
+					<li>
+						<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a>
+					</li>
+					<li>
+						<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a>
+					</li>
+					<li>
+						<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a>
+					</li>
+					<li>
+						<a href="" target="_blank" title="">南阳蓝天食品厂高品质肉松包装纸箱招标公告</a>
+					</li>
+				</ul>
+			</div>
+			<div class="wikiGrads">
+				<h2>百科学霸榜</h2>
+				<ul class="gradsConment">
+					<li>
+						<div class="dot"></div>
+						<div class="gradsText"><a class="gradsUser" href="" target="_blank" title="">我的心飞翔</a>编辑<a class="gradsSitua" href="">食品行业发展情况</a>词条</div>
+					</li>
+					<li>
+						<div class="dot"></div>
+						<div class="gradsText"><a class="gradsUser" href="" target="_blank" title="">我的心飞翔</a>编辑<a class="gradsSitua" href="">食品行业发展情况</a>词条</div>
+					</li>
+					<li>
+						<div class="dot"></div>
+						<div class="gradsText"><a class="gradsUser" href="" target="_blank" title="">我的心飞翔</a>编辑<a class="gradsSitua" href="">食发展情况</a>词条</div>
+					</li>
+					<li>
+						<div class="dot"></div>
+						<div class="gradsText"><a class="gradsUser" href="" target="_blank" title="">我的心飞翔</a>编辑<a class="gradsSitua" href="">食品发展情况</a>词条</div>
+					</li>
+					<li>
+						<div class="dot"></div>
+						<div class="gradsText"><a class="gradsUser" href="" target="_blank" title="">我的心飞翔</a>编辑<a class="gradsSitua" href="">食品发展情况</a>词条</div>
+					</li>
+				</ul>
+			</div>
+			<div class="channelNav">
+				<h2>频道导航</h2>
+				<div class="chaContent">
+					<a href="" target="_blank" title=""><i class="iconfont">&#xe654;</i>食品政策</a>
+					<a href="" target="_blank" title=""><i class="iconfont">&#xe655;</i>食品政策</a>
+					<a href="" target="_blank" title=""><i class="iconfont">&#xe613;</i>食品政策</a>
+					<a href="" target="_blank" title=""><i class="iconfont">&#xe652;</i>食品政策</a>
+					<a href="" target="_blank" title=""><i class="iconfont">&#xe650;</i>食品政策</a>
+					<a href="" target="_blank" title=""><i class="iconfont">&#xe653;</i>食品政策</a>
+					<a href="" target="_blank" title=""><i class="iconfont">&#xe64f;</i>食品政策</a>
+					<a href="" target="_blank" title=""><i class="iconfont">&#xe632;</i>食政策</a>
+					<a href="" target="_blank" title=""><i class="iconfont">&#xe651;</i>食品政策</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="entryScroll">
+	<div class="scrollTitle">
+		<h2>5A词条</h2>
+		<div class="scrollContent">
+			<ul>
+				<li><a href="#" rel="lightbox-group" target="_self"  title="南街村集团"><img src="images/testimg/bk05.jpg"  title="南街村集团" alt="南街村集团" /></a></li>
+				<li><a href="images/fj.jpg" rel="lightbox-group" target="_self" title="三剑客牛奶"><img src="images/testimg/bk06.jpg"  title="项目中心" alt="三剑客牛奶" /></a></li>
+				<li><a href="images/renwu.jpg" rel="lightbox-group" target="_self" title="澳的利"><img src="images/testimg/bk07.jpg"  title="澳的利" alt="澳的利" /></a></li>
+				<li><a href="images/55.jpg" rel="lightbox-group" target="_self" title="雪健面粉"><img src="images/testimg/bk08.jpg"  title="雪健面粉" alt="雪健面粉" /></a></li> 
+				<li><a href="images/fj.jpg" rel="lightbox-group" target="_self" title="三剑客牛奶"><img src="images/testimg/bk06.jpg"  title="项目中心" alt="三剑客牛奶" /></a></li>
+				<li><a href="images/renwu.jpg" rel="lightbox-group" target="_self" title="澳的利"><img src="images/testimg/bk07.jpg"  title="澳的利" alt="澳的利" /></a></li>
+				<li><a href="images/55.jpg" rel="lightbox-group" target="_self" title="雪健面粉"><img src="images/testimg/bk08.jpg"  title="雪健面粉" alt="雪健面粉" /></a></li> 
+			</ul>
+			<a class="prev"></a>
+			<a class="next"></a>
+		</div>
+	</div>
+</div>
+<div ng-include="'footer.html'"></div>
+<script type="text/javascript">
+	angular.module('myApp', []).controller('userCtrl', function($scope) {})
+</script>
+<script type="text/javascript">	
+$(document).ready(function(){
+	// 图片轮播
+	jQuery(".scrollContent").slide({ mainCell:"ul",autoPlay:true,effect:"left", vis:4, scroll:1, autoPage:true, pnLoop:false});
+	jQuery(".slideBox").slide({mainCell:".bd",titCell:".hd li",autoPlay:true,effect:"fold",trigger:"click",
+	startFun:function(i){
+		jQuery(".slideBox .slideTxt li").eq(i).animate({"right":0}).siblings().animate({"right":430});
+		}
+	});
+	$(".gradsConment li:last").css({"border-left-color":"#f5f5f5"})
+});
+</script>
+</body>
+</html>
